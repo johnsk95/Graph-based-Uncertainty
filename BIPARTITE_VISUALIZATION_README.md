@@ -103,7 +103,7 @@ python visualize_bipartite.py \
 ```
 python visualize_bipartite.py \
   --input_file experiments/freshqa_false_premise/llama-3-8b-instruct/freshqa_false_premise_llama-3-8b-instruct_bipartite.json \
-  --output_dir visualizations/factscore_10examples \
+  --output_dir visualizations/freshqa_10examples \
   --max_instances 10
 ```
 
