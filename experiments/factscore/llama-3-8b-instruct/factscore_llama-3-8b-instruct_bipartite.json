@@ -1,0 +1,2652 @@
+[
+    {
+        "prompt": "Tell me a paragraph bio of Jamie Cripps.\n",
+        "entity": "Jamie Cripps",
+        "wiki_title": "Jamie Cripps",
+        "most_likely_generation": "I couldn't find any information on a well-known public figure named Jamie Cripps. However, I did find information on a Jamie Cripps who is an Australian rules footballer. Jamie Cripps is an Australian rules footballer who plays for the West Coast Eagles in the Australian Football League (AFL).",
+        "more_generations": [
+            "I couldn't find any information about a person named Jamie Cripps. Could you please provide more context or details about Jamie Cripps, such as their profession or area of expertise? This will help me provide a more accurate and helpful response.",
+            "I couldn't find any information about a person named Jamie Cripps. Could you provide more context or details about who Jamie Cripps is?",
+            "I am unable to verify any information about Jamie Cripps.",
+            "I'm not aware of a well-known public figure by the name of Jamie Cripps.",
+            "I am sorry but I could not verify any information about Jamie Cripps.",
+            "I am unable to verify any information on Jamie Cripps.",
+            "I'm not aware of a notable or public figure by the name of Jamie Cripps. Could you provide more context or details about who Jamie Cripps is or what field they are associated with? This would help me provide a more accurate and relevant paragraph bio.",
+            "I couldn't find any notable information about a person named Jamie Cripps.",
+            "I couldn't find any information on Jamie Cripps. Could you please provide more context or details about Jamie Cripps, such as their profession or any notable achievements? This will help me provide a more accurate and helpful response.",
+            "I'm not aware of any information on a person named Jamie Cripps. However, I found a professional Australian rules footballer named Jamie Cripps. Jamie Cripps is a former Australian rules footballer who played for the West Coast Eagles in the Australian Football League (AFL)."
+        ],
+        "most_likely_breakdown": [],
+        "most_likely_breakdown_len": 0,
+        "breakdown": [
+            "The user is unable to find information about a person named Jamie Cripps.",
+            "The user is requesting additional context or details about Jamie Cripps.",
+            "The additional context or details requested include profession or area of expertise.",
+            "No new or unique claims were found in the \"New Claim List\" that are not already covered or implied by the \"Original Claim List.\"",
+            "- Jamie Cripps exists.",
+            "- The speaker is unable to verify information about Jamie Cripps.",
+            "There is a public figure named Jamie Cripps.",
+            "Jamie Cripps is not well-known."
+        ],
+        "breakdown_len": 8,
+        "pointwise_dict": [
+            {
+                "claim": "The user is unable to find information about a person named Jamie Cripps.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The user is requesting additional context or details about Jamie Cripps.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The additional context or details requested include profession or area of expertise.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "No new or unique claims were found in the \"New Claim List\" that are not already covered or implied by the \"Original Claim List.\"",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- Jamie Cripps exists.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "- The speaker is unable to verify information about Jamie Cripps.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "There is a public figure named Jamie Cripps.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jamie Cripps is not well-known.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Joseph A. Lopez.\n",
+        "entity": "Joseph A. Lopez",
+        "wiki_title": "Joseph A. Lopez",
+        "most_likely_generation": "I couldn't find any information on a notable or well-known person named Joseph A. Lopez. There may be multiple individuals with this name, and without more context or information, it's difficult to provide a specific bio. If you could provide more details or context about Joseph A. Lopez, such as his profession, nationality, or any notable achievements, I may be able to provide a more accurate response.",
+        "more_generations": [
+            "I couldn't find any information on a person named Joseph A. Lopez. Could you please provide more context or details about who Joseph A. Lopez is or what he is known for? This will help me provide a more accurate and helpful response.",
+            "I am unable to verify any information on a person named Joseph A. Lopez.",
+            "I couldn't find any information on a person named Joseph A. Lopez. There may be multiple individuals with this name, and without more context or information, it's difficult for me to provide a specific bio. Can you provide more details or context about who Joseph A. Lopez is or what field he is known for?",
+            "I couldn't find any information on a well-known figure named Joseph A. Lopez. Could you please provide more context or details about who Joseph A. Lopez is? Is he an artist, a scientist, a politician, or someone else?",
+            "I am unable to verify any information about a notable or public figure by the name of Joseph A. Lopez.",
+            "I couldn't find any information about a notable or well-known person named Joseph A. Lopez. There may be many individuals with this name, and without more context or details, it's difficult to provide a specific bio. If you could provide more information about Joseph A. Lopez, such as his profession, nationality, or any notable achievements, I may be able to provide a more accurate and helpful response.",
+            "I am unable to verify the information on Joseph A Lopez.",
+            "I am unable to verify information on a person named Joseph A Lopez.",
+            "I am unable to verify any information about a person named Joseph A. Lopez.",
+            "I am unable to verify information on a person named Joseph A. Lopez."
+        ],
+        "most_likely_breakdown": [
+            "Joseph A. Lopez may be a private person who is not a public figure."
+        ],
+        "most_likely_breakdown_len": 1,
+        "breakdown": [
+            "Joseph A. Lopez may be a private person who is not a public figure.",
+            "The speaker is unable to find information on a person named Joseph A. Lopez.",
+            "The speaker is requesting more context or details about Joseph A. Lopez.",
+            "The speaker wants to provide a more accurate and helpful response.",
+            "- The speaker is unable to verify information.",
+            "- The speaker is unable to verify information on a person.",
+            "- The person's name is Joseph A. Lopez.",
+            "The name Joseph A. Lopez may refer to multiple individuals.",
+            "Without more context or information, it's difficult to provide a specific bio for Joseph A. Lopez.",
+            "Providing more details or context about who Joseph A. Lopez is or what field he is known for would be helpful.",
+            "The speaker is unsure of Joseph A. Lopez's profession.",
+            "Joseph A. Lopez is not a well-known figure."
+        ],
+        "breakdown_len": 12,
+        "pointwise_dict": [
+            {
+                "claim": "Joseph A. Lopez may be a private person who is not a public figure.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The speaker is unable to find information on a person named Joseph A. Lopez.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The speaker is requesting more context or details about Joseph A. Lopez.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The speaker wants to provide a more accurate and helpful response.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- The speaker is unable to verify information.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- The speaker is unable to verify information on a person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- The person's name is Joseph A. Lopez.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "The name Joseph A. Lopez may refer to multiple individuals.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Without more context or information, it's difficult to provide a specific bio for Joseph A. Lopez.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Providing more details or context about who Joseph A. Lopez is or what field he is known for would be helpful.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The speaker is unsure of Joseph A. Lopez's profession.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Joseph A. Lopez is not a well-known figure.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of David Bogue.\n",
+        "entity": "David Bogue",
+        "wiki_title": "David Bogue",
+        "most_likely_generation": "I couldn't find any information on a notable figure named David Bogue. However, I did find information on a British Baptist minister named David Bogue (1750-1825). He was a prominent figure in the Baptist movement in England during the 18th and 19th centuries. Born in 1750 in Nottingham, England, Bogue was ordained as a Baptist minister in 1776 and went on to serve as the pastor of the Broadmead Baptist Church in Bristol, England. He was a strong advocate for the Baptist faith and played a significant role in the development of the Baptist movement in England.",
+        "more_generations": [
+            "I couldn't find any information on a notable individual by the name of David Bogue. However, I did find information on a notable English nonconformist minister and historian named David Bogue (1750-1825). He was a Baptist minister who served as the pastor of the Broadmead Baptist Chapel in Bristol, England. Bogue was a prolific writer and historian who wrote several books on Baptist history and theology. He was also a strong advocate for the rights of nonconformists and played a significant role in the development of the Baptist denomination in England during the 18th and early 19th centuries.",
+            "I'm not aware of a prominent figure named David Bogue.",
+            "I couldn't find any information on a notable individual named David Bogue. However, there is a 18th-century English Baptist minister named John Bogue's son,  David Bogue (1750-1825). He was a prominent Baptist minister and theologian in England.",
+            "I couldn't find any information on a notable individual named David Bogue. However, I did find information on a notable figure named William Bogue (also known as William Bogue or William Bogue or William Bogue (1746-1823) or William Bogue  or William Bogue or William Bogue or William Bogue)",
+            "I couldn't find much information about a notable or well-known person named David Bogue. However, I found information about a David Bogue who was an English Baptist minister. David Bogue (1750-1825) was a prominent English Baptist minister, theologian, and writer. He was born in 1750 in Doncaster, England, and studied at the University of Cambridge. Bogue became a prominent figure in the Baptist movement and served as the pastor of the Particular Baptist Chapel in Kidderminster, Worcestershire, for over 40 years. He was known for his powerful preaching and his contributions to Baptist theology and ecclesiology.",
+            "I couldn't find much information on a notable person named David Bogue. However, I did find information on a 18th-century English Baptist minister named David Bogue (1750-1825). \n\nHere is a possible paragraph bio for this person:\n\nDavid Bogue was a prominent English Baptist minister who played a significant role in the Baptist movement in the late 18th and early 19th centuries. Born on January 15, 1750, in London, England, Bogue studied at the Baptist College in Bristol and later served as a pastor in several Baptist churches in the UK. He was known for his strong oratory skills and his commitment to social justice, advocating for the abolition of slavery and the rights of the poor. Bogue was also a prolific writer, publishing several books on theology and social issues. He died on January 24, 1825, at the age of 75.",
+            "I couldn't find much information on a well-known figure named David Bogue. However, I did find that there was a British Independent Methodist minister named David Bogue (1750-1825) who was a prominent figure in the 18th and 19th centuries. Here's a brief bio:\n\nDavid Bogue was a British Independent Methodist minister who served as a pastor in Nottingham, England. Born in 1750, he began his ministry in 1778 and quickly gained a reputation for his powerful preaching and commitment to social justice. Bogue was a strong advocate for the abolition of slavery and was also involved in various charitable endeavors, including the establishment of a hospital and a school in Nottingham. He wrote several books on theology and was a respected leader within the Independent Methodist movement, serving as the president of the Methodist Conference in 1794. Bogue passed away in 1825 at the age of 75, leaving behind a legacy as a dedicated and influential minister.",
+            "I am sorry but I was unable to find any information on a person named David Bogue.",
+            "I am unable to verify any information about a person named David Bogue.",
+            "I do not have information on a person named David Bogue."
+        ],
+        "most_likely_breakdown": [
+            "David Bogue was a notable figure.",
+            "David Bogue was a British Baptist minister.",
+            "David Bogue was born in 1750.",
+            "David Bogue was born in Nottingham, England.",
+            "David Bogue was ordained as a Baptist minister in 1776.",
+            "David Bogue served as the pastor of the Broadmead Baptist Church in Bristol, England.",
+            "David Bogue was a prominent figure in the Baptist movement in England during the 18th and 19th centuries.",
+            "David Bogue was a strong advocate for the Baptist faith.",
+            "David Bogue played a significant role in the development of the Baptist movement in England.",
+            "David Bogue died in 1825.",
+            "David Bogue was a Baptist minister.",
+            "David Bogue was a minister.",
+            "David Bogue was born in England.",
+            "David Bogue was a pastor.",
+            "David Bogue was a figure in the Baptist movement.",
+            "David Bogue was a figure in England.",
+            "David Bogue was a figure in the 18th and 19th centuries.",
+            "David Bogue was a figure in the 18th century.",
+            "David Bogue was a figure in the 19th century.",
+            "David Bogue was a figure in the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the 18th century.",
+            "David Bogue was a figure in the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the century of the 18th century.",
+            "David Bogue was a figure in the century of the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the century of the century of the 18th century.",
+            "David Bogue was a figure in the century of the century of the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the century of the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the century of the century of the century of the 18th century.",
+            "David Bogue was a figure in the century of the century of the century of the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the century of the century of the century of the 18th and 19th centuries."
+        ],
+        "most_likely_breakdown_len": 32,
+        "breakdown": [
+            "David Bogue was a notable figure.",
+            "David Bogue was a British Baptist minister.",
+            "David Bogue was born in 1750.",
+            "David Bogue was born in Nottingham, England.",
+            "David Bogue was ordained as a Baptist minister in 1776.",
+            "David Bogue served as the pastor of the Broadmead Baptist Church in Bristol, England.",
+            "David Bogue was a prominent figure in the Baptist movement in England during the 18th and 19th centuries.",
+            "David Bogue was a strong advocate for the Baptist faith.",
+            "David Bogue played a significant role in the development of the Baptist movement in England.",
+            "David Bogue died in 1825.",
+            "David Bogue was a Baptist minister.",
+            "David Bogue was a minister.",
+            "David Bogue was born in England.",
+            "David Bogue was a pastor.",
+            "David Bogue was a figure in the Baptist movement.",
+            "David Bogue was a figure in England.",
+            "David Bogue was a figure in the 18th and 19th centuries.",
+            "David Bogue was a figure in the 18th century.",
+            "David Bogue was a figure in the 19th century.",
+            "David Bogue was a figure in the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the 18th century.",
+            "David Bogue was a figure in the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the century of the 18th century.",
+            "David Bogue was a figure in the century of the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the century of the century of the 18th century.",
+            "David Bogue was a figure in the century of the century of the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the century of the century of the 18th and 19th centuries.",
+            "David Bogue was a figure in the century of the century of the century of the century of the 18th century.",
+            "David Bogue was a figure in the century of the century of the century of the century of the 19th century.",
+            "David Bogue was a figure in the century of the century of the century of the century of the century of the 18th and 19th centuries.",
+            "There is a person named David Bogue.",
+            "David Bogue is not a prominent figure.",
+            "There is no notable individual named David Bogue.",
+            "A notable figure named William Bogue exists.",
+            "William Bogue is also known by multiple names.",
+            "William Bogue was born in 1746.",
+            "William Bogue died in 1823."
+        ],
+        "breakdown_len": 39,
+        "pointwise_dict": [
+            {
+                "claim": "David Bogue was a notable figure.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.2,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a British Baptist minister.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was born in 1750.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was born in Nottingham, England.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was ordained as a Baptist minister in 1776.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue served as the pastor of the Broadmead Baptist Church in Bristol, England.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a prominent figure in the Baptist movement in England during the 18th and 19th centuries.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a strong advocate for the Baptist faith.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue played a significant role in the development of the Baptist movement in England.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue died in 1825.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a Baptist minister.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a minister.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was born in England.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a pastor.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a figure in the Baptist movement.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a figure in England.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.6
+            },
+            {
+                "claim": "David Bogue was a figure in the 18th and 19th centuries.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a figure in the 18th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a figure in the 19th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the 18th and 19th centuries.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.4,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.6
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the 18th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.3,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the 19th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.3,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the 18th and 19th centuries.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.2,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the 18th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.2,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the 19th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.2,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the century of the 18th and 19th centuries.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.1,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the century of the 18th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.1,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the century of the 19th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.1,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the century of the century of the 18th and 19th centuries.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.0,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the century of the century of the 18th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.0,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the century of the century of the 19th century.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.0,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "David Bogue was a figure in the century of the century of the century of the century of the century of the 18th and 19th centuries.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.0,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "There is a person named David Bogue.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "David Bogue is not a prominent figure.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "There is no notable individual named David Bogue.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "A notable figure named William Bogue exists.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "William Bogue is also known by multiple names.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "William Bogue was born in 1746.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "William Bogue died in 1823.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Karl Eliasberg.\n",
+        "entity": "Karl Eliasberg",
+        "wiki_title": "Karl Eliasberg",
+        "most_likely_generation": "I couldn't find any information on Karl Eliasberg.",
+        "more_generations": [
+            "I couldn't find much information on Karl Eliasberg.",
+            "I couldn't find any information on Karl Eliasberg.",
+            "I couldn't find any notable information on a person named Karl Eliasberg. However, there is a Karl Eliasberg who is known for being the last living American veteran of World War I. Karl Eliasberg was born on July 29, 1907, in the Russian Empire.",
+            "I couldn't find any information on Karl Eliasberg. However, I found information on a person named Karl Eliasberg who was the first Jew to be called up for the draft in the United States.",
+            "I am unable to verify information on Karl Eliasberg.",
+            "I couldn't find any information about Karl Eliasberg.",
+            "I couldn't find any information on a notable or well-known person named Karl Eliasberg.",
+            "I couldn't find any information about Karl Eliasberg.",
+            "I couldn't find any notable information about a person named Karl Eliasberg.",
+            "I couldn't find any information about Karl Eliasberg."
+        ],
+        "most_likely_breakdown": [
+            "Karl Eliasberg is a person.",
+            "Karl Eliasberg is not a well-known person.",
+            "There is limited information available about Karl Eliasberg."
+        ],
+        "most_likely_breakdown_len": 3,
+        "breakdown": [
+            "Karl Eliasberg is a person.",
+            "Karl Eliasberg is not a well-known person.",
+            "There is limited information available about Karl Eliasberg.",
+            "Karl Eliasberg is a notable person.",
+            "Karl Eliasberg is an American.",
+            "Karl Eliasberg is a veteran of World War I.",
+            "Karl Eliasberg is the last living American veteran of World War I.",
+            "Karl Eliasberg was born in the Russian Empire.",
+            "Karl Eliasberg was born on July 29, 1907.",
+            "- Karl Eliasberg was the first Jew to be called up for the draft in the United States."
+        ],
+        "breakdown_len": 10,
+        "pointwise_dict": [
+            {
+                "claim": "Karl Eliasberg is a person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "Karl Eliasberg is not a well-known person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "There is limited information available about Karl Eliasberg.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Karl Eliasberg is a notable person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Karl Eliasberg is an American.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Karl Eliasberg is a veteran of World War I.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Karl Eliasberg is the last living American veteran of World War I.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Karl Eliasberg was born in the Russian Empire.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Karl Eliasberg was born on July 29, 1907.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "- Karl Eliasberg was the first Jew to be called up for the draft in the United States.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Andriy Yarmolenko.\n",
+        "entity": "Andriy Yarmolenko",
+        "wiki_title": "Andriy Yarmolenko",
+        "most_likely_generation": "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a winger or forward for Premier League club West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipro, Ukrainian SSR, Soviet Union, Yarmolenko began his youth career at Dynamo Kyiv before making his professional debut in 2007. He went on to become one of the most successful and prolific players in Ukrainian football history, winning numerous titles with Dynamo Kyiv, including 10 league championships and 11 domestic cups. Yarmolenko made his international debut for Ukraine in 2009 and has since earned over 100 caps, scoring over 45 goals for his country. He joined West Ham United in 2018 and has since become a key player for the club, known for his pace, skill, and goal-scoring ability.",
+        "more_generations": [
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a forward or winger for Premier League club West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipro, Ukraine, Yarmolenko began his professional career with Dynamo Kyiv, where he spent 11 seasons, scoring over 100 goals and winning several domestic and international titles. He made his international debut for Ukraine in 2009 and has since earned over 100 caps, representing the country in multiple major tournaments, including the European Championship and the FIFA World Cup. In 2018, Yarmolenko signed with Borussia Dortmund, before joining West Ham United in 2019.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a forward or winger for West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipropetrovsk, Ukraine, Yarmolenko began his youth career at Dynamo Kyiv before making his professional debut for the club in 2007. He went on to become one of Ukraine's most prolific goal-scorers, earning over 100 caps and scoring over 45 goals for the national team. In 2017, Yarmolenko joined Borussia Dortmund in the Bundesliga, where he won several honors, including the DFB-Pokal. He moved to West Ham United in 2018 and has since established himself as a key player for the club, known for his pace, skill, and clinical finishing.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a winger or forward for Premier League club West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipro, Ukraine, Yarmolenko began his youth career at Dynamo Kyiv, making his professional debut for the club in 2007. He quickly established himself as one of the top players in Ukraine, winning numerous titles with Dynamo, including four Ukrainian Premier League championships and two Ukrainian Cups. In 2017, Yarmolenko joined West Ham United on a five-year contract, helping the team achieve a Europa League spot in his first season with the club. He has also represented Ukraine at the international level, earning over 100 caps and scoring over 40 goals for his country.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a winger or attacking midfielder for Premier League club West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipropetrovsk, Ukraine, Yarmolenko began his professional career at Dynamo Kyiv before moving to Borussia Dortmund in 2017. He has also played for several other clubs, including Metalurh Donetsk, Dnipropetrovsk, and Lokomotiv Moscow. Yarmolenko has been a key player for the Ukraine national team, earning over 90 caps and scoring over 40 goals. He has represented Ukraine in several major tournaments, including the UEFA European Championship and the FIFA World Cup.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a winger or forward for West Ham United in the Premier League and the Ukraine national team. Born on October 23, 1989, in Dnipro, Ukrainian SSR, Soviet Union, Yarmolenko rose through the youth ranks of Dynamo Kyiv before making his professional debut in 2007. He went on to become one of the most prolific players in Ukrainian football history, winning numerous titles with Dynamo Kyiv, including five Ukrainian Premier League championships. Yarmolenko made his international debut for Ukraine in 2009 and has since earned over 90 caps, scoring over 45 goals for his country. He joined West Ham United in 2018, helping the team secure a top-seven finish in the Premier League in his first season.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a forward or winger for Premier League club West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipropetrovsk, Ukraine, Yarmolenko rose through the youth ranks of Dynamo Kyiv, making his professional debut in 2007. He went on to become one of the most successful and prolific Ukrainian players, earning over 100 caps for the national team and scoring 45 goals. In 2018, Yarmolenko joined West Ham United, where he has established himself as a key player, known for his pace, skill, and goal-scoring ability. Throughout his career, Yarmolenko has won numerous honors, including several league titles and domestic cups in Ukraine.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a forward or winger for West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipro, Ukraine, Yarmolenko rose to prominence while playing for Dynamo Kyiv in the Ukrainian Premier League, where he won numerous titles, including five league championships and the Ukrainian Cup. He made his international debut for Ukraine in 2009 and has since become the country's all-time leading scorer, earning over 100 caps and representing his nation at several major tournaments, including the European Championship and the FIFA World Cup. In 2018, Yarmolenko joined West Ham United, where he has continued to showcase his skills as a prolific goal-scorer and skilled winger.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer born on October 23, 1989. He primarily plays as a right winger or second striker for Premier League club West Ham United and the Ukraine national team. Throughout his career, Yarmolenko has been a key figure in the Ukraine national team, earning over 100 caps and scoring more than 40 goals. He has also played for several top-tier clubs, including Dynamo Kyiv, Borussia Dortmund, and Bayer Leverkusen, where he showcased his skills and versatility on the field. Yarmolenko is known for his pace, skill, and goal-scoring ability, making him one of the most feared and respected players in the Ukrainian football scene.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer born on October 23, 1989, in Dnipro, Ukrainian SSR. He primarily plays as a winger or an attacking midfielder and has been a key player for both the Ukraine national team and his clubs throughout his career. Yarmolenko has played for several clubs, including Dynamo Kyiv, Borussia Dortmund, and West Ham United. He made his international debut for Ukraine in 2009 and has since earned over 90 caps, scoring more than 45 goals for the team. Throughout his career, Yarmolenko has consistently demonstrated his skill, speed, and goal-scoring ability, making him one of Ukraine's most successful and beloved footballers.",
+            "Andriy Yarmolenko is a Ukrainian professional footballer who plays as a forward or winger for Premier League club West Ham United and the Ukraine national team. Born on October 23, 1989, in Dnipro, Ukrainian SSR, Soviet Union, Yarmolenko has established himself as one of the most skilled and experienced players in the Ukrainian national team, earning over 80 caps and scoring more than 40 goals. Throughout his career, he has played for clubs like Dynamo Kyiv, Borussia Dortmund, and West Ham United, winning several domestic and international titles, including the UEFA Europa League with Borussia Dortmund in 2013. Known for his exceptional dribbling skills, pace, and goal-scoring ability, Yarmolenko is a fan favorite in Ukraine and has been a key player for both club and country."
+        ],
+        "most_likely_breakdown": [
+            "Andriy Yarmolenko is a Ukrainian professional footballer.",
+            "He plays as a winger or forward.",
+            "He plays for Premier League club West Ham United.",
+            "He plays for the Ukraine national team.",
+            "Andriy Yarmolenko was born on October 23, 1989.",
+            "He was born in Dnipro, Ukrainian SSR, Soviet Union.",
+            "He began his youth career at Dynamo Kyiv.",
+            "He made his professional debut in 2007.",
+            "He became one of the most successful and prolific players in Ukrainian football history.",
+            "He won numerous titles with Dynamo Kyiv.",
+            "He won 10 league championships with Dynamo Kyiv.",
+            "He won 11 domestic cups with Dynamo Kyiv.",
+            "He made his international debut for Ukraine in 2009.",
+            "He earned over 100 caps for Ukraine.",
+            "He scored over 45 goals for Ukraine.",
+            "He joined West Ham United in 2018.",
+            "He became a key player for West Ham United.",
+            "He is known for his pace.",
+            "He is known for his skill.",
+            "He is known for his goal-scoring ability."
+        ],
+        "most_likely_breakdown_len": 20,
+        "breakdown": [
+            "Andriy Yarmolenko is a Ukrainian professional footballer.",
+            "He plays as a winger or forward.",
+            "He plays for Premier League club West Ham United.",
+            "He plays for the Ukraine national team.",
+            "Andriy Yarmolenko was born on October 23, 1989.",
+            "He was born in Dnipro, Ukrainian SSR, Soviet Union.",
+            "He began his youth career at Dynamo Kyiv.",
+            "He made his professional debut in 2007.",
+            "He became one of the most successful and prolific players in Ukrainian football history.",
+            "He won numerous titles with Dynamo Kyiv.",
+            "He won 10 league championships with Dynamo Kyiv.",
+            "He won 11 domestic cups with Dynamo Kyiv.",
+            "He made his international debut for Ukraine in 2009.",
+            "He earned over 100 caps for Ukraine.",
+            "He scored over 45 goals for Ukraine.",
+            "He joined West Ham United in 2018.",
+            "He became a key player for West Ham United.",
+            "He is known for his pace.",
+            "He is known for his skill.",
+            "He is known for his goal-scoring ability.",
+            "He represented Ukraine in multiple major tournaments.",
+            "He represented Ukraine in the European Championship.",
+            "He represented Ukraine in the FIFA World Cup.",
+            "Andriy Yarmolenko signed with Borussia Dortmund in 2018.",
+            "He was born in Dnipropetrovsk, Ukraine.",
+            "He made his professional debut for Dynamo Kyiv in 2007.",
+            "He became one of Ukraine's most prolific goal-scorers.",
+            "He joined Borussia Dortmund in 2017.",
+            "He won the DFB-Pokal with Borussia Dortmund.",
+            "He is known for his clinical finishing.",
+            "He quickly established himself as one of the top players in Ukraine.",
+            "He helped West Ham United achieve a Europa League spot in his first season.",
+            "He plays as a winger or attacking midfielder.",
+            "He was born in Dnipropetrovsk, Ukraine.",
+            "He began his professional career at Dynamo Kyiv.",
+            "He moved to Borussia Dortmund in 2017.",
+            "He has also played for Metalurh Donetsk.",
+            "He has also played for Dnipropetrovsk.",
+            "He has also played for Lokomotiv Moscow.",
+            "He has earned over 90 caps for the Ukraine national team.",
+            "He has scored over 40 goals for the Ukraine national team."
+        ],
+        "breakdown_len": 41,
+        "pointwise_dict": [
+            {
+                "claim": "Andriy Yarmolenko is a Ukrainian professional footballer.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He plays as a winger or forward.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He plays for Premier League club West Ham United.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He plays for the Ukraine national team.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Andriy Yarmolenko was born on October 23, 1989.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He was born in Dnipro, Ukrainian SSR, Soviet Union.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He began his youth career at Dynamo Kyiv.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He made his professional debut in 2007.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He became one of the most successful and prolific players in Ukrainian football history.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He won numerous titles with Dynamo Kyiv.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He won 10 league championships with Dynamo Kyiv.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He won 11 domestic cups with Dynamo Kyiv.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He made his international debut for Ukraine in 2009.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He earned over 100 caps for Ukraine.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He scored over 45 goals for Ukraine.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "He joined West Ham United in 2018.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He became a key player for West Ham United.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He is known for his pace.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He is known for his skill.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He is known for his goal-scoring ability.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He represented Ukraine in multiple major tournaments.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He represented Ukraine in the European Championship.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He represented Ukraine in the FIFA World Cup.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Andriy Yarmolenko signed with Borussia Dortmund in 2018.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He was born in Dnipropetrovsk, Ukraine.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He made his professional debut for Dynamo Kyiv in 2007.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He became one of Ukraine's most prolific goal-scorers.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He joined Borussia Dortmund in 2017.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He won the DFB-Pokal with Borussia Dortmund.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He is known for his clinical finishing.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He quickly established himself as one of the top players in Ukraine.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He helped West Ham United achieve a Europa League spot in his first season.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He plays as a winger or attacking midfielder.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He was born in Dnipropetrovsk, Ukraine.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He began his professional career at Dynamo Kyiv.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He moved to Borussia Dortmund in 2017.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He has also played for Metalurh Donetsk.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He has also played for Dnipropetrovsk.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He has also played for Lokomotiv Moscow.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He has earned over 90 caps for the Ukraine national team.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "He has scored over 40 goals for the Ukraine national team.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Jeff Long (athletic director).\n",
+        "entity": "Jeff Long (athletic director)",
+        "wiki_title": "Jeff Long (athletic director)",
+        "most_likely_generation": "I couldn't find any information on a well-known athletic director by the name of Jeff Long. However, I did find information on Jeff Long, the former athletic director at the University of Arkansas. \n\nJeff Long is a former American college athletic director. He served as the athletic director at the University of Arkansas from 2008 to 2017. Prior to his tenure at Arkansas, Long was the athletic director at the University of Pittsburgh from 2002 to 2008. Long is a graduate of the University of Pittsburgh and has a law degree from the University of Pittsburgh School of Law.",
+        "more_generations": [
+            "I couldn't find information on a well-known athletic director by the name of Jeff Long. However, I found information on Jeff Long, the former athletic director at the University of Arkansas. \n\nJeff Long is a renowned American college athletics administrator. He served as the athletic director at the University of Arkansas from 2008 to 2017, overseeing a wide range of sports programs, facilities, and fundraising efforts. Under his leadership, the Razorbacks' athletic department experienced significant growth and improvement, including the addition of new facilities, increased revenue, and notable athletic achievements. Long also played a key role in establishing the University of Arkansas's commitment to student-athlete welfare and academic success. Prior to his tenure at Arkansas, Long served as the athletic director at the University of Pittsburgh and as an assistant athletic director at the University of Michigan.",
+            "I couldn't find any specific information on a well-known athletic director named Jeff Long. However, there is a notable athletic director named Jeff Long who served as the athletic director at the University of Arkansas from 2008 to 2016. \n\nHere's a possible bio for him:\n\nJeff Long is a former American athletic director. He served as the athletic director at the University of Arkansas from 2008 to 2016. Prior to his tenure at Arkansas, Long was the athletic director at Boston College from 1997 to 2001 and at Pittsburgh from 2001 to 2005. He has also worked in various roles within the National Collegiate Athletic Association (NCAA), including serving on the NCAA's Committee on Infractions.",
+            "I couldn't find much information on a well-known athletic director named Jeff Long. However, I did find a well-known athletic director and college football analyst, Jeff Long, who was the athletic director at the University of Arkansas from 2008 to 2016 and previously served as the athletic director at the University of Pittsburgh from 1997 to 2001 and the University of Masachusetts.",
+            "I couldn't find any information about an athletic director named Jeff Long. However, I did find information about Jeff Long, the former athletic director at the University of Arkansas. Here is a paragraph bio for him:\n\nJeff Long is a former American college athletic administrator who served as the athletic director at the University of Arkansas from 2008 to 2017. During his tenure, the Razorbacks won 23 conference championships and made 17 appearances in NCAA postseason events. Long was also the chairman of the NCAA Division I Men's Basketball Committee from 2009 to 2010 and served on the NCAA Board of Governors from 2011 to 2014. Prior to his time at Arkansas, Long served as the athletic director at Eastern Michigan University from 2001 to 2008.",
+            "I'm assuming you are referring to Jeff Long, the American college athletics administrator. Here's a paragraph bio of Jeff Long:\n\nJeff Long is an American college athletics administrator who served as the athletic director at the University of Arkansas from 2008 to 2017. Prior to joining the Razorbacks, Long was the athletic director at the University of Pittsburgh from 1996 to 2001. He also held positions at the University of Iowa and the University of Pittsburgh. Long is known for his experience in college athletics and his leadership roles in several major conferences, including the Big 12 Conference and the Southeastern Conference. During his tenure at Arkansas, Long oversaw the Razorbacks' transition to the Southeastern Conference and played a key role in the hiring of several high-profile coaches.",
+            "I'm unable to verify any information on a specific athletic director by the name of Jeff Long. However, I can provide you with information on Jeff Long, the former athletic director of the University of Arkansas. \n\nJeff Long is a renowned American college athletics administrator. He served as the athletic director at the University of Arkansas from 2008 to 2016 and previously held the same position at Boston College from 2004 to 2007. Long was a key figure in the college athletics world, overseeing the Razorbacks' athletic programs during his tenure at Arkansas. He is a strong advocate for student-athlete welfare and has been a vocal supporter of various initiatives aimed at promoting academic excellence and athletic success.",
+            "I couldn't find any information about a well-known athletic director by the name of Jeff Long. However, I did find information about Jeff Long, who was the athletic director at the University of Arkansas. He served as the athletic director from 2008 to 2017. \n\nHere is a paragraph bio about Jeff Long:\n\nJeff Long is a former American college athletic director and former college football coach. He served as the athletic director at the University of Arkansas from 2008 to 2017. During his tenure, the Razorbacks won multiple conference championships in football, baseball, and men's basketball. Long was also a college football coach, serving as the head coach at three different schools: Iowa Western Community College, Notre Dame, and the University of Arkansas. He is a member of the College Football Hall of Fame.",
+            "I couldn't find information on a well-known athletic director by the name of Jeff Long. However, I found information on a Jeff Long who was the athletic director at the University of Arkansas from 2008 to 2016. \n\nJeff Long is a former American college athletic director. He served as the athletic director at the University of Arkansas from 2008 to 2016 and was the first African American to hold the position at the university. Prior to his tenure at Arkansas, Long was the athletic director at the University of Pittsburgh from 2002 to 2008. Long was also a former college football player and is a graduate of Boston College.",
+            "I'm not aware of information on a person named Jeff Long (Athletic Director). However, I can provide information on Jeff Long, the former athletic director at the University of Arkansas. \n\nJeff Long served as the athletic director at the University of Arkansas from 2007 to 2016. He played a significant role in the development of the Razorbacks' athletic programs, overseeing a period of growth and increased success for the university's sports teams. Under his leadership, the University of Arkansas improved its facilities, expanded its athletic programs, and increased its competitiveness in the Southeastern Conference (SEC). Long also played a key role in negotiating television contracts and securing significant revenue for the university's athletic programs.",
+            "I couldn't find much information on a well-known athletic director named Jeff Long. However, I found information about Jeff Long, the former athletic director at the University of Arkansas, and Jeff Long, the former athletic director at the University of Michigan. \n\nHere are the bios for the two athletic directors:\n\n1. Jeff Long (University of Arkansas):\nJeff Long is a former American college athletic director. He served as the athletic director at the University of Arkansas from 2008 to 2016. During his tenure, the university won several conference and national championships in various sports. Long has also worked as a college football analyst for CBS Sports.\n\n2. Jeff Long (University of Michigan):\nI couldn't find any information about a well-known athletic director named Jeff Long at the University of Michigan.\n\nIf you could provide more context or details about the Jeff Long you are looking for, I would be happy to try and provide a more accurate paragraph bio."
+        ],
+        "most_likely_breakdown": [
+            "Jeff Long is a former American college athletic director.",
+            "Jeff Long served as the athletic director at the University of Arkansas from 2008 to 2017.",
+            "Jeff Long was the athletic director at the University of Pittsburgh from 2002 to 2008.",
+            "Jeff Long is a graduate of the University of Pittsburgh.",
+            "Jeff Long has a law degree from the University of Pittsburgh School of Law.",
+            "Jeff Long is a former athletic director.",
+            "The University of Arkansas has an athletic director.",
+            "The University of Pittsburgh has an athletic director.",
+            "Jeff Long worked at the University of Arkansas.",
+            "Jeff Long worked at the University of Pittsburgh.",
+            "Jeff Long graduated from the University of Pittsburgh.",
+            "Jeff Long has a law degree.",
+            "Jeff Long is a graduate.",
+            "Jeff Long worked as an athletic director.",
+            "The University of Arkansas has a past athletic director.",
+            "The University of Pittsburgh has a past athletic director.",
+            "Jeff Long has a degree.",
+            "Jeff Long worked at a university.",
+            "Jeff Long is a person.",
+            "There is a person named Jeff Long.",
+            "Jeff Long exists.",
+            "There is information about Jeff Long.",
+            "Jeff Long is a real person.",
+            "Jeff Long is a notable person.",
+            "Jeff Long is a well-known person.",
+            "Jeff Long is a famous person.",
+            "Jeff Long is a well-known athletic director."
+        ],
+        "most_likely_breakdown_len": 27,
+        "breakdown": [
+            "Jeff Long is a former American college athletic director.",
+            "Jeff Long served as the athletic director at the University of Arkansas from 2008 to 2017.",
+            "Jeff Long was the athletic director at the University of Pittsburgh from 2002 to 2008.",
+            "Jeff Long is a graduate of the University of Pittsburgh.",
+            "Jeff Long has a law degree from the University of Pittsburgh School of Law.",
+            "Jeff Long is a former athletic director.",
+            "The University of Arkansas has an athletic director.",
+            "The University of Pittsburgh has an athletic director.",
+            "Jeff Long worked at the University of Arkansas.",
+            "Jeff Long worked at the University of Pittsburgh.",
+            "Jeff Long graduated from the University of Pittsburgh.",
+            "Jeff Long has a law degree.",
+            "Jeff Long is a graduate.",
+            "Jeff Long worked as an athletic director.",
+            "The University of Arkansas has a past athletic director.",
+            "The University of Pittsburgh has a past athletic director.",
+            "Jeff Long has a degree.",
+            "Jeff Long worked at a university.",
+            "Jeff Long is a person.",
+            "There is a person named Jeff Long.",
+            "Jeff Long exists.",
+            "There is information about Jeff Long.",
+            "Jeff Long is a real person.",
+            "Jeff Long is a notable person.",
+            "Jeff Long is a well-known person.",
+            "Jeff Long is a famous person.",
+            "Jeff Long is a well-known athletic director.",
+            "Jeff Long is a college football analyst",
+            "Jeff Long served as the athletic director at the University of Arkansas from 2008 to 2016",
+            "Jeff Long previously served as the athletic director at the University of Pittsburgh from 1997 to 2001",
+            "Jeff Long previously served as the athletic director at the University of Massachusetts"
+        ],
+        "breakdown_len": 31,
+        "pointwise_dict": [
+            {
+                "claim": "Jeff Long is a former American college athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long served as the athletic director at the University of Arkansas from 2008 to 2017.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long was the athletic director at the University of Pittsburgh from 2002 to 2008.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a graduate of the University of Pittsburgh.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Jeff Long has a law degree from the University of Pittsburgh School of Law.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Jeff Long is a former athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The University of Arkansas has an athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The University of Pittsburgh has an athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long worked at the University of Arkansas.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long worked at the University of Pittsburgh.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Jeff Long graduated from the University of Pittsburgh.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Jeff Long has a law degree.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a graduate.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long worked as an athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The University of Arkansas has a past athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The University of Pittsburgh has a past athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long has a degree.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long worked at a university.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "There is a person named Jeff Long.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "Jeff Long exists.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.4,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "There is information about Jeff Long.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.4,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a real person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.3,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "Jeff Long is a notable person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.2,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a well-known person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.1,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a famous person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.1,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a well-known athletic director.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.0,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long is a college football analyst",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long served as the athletic director at the University of Arkansas from 2008 to 2016",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long previously served as the athletic director at the University of Pittsburgh from 1997 to 2001",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Jeff Long previously served as the athletic director at the University of Massachusetts",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Billy Conigliaro.\n",
+        "entity": "Billy Conigliaro",
+        "wiki_title": "Billy Conigliaro",
+        "most_likely_generation": "I couldn't find any information on a notable person named Billy Conigliaro. However, I did find information on a baseball player named Billy Conigliaro. \n\nBilly Conigliaro was an American professional baseball player who played in Major League Baseball (MLB) for the Boston Red Sox from 1968 to 1972. Born on September 15, 1944, in Boston, Massachusetts, Conigliaro was a right fielder and the older brother of fellow MLB player Tony Conigliaro. Billy Conigliaro played in 246 games for the Red Sox, hitting 24 home runs and driving in 83 runs.",
+        "more_generations": [
+            "I do not have any information on a person named Billy Conigliaro.",
+            "I couldn't find any information on a notable person named Billy Conigliaro. However, I found information on a person named Billy Conigliaro who was an American professional baseball player. \n\nBilly Conigliaro was an American professional baseball player who played in Major League Baseball (MLB) for the Boston Red Sox from 1969 to 1972. Born on January 15, 1949, in Everett, Massachusetts, Conigliaro played as an outfielder. He was a younger brother of fellow baseball player Tony Conigliaro, who also played for the Boston Red Sox.",
+            "I couldn't find much information on a person named Billy Conigliaro. However, I did find a notable figure named Billy Conigliaro, an American former Major League Baseball outfielder who played for the Boston Red Sox from 1964 to 1968.",
+            "I couldn't find any information on a notable person by the name of Billy Conigliaro. However, I found information on a former Major League Baseball player named Billy Conigliaro. \n\nBilly Conigliaro was an American professional baseball player who played as an outfielder in Major League Baseball. Born on July 15, 1949, in Revere, Massachusetts, Conigliaro made his MLB debut with the Boston Red Sox in 1969. He played for the Red Sox from 1969 to 1971 and later for the Milwaukee Brewers in 1972.",
+            "I couldn't find much information on a well-known individual named Billy Conigliaro. However, I did find information on two individuals with this name, both of whom are American baseball players. \n\nBilly Conigliaro is an American former Major League Baseball (MLB) player. He is the older brother of Tony Conigliaro, who also played in the MLB. Billy played for the Boston Red Sox from 1968 to 1971.",
+            "Billy Conigliaro is a former American professional baseball player. He played as an outfielder in Major League Baseball for five seasons, from 1963 to 1967, with the Boston Red Sox and the Cleveland Indians. Born on July 18, 1941, Conigliaro played in 196 games, hitting 31 home runs, and accumulated 116 runs batted in.",
+            "Billy Conigliaro is a former Major League Baseball outfielder who played for the Boston Red Sox from 1964 to 1968. Born on December 29, 1942, in Melrose, Massachusetts, Conigliaro was the older brother of fellow baseball player Tony Conigliaro. Billy Conigliaro had a relatively short but notable career, hitting.269 with 14 home runs in 278 games. He is perhaps best known for being the first player in Major League Baseball history to hit a home run on his first major league at-bat, accomplishing this feat on June 18, 1964, against the Baltimore Orioles.",
+            "I couldn't find any information on a notable figure by the name of Billy Conigliaro. However, I found information on a baseball player named Tony Conigliaro and another named Billy Conigliaro. \n\nBilly Conigliaro is a former American professional baseball player who played in Major League Baseball (MLB) for the Boston Red Sox. Born on May 15, 1944, he was the older brother of Tony Conigliaro, another Red Sox player. Billy played for the Red Sox in 1964 and 1965, primarily as an outfielder.",
+            "I couldn't find any information about a notable person named Billy Conigliaro.",
+            "I do not have enough information about a person named Billy Conigliaro to provide a paragraph bio."
+        ],
+        "most_likely_breakdown": [
+            "Billy Conigliaro was a baseball player",
+            "Billy Conigliaro played in Major League Baseball (MLB)",
+            "Billy Conigliaro played for the Boston Red Sox",
+            "Billy Conigliaro played from 1968 to 1972",
+            "Billy Conigliaro was born in Boston, Massachusetts",
+            "Billy Conigliaro was born on September 15, 1944",
+            "Billy Conigliaro was a right fielder",
+            "Billy Conigliaro was the older brother of Tony Conigliaro",
+            "Billy Conigliaro played in 246 games",
+            "Billy Conigliaro hit 24 home runs",
+            "Billy Conigliaro drove in 83 runs",
+            "Billy Conigliaro was an American",
+            "Tony Conigliaro was an MLB player",
+            "Billy Conigliaro was a notable baseball player",
+            "Billy Conigliaro played in the 1960s",
+            "Billy Conigliaro played in the 1970s"
+        ],
+        "most_likely_breakdown_len": 16,
+        "breakdown": [
+            "Billy Conigliaro was a baseball player",
+            "Billy Conigliaro played in Major League Baseball (MLB)",
+            "Billy Conigliaro played for the Boston Red Sox",
+            "Billy Conigliaro played from 1968 to 1972",
+            "Billy Conigliaro was born in Boston, Massachusetts",
+            "Billy Conigliaro was born on September 15, 1944",
+            "Billy Conigliaro was a right fielder",
+            "Billy Conigliaro was the older brother of Tony Conigliaro",
+            "Billy Conigliaro played in 246 games",
+            "Billy Conigliaro hit 24 home runs",
+            "Billy Conigliaro drove in 83 runs",
+            "Billy Conigliaro was an American",
+            "Tony Conigliaro was an MLB player",
+            "Billy Conigliaro was a notable baseball player",
+            "Billy Conigliaro played in the 1960s",
+            "Billy Conigliaro played in the 1970s",
+            "The speaker does not have information about a person.",
+            "The speaker is unable to provide information about Billy Conigliaro.",
+            "- Billy Conigliaro played in Major League Baseball (MLB) for the Boston Red Sox from 1969 to 1972.",
+            "- Billy Conigliaro played as an outfielder.",
+            "- Everett, Massachusetts is a city.",
+            "- Massachusetts is a state in the United States.",
+            "- The United States is a country.",
+            "- January is a month.",
+            "- 1949 is a year.",
+            "- 1969 is a year.",
+            "- 1972 is a year.",
+            "- The Boston Red Sox is a baseball team.",
+            "- Major League Baseball (MLB) is a sports league.",
+            "- Baseball is a sport.",
+            "- An outfielder is a baseball position.",
+            "There is a person named Billy Conigliaro.",
+            "The person named Billy Conigliaro is notable.",
+            "The notable American person named Billy Conigliaro is a former athlete.",
+            "The notable American former athlete named Billy Conigliaro played baseball.",
+            "The notable American former baseball player named Billy Conigliaro played in the Major League Baseball.",
+            "The notable American former Major League Baseball player named Billy Conigliaro played for the Boston Red Sox.",
+            "The notable American former Major League Baseball player named Billy Conigliaro played for the Boston Red Sox from 1964 to 1968."
+        ],
+        "breakdown_len": 38,
+        "pointwise_dict": [
+            {
+                "claim": "Billy Conigliaro was a baseball player",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro played in Major League Baseball (MLB)",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro played for the Boston Red Sox",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro played from 1968 to 1972",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro was born in Boston, Massachusetts",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro was born on September 15, 1944",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro was a right fielder",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro was the older brother of Tony Conigliaro",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro played in 246 games",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro hit 24 home runs",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro drove in 83 runs",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro was an American",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Tony Conigliaro was an MLB player",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro was a notable baseball player",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro played in the 1960s",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Billy Conigliaro played in the 1970s",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The speaker does not have information about a person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0
+            },
+            {
+                "claim": "The speaker is unable to provide information about Billy Conigliaro.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0
+            },
+            {
+                "claim": "- Billy Conigliaro played in Major League Baseball (MLB) for the Boston Red Sox from 1969 to 1972.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "- Billy Conigliaro played as an outfielder.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "- Everett, Massachusetts is a city.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- Massachusetts is a state in the United States.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0
+            },
+            {
+                "claim": "- The United States is a country.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0
+            },
+            {
+                "claim": "- January is a month.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "- 1949 is a year.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- 1969 is a year.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- 1972 is a year.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- The Boston Red Sox is a baseball team.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0
+            },
+            {
+                "claim": "- Major League Baseball (MLB) is a sports league.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- Baseball is a sport.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "- An outfielder is a baseball position.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "There is a person named Billy Conigliaro.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The person named Billy Conigliaro is notable.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The notable American person named Billy Conigliaro is a former athlete.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The notable American former athlete named Billy Conigliaro played baseball.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The notable American former baseball player named Billy Conigliaro played in the Major League Baseball.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The notable American former Major League Baseball player named Billy Conigliaro played for the Boston Red Sox.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The notable American former Major League Baseball player named Billy Conigliaro played for the Boston Red Sox from 1964 to 1968.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Lali Esp\u00f3sito.\n",
+        "entity": "Lali Esp\u00f3sito",
+        "wiki_title": "Lali Esp\u00f3sito",
+        "most_likely_generation": "Lali Esp\u00f3sito is an Argentine singer, songwriter, actress, and dancer. Born on December 10, 1991, in Buenos Aires, Argentina, she initially gained fame as a child actress, starring in the popular Argentine television series 'Casi \u00c1ngeles' and 'Graduados'. Esp\u00f3sito transitioned to a music career, releasing her debut album 'A Bailar' in 2014, which included the hit single 'Suerte'. She has since released several successful albums, including 'Brasil' and 'Libra', and has collaborated with international artists such as Pitbull and Enrique Iglesias. Known for her energetic live performances and catchy pop songs, Lali Esp\u00f3sito has become a prominent figure in Latin American music and entertainment.",
+        "more_generations": [
+            "Lali Esp\u00f3sito, born Mariana Esp\u00f3sito on October 10, 1991, is an Argentine singer, songwriter, actress, and dancer. Born in Buenos Aires, she rose to fame as a child actress in the Argentine television series 'Casi \u00c1ngeles'. Her breakthrough as a singer came in 2014 with the release of her debut solo album 'A Bailar', which included the hit single 'Suerte'. Since then, she has released several successful albums and singles, blending genres such as pop, electronic, and Latin music. Lali has become a prominent figure in the Latin music scene, known for her energetic live performances and empowering lyrics, which often focus on themes of love, self-empowerment, and social justice.",
+            "Lali Esp\u00f3sito, born Mariana Gonz\u00e1lez, is an Argentine actress, singer, dancer, and television host. Born on December 10, 1991, in Buenos Aires, Argentina, she rose to fame after playing the role of M\u00eda Colucci on the Argentine telenovela 'Casi \u00c1ngeles' from 2007 to 2010. Esp\u00f3sito has since appeared in various films, television series, and stage productions, including 'El Efecto Mariposa' and 'Atrapa a un ladr\u00f3n'. In addition to her acting career, she has also pursued a successful music career, releasing several albums and singles, including 'A Bailar' and 'Asesinato'.",
+            "Lali Esp\u00f3sito is an Argentine singer, songwriter, actress, and dancer. Born on December 10, 1991, in Buenos Aires, Argentina, she initially gained fame as a child actress, starring in the Argentine telenovela 'Casi \u00c1ngeles.' As her career progressed, she transitioned to music, releasing her debut album 'A Bailar' in 2014, which marked the beginning of her successful music career. Lali has since released multiple albums, exploring various genres such as pop, rock, and electronic music. She has won numerous awards for her music and performances, including multiple Gardel Awards and a Latin Grammy nomination.",
+            "Lali Esp\u00f3sito is an Argentine singer, songwriter, dancer, actress, and television personality. Born on December 10, 1991, in Buenos Aires, Argentina, she initially gained fame as a member of the Argentine teen pop group 'Los Teen Tops' and later as a child actress in the popular Argentine television series 'Chiquititas'. As a solo artist, Lali has released several successful albums, including 'A Bailar' and 'Libra', and has collaborated with international artists such as Pitbull and Karol G. Her music often blends pop, dance, and Latin genres, and she has won numerous awards for her work, including multiple Latin Grammy Awards and several Premios MTV Video Music Awards Latin America.",
+            "Lali Esp\u00f3sito is an Argentine singer, actress, and dancer. Born on December 10, 1991, in Buenos Aires, Argentina, she initially rose to fame as a child actress, appearing in the popular Argentine television series 'Casi \u00c1ngeles.' Her breakthrough as a singer came with the release of her debut album 'A Bailar,' in 2014, which included the hit single 'Suerte.' Since then, she has released several successful albums and singles, experimenting with various music genres, including pop, electronic, and Latin music. Known for her energetic live performances and captivating stage presence, Lali has become a prominent figure in the Latin American music scene.",
+            "Lali Esp\u00f3sito is an Argentine singer, actress, dancer, and television presenter. Born on October 10, 1991, in Buenos Aires, Argentina, she initially gained fame as a child actress, starring in the Argentine soap opera 'Casi \u00c1ngeles' from 2007 to 2010. After her successful acting career, Esp\u00f3sito transitioned to music, releasing her debut album 'A Bailar' in 2014, which topped the Argentine charts. She has since released several successful albums, including 'Brujer\u00eda' (2016) and 'Libra' (2019), exploring various musical styles such as pop, electronic, and Latin trap. Throughout her career, Lali Esp\u00f3sito has won numerous awards and has become one of the most successful Argentine artists of her generation.",
+            "Lali Esp\u00f3sito, born Mariana Esp\u00f3sito on October 10, 1991, is an Argentine singer, actress, and dancer. She rose to fame in 2007 as a member of the Argentine teen pop group 'Los Chicos,' which was created for the Argentine television series 'Casi \u00c1ngeles.' After the group's disbandment, Lali pursued a successful solo music career, releasing several albums and singles, including the hit song 'Suerte.' Her music style often blends pop, electronic, and reggaeton genres. Lali has won numerous awards for her music, including multiple Gardel Awards and MTV Video Music Awards. She has also acted in various Argentine television series and films, solidifying her position as a versatile and talented artist in the Latin American entertainment industry.",
+            "Lali Esp\u00f3sito is an Argentine actress, singer, and dancer. Born on December 10, 1991, in Buenos Aires, Argentina, she initially gained fame for her role as Maia Duque in the Argentine teen drama television series \"Casi \u00c1ngeles.\" Esp\u00f3sito's music career began to take off in 2014 with her debut album \"A Bailar,\" which led to her becoming one of the most popular artists in Argentina and Latin America. She has since released several successful albums, including \"Soy,\" \"Brujas,\" and \"Libra,\" and has collaborated with international artists such as Pitbull and Enrique Iglesias. Known for her powerful voice and energetic live performances, Lali Esp\u00f3sito has become a household name in Latin America and has won numerous awards for her music and acting career.",
+            "Lali Esp\u00f3sito is an Argentine singer, songwriter, actress, and dancer. Born Gonzalina Alejandra Esp\u00f3sito on October 10, 1991, in Buenos Aires, Argentina, she initially rose to fame as a child actress in the popular Argentine television series 'Casi \u00e1ngeles' (Almost Angels) in 2007. Lali then pursued a successful music career, releasing her debut single 'Suerte' in 2012. Since then, she has released several successful albums and singles, including 'A Bailar' and 'No Me Arrepiento de Nada', which have solidified her position as a prominent figure in Latin American music. Known for her energetic live performances and captivating stage presence, Lali has won numerous awards, including a Latin Grammy nomination.",
+            "Lali Esp\u00f3sito is an Argentine singer, actress, and songwriter. Born on December 10, 1991, in Buenos Aires, Argentina, she initially gained recognition for her role as Maggie in the Argentine teen drama series 'Casi \u00e1ngeles.' Her subsequent career in music began with the release of her debut single 'Suerte' in 2012. Lali has since released several successful albums, including 'A Bailar' (2014), 'Lali' (2016), 'Brasil' (2018), 'Libra' (2020), and 'Libra: So Far, So Good' (2021). Known for her unique blend of pop, rock, and electronic dance music styles, Lali has become a prominent figure in the Latin American music scene, earning multiple awards and nominations for her work."
+        ],
+        "most_likely_breakdown": [
+            "Lali Esp\u00f3sito is an Argentine singer",
+            "Lali Esp\u00f3sito is a songwriter",
+            "Lali Esp\u00f3sito is an actress",
+            "Lali Esp\u00f3sito is a dancer",
+            "Lali Esp\u00f3sito was born on December 10, 1991",
+            "Lali Esp\u00f3sito was born in Buenos Aires, Argentina",
+            "Lali Esp\u00f3sito initially gained fame as a child actress",
+            "Lali Esp\u00f3sito starred in the Argentine television series 'Casi \u00c1ngeles'",
+            "Lali Esp\u00f3sito starred in the Argentine television series 'Graduados'",
+            "Lali Esp\u00f3sito released her debut album 'A Bailar' in 2014",
+            "Lali Esp\u00f3sito released the single 'Suerte'",
+            "Lali Esp\u00f3sito released the album 'Brasil'",
+            "Lali Esp\u00f3sito released the album 'Libra'",
+            "Lali Esp\u00f3sito collaborated with Pitbull",
+            "Lali Esp\u00f3sito collaborated with Enrique Iglesias",
+            "Lali Esp\u00f3sito is known for her energetic live performances",
+            "Lali Esp\u00f3sito is known for her catchy pop songs",
+            "Lali Esp\u00f3sito is a prominent figure in Latin American music and entertainment"
+        ],
+        "most_likely_breakdown_len": 18,
+        "breakdown": [
+            "Lali Esp\u00f3sito is an Argentine singer",
+            "Lali Esp\u00f3sito is a songwriter",
+            "Lali Esp\u00f3sito is an actress",
+            "Lali Esp\u00f3sito is a dancer",
+            "Lali Esp\u00f3sito was born on December 10, 1991",
+            "Lali Esp\u00f3sito was born in Buenos Aires, Argentina",
+            "Lali Esp\u00f3sito initially gained fame as a child actress",
+            "Lali Esp\u00f3sito starred in the Argentine television series 'Casi \u00c1ngeles'",
+            "Lali Esp\u00f3sito starred in the Argentine television series 'Graduados'",
+            "Lali Esp\u00f3sito released her debut album 'A Bailar' in 2014",
+            "Lali Esp\u00f3sito released the single 'Suerte'",
+            "Lali Esp\u00f3sito released the album 'Brasil'",
+            "Lali Esp\u00f3sito released the album 'Libra'",
+            "Lali Esp\u00f3sito collaborated with Pitbull",
+            "Lali Esp\u00f3sito collaborated with Enrique Iglesias",
+            "Lali Esp\u00f3sito is known for her energetic live performances",
+            "Lali Esp\u00f3sito is known for her catchy pop songs",
+            "Lali Esp\u00f3sito is a prominent figure in Latin American music and entertainment",
+            "The single 'Suerte' is a hit",
+            "Lali Esp\u00f3sito has released several successful albums",
+            "Lali Esp\u00f3sito blends genres such as pop, electronic, and Latin music",
+            "Lali Esp\u00f3sito's lyrics often focus on themes of love, self-empowerment, and social justice",
+            "Lali Esp\u00f3sito was born on October 10, 1991",
+            "Lali Esp\u00f3sito's birth name is Mariana Esp\u00f3sito",
+            "Lali Esp\u00f3sito's birthdate is October 10",
+            "Lali Esp\u00f3sito's birth month is October",
+            "Lali Esp\u00f3sito is a television host",
+            "Lali Esp\u00f3sito rose to fame after playing the role of M\u00eda Colucci on the Argentine telenovela 'Casi \u00c1ngeles'",
+            "Lali Esp\u00f3sito played the role of M\u00eda Colucci on the Argentine telenovela 'Casi \u00c1ngeles' from 2007 to 2010",
+            "Lali Esp\u00f3sito has appeared in various films",
+            "Lali Esp\u00f3sito has appeared in various television series",
+            "Lali Esp\u00f3sito has appeared in various stage productions",
+            "Lali Esp\u00f3sito appeared in 'El Efecto Mariposa'",
+            "Lali Esp\u00f3sito appeared in 'Atrapa a un ladr\u00f3n'",
+            "Lali Esp\u00f3sito released 'Asesinato'",
+            "Lali Esp\u00f3sito's birth name is Mariana Gonz\u00e1lez",
+            "Lali Esp\u00f3sito's debut album 'A Bailar' marked the beginning of her successful music career.",
+            "Lali Esp\u00f3sito has released multiple albums.",
+            "Lali Esp\u00f3sito explores various genres such as pop, rock, and electronic music.",
+            "Lali Esp\u00f3sito has won numerous awards for her music and performances.",
+            "Lali Esp\u00f3sito has won multiple Gardel Awards.",
+            "Lali Esp\u00f3sito received a Latin Grammy nomination.",
+            "Lali Esp\u00f3sito is a television personality",
+            "Lali Esp\u00f3sito was a member of the Argentine teen pop group 'Los Teen Tops'",
+            "Lali Esp\u00f3sito was a child actress in the Argentine television series 'Chiquititas'",
+            "Lali Esp\u00f3sito has collaborated with Karol G",
+            "Lali Esp\u00f3sito's music often blends pop, dance, and Latin genres",
+            "Lali Esp\u00f3sito has won multiple Latin Grammy Awards",
+            "Lali Esp\u00f3sito has won several Premios MTV Video Music Awards Latin America"
+        ],
+        "breakdown_len": 49,
+        "pointwise_dict": [
+            {
+                "claim": "Lali Esp\u00f3sito is an Argentine singer",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is a songwriter",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is an actress",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is a dancer",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito was born on December 10, 1991",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito was born in Buenos Aires, Argentina",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito initially gained fame as a child actress",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito starred in the Argentine television series 'Casi \u00c1ngeles'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito starred in the Argentine television series 'Graduados'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito released her debut album 'A Bailar' in 2014",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito released the single 'Suerte'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito released the album 'Brasil'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito released the album 'Libra'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito collaborated with Pitbull",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito collaborated with Enrique Iglesias",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is known for her energetic live performances",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is known for her catchy pop songs",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is a prominent figure in Latin American music and entertainment",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "The single 'Suerte' is a hit",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has released several successful albums",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito blends genres such as pop, electronic, and Latin music",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito's lyrics often focus on themes of love, self-empowerment, and social justice",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito was born on October 10, 1991",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito's birth name is Mariana Esp\u00f3sito",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito's birthdate is October 10",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito's birth month is October",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is a television host",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.6
+            },
+            {
+                "claim": "Lali Esp\u00f3sito rose to fame after playing the role of M\u00eda Colucci on the Argentine telenovela 'Casi \u00c1ngeles'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito played the role of M\u00eda Colucci on the Argentine telenovela 'Casi \u00c1ngeles' from 2007 to 2010",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has appeared in various films",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has appeared in various television series",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has appeared in various stage productions",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito appeared in 'El Efecto Mariposa'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito appeared in 'Atrapa a un ladr\u00f3n'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito released 'Asesinato'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.6,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito's birth name is Mariana Gonz\u00e1lez",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.5,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito's debut album 'A Bailar' marked the beginning of her successful music career.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has released multiple albums.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito explores various genres such as pop, rock, and electronic music.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has won numerous awards for her music and performances.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has won multiple Gardel Awards.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito received a Latin Grammy nomination.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito is a television personality",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito was a member of the Argentine teen pop group 'Los Teen Tops'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Lali Esp\u00f3sito was a child actress in the Argentine television series 'Chiquititas'",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has collaborated with Karol G",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito's music often blends pop, dance, and Latin genres",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has won multiple Latin Grammy Awards",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Lali Esp\u00f3sito has won several Premios MTV Video Music Awards Latin America",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Sami Shalom Chetrit.\n",
+        "entity": "Sami Shalom Chetrit",
+        "wiki_title": "Sami Shalom Chetrit",
+        "most_likely_generation": "I couldn't find any information on a person named Sami Shalom Chetrit.",
+        "more_generations": [
+            "Sami Shalom Chetrit is an Israeli writer and activist of Ethiopian Jewish descent. Born in 1949 in Ethiopia, Chetrit immigrated to Israel in 1976, where he became involved in the Israeli peace movement. He has written extensively on the topics of Mizrahi Jewish identity, Israeli-Palestinian conflict, and social justice. Chetrit is also a key figure in the Mizrahi Jewish community in Israel, advocating for the rights and recognition of the community's unique experiences and histories.",
+            "I couldn't find any information on Sami Shalom Chetrit.",
+            "I couldn't find any information about a notable figure named Sami Shalom Chetrit. However, I did find information about Sami Shalom Chetrit (also known as Shalom Chetrit) an Israeli scholar, who is a professor of sociology and anthropology at Tel Aviv University.",
+            "I cannot verify information on Sami Shalom Chetrit.",
+            "I'm unable to verify information about Sami Shalom Chetrit.",
+            "I couldn't find any information on a person named Sami Shalom Chetrit.",
+            "I couldn't find any information about a person named Sami Shalom Chetrit.",
+            "Sami Shalom Chetrit is an Israeli-Palestinian writer, activist, and academic. Born in 1951 in Israel, Chetrit is a prominent figure in the Israeli left and has been involved in various social and political movements throughout his life. He is known for his work as a writer, publishing several books and articles that focus on the experiences of Mizrahi Jews, Arab Jews, and other marginalized communities within Israel. Chetrit has also been a vocal critic of Zionism and Israeli policy, advocating for a more inclusive and democratic society in Israel.",
+            "I couldn't find any information about Sami Shalom Chetrit.",
+            "I couldn't find any information on Sami Shalom Chetrit."
+        ],
+        "most_likely_breakdown": [
+            "The person named Sami Shalom Chetrit exists.",
+            "The person named Sami Shalom Chetrit is not well-known.",
+            "There is limited information available about the person named Sami Shalom Chetrit."
+        ],
+        "most_likely_breakdown_len": 3,
+        "breakdown": [
+            "The person named Sami Shalom Chetrit exists.",
+            "The person named Sami Shalom Chetrit is not well-known.",
+            "There is limited information available about the person named Sami Shalom Chetrit.",
+            "Sami Shalom Chetrit is an Israeli writer and activist.",
+            "Sami Shalom Chetrit is of Ethiopian Jewish descent.",
+            "Sami Shalom Chetrit was born in 1949.",
+            "Sami Shalom Chetrit was born in Ethiopia.",
+            "Sami Shalom Chetrit immigrated to Israel in 1976.",
+            "Sami Shalom Chetrit became involved in the Israeli peace movement.",
+            "Sami Shalom Chetrit has written extensively on Mizrahi Jewish identity.",
+            "Sami Shalom Chetrit has written extensively on the Israeli-Palestinian conflict.",
+            "Sami Shalom Chetrit has written extensively on social justice.",
+            "Sami Shalom Chetrit is a key figure in the Mizrahi Jewish community in Israel.",
+            "Sami Shalom Chetrit advocates for the rights and recognition of the Mizrahi Jewish community's unique experiences and histories.",
+            "- There is limited information available on Sami Shalom Chetrit (similar to Claim 3 in the \"Original Claim List,\" but with slightly different wording).",
+            "The speaker is unable to verify information.",
+            "The speaker is unable to verify information about a person."
+        ],
+        "breakdown_len": 17,
+        "pointwise_dict": [
+            {
+                "claim": "The person named Sami Shalom Chetrit exists.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "The person named Sami Shalom Chetrit is not well-known.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "There is limited information available about the person named Sami Shalom Chetrit.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Sami Shalom Chetrit is an Israeli writer and activist.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit is of Ethiopian Jewish descent.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit was born in 1949.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit was born in Ethiopia.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Sami Shalom Chetrit immigrated to Israel in 1976.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit became involved in the Israeli peace movement.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit has written extensively on Mizrahi Jewish identity.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit has written extensively on the Israeli-Palestinian conflict.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit has written extensively on social justice.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit is a key figure in the Mizrahi Jewish community in Israel.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "Sami Shalom Chetrit advocates for the rights and recognition of the Mizrahi Jewish community's unique experiences and histories.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.8
+            },
+            {
+                "claim": "- There is limited information available on Sami Shalom Chetrit (similar to Claim 3 in the \"Original Claim List,\" but with slightly different wording).",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The speaker is unable to verify information.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The speaker is unable to verify information about a person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            }
+        ]
+    },
+    {
+        "prompt": "Tell me a paragraph bio of Abdul Halik Hudu.\n",
+        "entity": "Abdul Halik Hudu",
+        "wiki_title": "Abdul Halik Hudu",
+        "most_likely_generation": "I couldn't find any information on Abdul Halik Hudu.",
+        "more_generations": [
+            "I couldn't find any information on Abdul Halik Hudu. If you could provide more context or details about Abdul Halik Hudu, I'll be happy to try and assist you further.",
+            "I do not have any information about Abdul Halik Hudu.",
+            "I couldn't find any information on Abdul Halik Hudu. Could you please provide more context or details about who Abdul Halik Hudu is? This will help me provide a more accurate response.",
+            "I couldn't find any information on Abdul Halik Hudu.",
+            "I do not have enough information to provide a bio for Abdul Halik Hudu.",
+            "I couldn't find any information about a notable person named Abdul Halik Hudu.",
+            "I couldn't find any information on Abdul Halik Hudu. It is possible that Abdul Halik Hudu is a private individual or not a public figure.",
+            "I couldn't find any information about Abdul Halik Hudu. If you could provide more context or details about who Abdul Halik Hudu is or what he is known for, I would be happy to try and help you create a paragraph bio.",
+            "I do not have information on Abdul Halik Hudu.",
+            "I am sorry but I could not find any information on Abdul Halik Hudu."
+        ],
+        "most_likely_breakdown": [
+            "Abdul Halik Hudu is a person.",
+            "Abdul Halik Hudu is not a well-known person.",
+            "There is limited information available on Abdul Halik Hudu."
+        ],
+        "most_likely_breakdown_len": 3,
+        "breakdown": [
+            "Abdul Halik Hudu is a person.",
+            "Abdul Halik Hudu is not a well-known person.",
+            "There is limited information available on Abdul Halik Hudu.",
+            "Abdul Halik Hudu's unique situation requires additional context or details to provide assistance.",
+            "The statement in the \"New Claim List\" is not directly related to Abdul Halik Hudu's unique situation, but it provides new information about the speaker.",
+            "- The speaker couldn't find information on Abdul Halik Hudu.",
+            "The speaker couldn't find information on Abdul Halik Hudu."
+        ],
+        "breakdown_len": 7,
+        "pointwise_dict": [
+            {
+                "claim": "Abdul Halik Hudu is a person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 1.0
+            },
+            {
+                "claim": "Abdul Halik Hudu is not a well-known person.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.7,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "There is limited information available on Abdul Halik Hudu.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "Abdul Halik Hudu's unique situation requires additional context or details to provide assistance.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "The statement in the \"New Claim List\" is not directly related to Abdul Halik Hudu's unique situation, but it provides new information about the speaker.",
+                "correctness": "",
+                "inline_verbalized_confidence": "0.9",
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0.2
+            },
+            {
+                "claim": "- The speaker couldn't find information on Abdul Halik Hudu.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.8,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0
+            },
+            {
+                "claim": "The speaker couldn't find information on Abdul Halik Hudu.",
+                "correctness": "",
+                "inline_verbalized_confidence": 0.9,
+                "gpt-score": "",
+                "gpt_annotation_result": "",
+                "verbalized_confidence_with_options": 0
+            }
+        ]
+    }
+]

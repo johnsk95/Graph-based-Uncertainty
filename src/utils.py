@@ -13,13 +13,17 @@ def load_huggingface_model_and_tokenizer(model_id, cache_dir):
     print_cuda_memory()
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype=torch.bfloat16, attn_implementation="flash_attention_2", device_map="auto", cache_dir=cache_dir)
-    
+
     print_cuda_memory()
     return model, tokenizer
 
 def load_llama3_70b_model_and_tokenizer():
     cache_path = os.environ.get("HF_DATASETS_CACHE", '')
     return load_huggingface_model_and_tokenizer("meta-llama/Meta-Llama-3-70B-Instruct", cache_dir=cache_path)
+
+def load_llama3_8b_model_and_tokenizer():
+    cache_path = os.environ.get("HF_DATASETS_CACHE", '')
+    return load_huggingface_model_and_tokenizer("meta-llama/Llama-3.1-8B-Instruct", cache_dir=cache_path)
 
 def substitute_prompt_factscore(example, dataset):
     entity = example['entity']
@@ -31,6 +35,13 @@ def substitute_prompt_pop_qa(example):
     example['prompt'] = f'Provide me with a paragraph detailing some facts related to {example["s_wiki_title"]}.'
     example['wiki_title'] = example['s_wiki_title']
     example['question'] = example['wiki_title']
+    return example
+
+def substitute_prompt_freshqa(example):
+    question = example['question']
+    example['prompt'] = f'Answer the following question with a detailed paragraph: {question}\n'
+    example['entity'] = question  # Use question as entity identifier
+    example['wiki_title'] = question
     return example
 
 def print_cuda_memory():

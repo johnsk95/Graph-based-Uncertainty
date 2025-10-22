@@ -3,6 +3,9 @@ from openai import OpenAI
 import torch
 import os
 import src.utils as utils
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class BaseModel(ABC):
     def __init__(self, model_name, args):
@@ -64,6 +67,8 @@ class Llama3Model(BaseModel):
         super().__init__(model_name, args)
         if 'llama-3-70b-instruct' == model_name:
             self.model, self.tokenizer = utils.load_llama3_70b_model_and_tokenizer()
+        elif 'llama-3-8b-instruct' == model_name:
+            self.model, self.tokenizer = utils.load_llama3_8b_model_and_tokenizer()
 
     def generate_given_prompt(self, prompt):
         messages = [{"role": "user", "content": prompt}]

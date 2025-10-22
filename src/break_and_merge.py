@@ -41,6 +41,7 @@ class BreakdownProcessor:
 
             # print("Break down raw result:", breakdown_raw_result)
             breakdown_dicts = self.get_subclaims(breakdown_raw_result['return'])
+            # print(breakdown_dicts)
             breakdown_dicts = self._clean_breakdown_dicts(breakdown_dicts)
             breakdown_dicts_list.append(breakdown_dicts)
             bd_raw.append(breakdown_raw_result)
@@ -49,8 +50,20 @@ class BreakdownProcessor:
         return breakdown_dicts_list
 
     def _clean_breakdown_dicts(self, breakdown_dicts):
+        # Handle None or empty input
+        if not breakdown_dicts:
+            return []
         cleaned_dicts = []
         for dict_ in breakdown_dicts:
+            # Skip if not a dict (sometimes LLM returns strings)
+            if not isinstance(dict_, dict):
+                print(f"Skipping non-dict entry: {dict_[:50] if len(str(dict_)) > 50 else dict_}")
+                continue
+            # Skip if 'claim' key is missing
+            if 'claim' not in dict_:
+                print(f"Skipping dict without 'claim' key: {dict_}")
+                continue
+            # Handle case where claim is a list
             if isinstance(dict_['claim'], list):
                 dict_['claim'] = dict_['claim'][0]
             cleaned_dicts.append(dict_)
@@ -93,8 +106,9 @@ class BreakdownProcessor:
             except json.JSONDecodeError as e:
                 print(f"Failed to parse as jsonl: {e}")
                 print(line)
-                return None
-        return subclaims
+                # Return empty list instead of None to avoid iteration errors
+                continue
+        return subclaims if subclaims else []
 
 class MatchProcessor:
     def __init__(self, args, llm_model):

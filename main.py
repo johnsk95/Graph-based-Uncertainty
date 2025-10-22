@@ -10,7 +10,7 @@ from src.uad import UncertaintyAwareDecoding
 from src.models import get_model
 import random
 
-os.environ["HF_DATASETS_CACHE"] = '/nlp/scr/jiangm/cache'
+os.environ["HF_DATASETS_CACHE"] = os.path.expanduser('~/.cache/huggingface')
 OUTPUT_DIR = 'experiments'
 DATA_DIR = 'data'
 
@@ -48,6 +48,8 @@ elif 'nq' == args.dataset:
     questions = questions.map(lambda x: utils.substitute_prompt_nq(x))
 elif 'pop_qa' in args.dataset:
     questions = questions.map(lambda x: utils.substitute_prompt_pop_qa(x))
+elif 'freshqa' in args.dataset:
+    questions = questions.map(lambda x: utils.substitute_prompt_freshqa(x))
 else:
     args.breakdown = False
 

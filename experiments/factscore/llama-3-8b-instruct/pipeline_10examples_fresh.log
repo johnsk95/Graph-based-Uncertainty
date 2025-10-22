@@ -1,0 +1,997 @@
+Folder Path: experiments/factscore/llama-3-8b-instruct
+CUDA is available. Listing memory usage:
+Device 0:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+Device 1:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+Device 2:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+CUDA is available. Listing memory usage:
+Device 0:
+  Total Memory: 47.38 GB
+  Allocated Memory: 4.23 GB
+  Cached Memory: 4.26 GB
+Device 1:
+  Total Memory: 47.38 GB
+  Allocated Memory: 5.28 GB
+  Cached Memory: 5.33 GB
+Device 2:
+  Total Memory: 47.38 GB
+  Allocated Memory: 5.45 GB
+  Cached Memory: 5.49 GB
+Try: 1
+Try: 2
+Try: 1
+Try: 2
+Try: 1
+Try: 2
+Try: 3
+Try: 1
+Try: 1
+Try: 1
+Try: 1
+Try: 1
+Try: 1
+Try: 1
+Try: 2
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Jamie Cripps is an Australian rules footballer.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Jamie Cripps plays for the West Coast Eagles.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "The West Coast Eagles are a team in the Australian Football League (AFL).",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "The Australian Football League (AFL) is a sports league.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Jamie Cripps is male.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Jamie Cripps is a human.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Jamie Cripps is an athlete.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Australian rules football is a sport.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Jamie Cripps is from Australia.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "The West Coast Eagles are based in Australia.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Processing 0th generation
+Failed to parse as jsonl: Extra data: line 1 column 101 (char 100)
+{"claim": "There may be multiple individuals with the name Joseph A. Lopez.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 117 (char 116)
+  {"claim": "Without more context or information, it's difficult to provide a specific bio.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 132 (char 131)
+  {"claim": "Providing more details or context about Joseph A. Lopez may lead to a more accurate response.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 116 (char 115)
+  {"claim": "It's difficult to provide a specific bio without more context or information.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 99 (char 98)
+  {"claim": "More context or information about Joseph A. Lopez is needed.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 93 (char 92)
+  {"claim": "A specific bio for Joseph A. Lopez cannot be provided.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 82 (char 81)
+  {"claim": "Joseph A. Lopez is not a well-known person.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 111 (char 110)
+  {"claim": "A notable or well-known person named Joseph A. Lopez could not be found.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 98 (char 97)
+  {"claim": "More details or context about Joseph A. Lopez are required.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 129 (char 128)
+  {"claim": "A specific bio for Joseph A. Lopez cannot be provided without more context or information.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 83 (char 82)
+  {"claim": "Joseph A. Lopez may be a private individual.", "gpt-confidence": 0.7},
+Failed to parse as jsonl: Extra data: line 1 column 115 (char 114)
+  {"claim": "A bio for Joseph A. Lopez may be available with more context or information.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 78 (char 77)
+  {"claim": "Joseph A. Lopez is not a public figure.", "gpt-confidence": 0.7},
+Failed to parse as jsonl: Extra data: line 1 column 91 (char 90)
+  {"claim": "A specific bio for Joseph A. Lopez is not available.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 125 (char 124)
+  {"claim": "More context or information about Joseph A. Lopez is needed to provide a specific bio.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 84 (char 83)
+  {"claim": "A bio for Joseph A. Lopez cannot be provided.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 79 (char 78)
+  {"claim": "Joseph A. Lopez may be a private person.", "gpt-confidence": 0.7},
+Failed to parse as jsonl: Extra data: line 1 column 90 (char 89)
+  {"claim": "A specific bio for Joseph A. Lopez cannot be found.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 122 (char 121)
+  {"claim": "More details or context about Joseph A. Lopez are needed to provide a specific bio.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 104 (char 103)
+  {"claim": "A bio for Joseph A. Lopez may be available with more information.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 89 (char 88)
+  {"claim": "Joseph A. Lopez is not a well-known public figure.", "gpt-confidence": 0.7},
+Failed to parse as jsonl: Extra data: line 1 column 127 (char 126)
+  {"claim": "A specific bio for Joseph A. Lopez is not available without more context or information.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 127 (char 126)
+  {"claim": "More context or information about Joseph A. Lopez is required to provide a specific bio.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 81 (char 80)
+  {"claim": "A bio for Joseph A. Lopez cannot be found.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 110 (char 109)
+  {"claim": "Joseph A. Lopez may be a private individual who is not a public figure.", "gpt-confidence": 0.7},
+Failed to parse as jsonl: Extra data: line 1 column 91 (char 90)
+  {"claim": "A specific bio for Joseph A. Lopez is not available.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 96 (char 95)
+  {"claim": "More details or context about Joseph A. Lopez are needed.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 111 (char 110)
+  {"claim": "A bio for Joseph A. Lopez may be available with more details or context.", "gpt-confidence": 0.8},
+Failed to parse as jsonl: Extra data: line 1 column 86 (char 85)
+  {"claim": "Joseph A. Lopez is not a well-known individual.", "gpt-confidence": 0.7},
+Failed to parse as jsonl: Extra data: line 1 column 126 (char 125)
+  {"claim": "A specific bio for Joseph A. Lopez cannot be found without more context or information.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 125 (char 124)
+  {"claim": "More context or information about Joseph A. Lopez is needed to provide a specific bio.", "gpt-confidence": 0.9},
+Failed to parse as jsonl: Extra data: line 1 column 120 (char 119)
+  {"claim": "A bio for Joseph A. Lopez cannot be provided without more context or information.", "gpt-confidence": 0.9},
+Processing 1th generation
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue was a notable individual.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.2
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue was a 18th-century individual.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.4
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue was English.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.6
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue was a Baptist minister.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue was a theologian.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue was alive in 1750.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.6
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue was alive in 1825.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.6
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "David Bogue's father was John Bogue.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.4
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "John Bogue was an English Baptist minister.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.4
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "John Bogue was alive in the 18th century.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.4
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "There is no notable individual named David Bogue.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "A notable figure named William Bogue exists.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "William Bogue is also known by multiple names.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "William Bogue was born in 1746.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "William Bogue died in 1823.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Note: The confidence scores are subjective and based on my understanding of the input. They may vary depending on individual perspectives and expertise. 
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Here is the JSONL output:
+Processing 2th generation
+Empty breakdown for 2th generation, 2th breakdown
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Karl Eliasberg is a notable person.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.5
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Karl Eliasberg is an American.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.5
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Karl Eliasberg is a veteran of World War I.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Karl Eliasberg is the last living American veteran of World War I.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Karl Eliasberg was born in the Russian Empire.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Karl Eliasberg was born on July 29, 1907.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Note: The confidence scores are subjective and based on my understanding of the input. They may vary depending on individual perspectives and knowledge. 
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Here is the JSONL output:
+Processing 3th generation
+Processing 4th generation
+Processing 5th generation
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro is a former Major League Baseball player.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro played as an outfielder in Major League Baseball.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro was born in Revere, Massachusetts.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro was born on July 15, 1949.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro made his MLB debut with the Boston Red Sox in 1969.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro played for the Boston Red Sox from 1969 to 1971.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro played for the Milwaukee Brewers in 1972.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro is an American professional baseball player.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Conigliaro is not a notable person.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.1
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Processing 6th generation
+Empty breakdown for 6th generation, 3th breakdown
+Processing 7th generation
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Note: The confidence scores are subjective and based on my understanding of the input. They may vary depending on the context and the specific knowledge domain. 
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Here is the code used to generate the output:
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+python
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+import json
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+def deconstruct_paragraph(paragraph):
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    claims = [
+Failed to parse as jsonl: Extra data: line 1 column 55 (char 54)
+        "The person named Sami Shalom Chetrit exists.",
+Failed to parse as jsonl: Extra data: line 1 column 66 (char 65)
+        "The person named Sami Shalom Chetrit is not well-known.",
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    ]
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    confidence_scores = [0.8, 0.7, 0.9]
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    for claim, confidence in zip(claims, confidence_scores):
+Failed to parse as jsonl: Expecting value: line 1 column 9 (char 8)
+        yield json.dumps({"claim": claim, "gpt-confidence": confidence}
+Skipping non-dict entry: There is limited information available about the p
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Sami Shalom Chetrit is a notable figure.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.2
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Sami Shalom Chetrit is also known as Shalom Chetrit.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Sami Shalom Chetrit is an Israeli scholar.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Sami Shalom Chetrit is a professor.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Sami Shalom Chetrit teaches sociology.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Sami Shalom Chetrit teaches anthropology.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Sami Shalom Chetrit works at Tel Aviv University.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Processing 8th generation
+Empty breakdown for 8th generation, 2th breakdown
+Processing 9th generation
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentbasedonthecontexttherearetwoindividualsnamedjamiecrippsapublicfigureandanaustralianrulesfootballerthereforetheclaimthatthereisapublicfigurenamedjamiecrippsissupportedbythecontextroleassistantcontentyes, gen_index: 0, claim_index: 6
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 1, claim_index: 0
+Invalid response: rolesystemcontentilldomybesttoprovidemorecontextanddetailsaboutjamiecrippsrolesystemcontenthoweverimustinformyouthaticouldntfindanyinformationaboutapersonnamedjamiecrippseitherrolesystemcontentthissuggeststhatjamiecrippsmaynotbeapublicfigureorawellknownpersonrolesystemcontenttoprovideamoreaccurateresponsecouldyoupleaseprovidemorecontextordetailsaboutjamiecrippssuchastheirprofessionareaofexpertiseoranyotherrelevantinformationanswerno, gen_index: 1, claim_index: 4
+Invalid response: rolesystemcontenticanprovidemorecontextaboutjamiecrippsroleusercontentbasedonthecontexttheclaimthatjamiecrippsisnotwellknownissupportedroleassistantcontentyes, gen_index: 1, claim_index: 7
+Invalid response: rolesystemcontenticanhelpyoufindmoreinformationaboutjamiecrippsroleassistantcontentbasedonthecontexttheclaimthattheuserisunabletofindinformationaboutjamiecrippsissupportedbythecontextaboveyes, gen_index: 2, claim_index: 0
+Invalid response: rolesystemcontentimheretohelpyoufindtheinformationyouneedroleassistantcontentbasedonthecontextprovidedicouldntfindanyinformationaboutapublicfigurenamedjamiecrippshowevericansuggestsomepossiblesourceswhereyoumightbeabletofindmoreinformationaboutjamiecrippssuchasnewsarticlessocialmediaorpublicrecordsroleassistantcontenttoprovidemorecontextordetailsaboutwhojamiecrippsisiwouldneedmoreinformationaboutthepersonsuchastheirprofessionlocationoranynotableachievementsroleassistantcontentbasedonthecontextprovidedtheclaimthatthereisapublicfigurenamedjamiecrippsisno, gen_index: 2, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyoufindmoreinformationaboutjamiecrippsroleassistantcontentbasedonthecontextprovidedtheclaimthatjamiecrippsisnotwellknownissupportedroleassistantcontentyes, gen_index: 2, claim_index: 7
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 4, claim_index: 6
+Invalid response: rolesystemcontenttheclaimthatjosephalopezmaybeaprivatepersonwhoisnotapublicfigureissupportedbythecontextaboveroleusercontentyes, gen_index: 0, claim_index: 0
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 7
+Invalid response: rolesystemcontenttheclaimthatjosephalopezisnotawellknownfigureissupportedbythecontextabove, gen_index: 0, claim_index: 11
+Invalid response: rolesystemcontentilldomybesttoprovidemorecontextanddetailsaboutjosephalopezrolesystemcontenthoweverbasedonthecontextyouprovideditseemsthatthereisnotenoughinformationavailableaboutjosephalopezrolesystemcontentgiventhatyoucouldntfindanyinformationonhimitislikelythatheisaprivatepersonwhoisnotapublicfigurerolesystemcontentthereforetheclaimthatjosephalopezmaybeaprivatepersonwhoisnotapublicfigureissupportedbythecontextaboverolesystemcontentansweryes, gen_index: 1, claim_index: 0
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 1, claim_index: 1
+Invalid response: notheclaimisthatthespeakerwantstoprovideamoreaccurateandhelpfulresponsehoweverthecontextprovidedisthatthespeakerisaskingformorecontextordetailsaboutjosephalopezwhichsuggeststhattheyareseekinginformationtoprovideamoreaccurateresponsenotthattheyalreadywanttoprovideone, gen_index: 1, claim_index: 3
+Invalid response: notheclaimisthatthespeakerisunabletoverifyinformationbutthecontextprovidedsuggeststhatthespeakerisunabletofindanyinformationonjosephalopezwhichisadifferentstatementthespeakerisnotclaimingtobeunabletoverifyinformationbutratherthattheycouldntfindanyinformation, gen_index: 1, claim_index: 4
+Invalid response: rolesystemcontenticanprovidemorecontextanddetailsaboutjosephalopezroleassistantcontentbasedonthecontextyouprovidedtheclaimthatthenamejosephalopezmayrefertomultipleindividualsissupportedthisisbecauseyoumentionedthatyoucouldntfindanyinformationonapersonnamedjosephalopezwhichsuggeststhattheremaybemultipleindividualswiththesamenamemakingitdifficulttopinpointaspecificpersonwithoutmorecontextordetailsroleassistantcontentyes, gen_index: 1, claim_index: 7
+Invalid response: rolesystemcontenticanprovidemorecontextanddetailsaboutjosephalopezroleassistantcontentunfortunatelywithoutmorespecificinformationaboutjosephalopezsuchashisfieldofworknationalityoranynotableachievementsitisdifficulttoprovidecontextordetailsaboutwhoheisorwhatheisknownforhoweverbasedonthecontextyouprovideditseemsthattheclaimjosephalopezisnotawellknownfigureissupportedroleassistantcontentyes, gen_index: 1, claim_index: 11
+Invalid response: rolesystemcontenticanprovidemoreinformationorcontextaboutjosephalopezifavailablerolesystemcontenthoweverbasedonthecontextyouprovidedtheclaimthatjosephalopezmaybeaprivatepersonwhoisnotapublicfigureissupportedrolesystemcontentthecontextsuggeststhatthereislimitedinformationavailableaboutjosephalopezwhichisconsistentwithaprivateindividualwhoisnotapublicfigurerolesystemcontentthereforetheanswertoyourquestionisyes, gen_index: 3, claim_index: 0
+Invalid response: rolesystemcontenticanhelpyoufindmoreinformationaboutjosephalopezroleusercontentcanyouprovidesomepossiblefieldsorareaswherejosephalopezmightbeknownroleassistantcontentwithoutmorecontextitsdifficulttopinpointaspecificfieldorareawherejosephalopezisknownhoweverhereareafewpossibilitiespoliticstheremaybeapoliticianorgovernmentofficialnamedjosephalopezbusinesshecouldbeabusinessleaderentrepreneurorexecutiveinaparticularindustryartsandentertainmentjosephalopezmightbeanartistmusicianactororothercreativeprofessionalacademiahecouldbeaprofessorresearcherorexpertinaspecificfieldofstudysportsjosephalopezmightbeanathletecoachorsportsadministratorifyouhaveanyadditionalinformationorcontextaboutjosephalopezimaybeabletohelpyoufindmorespecificinformationabouthimroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 3, claim_index: 6
+Invalid response: rolesystemcontenticanprovidemoreinformationorcontextaboutjosephalopezifyouprovidemoredetailsorspecifythefieldheisknownforroleusercontentiamlookingforinformationonajosephalopezwhoisapoliticianrolesystemcontentwiththeadditionalcontextthatjosephalopezisapoliticianicantrytoprovidemoreinformationhoweverwithoutmorespecificdetailssuchasthecountrystateorpositionhehelditmaystillbechallengingtofindaspecificindividualroleusercontentistheclaimsupportedbythecontextaboverolesystemcontentyes, gen_index: 3, claim_index: 7
+Invalid response: rolesystemcontenticanprovidemoreinformationorcontextaboutjosephalopezifavailableroleassistantcontentbasedonthecontextprovidedtheclaimthatjosephalopezisnotawellknownfigureissupportedroleassistantcontentwithoutmoreinformationorcontextitisdifficulttoprovideaspecificbioordetailsaboutjosephalopezroleassistantcontentifyouhaveanyadditionaldetailsorcontextaboutjosephalopezsuchashisprofessionnationalityoranynotableachievementsimaybeabletoprovidemoreinformation, gen_index: 3, claim_index: 11
+Invalid response: rolesystemcontenticanprovidemorecontextandinformationaboutjosephalopezroleassistantcontentbasedonthecontextprovidedtheclaimthatjosephalopezmaybeaprivatepersonwhoisnotapublicfigureissupportedthefactthatyoucouldntfindanyinformationonhimsuggeststhathemaynotbeawellknownpublicfigurewhichisconsistentwithbeingaprivatepersonroleassistantcontentyes, gen_index: 4, claim_index: 0
+Invalid response: nothecontextprovideddoesnotgiveanyinformationaboutjosephalopezbutthespeakerclaimstheycouldntfindanyinformationonhimthisimpliesthatthespeakerislookingforinformationonjosephalopezbutthecontextitselfdoesnotconfirmhisexistenceoroccupation, gen_index: 4, claim_index: 1
+Invalid response: rolesystemcontentimheretohelpyoufindtheinformationyouneedroleassistantcontentunfortunatelyicouldntfindanywellknowninformationonafigurenamedjosephalopezhowevericansuggestsomepossiblesourceswhereyoumightbeabletofindmoreinformationabouthimroleassistantcontenttoprovidemorecontextcouldyoupleaseprovidemewithmoredetailsorcluesaboutjosephalopezsuchashisfieldofworknationalityoranynotableachievementsthiswillhelpmenarrowdownthesearchandtrytofindmoreinformationabouthimroleassistantcontentadditionallyyoucanalsotrysearchingonlinedatabasesacademicjournalsorprofessionalnetworkslikelinkedintoseeiftheyhaveanyinformationaboutjosephalopezroleassistantcontentifyouhaveanyspecificdetailsorsourcesthatmentionjosephalopezpleasesharethemwithmeandilldomybesttoverifytheinformationandprovidemorecontextroleassistantcontentistheclaimsupportedbythecontextaboveno, gen_index: 4, claim_index: 6
+Invalid response: rolesystemcontenticanprovidemorecontextanddetailsaboutjosephalopezrolesystemcontentbasedonthecontexttheclaimthatthenamejosephalopezmayrefertomultipleindividualsissupportedbythefactthatyoucouldntfindanyinformationonawellknownfigurewiththatnamerolesystemcontentiwilltrytofindmoreinformationaboutjosephalopezrolesystemcontentunfortunatelywithoutmorespecificinformationaboutjosephalopezsuchashisfieldofworknationalityortimeperioditisdifficulttoprovidemorecontextordetailsrolesystemcontenthowevericansuggestsomepossiblesourceswhereyoumaybeabletofindmoreinformationaboutjosephalopezsuchasonlinearchivesacademicdatabasesorlocalhistoricalsocietiesrolesystemcontentifyouhaveanymorespecificinformationaboutjosephalopeziwouldbehappytotryandhelpyoufindmorecontextanddetails, gen_index: 4, claim_index: 7
+Invalid response: rolesystemcontentimheretohelpyoufindtheinformationyouneedroleassistantcontentbasedonthecontextyouprovidedtheclaimthatjosephalopezisnotawellknownfigureissupportedroleassistantcontentthefactthatyoucouldntfindanyinformationonhimsuggeststhathemaynotbeawidelyrecognizedornotablefigureroleassistantcontenthoweverwithoutmoreinformationitsdifficulttosayforcertainwhyyoucouldntfindanyinformationonhimroleassistantcontentifyoucouldprovidemorecontextordetailsaboutwhojosephalopezisorwhatheisknownforimaybeabletohelpyoufindmoreinformationroleassistantcontentalternativelyicantrytohelpyoubrainstormwaystofindmoreinformationabouthimroleassistantcontentwouldyouliketotryoneoftheseoptions, gen_index: 4, claim_index: 11
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 6
+Invalid response: nothecontextstatesthatdavidboguewasaprominentfigureinthebaptistmovementinenglandduringthethandthcenturiesthisindicatesthathewasactiveinboththethandthcenturiesnotjustthethcentury, gen_index: 0, claim_index: 21
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 22
+Invalid response: nothecontextstatesthatdavidboguewasaprominentfigureinthebaptistmovementinenglandduringthethandthcenturiesthisimpliesthathewasactiveinthethcenturynotjustthethcentury, gen_index: 0, claim_index: 24
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 27
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 28
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 29
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 30
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 31
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 34
+Invalid response: nothecontextprovidedstatesthatdavidboguewasborninnotthisinformationdirectlycontradictstheclaimmadeaboutwilliamboguesbirthyear, gen_index: 0, claim_index: 37
+Invalid response: nothecontextstatesthatdavidbogueliveduntilnotthiscontradictstheclaimthatwilliamboguediedin, gen_index: 0, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 6
+Invalid response: nothecontextstatesthatdavidboguewasactiveduringthethandearlythcenturiesbutitdoesnotspecificallymentionthethcentury, gen_index: 1, claim_index: 21
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 22
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 28
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 29
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 30
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 31
+Invalid response: nothecontextprovidedsuggeststhatdavidboguewasanotableenglishnonconformistministerandhistorianandaprominentfigureinthedevelopmentofthebaptistdenominationinenglandduringthethandearlythcenturiesthiscontradictstheclaimthatheisnotaprominentfigure, gen_index: 1, claim_index: 33
+Invalid response: nothecontextprovidedshowsthatthereisanotableindividualnameddavidbogueabaptistministerandhistorianwhomadesignificantcontributionstothebaptistdenominationinenglandduringthethandearlythcenturiesthiscontradictstheclaimthatthereisnonotableindividualnameddavidbogue, gen_index: 1, claim_index: 34
+Invalid response: nothecontextprovidedstatesthatdavidbogueliveduntilnotthisinformationcontradictstheclaimthatwilliamboguediedin, gen_index: 1, claim_index: 38
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 0
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentbasedonthecontextifoundinformationaboutadavidboguewhowasindeedabritishbaptistministerrolesystemcontentthereforetheanswertoyourquestionisyes, gen_index: 2, claim_index: 1
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 2
+Invalid response: rolesystemcontenticanhelpyouwiththatroleassistantcontentno, gen_index: 2, claim_index: 7
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 9
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentbasedonthecontextthereisnoinformationaboutaprominentfigurenameddavidboguesowecannotverifytheclaimabouthisbirthplacerolesystemcontenthowevericantrytofindmoreinformationaboutdavidbogueifyouwouldlikerolesystemcontentbutbasedonthegivencontexttheanswertoyourquestionisno, gen_index: 2, claim_index: 12
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 14
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 15
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 16
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 17
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 18
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentyes, gen_index: 2, claim_index: 19
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentyes, gen_index: 2, claim_index: 20
+Invalid response: rolesystemcontenticanhelpyouwiththatroleassistantcontentno, gen_index: 2, claim_index: 21
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 23
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 24
+Invalid response: rolesystemcontenticanhelpyouwiththatroleassistantcontentno, gen_index: 2, claim_index: 26
+Invalid response: rolesystemcontenticanhelpyouwiththatroleassistantcontentno, gen_index: 2, claim_index: 27
+Invalid response: rolesystemcontenticanhelpyouwiththatrolesystemcontentyouprovidedacontextstatingyouarenotawareofaprominentfigurenameddavidboguerolesystemcontentyouthenmadeaclaimthatdavidboguewasafigureinthethandthcenturiesrolesystemcontenthoweverthecontextdoesnotprovideanyinformationaboutdavidboguemakingitdifficulttoverifytheclaimrolesystemcontentthereforetheanswertoyourquestionisno, gen_index: 2, claim_index: 31
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 32
+Invalid response: rolesystemcontentyoucanaskmeanyquestionsordiscussanytopicroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 33
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 34
+Invalid response: rolesystemcontenticanprovideinformationonthetopicroleassistantcontentno, gen_index: 2, claim_index: 35
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 16
+Invalid response: rolesystemcontenticanhelpyouwiththatrolesystemcontenttheclaimthatdavidboguewasafigureinthecenturyofthethandthcenturiesissupportedbythecontextaboverolesystemcontentyes, gen_index: 3, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 22
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 23
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 26
+Invalid response: rolesystemcontenticanhelpyouwiththatrolesystemcontenttoansweryourquestioniwillevaluatetheclaimbasedonthecontextprovidedrolesystemcontenttheclaimstatesthatdavidboguewasafigureinthecenturyofthecenturyofthecenturyofthecenturyofthethandthcenturiesrolesystemcontenthoweverthecontextprovidedonlymentionsthatdavidboguewasaprominentbaptistministerandtheologianinthethcenturyrolesystemcontentthereforetheclaimispartiallysupportedbythecontextbutitisnotentirelyaccurateasitalsoincludesthethcenturywhichisnotmentionedinthecontextrolesystemcontenthoweversincethequestionasksforasimpleyesornoansweriwillprovideamoregeneralresponserolesystemcontentno, gen_index: 3, claim_index: 28
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 29
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 3, claim_index: 31
+Invalid response: rolesystemcontentthecontextdoesnotmentionwilliamboguesoitdoesnotsupporttheclaimanswerno, gen_index: 3, claim_index: 38
+Invalid response: rolesystemcontenttheinformationprovideddoesnotmentiondavidboguebutitdoesmentionanotablefigurenamedwilliamboguesincethereisnoinformationaboutdavidboguetheclaimcannotbeverifiedroleassistantcontentno, gen_index: 4, claim_index: 9
+Invalid response: rolesystemcontentthereisnoinformationinthecontextaboutanotableindividualnameddavidbogueandtheinformationprovidedisaboutadifferentpersonnamedwilliamboguerolesystemcontentno, gen_index: 4, claim_index: 11
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 4, claim_index: 33
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 4, claim_index: 34
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 37
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 38
+Invalid response: rolesystemcontenticanhelpyoufindinformationaboutkarleliasbergroleassistantcontentno, gen_index: 0, claim_index: 0
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleassistantcontenttheclaimthatkarleliasbergisnotawellknownpersonissupportedbythecontextaboveasyoumentionedyoucouldntfindanyinformationonhimroleassistantcontentyes, gen_index: 0, claim_index: 1
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentbasedonthecontextthereisnoinformationaboutkarleliasbergwhichmeanswecannotdetermineiftheclaimissupportedornotrolesystemcontenthowevericantrytofindmoreinformationaboutkarleliasbergtohelpyouevaluatetheclaimrolesystemcontentunfortunatelyicouldntfindanynotableinformationaboutkarleliasbergrolesystemcontentthereforebasedonthecontextandmyresearchtheanswertoyourquestionisno, gen_index: 0, claim_index: 3
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleassistantcontentno, gen_index: 0, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 0, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleassistantcontenttheclaimissupportedbythecontextabovethecontextstatesthatyoucouldntfindanyinformationonkarleliasbergwhichimpliesthattheclaimmaybetruesincethereisnocontradictinginformationavailableroleassistantcontentyes, gen_index: 0, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontenttodetermineiftheclaimissupportedbythecontextineedtounderstandthecontextandtheclaimrolesystemcontentthecontextisthatyoucouldntfindanyinformationonkarleliasbergrolesystemcontenttheclaimisthatkarleliasbergwasbornintherussianempirerolesystemcontentsinceyoucouldntfindanyinformationonkarleliasbergitsunlikelythattheclaimissupportedbythecontextrolesystemcontentthereforetheanswerisnoroleassistantcontentno, gen_index: 0, claim_index: 7
+Invalid response: rolesystemcontenticanhelpyouverifytheclaimaboutkarleliasbergroleassistantcontentafterconductingresearchifoundthattheclaimissupportedbyhistoricalrecordskarleliasbergwasindeedthefirstjewtobecalledupforthedraftintheunitedstatesspecificallyinhewasarussianbornamericanwhowasdraftedintotheunitedstatesarmythereforetheanswerisyes, gen_index: 0, claim_index: 9
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontenttodetermineiftheclaimissupportedbythecontextiwillanalyzetheinformationprovidedrolesystemcontentthecontextmentionsthatyoucouldntfindmuchinformationonkarleliasbergrolesystemcontentthisimpliesthatthereislimitedornoinformationavailableaboutkarleliasbergrolesystemcontenthowevertheclaimstatesthatkarleliasbergisapersonrolesystemcontentthefactthatyoucouldntfindmuchinformationonkarleliasbergdoesnotnecessarilymeanthattheclaimisfalserolesystemcontentitcouldmeanthattheinformationisscarceornotreadilyavailablerolesystemcontentthereforetheclaimisnotdirectlycontradictedbythecontextrolesystemcontenthoweverthelackofinformationdoesmakeitdifficulttoverifytheclaimrolesystemcontentbasedonthecontextiwouldsaythattheclaimisnotdirectlysupportedbutitisalsonotdirectlyrefutedrolesystemcontenthoweverforthepurposeofthisexerciseiwillanswerthequestionwithanoastheclaimisnotdirectlysupportedbythecontextroleassistantcontentno, gen_index: 1, claim_index: 0
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleassistantcontentbasedonthecontexttheclaimthatkarleliasbergisnotawellknownpersonissupportedroleassistantcontentthecontextstatesthatyoucouldntfindmuchinformationonkarleliasbergwhichsuggeststhatheisnotawidelyrecognizedorwellknownindividualroleassistantcontentthereforetheanswertoyourquestionisyes, gen_index: 1, claim_index: 1
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleassistantcontentno, gen_index: 1, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontenttodetermineiftheclaimissupportedbythecontextineedtounderstandthecontextandtheclaimrolesystemcontentthecontextisthatyoucouldntfindmuchinformationonkarleliasbergrolesystemcontenttheclaimisthatkarleliasbergwasbornintherussianempirerolesystemcontentgiventhelackofinformationonkarleliasbergitisdifficulttoverifytheclaimrolesystemcontenthoweverthecontextdoesnotdirectlycontradicttheclaimrolesystemcontentthereforebasedonthecontexttheanswertothequestionisno, gen_index: 1, claim_index: 7
+Invalid response: rolesystemcontenttheclaimaboutkarleliasbergsbirthdateisbeingevaluatedroleassistantcontentno, gen_index: 1, claim_index: 8
+Invalid response: rolesystemcontenticanhelpyoufindinformationaboutkarleliasbergroleassistantcontentno, gen_index: 2, claim_index: 0
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleassistantcontenttheclaimthatkarleliasbergisnotawellknownpersonissupportedbythecontextaboveasyoumentionedyoucouldntfindanyinformationonhimroleassistantcontentyes, gen_index: 2, claim_index: 1
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentbasedonthecontextthereisnoinformationaboutkarleliasbergwhichmeanswecannotdetermineiftheclaimissupportedornotrolesystemcontenthowevericantrytofindmoreinformationaboutkarleliasbergtohelpyouevaluatetheclaimrolesystemcontentunfortunatelyicouldntfindanynotableinformationaboutkarleliasbergrolesystemcontentthereforebasedonthecontextandmyresearchtheanswertoyourquestionisno, gen_index: 2, claim_index: 3
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleusercontentthereisnoinformationaboutkarleliasbergsnationalityinthecontextrolesystemcontentyouarecorrectthecontextdoesnotprovideanyinformationaboutkarleliasbergsnationalityroleassistantcontentno, gen_index: 2, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 2, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleassistantcontenttheclaimissupportedbythecontextabovethecontextstatesthatyoucouldntfindanyinformationonkarleliasbergwhichimpliesthattheclaimmaybetruesincethereisnocontradictinginformationavailableroleassistantcontentyes, gen_index: 2, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontenttodetermineiftheclaimissupportedbythecontextineedtounderstandthecontextandtheclaimrolesystemcontentthecontextisthatyoucouldntfindanyinformationonkarleliasbergrolesystemcontenttheclaimisthatkarleliasbergwasbornintherussianempirerolesystemcontentsinceyoucouldntfindanyinformationonkarleliasbergitsunlikelythattheclaimissupportedbythecontextrolesystemcontentthereforetheanswerisnoroleassistantcontentno, gen_index: 2, claim_index: 7
+Invalid response: rolesystemcontenticanhelpyouverifytheclaimroleassistantcontentno, gen_index: 2, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 10
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 11
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 24
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 32
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 33
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 37
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 39
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 40
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 0
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 4
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 5
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 8
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 17
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 23
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 24
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 30
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 31
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 32
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 33
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 37
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 39
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 40
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 8
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 30
+Invalid response: noaccordingtothecontextandriyyarmolenkoplaysasaforwardorwingerforwesthamunitedandtheukrainenationalteamtheclaimthatheplaysasawingerorattackingmidfielderispartiallysupportedbutitsnotentirelyaccurateasitdoesntmentiontheforwardposition, gen_index: 2, claim_index: 32
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 7
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 10
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 13
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 14
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 24
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 30
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 32
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 33
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 37
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 2
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 3
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 4
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 5
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 7
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 9
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 10
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 13
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 14
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 15
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 16
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 17
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 20
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 21
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 22
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 24
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 27
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 29
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 30
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 32
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 33
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 34
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 35
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 36
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 37
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 40
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 21
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 0
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 1
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 2
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 3
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 5
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 6
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 7
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 8
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 10
+Invalid response: rolesystemcontenttheclaimisjefflonghasalawdegreerolesystemcontentthecontextdoesnotmentionjefflonghavingalawdegreerolesystemcontentanswerno, gen_index: 2, claim_index: 11
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 12
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 13
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 14
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 15
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 16
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 17
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 20
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 21
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 22
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 23
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 24
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 25
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 26
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 27
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 28
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 29
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 30
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 3, claim_index: 19
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 3, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 30
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 0
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 5
+Invalid response: basedonthecontextprovidedtheanswerisyestheparagraphbiomentionsthatjefflongservedastheathleticdirectorattheuniversityofarkansasfromtoindicatingthattheuniversityofarkansasdidhaveanathleticdirectorduringthattime, gen_index: 4, claim_index: 6
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 14
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 15
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 21
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 28
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 30
+Invalid response: nothecontextprovidedcontainsinformationaboutbillyconigliaroabaseballplayerwhoplayedforthebostonredsoxfromtothiscontradictstheclaimthatthespeakerisunabletoprovideinformationaboutbillyconigliaro, gen_index: 0, claim_index: 17
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 0, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 31
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 36
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 2
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextroleusercontentansweryesornoyes, gen_index: 3, claim_index: 3
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 3, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentyes, gen_index: 3, claim_index: 6
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 7
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontenttodetermineiftheclaimissupportedineedtofindinformationonbillyconigliarosrunsbattedinrbisduringhistimewiththebostonredsoxrolesystemcontentafterconductingasearchifoundthatbillyconigliaroindeedplayedforthebostonredsoxfromtorolesystemcontenthoweveriwasunabletoverifytheexactnumberofrunsbattedinrbisforbillyconigliaroduringhistimewiththebostonredsoxrolesystemcontentthereforeicannotconfirmiftheclaimthatbillyconigliarodroveinrunsissupportedbythecontexthowevericansuggestsomepossiblesourceswhereyoumaybeabletofindtheinformationyouneedbaseballreferencecombaseballalmanaccomsportswebsitesandarchivesifyouhaveaccesstothesesourcesyoumaybeabletofindtheinformationyouneedtoevaluatetheclaimanswerno, gen_index: 3, claim_index: 10
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 14
+Invalid response: rolesystemcontentbasedonthecontexttheclaimissupportedbythecontextaboveno, gen_index: 3, claim_index: 15
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 19
+Invalid response: rolesystemcontentthecontextprovideddoesnotdirectlysupportorrefutetheclaimaboutmassachusettsbeingastateintheunitedstateshoweveritdoesprovideinformationaboutapersonnamedbillyconigliarowhoplayedforthebostonredsoxwhichisateambasedinmassachusetts, gen_index: 3, claim_index: 21
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextroleusercontentansweryesornoyes, gen_index: 3, claim_index: 31
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 33
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextroleusercontentyes, gen_index: 3, claim_index: 34
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 35
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 36
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextroleassistantcontentyes, gen_index: 3, claim_index: 37
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 1
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 3
+Invalid response: rolesystemcontentthecontextprovideddoesnotsupportorrefutetheclaimthatjanuaryisamonththecontextisaboutaformermajorleaguebaseballplayernamedbillyconigliaroanditdoesnotmentionthemonthofjanuary, gen_index: 4, claim_index: 23
+Invalid response: rolesystemcontenttheclaimthatbaseballisasportissupportedbythecontextaboveroleassistantcontentyes, gen_index: 4, claim_index: 29
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 0
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 2
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 3
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 5
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 6
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 8
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 10
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 11
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 12
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 13
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 14
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 15
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 16
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 17
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextaboveroleassistantcontentyes, gen_index: 0, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 20
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 21
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 22
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 23
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 24
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 26
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 33
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 34
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 35
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 36
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 37
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 40
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 42
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 43
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 44
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 45
+Invalid response: rolesystemcontentyes, gen_index: 0, claim_index: 46
+Invalid response: rolesystemcontentno, gen_index: 0, claim_index: 47
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 0
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 2
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 3
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 5
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 6
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 10
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 11
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 12
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 14
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 15
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 16
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 17
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 1, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 20
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 21
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 22
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 23
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 24
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 1, claim_index: 25
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 26
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 30
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 33
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 34
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 35
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 36
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 37
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 40
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 42
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 43
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 44
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 45
+Invalid response: rolesystemcontentyes, gen_index: 1, claim_index: 46
+Invalid response: rolesystemcontentno, gen_index: 1, claim_index: 47
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 2
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 3
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 5
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 6
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 7
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 8
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 9
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 10
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 11
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 12
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 14
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 15
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 16
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 17
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 18
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 20
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 21
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 22
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 23
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 24
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 27
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 30
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 32
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 33
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 34
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 35
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 36
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 37
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 39
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 40
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 43
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 45
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 46
+Invalid response: rolesystemcontentno, gen_index: 2, claim_index: 48
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 7
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 20
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 22
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 23
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 24
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 27
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 33
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 35
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 36
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 39
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 43
+Invalid response: rolesystemcontentno, gen_index: 3, claim_index: 44
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 2
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 3
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 5
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 6
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 7
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 8
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 12
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 15
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 16
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 17
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 19
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 20
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 21
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 22
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 4, claim_index: 23
+Invalid response: rolesystemcontenticanhelpyouwiththatroleassistantcontentno, gen_index: 4, claim_index: 25
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 27
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 32
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 33
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 36
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 37
+Invalid response: rolesystemcontentno, gen_index: 4, claim_index: 38
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 39
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 43
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 45
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 46
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 47
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 48
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentbasedonthecontexttheanswerisno, gen_index: 0, claim_index: 11
+Invalid response: rolesystemcontenticananswerthisquestionroleassistantcontentyes, gen_index: 1, claim_index: 0
+Invalid response: rolesystemcontenticananswerthisquestionbasedonthecontextprovidedroleassistantcontentno, gen_index: 1, claim_index: 2
+Invalid response: rolesystemcontenticananswerthisquestionbasedontheprovidedcontextroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentyes, gen_index: 1, claim_index: 3
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleusercontentclaimsamishalomchetritisofethiopianjewishdescentroleassistantcontentyes, gen_index: 1, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyoudetermineiftheclaimissupportedbythecontextroleusercontentclaimsamishalomchetritwasborninnistheclaimsupportedbythecontextabovenansweryesornoroleassistantcontentyes, gen_index: 1, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleusercontentclaimsamishalomchetritimmigratedtoisraelinroleassistantcontentyes, gen_index: 1, claim_index: 7
+Invalid response: nothecontextaboveprovidesaclearanddetaileddescriptionofsamishalomchetritsbackgroundinvolvementintheisraelipeacemovementandadvocacyforthemizrahijewishcommunitythisinformationsuggeststhatthespeakerisabletoverifytheinformationratherthanbeingunabletoverifyit, gen_index: 1, claim_index: 15
+Invalid response: rolesystemcontentyoucanaskmeanyquestionsroleusercontentclaimthepersonnamedsamishalomchetritexistsnistheclaimsupportedbythecontextabovenansweryesornonroleassistantcontentno, gen_index: 2, claim_index: 0
+Invalid response: rolesystemcontentthecontextdoesnotprovideanyinformationaboutsamishalomchetritsethnicityordescentroleusercontentansweryesornono, gen_index: 2, claim_index: 4
+Invalid response: rolesystemcontenttheinformationprovideddoesnotsupporttheclaimthatsamishalomchetritwasborninroleassistantcontentno, gen_index: 2, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 2, claim_index: 11
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 0
+Invalid response: rolesystemcontentyouareahelpfulassistantroleassistantcontentno, gen_index: 3, claim_index: 2
+Invalid response: rolesystemcontenticanhelpyouwiththatroleassistantcontentno, gen_index: 3, claim_index: 4
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 3, claim_index: 5
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 3, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentthecontextmentionsthatsamishalomchetritisanisraelischolarwhichimpliesthatheislikelyanativebornisraeliorimmigratedtoisraelatsomepointrolesystemcontenthoweveritdoesnotprovideinformationaboutthespecificyearofhisimmigrationrolesystemcontentthereforetheclaimthatsamishalomchetritimmigratedtoisraelinisnotdirectlysupportedbythecontextrolesystemcontenthoweveritispossiblethattheclaimistruebutthecontextdoesnotprovideenoughinformationtoconfirmitrolesystemcontentanswerno, gen_index: 3, claim_index: 7
+Invalid response: rolesystemcontenticanhelpyoufindinformationaboutabdulhalikhuduroleassistantcontentno, gen_index: 0, claim_index: 0
+Invalid response: rolesystemcontenticanprovidemorecontextordetailsaboutabdulhalikhuduroleassistantcontentbasedonthegivencontexttheclaimabdulhalikhuduisapersonissupportedbythecontextaboveyes, gen_index: 1, claim_index: 0
+Invalid response: rolesystemcontentimheretohelprolesystemcontentbasedonthecontextprovidedicanseethatyouarelookingforinformationonabdulhalikhudurolesystemcontenthoweverthecontextdoesnotprovideanyinformationaboutwhoabdulhalikhuduisrolesystemcontenttoprovideamoreaccurateresponseiwouldneedmoreinformationaboutabdulhalikhudurolesystemcontentcouldyoupleaseprovidemorecontextordetailsaboutwhoabdulhalikhuduisrolesystemcontentthiswillhelpmebetterunderstandyourquestionandprovideamoreaccurateresponserolesystemcontentistheclaimsupportedbythecontextaboveno, gen_index: 3, claim_index: 0
+Invalid response: rolesystemcontentimheretohelpiwilldomybesttoprovidemorecontextordetailsaboutabdulhalikhudurolesystemcontenthoweverineedmoreinformationaboutabdulhalikhudutoprovideanaccurateresponsecanyoupleaseprovidemorecontextordetailsaboutwhoabdulhalikhuduisorwhatheisknownforrolesystemcontentbasedonthecontextyouprovidediwillansweryourquestionroleassistantcontentyes, gen_index: 3, claim_index: 1
+Invalid response: rolesystemcontenticanprovidemorecontextanddetailsaboutabdulhalikhudurolesystemcontenthoweverbasedonthecontextyouprovideditseemsthatthereislimitedinformationavailableonabdulhalikhudurolesystemcontentthereforetheclaimthereislimitedinformationavailableonabdulhalikhuduissupportedbythecontextaboverolesystemcontentyes, gen_index: 3, claim_index: 2
+Invalid response: rolesystemcontenticanhelpyoufindmoreinformationaboutabdulhalikhudurolesystemcontentbasedonthecontexttheclaimthatthespeakercouldntfindinformationonabdulhalikhuduissupportedbythecontextaboveyes, gen_index: 3, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyoufindmoreinformationaboutabdulhalikhuduroleusercontentbasedonthecontexttheclaimissupportedbythecontextaboveyesrolesystemcontentiwillnowtrytofindmoreinformationaboutabdulhalikhudurolesystemcontentunfortunatelyicouldntfindanyinformationonabdulhalikhuduitispossiblethatabdulhalikhuduisaprivateindividualornotapublicfigurewhichiswhythereislimitedinformationavailablerolesystemcontentifyoucouldprovidemorecontextordetailsaboutwhoabdulhalikhuduisorwhereyouheardabouthimimaybeabletohelpyoufindmoreinformation, gen_index: 3, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyoufindinformationaboutabdulhalikhuduroleassistantcontentno, gen_index: 4, claim_index: 0
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 4436.54 examples/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.30it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.54it/s]
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Processing Breakdown and Match: 0it [00:00, ?it/s]Processing Breakdown and Match: 1it [01:26, 86.53s/it]Processing Breakdown and Match: 2it [03:42, 115.78s/it]Processing Breakdown and Match: 3it [05:54, 123.03s/it]Processing Breakdown and Match: 4it [09:26, 158.11s/it]Processing Breakdown and Match: 5it [12:29, 167.04s/it]Processing Breakdown and Match: 6it [16:58, 201.89s/it]Processing Breakdown and Match: 7it [19:09, 178.57s/it]Processing Breakdown and Match: 8it [22:41, 189.28s/it]Processing Breakdown and Match: 9it [24:44, 168.47s/it]Processing Breakdown and Match: 10it [26:24, 147.40s/it]Processing Breakdown and Match: 10it [26:24, 158.45s/it]
+Constructing Edges: 0it [00:00, ?it/s]Constructing Edges: 1it [00:49, 49.54s/it]Constructing Edges: 2it [02:06, 65.51s/it]Constructing Edges: 3it [04:07, 90.95s/it]Constructing Edges: 4it [05:37, 90.59s/it]Constructing Edges: 5it [06:21, 73.96s/it]Constructing Edges: 6it [06:55, 60.09s/it]Constructing Edges: 7it [07:52, 59.25s/it]Constructing Edges: 8it [09:23, 69.19s/it]Constructing Edges: 9it [10:21, 65.77s/it]Constructing Edges: 9it [10:52, 72.52s/it]
+Traceback (most recent call last):
+  File "/home/bitlab/john/Graph-based-Uncertainty/main.py", line 80, in <module>
+    main()
+  File "/home/bitlab/john/Graph-based-Uncertainty/main.py", line 70, in main
+    sequences = edge_const.evaluate_all_matches()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bitlab/john/Graph-based-Uncertainty/src/edge_construction.py", line 111, in evaluate_all_matches
+    pointwise_dict[f'sc_based_ilvc'] = average_scores[claim_index] + pointwise_dict['inline_verbalized_confidence'] * 0.1 
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+ERROR conda.cli.main_run:execute(47): `conda run python main.py --model llama-3-8b-instruct --breakdown True --dataset factscore --data_size 10 --sc_samples 4 --seed 42` failed. (See above for error)
+

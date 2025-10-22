@@ -1,0 +1,417 @@
+Folder Path: experiments/factscore/llama-3-8b-instruct
+CUDA is available. Listing memory usage:
+Device 0:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+Device 1:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+Device 2:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+CUDA is available. Listing memory usage:
+Device 0:
+  Total Memory: 47.38 GB
+  Allocated Memory: 4.23 GB
+  Cached Memory: 4.26 GB
+Device 1:
+  Total Memory: 47.38 GB
+  Allocated Memory: 5.28 GB
+  Cached Memory: 5.33 GB
+Device 2:
+  Total Memory: 47.38 GB
+  Allocated Memory: 5.45 GB
+  Cached Memory: 5.49 GB
+Loaded from cache experiments/factscore/llama-3-8b-instruct/factscore_raw_return.json
+Loaded from cache experiments/factscore/llama-3-8b-instruct/match_raw_return.json
+Loaded vc raw from cache experiments/factscore/llama-3-8b-instruct/vc_raw.json
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was an Australian politician.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden served as the Attorney-General of Australia.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden served from 1972 to 1975.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a member of the Liberal Party.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden represented the electoral division of Bruce in Victoria.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden represented the electoral division of Bruce in Victoria in the Australian House of Representatives.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden represented the electoral division of Bruce in Victoria in the Australian House of Representatives from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a notable Australian politician.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden served in the Australian House of Representatives.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden served in the Australian House of Representatives from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a member of the Australian House of Representatives.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a member of the Australian House of Representatives from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a member of the Liberal Party from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.6
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden represented the electoral division of Bruce in Victoria from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.6
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden served as the Attorney-General of Australia from 1972 to 1975.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was born before 1955.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.4
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden died after 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.4
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a person.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 1.0
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a male.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.5
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was an Australian.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a politician.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 1.0
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden served in the Australian government.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden served in the Australian government from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a member of the Australian government.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a member of the Australian government from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.6
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a notable person.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a notable politician.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a notable Australian.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.9
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a notable Australian politician from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.8
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+},
+Failed to parse as jsonl: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+{
+Failed to parse as jsonl: Extra data: line 1 column 10 (char 9)
+  "claim": "Billy Snedden was a notable Australian politician who served in the Australian government from 1955 to 1983.",
+Failed to parse as jsonl: Extra data: line 1 column 19 (char 18)
+  "gpt-confidence": 0.7
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+}
+Processing 0th generation
+Empty breakdown for 0th generation, 3th breakdown
+Processing 1th generation
+Processing 2th generation
+Processing 3th generation
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Note: The confidence scores are subjective and based on my understanding of the input. They can be adjusted based on the specific requirements and context. 
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Here is the code used to generate the output:
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+python
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+import json
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+def deconstruct_paragraph(paragraph):
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    claims = [
+Failed to parse as jsonl: Extra data: line 1 column 62 (char 61)
+        "There is no well-known engineer named Douglas Wood.",
+Failed to parse as jsonl: Extra data: line 1 column 53 (char 52)
+        "Douglas Wood is not a well-known engineer.",
+Failed to parse as jsonl: Extra data: line 1 column 80 (char 79)
+        "No information was found on a well-known engineer named Douglas Wood.",
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    ]
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    confidences = [0.8, 0.8, 0.7, 0.8]
+Failed to parse as jsonl: Expecting value: line 1 column 5 (char 4)
+    for claim, confidence in zip(claims, confidences):
+Failed to parse as jsonl: Expecting value: line 1 column 9 (char 8)
+        yield json.dumps({"claim": claim, "gpt-confidence": confidence}
+Skipping non-dict entry: Douglas Wood is not a notable engineer.
+Processing 4th generation
+Processing 5th generation
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Note: The confidence scores are subjective and based on my understanding of the input. They can be adjusted based on the specific requirements and context. 
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+However, I can also provide a more detailed breakdown of the claims:
+Failed to parse as jsonl: Extra data: line 1 column 2 (char 1)
+1. The person's name is Lina Marulanda. (CONF: 0.8)
+Failed to parse as jsonl: Extra data: line 1 column 2 (char 1)
+2. Lina Marulanda is a person. (CONF: 0.9)
+Failed to parse as jsonl: Extra data: line 1 column 2 (char 1)
+3. Lina Marulanda is not a public figure. (CONF: 0.7)
+Failed to parse as jsonl: Extra data: line 1 column 2 (char 1)
+4. Information about Lina Marulanda is not available. (CONF: 0.9)
+Failed to parse as jsonl: Extra data: line 1 column 2 (char 1)
+5. The search for information about Lina Marulanda was unsuccessful. (CONF: 0.8)
+Failed to parse as jsonl: Extra data: line 1 column 2 (char 1)
+6. The search for information about Lina Marulanda was conducted. (CONF: 0.7)
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Here's the output in JSONL format:
+Processing 6th generation
+Processing 7th generation
+Processing 8th generation
+Processing 9th generation
+Loaded from cache experiments/factscore/llama-3-8b-instruct/sc_match_raw_return.json
+Invalid response: notheclaimbillysneddenserveduntilispartiallysupportedbythecontextaccordingtothecontextbillysneddenservedasamemberofthevictorianlegislativeassemblyuntilhoweveritalsostatesthathethenmovedtofederalpoliticsrepresentingtheseatofbruceinthehouseofrepresentativesfromuntilhisdeathinthereforetheclaimisnotentirelyaccurateasitonlyaccountsforapartofhisservice, gen_index: 0, claim_index: 8
+Invalid response: nothecontextaboveprovidesdetailedinformationaboutbillysneddenslifeandcareerwhichsuggeststhatthespeakerisabletoverifytheinformation, gen_index: 0, claim_index: 18
+Invalid response: nothecontextaboveprovidesinformationaboutapersonnamedbillysneddenspecificallyapoliticianwhichcontradictstheclaimthatthespeakerisunabletoverifyinformation, gen_index: 1, claim_index: 18
+Invalid response: nothecontextaboveactuallyprovidesinformationaboutapersonnamedbillysneddenspecificallyapoliticianwhichcontradictstheclaimthatthespeakerisunabletoverifyinformationregardingaperson, gen_index: 1, claim_index: 19
+Invalid response: rolesystemcontenticanprovideinformationonbillysneddenroleassistantcontentyes, gen_index: 2, claim_index: 16
+Invalid response: nothecontextdoesnotmentiontheseatofbruceitonlymentionsthatbillysneddenservedasamemberofthehouseofrepresentativesfortheliberalpartyfromuntilhisdeathinbutitdoesnotspecifytheparticularseatherepresented, gen_index: 3, claim_index: 10
+Invalid response: nothecontextstatesthatbillysneddenservedasamemberofthehouseofrepresentativesfortheliberalpartyfromuntilhisdeathinbutitdoesnotspecifytheseatherepresenteditdoesmentionthatheheldvariouscabinetpositionsbutitdoesnotmentiontheseatofbruce, gen_index: 3, claim_index: 11
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 4, claim_index: 2
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 4
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyoudetermineiftheclaimissupportedbythecontextroleassistantcontentno, gen_index: 4, claim_index: 8
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 10
+Invalid response: rolesystemcontenticanhelpyoudetermineiftheclaimissupportedbythecontextroleassistantcontentno, gen_index: 4, claim_index: 12
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 14
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 15
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 4, claim_index: 16
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 4, claim_index: 17
+Invalid response: nothecontextaboveactuallysupportstheclaimthattherewasanotableaustralianpoliticiannamedbillysneddenwhichcontradictsthespeakersclaimofbeingunabletoverifyinformation, gen_index: 4, claim_index: 18
+Invalid response: nothecontextstatesthatbobbyfischerwasborninchicagoillinoiswhichcontradictstheclaimthathegrewupinbrooklynnewyork, gen_index: 0, claim_index: 16
+Invalid response: rolesystemcontentillassesstheclaimthecontextprovideddoesnotexplicitlymentionbobbyfischersplayingstyleasaggressiveandcreativehoweveritdoesmentionthathebecameachessprodigywinninghisfirstnationalchampionshipatandbecomingagrandmasteratwhichsuggeststhathewasaskilledandtalentedplayerbuttoanswerthequestiondirectlyno, gen_index: 1, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 1
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 2
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 4
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 2, claim_index: 5
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 2, claim_index: 6
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 7
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 8
+Invalid response: rolesystemcontenttheclaimispartiallysupportedbythecontextthecontextmentionsthatfischerwasknownforhisfiercecompetitivespiritwhichsuggestsanaggressiveplayingstylehoweveritdoesnotexplicitlymentionhisplayingstyleascreative, gen_index: 2, claim_index: 9
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 2, claim_index: 10
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleusercontentcontextrobertjamesfischercommonlyknownasbobbyfischerwasanamericanchessgrandmasterandthethworldchesschampionbornonmarchinchicagoillinoisfischerwasachildprodigywhobeganplayingchessattheageofsixandbecameamasterathegainedinternationalrecognitioninwhenhebecametheyoungestgrandmasterinhistoryattheageofyearsandmonthsfischersmostnotableachievementwashisvictoryintheworldchesschampionshipagainstborisspasskyofthesovietunionamatchthatwaswatchedbymillionsworldwideandhelpedtopopularizechessgloballythroughouthiscareerfischerwasknownforhisexceptionalendgameskillsstrategicplayandfiercecompetitivespirithoweverhispersonallifeandcontroversiessurroundinghisantisemiticviewsandtaxevasionissuesmarredhislateryearsleadingtohiseventualisolationfromthechessworldfischerpassedawayonjanuaryattheageofnclaimbobbyfischerheldantisemiticviewsnistheclaimsupportedbythecontextabovenroleassistantcontentyes, gen_index: 2, claim_index: 11
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 2, claim_index: 12
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 13
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 14
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 16
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 17
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 19
+Invalid response: rolesystemcontenttheclaimisnotdirectlysupportedbythecontextabove, gen_index: 2, claim_index: 20
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 21
+Invalid response: rolesystemcontenticanhelpyoudetermineiftheclaimissupportedbythecontextroleusercontentcontextrobertjamesfischercommonlyknownasbobbyfischerwasanamericanchessgrandmasterandthethworldchesschampionbornonmarchinchicagoillinoisfischerwasachildprodigywhobeganplayingchessattheageofsixandbecameamasterathegainedinternationalrecognitioninwhenhebecametheyoungestgrandmasterinhistoryattheageofyearsandmonthsfischersmostnotableachievementwashisvictoryintheworldchesschampionshipagainstborisspasskyofthesovietunionamatchthatwaswatchedbymillionsworldwideandhelpedtopopularizechessgloballythroughouthiscareerfischerwasknownforhisexceptionalendgameskillsstrategicplayandfiercecompetitivespirithoweverhispersonallifeandcontroversiessurroundinghisantisemiticviewsandtaxevasionissuesmarredhislateryearsleadingtohiseventualisolationfromthechessworldfischerpassedawayonjanuaryattheageofnclaimbobbyfischerwasconvictedofviolatingussanctionsagainstyugoslavianistheclaimsupportedbythecontextabovenroleassistantcontentno, gen_index: 2, claim_index: 23
+Invalid response: rolesystemcontenttheclaimissupportedbythecontext, gen_index: 2, claim_index: 24
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 25
+Invalid response: rolesystemcontentyes, gen_index: 2, claim_index: 26
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextabove, gen_index: 2, claim_index: 27
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 8
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 10
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 27
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 9
+Invalid response: rolesystemcontentyes, gen_index: 4, claim_index: 25
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 0, claim_index: 3
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontentyouprovidedcontextthatyoucouldntfindanyinformationonapersonnamedjosephjaquetrolesystemcontentyoualsoprovidedaclaimthatjosephjaquetisawatchmakerrolesystemcontenthoweverthelackofinformationonjosephjaquetdoesnotnecessarilysupportorrefutetheclaimthatheisawatchmakerrolesystemcontentthereforetheanswertoyourquestionisno, gen_index: 0, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontenttodetermineiftheclaimissupportedbythecontextineedtoanalyzetheinformationprovidedrolesystemcontentthecontextmentionsthatyoucouldntfindanyinformationonapersonnamedjosephjaquetrolesystemcontenttheclaimstatesthatjosephjaquetwasborninrolesystemcontentsinceyoucouldntfindanyinformationonjosephjaquetitsunlikelythattheclaimabouthisbirthyearissupportedbythecontextrolesystemcontentthereforetheanswertoyourquestionisno, gen_index: 0, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentyouprovidedacontextthatyoucouldntfindanyinformationonapersonnamedjosephjaquetrolesystemcontenthoweveryoualsomentionedaclaimthatjosephjaquetwasswissrolesystemcontentwithoutanyadditionalinformationitsdifficulttoverifytheclaimrolesystemcontenthowevericantrytofindsomeinformationonjosephjaquetafterconductingasearchifoundthatthereisaswisswatchmakernamedjosephjaquetwhowasthefounderofthejaquetdrozwatchbrandrolesystemcontentbasedonthisinformationtheclaimthatjosephjaquetwasswississupportedansweryes, gen_index: 0, claim_index: 7
+Invalid response: rolesystemcontenttheinformationprovideddoesnotsupporttheclaimthatjosephjaquetwasborninroleassistantcontentno, gen_index: 0, claim_index: 8
+Invalid response: rolesystemcontentthecontextdoesnotprovideanyinformationaboutjosephjaquetsotheclaimcannotbeverifiedroleusercontentansweryesornono, gen_index: 0, claim_index: 9
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 1, claim_index: 3
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontentyouprovidedcontextthatyoucouldntfindanyinformationonapersonnamedjosephjaquetrolesystemcontentyoualsoprovidedaclaimthatjosephjaquetisawatchmakerrolesystemcontenthoweverthelackofinformationonjosephjaquetdoesnotnecessarilysupportorrefutetheclaimthatheisawatchmakerrolesystemcontentthereforetheanswertoyourquestionisno, gen_index: 1, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontenttodetermineiftheclaimissupportedbythecontextineedtoanalyzetheinformationprovidedrolesystemcontentthecontextmentionsthatyoucouldntfindanyinformationonapersonnamedjosephjaquetrolesystemcontenttheclaimstatesthatjosephjaquetwasborninrolesystemcontentsinceyoucouldntfindanyinformationonjosephjaquetitsunlikelythattheclaimabouthisbirthyearissupportedbythecontextrolesystemcontentthereforetheanswertoyourquestionisno, gen_index: 1, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 1, claim_index: 7
+Invalid response: rolesystemcontenttheinformationprovideddoesnotsupporttheclaimthatjosephjaquetwasborninroleassistantcontentno, gen_index: 1, claim_index: 8
+Invalid response: rolesystemcontentthecontextdoesnotprovideanyinformationaboutjosephjaquetsotheclaimcannotbeverifiedroleusercontentansweryesornono, gen_index: 1, claim_index: 9
+Invalid response: rolesystemcontentthecontextsupportstheclaim, gen_index: 3, claim_index: 0
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimroleusercontentclaimjosephjaquetwasaswisswatchmakerwhowasbornininlesentierswitzerlandnroleassistantcontentyes, gen_index: 3, claim_index: 2
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentbasedonthecontexttheclaimissupportedrolesystemcontentthecontextmentionsjosephjaquetasanotablewatchmakerandprovideshisbirthyearandplaceofbirthindicatingthatheisanotablehistoricalfigureinthefieldofwatchmakingrolesystemcontenthoweveritisworthnotingthatthecontextdoesnotprovideinformationonjosephjaquetasahistoricalfigureingeneralbutratherasanotablewatchmaker, gen_index: 3, claim_index: 3
+Invalid response: rolesystemcontenttheclaimissupportedbythecontextroleassistantcontentyes, gen_index: 3, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 3, claim_index: 5
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimrolesystemcontentbasedonthecontextifoundthatjosephjaquetwasborninlesentierswitzerlandnotneuchâtelswitzerlandrolesystemcontentthereforetheclaimissupportedbythecontextaboveno, gen_index: 3, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentyes, gen_index: 3, claim_index: 8
+Invalid response: rolesystemcontentyes, gen_index: 3, claim_index: 9
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontenthoweverineedaclaimtoevaluaterolesystemcontentpleaseprovidetheclaimyouwouldlikemetoevaluatehoweverbasedonthecontextyouprovidedicanmakeaneducatedguessthattheclaimmightberelatedtojosephjaquettheswisswatchmakeriftheclaimissomethinglikejosephjaquetwasaswisswatchmakeriwouldsaythattheanswerisyestheclaimissupportedbythecontextabove, gen_index: 3, claim_index: 12
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontentyoumentionedthatyoucouldntfindanynotableinformationonjosephjaquetrolesystemcontenthoweveryoualsomentionedthattheclaimisthatjosephjaquetisawatchmakerrolesystemcontentthefactthatyoucouldntfindanynotableinformationonjosephjaquetdoesnotnecessarilymeanthattheclaimisfalserolesystemcontentitispossiblethatjosephjaquetisawatchmakerbutnotanotableorwellknownonerolesystemcontentthereforetheanswertoyourquestionisno, gen_index: 4, claim_index: 4
+Invalid response: rolesystemcontenticanhelpyouevaluatetheclaimroleassistantcontentno, gen_index: 4, claim_index: 7
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]Map: 100%|██████████| 10/10 [00:00<00:00, 4493.58 examples/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.30it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.54it/s]
+Processing Breakdown and Match: 0it [00:00, ?it/s]The attention mask is not set and cannot be inferred from input because pad token is same as eos token. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+Processing Breakdown and Match: 5it [01:32, 18.47s/it]Processing Breakdown and Match: 6it [02:50, 31.77s/it]Processing Breakdown and Match: 7it [04:33, 48.85s/it]Processing Breakdown and Match: 8it [08:14, 92.88s/it]Processing Breakdown and Match: 9it [10:47, 109.19s/it]Processing Breakdown and Match: 10it [13:39, 126.60s/it]Processing Breakdown and Match: 10it [13:39, 82.00s/it] 
+Constructing Edges: 0it [00:00, ?it/s]Constructing Edges: 2it [00:45, 22.87s/it]Constructing Edges: 2it [01:57, 58.50s/it]
+Traceback (most recent call last):
+  File "/home/bitlab/john/Graph-based-Uncertainty/main.py", line 80, in <module>
+    main()
+  File "/home/bitlab/john/Graph-based-Uncertainty/main.py", line 70, in main
+    sequences = edge_const.evaluate_all_matches()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/bitlab/john/Graph-based-Uncertainty/src/edge_construction.py", line 111, in evaluate_all_matches
+    pointwise_dict[f'sc_based_ilvc'] = average_scores[claim_index] + pointwise_dict['inline_verbalized_confidence'] * 0.1 
+                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+ERROR conda.cli.main_run:execute(47): `conda run python main.py --model llama-3-8b-instruct --breakdown True --dataset factscore --data_size 10 --sc_samples 4` failed. (See above for error)
+
