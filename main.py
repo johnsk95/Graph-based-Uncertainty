@@ -50,6 +50,8 @@ elif 'pop_qa' in args.dataset:
     questions = questions.map(lambda x: utils.substitute_prompt_pop_qa(x))
 elif 'freshqa' in args.dataset:
     questions = questions.map(lambda x: utils.substitute_prompt_freshqa(x))
+elif 'truthfulqa' in args.dataset.lower():
+    questions = questions.map(lambda x: utils.substitute_prompt_truthfulqa(x))
 else:
     args.breakdown = False
 

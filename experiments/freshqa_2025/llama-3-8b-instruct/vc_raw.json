@@ -1,0 +1,128 @@
+[
+  [
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: President Donald Trump was born on June 14, 1946"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's birthdate is June 14"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was born in 1946"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's birth year is 1946"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's birth month is June"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was born in June"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's age as of June 2023 is 77"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was 77 years old in June 2023"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's age in 2023 is 77"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's age as of 2023 is 77"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was born in the 1940s"
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's birth decade is the 1940s"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's birth year is before 1950"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's birth year is after 1930"
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's age may have changed since 2023"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's current age may be different"
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's age may not be up-to-date"
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's age information may not be current"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump is a president"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump held the office of president"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was a president"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump is a former president"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was a former president"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump's presidency is over"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump is no longer president"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: - The cut-off knowledge is in 2023"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was a successful businessman."
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was a reality TV personality."
+    },
+    {
+      "generation": "Very good chance (80%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump hosted the reality show 'The Apprentice.'"
+    },
+    {
+      "generation": "Little chance (20%)",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald Trump was involved in politics and public life."
+    },
+    {
+      "generation": "Little chance",
+      "prompt": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: How old is President Donald Trump?\nThe possible information is: Donald"
+    }
+  ]
+]

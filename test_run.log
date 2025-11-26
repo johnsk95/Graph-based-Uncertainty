@@ -1,0 +1,84 @@
+Folder Path: experiments/freshqa_false_premise/llama-3-8b-instruct
+CUDA is available. Listing memory usage:
+Device 0:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+Device 1:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+Device 2:
+  Total Memory: 47.38 GB
+  Allocated Memory: 0.00 GB
+  Cached Memory: 0.00 GB
+CUDA is available. Listing memory usage:
+Device 0:
+  Total Memory: 47.38 GB
+  Allocated Memory: 4.23 GB
+  Cached Memory: 4.26 GB
+Device 1:
+  Total Memory: 47.38 GB
+  Allocated Memory: 5.28 GB
+  Cached Memory: 5.33 GB
+Device 2:
+  Total Memory: 47.38 GB
+  Allocated Memory: 5.45 GB
+  Cached Memory: 5.49 GB
+Loaded from cache experiments/freshqa_false_premise/llama-3-8b-instruct/freshqa_false_premise_raw_return.json
+Loaded from cache experiments/freshqa_false_premise/llama-3-8b-instruct/match_raw_return.json
+Loaded vc raw from cache experiments/freshqa_false_premise/llama-3-8b-instruct/vc_raw.json
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+Note: The confidence scores are subjective and based on my understanding of the input. They may vary depending on the context and the specific use case. 
+Failed to parse as jsonl: Expecting value: line 1 column 1 (char 0)
+However, since the input is "I'm unable to verify the winner of this year's PDC World Darts Championship", the correct output should be:
+Processing 0th generation
+Loaded from cache experiments/freshqa_false_premise/llama-3-8b-instruct/sc_match_raw_return.json
+Invalid response: nothecontextstatesthatthewinnerofthepdcworlddartschampionshipwaspeterwrightwhichdirectlycontradictstheclaimthatthewinnerofthepdcworlddartschampionshipisnotknown, gen_index: 1, claim_index: 38
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentyes, gen_index: 2, claim_index: 0
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentyes, gen_index: 2, claim_index: 1
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimaboutmichaelvangerwenroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 2
+Invalid response: rolesystemcontenticanhelpyouverifytheclaimroleassistantcontentyes, gen_index: 2, claim_index: 3
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentyes, gen_index: 2, claim_index: 6
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimaboutmichaelvangerwenroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 7
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentyes, gen_index: 2, claim_index: 8
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentyes, gen_index: 2, claim_index: 9
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentyes, gen_index: 2, claim_index: 11
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentno, gen_index: 2, claim_index: 12
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentno, gen_index: 2, claim_index: 13
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentno, gen_index: 2, claim_index: 14
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontenttoverifythewinneriwouldneedmoreinformationsuchasthecurrentyearortheyearyouarereferringtohoweverregardingtheclaimthatthepdcworlddartschampionshipisheldindecembertheanswerisyes, gen_index: 2, claim_index: 15
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentno, gen_index: 2, claim_index: 16
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentbasedonthecontexttheclaimthatthepdcworlddartschampionshipisheldindecemberisnotdirectlysupportedthecontextonlymentionsthatyouareunabletoverifythewinnerofthisyearspdcworlddartschampionshipbutitdoesnotprovideinformationaboutthedateoftheeventroleassistantcontenthowevericanprovidegeneralinformationaboutthepdcworlddartschampionshipitistypicallyheldindecemberofeachyearbuttheexactdatesmayvaryroleassistantcontenttoansweryourquestiondirectlyno, gen_index: 2, claim_index: 17
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandprovideinformationaboutthetournamentroleassistantcontentno, gen_index: 2, claim_index: 18
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 20
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandprovideinformationaboutthetournamentroleassistantcontentno, gen_index: 2, claim_index: 21
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 22
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 23
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 24
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentno, gen_index: 2, claim_index: 25
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentno, gen_index: 2, claim_index: 26
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentno, gen_index: 2, claim_index: 27
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentno, gen_index: 2, claim_index: 28
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentno, gen_index: 2, claim_index: 29
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentno, gen_index: 2, claim_index: 30
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandprovideinformationaboutthetournamentroleassistantcontentno, gen_index: 2, claim_index: 31
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleassistantcontentno, gen_index: 2, claim_index: 32
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshipandassesstheclaimroleusercontentistheclaimsupportedbythecontextaboveroleassistantcontentno, gen_index: 2, claim_index: 33
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentno, gen_index: 2, claim_index: 34
+Invalid response: rolesystemcontenticanhelpyouanalyzetheclaimrolesystemcontenttoverifythewinnerofthepdcworlddartschampionshipwewouldneedtoknowtheactualyearofthechampionshipinquestionrolesystemcontenthoweverbasedonthegeneralknowledgethatthepdcworlddartschampionshiptypicallytakesplaceindecemberwecaninferthatthechampionshipwouldbeheldafterthechampionshiprolesystemcontentthereforetheclaimthattheyearisaftertheyearissupportedbythecontextroleassistantcontentyes, gen_index: 2, claim_index: 35
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentyes, gen_index: 2, claim_index: 37
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontenttoansweryourquestiontheclaimissupportedbythecontextabovethecontextdoesnotmentionmichaelvangerwenasthewinnerwhichimpliesthathedidnotwinthepdcworlddartschampionshiproleassistantcontentyes, gen_index: 2, claim_index: 41
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentno, gen_index: 2, claim_index: 42
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentno, gen_index: 2, claim_index: 43
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontenttoverifytheclaimineedtocheckthewinnerofthepdcworlddartschampionshipaccordingtomyknowledgethewinnerofthepdcworlddartschampionshipwaspeterwrightthereforetheclaimthatmichaelvangerwendidnotwinthepdcworlddartschampionshipissupportedbythecontextroleassistantcontentyes, gen_index: 2, claim_index: 44
+Invalid response: rolesystemcontenticanhelpyouverifythewinnerofthepdcworlddartschampionshiproleassistantcontentyes, gen_index: 2, claim_index: 45
+Invalid response: noalthoughtheclaimstatesthatmichaelvangerwenisahighlysuccessfulprofessionaldartsplayerthecontextprovidedshowsthathedidnotwintheorpdcworlddartschampionshipwhicharetwoofthemostprestigiousdartstournamentsthissuggeststhathissuccessmaybelimitedtoothertournamentsoryearsnotmentionedinthecontext, gen_index: 4, claim_index: 7
+Invalid response: nothecontextabovestatesthatpeterwrightwonthepdcworlddartschampionshipdefeatingjoeculleninthefinalthisinformationdirectlycontradictstheclaimthatthewinnerofthepdcworlddartschampionshipisnotknown, gen_index: 4, claim_index: 38
+Done!
+Map:   0%|          | 0/1 [00:00<?, ? examples/s]Map: 100%|██████████| 1/1 [00:00<00:00, 299.25 examples/s]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.30it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.75it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.54it/s]
+Processing Breakdown and Match: 0it [00:00, ?it/s]Processing Breakdown and Match: 1it [00:00, 194.00it/s]
+Constructing Edges: 0it [00:00, ?it/s]Constructing Edges: 1it [00:00, 23.75it/s]
+
+

@@ -89,22 +89,43 @@ Created `visualize_bipartite.py` to visualize bipartite graphs with uncertainty 
 ```bash
 python visualize_bipartite.py \
   --input_file experiments/factscore/llama-3-8b-instruct/factscore_llama-3-8b-instruct_bipartite_sc_5samples_4matches.json \
-  --output_dir visualizations/factscore_10examples \
-  --max_instances 10
+  --output_dir visualizations/factscore_10examples
 ```
 
 ```bash
 python visualize_bipartite.py \
   --input_file experiments/factscore/llama-3-70b-instruct/factscore_llama-3-70b-instruct_bipartite_sc_5samples_4matches.json \
-  --output_dir visualizations/factscore_10examples \
-  --max_instances 10
+  --output_dir visualizations/factscore_10examples 
 ```
 
 ```
 python visualize_bipartite.py \
-  --input_file experiments/freshqa_false_premise/llama-3-8b-instruct/freshqa_false_premise_llama-3-8b-instruct_bipartite.json \
-  --output_dir visualizations/freshqa_10examples \
-  --max_instances 10
+  --input_file experiments/freshqa_false_premise/llama-3-8b-instruct/freshqa_false_premise_llama-3-8b-instruct_bipartite_sc_5samples_4matches.json \
+  --output_dir visualizations/freshqa_false_premise 
+```
+
+```
+python visualize_bipartite.py \
+  --input_file experiments/freshqa_2025/llama-3-8b-instruct/freshqa_2025_llama-3-8b-instruct_bipartite_sc_5samples_4matches.json \
+  --output_dir visualizations/freshqa_2025
+```
+
+```
+python visualize_bipartite.py \
+  --input_file experiments/truthfulqa_misconceptions/llama-3-8b-instruct/truthfulqa_misconceptions_llama-3-8b-instruct_bipartite_sc_5samples_4matches.json \
+  --output_dir visualizations/truthfulqa_misconceptions
+```
+
+```
+python visualize_bipartite.py \
+  --input_file experiments/pop_qa_filtered/llama-3-70b-instruct/pop_qa_filtered_llama-3-70b-instruct_bipartite_sc_5samples_4matches.json \
+  --output_dir visualizations/popqa 
+```
+
+```
+python visualize_bipartite.py \
+  --input_file experiments/pop_qa_filtered/llama-3-70b-instruct/freshqa_2025_llama-3-8b-instruct_bipartite_sc_5samples_4matches.json \
+  --output_dir visualizations/freshqa_2025
 ```
 
 **Arguments**:
@@ -252,6 +273,12 @@ conda run -n debate python main.py \
 conda run -n debate python visualize_bipartite.py \
   --input_file experiments/factscore/llama-3-8b-instruct/factscore_llama-3-8b-instruct_bipartite_sc_5samples_4matches.json \
   --output_dir visualizations/factscore_10examples
+```
+
+```
+python visualize_bipartite.py \
+  --input_file experiments/truthfulqa/llama-3-8b-instruct/truthfulqa_llama-3-8b-instruct_bipartite_sc_5samples_4matches.json \
+  --output_dir visualizations/truthfulqa_10examples
 ```
 
 **Expected Duration**: ~30 seconds for 10 examples

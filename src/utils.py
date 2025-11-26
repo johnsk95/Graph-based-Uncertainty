@@ -44,6 +44,14 @@ def substitute_prompt_freshqa(example):
     example['wiki_title'] = question
     return example
 
+def substitute_prompt_truthfulqa(example):
+    question = example['Question']
+    example['prompt'] = f'Answer the following question with a detailed paragraph: {question}\n'
+    example['entity'] = question  # Use question as entity identifier
+    example['wiki_title'] = question
+    example['question'] = question  # Normalize field name
+    return example
+
 def print_cuda_memory():
     if torch.cuda.is_available():
         print("CUDA is available. Listing memory usage:")

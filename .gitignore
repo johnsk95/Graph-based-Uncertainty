@@ -1,1 +1,6 @@
 .env
+.claude
+visualizations/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,88 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "split": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "effective_year": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "next_review": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "false_premise": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "num_hops": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "fact_type": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_0": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_3": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_4": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_5": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_6": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_7": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_8": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer_9": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "note": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}
