@@ -1,0 +1,737 @@
+{
+  "entities": {
+    "Q3356529": {
+      "pageid": 3199284,
+      "ns": 0,
+      "title": "Q3356529",
+      "lastrevid": 2426712865,
+      "modified": "2025-11-06T23:01:09Z",
+      "type": "item",
+      "id": "Q3356529",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Pan"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "novel by Knut Hamsun"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "3a5e7500776f0e650d58c38af78947d3af4f36c6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 40826,
+                  "id": "Q40826"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q3356529$FCC575DF-E92C-400F-9634-26145D11E7F0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e17507043402fe54ae6c4d65cc51f46cec987de9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8449,
+                          "id": "Q8449"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7725634,
+                  "id": "Q7725634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3356529$5c8c542c-4b42-3bee-b722-8f98c6561523",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "85b4784a2995149cd63019df2cfa848bd654c75d",
+              "datavalue": {
+                "value": {
+                  "time": "+1894-01-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q3356529$3704d54d-482b-ec78-1060-bd1920363f7f",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fadd478f328f255fff282d2164b658d3b2ad8824",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "65bf94067e6255ff8d61c9c9535d98794a309a4c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 746368,
+                          "id": "Q746368"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "45e05c7abd7aac609fa16b6b2059296cad2ba688",
+                      "datavalue": {
+                        "value": "https://snl.no/Knut_Hamsun",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "b8bf64f167ecdbe82bd9b6dd086933c5f3845236",
+              "datavalue": {
+                "value": "/m/02d_ws",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3356529$388CDCDD-48FE-48EC-867F-302E83BE7C4A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "2ac3208202adca4f9fe9d0f757f8ed27924816ba",
+              "datavalue": {
+                "value": "Pan (Hamsun) 1894.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2096": [
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "e3909c7826e8f5090c6acd80a9a564b688453a40",
+                  "datavalue": {
+                    "value": {
+                      "text": "Title page in the 1894 edition",
+                      "language": "en"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                },
+                {
+                  "snaktype": "value",
+                  "property": "P2096",
+                  "hash": "14498e1c214a6d529877abadddae0f8678403912",
+                  "datavalue": {
+                    "value": {
+                      "text": "Forsats i utgaven av 1894",
+                      "language": "nb"
+                    },
+                    "type": "monolingualtext"
+                  },
+                  "datatype": "monolingualtext"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2096"
+            ],
+            "id": "Q3356529$E759CE28-76A5-488D-8BC7-3E533A09C888",
+            "rank": "normal"
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "aedee50c025bda74b01554c4130277c62e5661dd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 20,
+                  "id": "Q20"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3356529$76D2FAFC-A676-4C31-BD06-3C942CDE87CC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "70edcaa4b7b8af33338317f961392f1f4016c408",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9043,
+                  "id": "Q9043"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3356529$F33A90A8-766B-4753-977D-2ED8781B678D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3219",
+              "hash": "0f7f69547bbfcd8fc3228ba359db053bf417847e",
+              "datavalue": {
+                "value": "pan",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3356529$20E26763-1B1E-493B-BA6F-7EF5AD25ACA5",
+            "rank": "normal"
+          }
+        ],
+        "P123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P123",
+              "hash": "0b30a587905c705f5f64d3feba683fb714d546ff",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3102177,
+                  "id": "Q3102177"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3356529$F8C2A21E-2D4B-4B09-B833-39F06788519C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8c87936577ad54da946e681a1442e32cdaa751f3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "5e648e26faa5fcef64bc3be2b1fcbce5f2728a83",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Pan_(novel)&oldid=829855379",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "58e06738df65da5e54805776c95e56c410fbe16f",
+              "datavalue": {
+                "value": {
+                  "text": "Pan",
+                  "language": "nb"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q3356529$28b22b7b-4319-a226-656f-fd1a24898789",
+            "rank": "normal"
+          }
+        ],
+        "P6216": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19652,
+                  "id": "Q19652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1001": [
+                {
+                  "snaktype": "value",
+                  "property": "P1001",
+                  "hash": "fd03a46bac885aad8c96834e86183c078494dce6",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 30,
+                      "id": "Q30"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "e8a997f8c7723e2bc8daa542a8b44577d4b3b7eb",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 47246828,
+                      "id": "Q47246828"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1001",
+              "P459"
+            ],
+            "id": "Q3356529$D1FED30F-1DFF-4D9E-8C07-11E75D457344",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "1f3796a438db67e51d8cac2bad920878e37e51c9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8261,
+                  "id": "Q8261"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3356529$04DF6B36-4773-41D3-9BA9-81A1A2B42453",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "f0054dbead38895dfdfd2ce94d068e991525728b",
+              "datavalue": {
+                "value": "4569688-3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3356529$0647fd6c-40af-0576-f886-b9463c210252",
+            "rank": "normal"
+          }
+        ],
+        "P7439": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7439",
+              "hash": "a88b7ab6a32485a39c343359984818a2bcfcdd3a",
+              "datavalue": {
+                "value": "448738",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3356529$c687e3bd-483e-fd7e-22bb-0027f95dff49",
+            "rank": "normal"
+          }
+        ],
+        "P655": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P655",
+              "hash": "c867f4e9467b7f1130dd77c2f914abe7bdae4a0c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30127833,
+                  "id": "Q30127833"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q3356529$A679DF86-EA3D-4493-8ED7-63B4F0ACB82C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "cd162f146cd7f3dfba0aa56e88100fd26ecd5235",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "529da9a0811d1c50e18373d97b106df69186cc18",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Pan_(Hamsun_novel)&oldid=1308816218",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8383": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8383",
+              "hash": "1402a30228225dd47ce782ceb27101905a9f514f",
+              "datavalue": {
+                "value": "132237",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q3356529$dd19aade-4fed-21a9-97fe-9a749d785d10",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Пан (раман)",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Pan (Hamsun)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Pan (Hamsun novel)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Pan (novela)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Pan (roman)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Pan (Hamsun)",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "პანი (რომანი)",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Пан (роман)",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Pan (roman)",
+          "badges": []
+        },
+        "nnwiki": {
+          "site": "nnwiki",
+          "title": "Romanen Pan",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Pan (roman)",
+          "badges": []
+        },
+        "pawiki": {
+          "site": "pawiki",
+          "title": "ਪੈਨ (ਨਾਵਲ)",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Pan (powieść)",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Пан (роман)",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Pan (kitap)",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Пан (роман)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

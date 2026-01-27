@@ -1,0 +1,1361 @@
+{
+  "entities": {
+    "Q359573": {
+      "pageid": 342933,
+      "ns": 0,
+      "title": "Q359573",
+      "lastrevid": 2422644399,
+      "modified": "2025-10-27T16:21:46Z",
+      "type": "item",
+      "id": "Q359573",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Ariarathes VI of Cappadocia"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "King of Cappadocia from 130 BC to 116 BC"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Ariarathes VI Epiphanes Philopator"
+          }
+        ]
+      },
+      "claims": {
+        "P21": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P21",
+              "hash": "85ad4b1c7348f7a5aac521135040d74e91fb5939",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6581097,
+                  "id": "Q6581097"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q359573$ECF00E0E-171F-46EC-85A1-FD278ED749AD",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "2e8fdcd374d05243549b5c76c301952f44f72716",
+              "datavalue": {
+                "value": "/m/07pnqn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$95EFB7B1-B37C-4A6D-9B23-3A4EC8306D22",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P40": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P40",
+              "hash": "4d4483b2a600ceeb01fbd361b35c1286980ad91c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 359570,
+                  "id": "Q359570"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$33A9A639-BB0A-483D-BB9B-E646659A26A8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P40",
+              "hash": "d1ac812cffa815ec8e19379b03471cf70616a0e1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1266634,
+                  "id": "Q1266634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$332C0E6C-0FAD-4DC4-998F-5B3BCD20113C",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P40",
+              "hash": "c085c2cce608316222747108588b8f78e4f518e9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7071266,
+                  "id": "Q7071266"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$c6c35fa8-492c-4110-8edb-327aaa147029",
+            "rank": "normal"
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "ad7d38a03cdd40cdc373de0dc4e7b7fcbccb31d9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5,
+                  "id": "Q5"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$BB956B92-32BD-4757-8943-A6AC51B113D5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P22": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P22",
+              "hash": "6bc169b7cd0706a6cad99e2d95bc6c045a75c8d2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 337108,
+                  "id": "Q337108"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$0215C569-EE50-4355-9EA6-43DB5322417B",
+            "rank": "normal"
+          }
+        ],
+        "P569": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P569",
+              "hash": "797241744e53bf00d2f20325c9662d3f7ae435e6",
+              "datavalue": {
+                "value": {
+                  "time": "-0200-01-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 7,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P31": [
+                {
+                  "snaktype": "value",
+                  "property": "P31",
+                  "hash": "d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 26961029,
+                      "id": "Q26961029"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P31"
+            ],
+            "id": "Q359573$AEB27832-5603-4C4B-957E-77F0E368CA9E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P570": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P570",
+              "hash": "78583ca1a512a843f075733f406a32e5e402b437",
+              "datavalue": {
+                "value": {
+                  "time": "-0200-01-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 7,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P31": [
+                {
+                  "snaktype": "value",
+                  "property": "P31",
+                  "hash": "d5ac6d02e7a8948b72184d9e39cf10acbc5e61ed",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 26961029,
+                      "id": "Q26961029"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P31"
+            ],
+            "id": "Q359573$0DA32883-5F9F-4433-9D3E-E6F0305A5369",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 48183,
+                          "id": "Q48183"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2348": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2348",
+              "hash": "8a87ac0bc59050e90269eee619eabc9adaf186cf",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 428995,
+                  "id": "Q428995"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$A6C6EFD6-4E35-451D-A52D-6FF4A6A40381",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4159": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4159",
+              "hash": "cfc90201e81524aa07ef640593a982712256238e",
+              "datavalue": {
+                "value": "Ariarathes_VI_of_Cappadocia_(1)",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$A91FA064-6926-43AC-93C1-F7B44A1B3266",
+            "rank": "normal"
+          }
+        ],
+        "P25": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P25",
+              "hash": "2ddc92bf9301e882a3590fc00fc83393646ba670",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4893550,
+                  "id": "Q4893550"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$4B3D103B-5456-45EE-AD16-E8455DFCDD19",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "14d2400e3b1d36332748dc330276f099eeaa8800",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "39224a9c2e8ce5424defbd16603d25771956c7fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1551807,
+                          "id": "Q1551807"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P26": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P26",
+              "hash": "22fae219a544b582502d9281c1f7f351e5c150ac",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 261769,
+                  "id": "Q261769"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$BE4EEF24-CA60-4878-AA55-7DA530574159",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ed3d873533e31a0bd87e5d5ea46eae8f8f295c30",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "7304d7373d9e4af7a4e2d1a56787c02c0e69faa5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 261769,
+                          "id": "Q261769"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P106": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P106",
+              "hash": "b864da19341f12f5e95458570118a5cb4a6bcaa1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 116,
+                  "id": "Q116"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$85c5b2e1-cebd-4ed1-8ad9-8119bb6c8443",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "9040b42fd9b8a4c2cc91c2604da0840b91f48366",
+              "datavalue": {
+                "value": "Coin of Ariarathes VI, Ariarathid king of Cappadocia.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q359573$1A48390C-D266-4AF1-BA5E-044F5FCE11D0",
+            "rank": "normal"
+          }
+        ],
+        "P53": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P53",
+              "hash": "33813735c95e022f43b74bd7662f08f931424783",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 64685193,
+                  "id": "Q64685193"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$aa8ac98d-4a10-2ee5-f985-6de8b5a64153",
+            "rank": "normal"
+          }
+        ],
+        "P1343": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "186c74add33f4d22673691f230712c0db2201c59",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 47500198,
+                  "id": "Q47500198"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P958": [
+                {
+                  "snaktype": "value",
+                  "property": "P958",
+                  "hash": "0d5d41d8935e0d928abdde85c8f699655610e5df",
+                  "datavalue": {
+                    "value": "Ariarathes (VI)",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P958"
+            ],
+            "id": "Q359573$F2D563DA-6138-4683-A79C-364CD86DF779",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1343",
+              "hash": "5b0ef3d5413cd39d887fbe70d2d3b3f4a94ea9d8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1138524,
+                  "id": "Q1138524"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P805": [
+                {
+                  "snaktype": "value",
+                  "property": "P805",
+                  "hash": "beded215de9088d4565dcd4b008e67efbea1d01b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 20203932,
+                      "id": "Q20203932"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P805"
+            ],
+            "id": "Q359573$DB6224FA-3CDC-4838-93BC-22F6F082B198",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "feaed3df9aed096470de45373941c5cd7e8790da",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6831ac7a9664960f0fc42cb1693f941f74afbc9a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15522295,
+                          "id": "Q15522295"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6821": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6821",
+              "hash": "c2731627c3ce00f6d868c145304c38821f4a5d80",
+              "datavalue": {
+                "value": "alvin-person:52166",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$F7660C92-2013-4171-930B-33A31C20CABC",
+            "rank": "normal"
+          }
+        ],
+        "P1819": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1819",
+              "hash": "af7396ccacffcb7aeee65998fcf5d4d898d1d9fd",
+              "datavalue": {
+                "value": "I00736445",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$7a125e76-456b-0f6f-5139-dba5a28d6e6c",
+            "rank": "normal"
+          }
+        ],
+        "P1711": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1711",
+              "hash": "64e4c539815b725bd809425d555e177b728803b9",
+              "datavalue": {
+                "value": "86330",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$32ACBFBB-3639-4639-8A8D-F2AFB78CAE59",
+            "rank": "normal"
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "17a0eb6af738623b7c2b08fc39c2bc0309e9c08b",
+              "datavalue": {
+                "value": "Ariarathes VI",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q359573$bd219a86-de64-4197-b1af-250ba205722e",
+            "rank": "normal"
+          }
+        ],
+        "P157": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P157",
+              "hash": "3f0613cafba0a9b8e4182f62c2062b34e6adc86d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1345109,
+                  "id": "Q1345109"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$a63ccff0-4bb6-5749-6534-bd8513922864",
+            "rank": "normal"
+          }
+        ],
+        "P39": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P39",
+              "hash": "48619426dcaf0b6b87c74c3416127603658f709e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 100767188,
+                  "id": "Q100767188"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1365": [
+                {
+                  "snaktype": "value",
+                  "property": "P1365",
+                  "hash": "a96d5c0e2b3f6caad6f9f7d9816a0cccfc28fa5b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 337108,
+                      "id": "Q337108"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1366": [
+                {
+                  "snaktype": "value",
+                  "property": "P1366",
+                  "hash": "af6bca45ac3bfe242ac435234e1c0f8ade9b9837",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 359570,
+                      "id": "Q359570"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1365",
+              "P1366"
+            ],
+            "id": "Q359573$0a04c48c-4a20-7189-aa95-638c94c49c6c",
+            "rank": "normal"
+          }
+        ],
+        "P1196": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1196",
+              "hash": "1bb90e6f907fa357f49c9c8778f01fb4fa9877ab",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 132821,
+                  "id": "Q132821"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$f5dee4e3-45e9-baa6-2211-065d53e08631",
+            "rank": "normal"
+          }
+        ],
+        "P214": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P214",
+              "hash": "c340ddaf00a8468f0133c1d10467284e5d21b9b4",
+              "datavalue": {
+                "value": "316448833",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$0893887f-42b9-d926-523d-9ed487c8cc11",
+            "rank": "normal"
+          }
+        ],
+        "P268": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P268",
+              "hash": "a1d6ae0d0556a4cccdc8ff00451fac77991008c1",
+              "datavalue": {
+                "value": "16296962p",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "q359573$a9f688df-42dc-d346-4779-f1631aa86342",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b9cf3c4697221b6831c81a4f1449728d0ceb8ac1",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "6b7d4330c4aac4caec4ede9de0311ce273f88ecd",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 54919,
+                          "id": "Q54919"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P214": [
+                    {
+                      "snaktype": "value",
+                      "property": "P214",
+                      "hash": "c340ddaf00a8468f0133c1d10467284e5d21b9b4",
+                      "datavalue": {
+                        "value": "316448833",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e5083a22c5ce9ef22eab80cb1b9a0bde663df893",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-12-16T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P214",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1185": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1185",
+              "hash": "3ae7acd0e32754f5707789b16cf2ce7eac6ef90d",
+              "datavalue": {
+                "value": "523995",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$728ab6b5-8040-4e95-b109-2be617f457df",
+            "rank": "normal"
+          }
+        ],
+        "P1559": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1559",
+              "hash": "cf87d0d24fda0d78372651eba6bbe74a735c959b",
+              "datavalue": {
+                "value": {
+                  "text": "Αριαράθης ΣΤ΄ της Καππαδοκίας",
+                  "language": "el"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q359573$0e91221d-4792-0e24-94c3-0a7517396b23",
+            "rank": "normal"
+          }
+        ],
+        "P27": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P27",
+              "hash": "c3cbfae560a6e8dfc9b952042507484f3f00dc04",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 29654286,
+                  "id": "Q29654286"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$ee8ba3d2-4e11-0f1d-b9e7-2416d2416cd5",
+            "rank": "normal"
+          }
+        ],
+        "P1412": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1412",
+              "hash": "91d6af47305c8d9f0f023f79679af7d3def59de7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 35497,
+                  "id": "Q35497"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q359573$ad4ae5ee-4936-8849-b58d-7e74f7a26442",
+            "rank": "normal"
+          }
+        ],
+        "P11835": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P11835",
+              "hash": "869069c8fe22a860bde46eb0198955169bd0ff95",
+              "datavalue": {
+                "value": "5120",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$BFC85807-56A6-4831-8D74-538F495D9DC1",
+            "rank": "normal"
+          }
+        ],
+        "P12597": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12597",
+              "hash": "6d52a7ba52ff05c3f588bd80570a400bbf84e677",
+              "datavalue": {
+                "value": "73349",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$832DB186-B1BB-426C-8536-FEAB5DE2C295",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "1b72e396077ce423ed7db50077c07e5f0aefceb7",
+              "datavalue": {
+                "value": "1330347986",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "547aa3e32742b8bc21519b0a71229db7a8a44fe7",
+                  "datavalue": {
+                    "value": "Ariarathes VI., von Kappadokien, König",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q359573$b66d070c-4d9f-ecfd-2fde-df052d0e85a3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b59a9ce7cb580048ddd2d76b1db7141b8d60519",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e8bcf05094551ad7689cefdd22e54e1b6d96ed7f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2950": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2950",
+              "hash": "daa8279e499be79c8ebb1917ff52ecdac380010c",
+              "datavalue": {
+                "value": "ariarathes_vi",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$BAF50AEB-E374-44B0-92E7-C007FA1F9A58",
+            "rank": "normal"
+          }
+        ],
+        "P13030": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13030",
+              "hash": "f0f607d288185f693fbe11742130d7bec7fd774e",
+              "datavalue": {
+                "value": "person/8710",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q359573$253DD07D-1CB6-4834-A819-41080DFA35F2",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "afwiki": {
+          "site": "afwiki",
+          "title": "Ariarathes VI",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Арыярат VI",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Ариарат VI (Кападокия)",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Ariarates VI",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:Ariarathes VI",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Ariarathes 6. af Kappadokien",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Ariarathes VI.",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Αριαράθης ΣΤ΄ της Καππαδοκίας",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Ariarathes VI of Cappadocia",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Ariarates VI",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Ariarates VI.a",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Ariarathes VI",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Ariarathe VI",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אריארתס השישי",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Ariarathes VI",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Ariarate VI di Cappadocia",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Ariarates VI Epifanes Filopator",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Ariarates VI",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Ариарат VI",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Arijarat VI od Kapadokije",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Ariarat VI. Kapadoški",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Ariarathes VI av Kappadokien",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Аріарат VI Епіфан Філопатор",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Ariarathes VI của Cappadocia",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "阿里阿拉特六世",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

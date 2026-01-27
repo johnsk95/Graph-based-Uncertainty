@@ -1,0 +1,1075 @@
+{
+  "entities": {
+    "Q4973268": {
+      "pageid": 4753961,
+      "ns": 0,
+      "title": "Q4973268",
+      "lastrevid": 2293960908,
+      "modified": "2025-01-02T12:32:29Z",
+      "type": "item",
+      "id": "Q4973268",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Broke"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "25th episode of the 5th season of The Office"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P57": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P57",
+              "hash": "9cf1be3fb51b6755587f4d979a3cde6ca74adb12",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 216221,
+                  "id": "Q216221"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$F808B9DE-8F02-491B-BD57-34AA2CD8D4DD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P58": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "f8535d8db81e09f491cc4d41f6e4ebd24eb7e0ba",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5084937,
+                  "id": "Q5084937"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$F4006BF9-6A89-451E-9C37-7D234AFE788C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "3c897010b4dbdaa761c45298b69a6e27e64bb6e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5695024,
+                  "id": "Q5695024"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$95852009-FD5B-4374-A86F-CE457F597B1B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "8869b514bfe1cd821aa7251c3d8ab9adb02e496e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5050849,
+                  "id": "Q5050849"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$B8ADDA65-81FD-4C1E-A724-8107A8EEC561",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "2d3761f68cf1248dc8fbf0b5eaa1f7fff03df987",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21191270,
+                  "id": "Q21191270"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$C96AE395-8309-4386-BD77-D7984DE935DF",
+            "rank": "normal"
+          }
+        ],
+        "P179": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P179",
+              "hash": "8a873dbe720bcc27ed8f44aa6f971d4877dace4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23831,
+                  "id": "Q23831"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "b2c58a887af7cd1ea3c25af4cb5ad3f2ec4e7d74",
+                  "datavalue": {
+                    "value": "97",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q4973268$38458E4E-E780-4AA0-BC84-74B5324AA606",
+            "rank": "normal"
+          }
+        ],
+        "P2364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2364",
+              "hash": "39cfed92ee5f14ea41731de6c67836aa069c3a5b",
+              "datavalue": {
+                "value": "525",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q4973268$63522B32-FEFF-4BD9-935F-D24797E9C3A6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "f5c4a9bbe8fc5614ac737c317d408856118d6ad6",
+              "datavalue": {
+                "value": "tt1268727",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$DFB1C451-A3D7-4A83-AF3E-8AD305B006B7",
+            "rank": "normal"
+          }
+        ],
+        "P4908": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4908",
+              "hash": "8db40371734031c1231d0ca527e7d684f4d9ea1e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3468990,
+                  "id": "Q3468990"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "f5a226ebb11ff3cb8c41370357acdc8ede4a3224",
+                  "datavalue": {
+                    "value": "22",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q4973268$EE6CA4FB-979E-4A6B-AF25-DF911C918300",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "a13c931f757b83c94f205dcd29520b0482e5cf6e",
+              "datavalue": {
+                "value": {
+                  "time": "+2009-04-23T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q4973268$B2E0D7D6-B26D-4DBE-A8E6-DDD7280EB1D0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "22ffd6d87e7e4e0920eb93e3494df0e7b270bb54",
+              "datavalue": {
+                "value": {
+                  "text": "Broke",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q4973268$53E930CF-9721-4F5B-878A-FA209CC30166",
+            "rank": "normal"
+          }
+        ],
+        "P364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P364",
+              "hash": "cc2c15fb58feeae8fe7a641c0e2ddaf3f48e59f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$6DF9A51E-7274-4916-B77E-27908414F741",
+            "rank": "normal"
+          }
+        ],
+        "P1258": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1258",
+              "hash": "f0b79ca90b906080682fb7f12672cd1998546853",
+              "datavalue": {
+                "value": "tv/the_office/s05/e25",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$078C6AD5-35DE-47E5-968D-491BE5A56EF8",
+            "rank": "normal"
+          }
+        ],
+        "P1562": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1562",
+              "hash": "a7b3ca05d280928c817f6f1bd6fbaf5f70643bca",
+              "datavalue": {
+                "value": "v498515",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$B7667314-2C2F-48CF-978A-B99D9D8B58AC",
+            "rank": "normal"
+          }
+        ],
+        "P2529": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2529",
+              "hash": "dd2acfab91dd7deedc7a8290c8cfb259933317d6",
+              "datavalue": {
+                "value": "516575",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$7A3CD49D-72F9-4288-AB32-3A3442A3E974",
+            "rank": "normal"
+          }
+        ],
+        "P4665": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4665",
+              "hash": "d06dbb80dff5e2133aeb532785157d64b483fdad",
+              "datavalue": {
+                "value": "539374",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$5E9A421C-ECFE-49B0-8749-0CF585735F07",
+            "rank": "normal"
+          }
+        ],
+        "P2638": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2638",
+              "hash": "e8db6432ceda0a478b1c525020d397889ea1ee99",
+              "datavalue": {
+                "value": "shows/the-office/broke-1263856",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$21653B95-14FA-4B7D-874C-77B68D187F49",
+            "rank": "normal"
+          }
+        ],
+        "P2704": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2704",
+              "hash": "97df4475b82b5b71fc8a77b0fa7ec65d6c798727",
+              "datavalue": {
+                "value": "10.5240/C377-0DB4-A04B-4E4D-7E01-4",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$971E83E3-96AF-4EF0-9480-91D4161C1BA1",
+            "rank": "normal"
+          }
+        ],
+        "P3212": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3212",
+              "hash": "10fc1be43f3ac09a5a4da967177e4b314363be95",
+              "datavalue": {
+                "value": "0000-0001-59A2-004F-D-0000-0000-Z",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$917CAAD7-73CB-435F-945D-0512568E6181",
+            "rank": "normal"
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "7f985e15819b74ed189d022e004890e66d2ae42e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$EF22D2AD-3C0D-43D9-A5F3-7BB6704CF7A3",
+            "rank": "normal"
+          }
+        ],
+        "P7334": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7334",
+              "hash": "3e3ff116dc4f5db1e9362f700a8c9211662a0bb5",
+              "datavalue": {
+                "value": "198817",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$045C88B8-3704-46BC-8C95-B2B6E6343540",
+            "rank": "normal"
+          }
+        ],
+        "P437": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P437",
+              "hash": "d0803093a490840d34bba84b010375fadffad1fd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 723685,
+                  "id": "Q723685"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$0F854A34-644F-49E4-971B-5E87484A197C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "590a65e0307e2b08e45cf5918c00a231658175d6",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "cca3f1d3a3aa736a43cf16c14ba39396a178653d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 5371838,
+                          "id": "Q5371838"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "b171b8443e5265755cc09423b6f15a82ca2b3437",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Q4973268#P7334",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    },
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "6612f4376431417c6d412434e55c321172c08b83",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Property:P7334#P2302",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P750": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P750",
+              "hash": "b99307431215bbc0665e291e77cb9803fb361f11",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5371838,
+                  "id": "Q5371838"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$9926267F-F49D-4C8E-98EE-4F326E5D2E16",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "590a65e0307e2b08e45cf5918c00a231658175d6",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "cca3f1d3a3aa736a43cf16c14ba39396a178653d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 5371838,
+                          "id": "Q5371838"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "b171b8443e5265755cc09423b6f15a82ca2b3437",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Q4973268#P7334",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    },
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "6612f4376431417c6d412434e55c321172c08b83",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Property:P7334#P2302",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "ceeac5a229a04b4f22d697c8e398a7d9123de092",
+              "datavalue": {
+                "value": "/m/05s_rz5",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$C8BBAF0B-A7F0-4AEC-A2F3-FD7AAA0570B1",
+            "rank": "normal"
+          }
+        ],
+        "P12559": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12559",
+              "hash": "0e89e9e1a04f631b159367ef2753d0e1da38ca85",
+              "datavalue": {
+                "value": "170224",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$5C9238E5-B4FC-4A06-8E5C-062CDA4C4B75",
+            "rank": "normal"
+          }
+        ],
+        "P7043": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7043",
+              "hash": "38f5964efdb1f2b07fad364e1b3df6daac8ee227",
+              "datavalue": {
+                "value": "525311",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$EAB73736-B266-4F70-8A6E-1A0E1B1D2F40",
+            "rank": "normal"
+          }
+        ],
+        "P344": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P344",
+              "hash": "e1169be13cb42747c3cd58268ade91fc91d2486c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7291535,
+                  "id": "Q7291535"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$BA4ACBED-1D8B-4004-8535-AA6B527B5F8E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "7cbff9e6e78d8e79f1f68e522e4e33efe28360fb",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "f32300a00efa307b74ded7852577bf0b42c1ed2c",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Broke_(The_Office)&oldid=1234404940",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1040": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1040",
+              "hash": "f23dcc209628529a69aee2a2f7b7daab3b03aa7a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5239168,
+                  "id": "Q5239168"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q4973268$90396C63-BD54-48FF-A9BE-E793A03E3F52",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "7cbff9e6e78d8e79f1f68e522e4e33efe28360fb",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "f32300a00efa307b74ded7852577bf0b42c1ed2c",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Broke_(The_Office)&oldid=1234404940",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1712": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1712",
+              "hash": "0018ea4e5a8e06339afe01165afd8e9fabef03ad",
+              "datavalue": {
+                "value": "tv/the-office/season-5/episode-25-cafe-disco",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q4973268$0c16f49e-486c-415b-9a18-81caad58993c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "bf984c2ed6705f4f9bdedc2e05ac7579673f2787",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "4eb68acaf3baaec84e63fe7268f7b6e6c0c5c3c1",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 3468990,
+                          "id": "Q3468990"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b246c953466665f9807070df5c4f5156374488e8",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "fa5ece86c07f218428ab6d1daa13637b860a190e",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "c021e77da9cbd25343b4762361ca2e9ef889597a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 150248,
+                          "id": "Q150248"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "e94c636e46e5ed054594f63a5c9ce617760affa1",
+                      "datavalue": {
+                        "value": "https://www.metacritic.com/tv/the-office/season-5/episode-25-cafe-disco/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "b246c953466665f9807070df5c4f5156374488e8",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-02T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "871e5ab86f46889746f55c949eafd7da2a62f880",
+                      "datavalue": {
+                        "value": "Cafe Disco",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P854",
+                  "P813",
+                  "P1810"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Broke (The Office)",
+          "badges": [
+            "Q17437798"
+          ]
+        }
+      }
+    }
+  },
+  "success": 1
+}

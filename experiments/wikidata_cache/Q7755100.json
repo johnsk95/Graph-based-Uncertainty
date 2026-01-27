@@ -1,0 +1,1030 @@
+{
+  "entities": {
+    "Q7755100": {
+      "pageid": 7684259,
+      "ns": 0,
+      "title": "Q7755100",
+      "lastrevid": 2295413647,
+      "modified": "2025-01-06T06:41:12Z",
+      "type": "item",
+      "id": "Q7755100",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "The Ones"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "episode of 30 Rock (S3 E19)"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "c2757d81181b857de62c09a4b27677703e1e4bfb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6116440,
+                  "id": "Q6116440"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7755100$D8CE2220-3690-4CAC-81DC-B07361A351E9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "733143af1589b3e2a3a89e0dd49d2de68c8c6ccd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7753261,
+                  "id": "Q7753261"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7755100$5381B9EF-9D19-4C1C-AFC9-46773176C72E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "2d3761f68cf1248dc8fbf0b5eaa1f7fff03df987",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21191270,
+                  "id": "Q21191270"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7755100$63493E34-3AD8-4EAA-984F-9086FF6326FE",
+            "rank": "normal"
+          }
+        ],
+        "P179": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P179",
+              "hash": "ea8f9d9e8330b81b14b656d247c1e8d2c96dbba3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 189350,
+                  "id": "Q189350"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "6a6542ae5ae669788b67f4630ce9383b09f22934",
+                  "datavalue": {
+                    "value": "55",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q7755100$FDFF55A0-AA02-49F1-8B5C-7FE0331249B3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P58": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "ddfad0688c4f8bbf7faa399ba34a7a239e549bca",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 6111464,
+                  "id": "Q6111464"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7755100$704ABEFF-C576-4232-83A9-F75BF9C9CC72",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2638": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2638",
+              "hash": "9c4bdf0a997abb0712964c1ef63c6781c664f7e4",
+              "datavalue": {
+                "value": "shows/30-rock/the-ones-1265595",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$094A1B8F-FFCF-4922-B566-4AAFDE3F8E73",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2364",
+              "hash": "3df9112eaf0ced61d5aa0dabfee180ec75b0bc57",
+              "datavalue": {
+                "value": "319",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q7755100$4AEB7B8D-65CB-450E-A84C-701352620F0C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "ca5bf70b3a932219fa7a88dd2d5283c66d32f232",
+              "datavalue": {
+                "value": "tt1248340",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$E8D749B5-EBF3-45F4-A278-773606EDB15E",
+            "rank": "normal"
+          }
+        ],
+        "P4908": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4908",
+              "hash": "cd87a4c0a20ee397ae5f60b0877ac6dddaa09ef8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 858966,
+                  "id": "Q858966"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "a37679c5dba91ad0c4813c3c62af8ac5d2a1e00d",
+                  "datavalue": {
+                    "value": "19",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q7755100$99983CF9-FEE8-4FA4-A795-DAFB54D87BE0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "4f2cbae92db7dcffa668f58a8c1aba361527e5f1",
+              "datavalue": {
+                "value": {
+                  "text": "The Ones",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q7755100$1F48821C-458D-4A5C-826C-7A85FF82E199",
+            "rank": "normal"
+          }
+        ],
+        "P57": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P57",
+              "hash": "e46b4c792dfda72f2a8a535d94cc29c1f01ce0b4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4897586,
+                  "id": "Q4897586"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7755100$CECF8CC8-CF29-48FA-8DB3-9E0495CB3D21",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "a13c931f757b83c94f205dcd29520b0482e5cf6e",
+              "datavalue": {
+                "value": {
+                  "time": "+2009-04-23T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q7755100$73537D5D-8D10-490C-9F95-A5E705D12A33",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4d0763bf545b4451af4a579f382d57550fef3dac",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "10ed7e9ea08adae3c58e0c576a23880165bd80e5",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2017-04-15T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "fdebec58ea821e4bc90bcb6370708a58f5548dce",
+                      "datavalue": {
+                        "value": "http://www.omdbapi.com/?i=tt1248340",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1258": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1258",
+              "hash": "b6c960b7f891548e3689e620e16e46c445c4f42a",
+              "datavalue": {
+                "value": "tv/30-rock/s03/e19",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$7E7E8479-831C-4BBD-9421-C157FF096436",
+            "rank": "normal"
+          }
+        ],
+        "P1562": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1562",
+              "hash": "5b358848bd3db902430080be46c1d0aa9b7218e5",
+              "datavalue": {
+                "value": "v498853",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$73AE705B-C953-4B7D-AC64-4B21F2EF59EE",
+            "rank": "normal"
+          }
+        ],
+        "P2529": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2529",
+              "hash": "5f9d695229e18cc10de37f42368a5400ea443eff",
+              "datavalue": {
+                "value": "535301",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$BA0E5B66-EA4C-4DCC-9A3A-B79EC7777129",
+            "rank": "normal"
+          }
+        ],
+        "P4665": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4665",
+              "hash": "33bf549ded7e9955e3d37d767f17339c4f14e91c",
+              "datavalue": {
+                "value": "540348",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$7406BBDB-B44B-4F41-86FE-AA26712DA127",
+            "rank": "normal"
+          }
+        ],
+        "P3302": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3302",
+              "hash": "0f5e6c30b09ac586b7ea1ca47f3a5aa8d2e61512",
+              "datavalue": {
+                "value": "21959",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$42D37C5C-4F70-48DD-B824-4F774E5A717E",
+            "rank": "normal"
+          }
+        ],
+        "P2704": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2704",
+              "hash": "90e6ab8bdf608d47ed590b52b15e161d4677bf74",
+              "datavalue": {
+                "value": "10.5240/3A65-7BE4-58AA-430B-5DBE-R",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$82C3F94F-2111-4D10-AE3E-E5FFA4621601",
+            "rank": "normal"
+          }
+        ],
+        "P3212": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3212",
+              "hash": "acdaf0ee848d48f183cf22da925e2a9a365ddb8a",
+              "datavalue": {
+                "value": "0000-0002-8313-0039-Q-0000-0000-X",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$4426EE63-9962-404A-A3A0-14174DA94AD2",
+            "rank": "normal"
+          }
+        ],
+        "P364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P364",
+              "hash": "cc2c15fb58feeae8fe7a641c0e2ddaf3f48e59f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7755100$B94DADF7-522B-48BE-BD04-A45383273EE9",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "827c7334cc7cb96a4ee800ce120f2b1128f87cea",
+              "datavalue": {
+                "value": "/m/05zmrhb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$2CC78F79-D320-4C2F-8B55-9064EA3FB4C7",
+            "rank": "normal"
+          }
+        ],
+        "P8013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8013",
+              "hash": "c20d44242841f5ea706c9d38f0f20f16e0815d8e",
+              "datavalue": {
+                "value": "shows/30-rock/seasons/3/episodes/19",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$cbd3b737-13d4-4acb-a35c-68b17cc8a37c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a3d9fb5153f1f3b0742aa0eac270a7c00e63f7c8",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "1e312d2a9d24d8924203c1e7a1cdef47fd6fbf0d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 189350,
+                          "id": "Q189350"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P518": [
+                    {
+                      "snaktype": "value",
+                      "property": "P518",
+                      "hash": "c7d9e261c72700982d9bd83c8b5dd8a46fdec7f5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 120493751,
+                          "id": "Q120493751"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "08828771cf2181d037ed36122c8b6effb158d9ea",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P518",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "b66dd7b80f9fe9078649ecd27f0177693ca0af43",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "fcc69088e6134a1e916e47e9ade1d0df0241a232",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 84591894,
+                          "id": "Q84591894"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "824fa1e1ef499c860897a9d32041de724f74090d",
+                      "datavalue": {
+                        "value": "https://trakt.tv/shows/30-rock/seasons/3/episodes/19",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "08828771cf2181d037ed36122c8b6effb158d9ea",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1712": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1712",
+              "hash": "abcd61116084879f181790473bc674fae5c92d09",
+              "datavalue": {
+                "value": "tv/30-rock/season-3/episode-19-the-ones",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7755100$572a2f32-c450-4530-b9f4-aedd307629d8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0cb04a4798c7625bb0117b44a66ae70280e47018",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "e2ea8a84707dcf4859ca68d2539b580278d50f1d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 858966,
+                          "id": "Q858966"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fb29f661a9094a9e9025d6b2b702f12d78d57846",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "4968824b9282cc77ceddb1b13055a952b3229a25",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "c021e77da9cbd25343b4762361ca2e9ef889597a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 150248,
+                          "id": "Q150248"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1712": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1712",
+                      "hash": "0310fdbd520df84ac44059086e04eba1ec260263",
+                      "datavalue": {
+                        "value": "tv/30-rock/season-3",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fb29f661a9094a9e9025d6b2b702f12d78d57846",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "fa019d391482b9019fecbb9a3af3e4a35291130a",
+                      "datavalue": {
+                        "value": "The Ones",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P1712",
+                  "P813",
+                  "P1810"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "The Ones (30 Rock)",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "The Ones",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

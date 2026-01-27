@@ -1,0 +1,498 @@
+{
+  "entities": {
+    "Q16386865": {
+      "pageid": 18016918,
+      "ns": 0,
+      "title": "Q16386865",
+      "lastrevid": 2436454174,
+      "modified": "2025-12-01T08:53:33Z",
+      "type": "item",
+      "id": "Q16386865",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "The Man from Snowy River"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "1890 poem written by Andrew Barton Paterson"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "1f19da1a42959136501d2e64a19919d22b5defd6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 436699,
+                  "id": "Q436699"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16386865$E0B3BA75-EA86-40EB-96FD-35ADC23F26F9",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "04252634780147065e9208a6c725631938db1d1a",
+              "datavalue": {
+                "value": {
+                  "time": "+1890-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q16386865$8419A96A-128F-4ECB-BE52-306250FCDB01",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6216": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19652,
+                  "id": "Q19652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1001": [
+                {
+                  "snaktype": "value",
+                  "property": "P1001",
+                  "hash": "fd03a46bac885aad8c96834e86183c078494dce6",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 30,
+                      "id": "Q30"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "e8a997f8c7723e2bc8daa542a8b44577d4b3b7eb",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 47246828,
+                      "id": "Q47246828"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1001",
+              "P459"
+            ],
+            "id": "Q16386865$F242B578-F643-4BC0-8AAC-1997A0212358",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "f69dc45ce9c48664155022498b34100d801bd549",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 19652,
+                  "id": "Q19652"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1001": [
+                {
+                  "snaktype": "value",
+                  "property": "P1001",
+                  "hash": "150a1cb6fbace9068c45a349bc8e4f744e512b25",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 59542795,
+                      "id": "Q59542795"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "327050eb235f08bbd27dd414244f003fac41a09c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 29870196,
+                      "id": "Q29870196"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1001",
+              "P459"
+            ],
+            "id": "Q16386865$D5A45020-9342-4C90-97AB-09557592D477",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "0dde358dcd8efdbbc1cdd58cfebe3cbe8f91b51f",
+              "datavalue": {
+                "value": "Mustering on Kosciusko.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q16386865$368B5503-EEC3-4859-8DA6-699201E02760",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9c77ce6f17248f1ae72f9a26154e7e346cb36a6b",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "70ff35cdfdbb8e7187478f2a28dc2f509f6067f0",
+                      "datavalue": {
+                        "value": "https://fr.wikipedia.org/w/index.php?title=The_Man_From_Snowy_River&oldid=142597832",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "93e29d03283f62d0c3780279411a920123089f4a",
+              "datavalue": {
+                "value": "/m/0194wp",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16386865$611C9AC0-F839-467A-9981-7FB261CEF19B",
+            "rank": "normal"
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16386865$06CCBAEF-58D3-4DFB-9123-8E85F5C069D8",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "6fa42627aa5371e9e67d3943036ca626757a2cf1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5185279,
+                  "id": "Q5185279"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16386865$45A25225-154D-492F-BB5D-7D50904F2278",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4fbf70ca1741d60c4bac3debde1aaa5d3fec0b91",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "137b210ab9de2b58831fdc42f921e025751352d3",
+                      "datavalue": {
+                        "value": "https://fr.wikipedia.org/w/index.php?title=The_Man_From_Snowy_River&oldid=177897522",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              },
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "d0e279c66115803d71c4ac542566d364bf191bf6",
+              "datavalue": {
+                "value": "The Man from Snowy River (poem)",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q16386865$4a2b9cf5-dc5e-4e73-b7c1-f0319335220b",
+            "rank": "normal"
+          }
+        ],
+        "P724": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P724",
+              "hash": "f38fccce011c3db093800398544e651fcbea72c5",
+              "datavalue": {
+                "value": "manfromsnowyrive0000pate",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16386865$7535EFFE-9DB2-4609-9E3D-D17E4C3C9C81",
+            "rank": "normal"
+          }
+        ],
+        "P2034": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2034",
+              "hash": "7abe41db7b1c5ded20ee20883058e3235e1529c1",
+              "datavalue": {
+                "value": "213",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q16386865$46521AF2-518E-469D-84CC-82A7BD9394CB",
+            "rank": "normal"
+          }
+        ],
+        "P144": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P144",
+              "hash": "62039508602d99d9f2590d1812f906aec78ad583",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 130345442,
+                  "id": "Q130345442"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q16386865$9ae71189-47be-4768-1f7f-600090d7be9e",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:The Man from Snowy River (poem)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "The Man from Snowy River (poem)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "El hombre del río Nevado (poema)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "The Man From Snowy River",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "The Man from Snowy River",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "来自雪河的人",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

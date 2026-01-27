@@ -1,0 +1,1321 @@
+{
+  "entities": {
+    "Q1098262": {
+      "pageid": 1045665,
+      "ns": 0,
+      "title": "Q1098262",
+      "lastrevid": 2418125753,
+      "modified": "2025-10-18T19:17:04Z",
+      "type": "item",
+      "id": "Q1098262",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Pilot"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "2005 episode of Prison Break directed by Brett Ratner"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Prison Break pilot"
+          }
+        ]
+      },
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "908e914ddf3bdc3f9bc94302d816850da8f80161",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 653916,
+                  "id": "Q653916"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q1098262$AD287D16-747F-4496-A8B6-696EA16D601C",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "2d3761f68cf1248dc8fbf0b5eaa1f7fff03df987",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21191270,
+                  "id": "Q21191270"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$ECF03CFD-483A-4E60-B42F-5A091F94BBE0",
+            "rank": "normal"
+          }
+        ],
+        "P179": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P179",
+              "hash": "106073075f4761a5f2e223641522ef81d057f4e9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 80044,
+                  "id": "Q80044"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "2a1ced1dca90648ea7e306acbadd74fc81a10722",
+                  "datavalue": {
+                    "value": "1",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "q1098262$A0D2942D-5DB2-4C3C-AF40-8A56B6B00E2A",
+            "rank": "normal"
+          }
+        ],
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "5891480f486c7f307f9cf754047f12fdad9897e8",
+              "datavalue": {
+                "value": "tt0678483",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "q1098262$49BB8BA4-D23A-43F1-BE48-D693E5CA34FC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "f8748be80017b0c47ad1da3ae71ea7da0b16f604",
+              "datavalue": {
+                "value": "/m/0btl_y",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1098262$9DAFD75E-2CCB-44C3-85F1-A8455FA2071B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P57": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P57",
+              "hash": "3b75a4e8ec48b3a94c2246f52e231888b5cc5188",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 319204,
+                  "id": "Q319204"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$E9C5A39C-948F-4B38-B6B7-A023F0271833",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P58": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "52ee4320ee66aeb6752b305456635002af69d9bb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 314506,
+                  "id": "Q314506"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$03DBFE90-8549-469B-B0CD-43071FB35DAC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "1ccfbcfd9a160d247f72accd9ff2997a57854b50",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 291001,
+                  "id": "Q291001"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$A84CFF3F-5E60-4240-86B7-B7CF45F2ED13",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "novalue",
+              "property": "P155",
+              "hash": "2c0614dca66b9f846a3cb129bd6ca15adeba8a7a",
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$20f343f5-48b7-796d-1e17-4e840198901f",
+            "rank": "normal"
+          }
+        ],
+        "P2638": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2638",
+              "hash": "876c356c4884a1e63340022fc5d8d6e61c87267c",
+              "datavalue": {
+                "value": "shows/prison-break/pilot-423504",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1098262$3A00526B-1E18-48F6-8D70-EC43302C9585",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2364",
+              "hash": "6d72617f7ae277aabd6f2a85ac4316924012454d",
+              "datavalue": {
+                "value": "1AKJ79",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q1098262$6122BA34-CFA8-4CB1-9A8E-392EAED9ED91",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4908": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4908",
+              "hash": "fe52685332c0c7b7fbd6d707a99a7b4a93c5f53d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2344538,
+                  "id": "Q2344538"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "2a1ced1dca90648ea7e306acbadd74fc81a10722",
+                  "datavalue": {
+                    "value": "1",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q1098262$03C86F58-FD29-4BDC-A1F7-55F9B6C517C5",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "b00504c70baad4dc539e6d22676069b7ca87c64f",
+              "datavalue": {
+                "value": {
+                  "time": "+2005-08-29T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q1098262$E1D5EC1D-D877-41A5-BD5A-7A4F7E02DB77",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "958173e306343455ed7682fb085cc8e4b1020f4a",
+              "datavalue": {
+                "value": {
+                  "text": "Pilot",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q1098262$9BCDB5B2-3FC7-47BA-A075-2DE52137A84B",
+            "rank": "normal"
+          }
+        ],
+        "P364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P364",
+              "hash": "cc2c15fb58feeae8fe7a641c0e2ddaf3f48e59f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$3E546947-E85E-41CF-B8DE-DCC120EF8052",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "753cc1cdc10851419ee8f1dcbe47e36dc5fec104",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2095349,
+                  "id": "Q2095349"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$5e51571f-49de-34c4-7621-cedd619e003c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "c9f380ac87221f8f4f287f4a635d7d854793fce7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 13566035,
+                  "id": "Q13566035"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$ec5e64b1-4272-d455-d57c-9435fe95d2c9",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "eab1234af9c288a2b954c52d58c0a834798bc8ce",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3209577,
+                  "id": "Q3209577"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$e33c1906-49cf-eb88-cf3c-0405428c2349",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "d8b06178747ec8f71a2fa66cb4e4348f9e12536f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1451381,
+                  "id": "Q1451381"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$689f6e7c-4be3-9776-2af5-641402c3bda7",
+            "rank": "normal"
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "7f985e15819b74ed189d022e004890e66d2ae42e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$E077026E-7A3E-4C93-AC0C-D063D7BE1F53",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "70a69f2301767800b88b931a89c9eb8da1a93c76",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "5e7f4e64721e4e4eb34283606736700cf53657ea",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/wiki/Pilot_(Prison_Break)",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c89134350a0b56f30622038075701f2900f39910",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-29T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1683": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1683",
+                      "hash": "ca0c82f97ea0fdac84a1d4a461d2a9270285f355",
+                      "datavalue": {
+                        "value": {
+                          "text": "The Pilot, along with the following episode was released on Fox with an estimated audience of 10.5 million viewers, placing the series as the seventh most watched show in America that week, ranking first in both the 18–49 and 18–34 demographics.",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P4656",
+                  "P813",
+                  "P1683"
+                ]
+              }
+            ]
+          }
+        ],
+        "P449": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P449",
+              "hash": "e676bd88af3abd705d5e80025bf02d7b6e94a78e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 166419,
+                  "id": "Q166419"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$308DABA6-F519-4EBE-B0FD-961CAEEEF32C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "70a69f2301767800b88b931a89c9eb8da1a93c76",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "5e7f4e64721e4e4eb34283606736700cf53657ea",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/wiki/Pilot_(Prison_Break)",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c89134350a0b56f30622038075701f2900f39910",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-29T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1683": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1683",
+                      "hash": "ca0c82f97ea0fdac84a1d4a461d2a9270285f355",
+                      "datavalue": {
+                        "value": {
+                          "text": "The Pilot, along with the following episode was released on Fox with an estimated audience of 10.5 million viewers, placing the series as the seventh most watched show in America that week, ranking first in both the 18–49 and 18–34 demographics.",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P4656",
+                  "P813",
+                  "P1683"
+                ]
+              }
+            ]
+          }
+        ],
+        "P161": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "f5c2828b4d08aca57528130504fcf9507239b211",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 261222,
+                  "id": "Q261222"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1098262$3A4C89D0-3FE8-4EAA-B005-B9B81C108412",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "51b1e9d561f0c903f4cc5bcc3fb85b9474f503bf",
+                "snaks": {
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "5e7f4e64721e4e4eb34283606736700cf53657ea",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/wiki/Pilot_(Prison_Break)",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c89134350a0b56f30622038075701f2900f39910",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-09-29T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1683": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1683",
+                      "hash": "cad6aa2f35616e88aa9848afccd90de09596673f",
+                      "datavalue": {
+                        "value": {
+                          "text": "The episode introduces the two main protagonists of the series: Michael Scofield (played by Wentworth Miller) and Lincoln Burrows (played by Dominic Purcell).",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P4656",
+                  "P813",
+                  "P1683"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12096": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12096",
+              "hash": "2d507319e47fba076a051ef479ba471279429169",
+              "datavalue": {
+                "value": "391527",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1098262$72A9AA3A-B8B8-414E-8470-1CBDD11D0FC7",
+            "rank": "normal"
+          }
+        ],
+        "P7043": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7043",
+              "hash": "34554fed20057a6b7e914b03f225453e246c4e8b",
+              "datavalue": {
+                "value": "7055372",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1098262$FA2D0A7D-77E2-4FBC-96F9-93C9199698B3",
+            "rank": "normal"
+          }
+        ],
+        "P12559": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12559",
+              "hash": "5de55c766242cf532f19a46d4a34c8a9c9edf1f6",
+              "datavalue": {
+                "value": "168222",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1098262$40A3B70E-5F62-483E-B085-AF65EBFD6C6D",
+            "rank": "normal"
+          }
+        ],
+        "P8013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8013",
+              "hash": "1b5e60d4f3a5d52d37c1b9bb429b0ff1995b8390",
+              "datavalue": {
+                "value": "shows/prison-break/seasons/1/episodes/1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1098262$747b98f1-c1f0-4697-a8bd-fa7d163aeea6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0d131b3df69daf225710000978b7d45d769a8f71",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "dd3d6915f09d0d26fdbd8e7245f4adaaa7d000d7",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 80044,
+                          "id": "Q80044"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P518": [
+                    {
+                      "snaktype": "value",
+                      "property": "P518",
+                      "hash": "c7d9e261c72700982d9bd83c8b5dd8a46fdec7f5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 120493751,
+                          "id": "Q120493751"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e8bcf05094551ad7689cefdd22e54e1b6d96ed7f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P518",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "f874c70b25a7b511ea40a381294183f73797a535",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "fcc69088e6134a1e916e47e9ade1d0df0241a232",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 84591894,
+                          "id": "Q84591894"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "be4aaf579a883de8b6dd3e95f9c909dbd9ec42ca",
+                      "datavalue": {
+                        "value": "https://trakt.tv/shows/prison-break/seasons/1/episodes/1",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e8bcf05094551ad7689cefdd22e54e1b6d96ed7f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1712": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1712",
+              "hash": "8f9fbbf16c5f2da72e51f3c8361de09084560505",
+              "datavalue": {
+                "value": "tv/prison-break/season-1/episode-1-pilot",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1098262$3f24d42b-af74-47e9-8c54-d08edaba239c",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8e3fa9d10c0cc9f2d8a9d6e5ccc9e3e83e25ce11",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "dd3d6915f09d0d26fdbd8e7245f4adaaa7d000d7",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 80044,
+                          "id": "Q80044"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "276bd81b91868acdbccdef47989ebeeedf8d9452",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "d38cd32fd26cc6fc74d39ab4951cbfac426ba614",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "c021e77da9cbd25343b4762361ca2e9ef889597a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 150248,
+                          "id": "Q150248"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1712": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1712",
+                      "hash": "f763154eb9aab19593cedcd904b19b350a466d89",
+                      "datavalue": {
+                        "value": "tv/prison-break/season-1",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "276bd81b91868acdbccdef47989ebeeedf8d9452",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "3283ed112cdde393299eecc774f59cb650a3b526",
+                      "datavalue": {
+                        "value": "Pilot",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P1712",
+                  "P813",
+                  "P1810"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "المقدمة (بريزون بريك)",
+          "badges": []
+        },
+        "ckbwiki": {
+          "site": "ckbwiki",
+          "title": "ئەڵقەی تاقیکاری (ڕاکردن لە بەندیخانە)",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Rozhodnutí 1",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Pilot (Prison Break)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Piloto (Prison Break)",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "سربرنامه (فرار از زندان)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "La Grande Évasion (Prison Break)",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "マイケル (プリズン・ブレイク)",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Pilot (Prison Break)",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Пилот (Побег)",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Pilot (sehemu ya Prison Break)",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Pilot (Prison Break bölümü)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

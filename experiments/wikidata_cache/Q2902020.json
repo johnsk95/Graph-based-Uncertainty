@@ -1,0 +1,925 @@
+{
+  "entities": {
+    "Q2902020": {
+      "pageid": 2777998,
+      "ns": 0,
+      "title": "Q2902020",
+      "lastrevid": 2295701786,
+      "modified": "2025-01-07T01:05:54Z",
+      "type": "item",
+      "id": "Q2902020",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "City Of"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "episode of Angel (S1 E1)"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "5ce635063e65afba49afb20f6b81e2961ea09e25",
+              "datavalue": {
+                "value": "/m/073fqz",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2902020$C0AC2325-FE26-4EEA-90D8-2538EF8E422F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P57": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P57",
+              "hash": "94980627097e1469d0e2890cc55990fb2ab62e03",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 298025,
+                  "id": "Q298025"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2902020$74035A4F-0824-48E4-8427-CDBDFF0FA749",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P58": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "f7bc2dc1f8d97ee29cef8b26e0ee07a2380eb366",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2413805,
+                  "id": "Q2413805"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2902020$0518545A-820F-46F2-B520-E8BFC10A3230",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "9550ee5fbc320cc29a5b11a9c60a825e7f1862c1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2849359,
+                  "id": "Q2849359"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2902020$9B7A6FCF-615F-433D-AE86-EA173C6D2733",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "908e914ddf3bdc3f9bc94302d816850da8f80161",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 653916,
+                  "id": "Q653916"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2902020$04f2245a-440b-4033-7be9-a3c0a8b32afb",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "2d3761f68cf1248dc8fbf0b5eaa1f7fff03df987",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21191270,
+                  "id": "Q21191270"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2902020$992BBCAD-DD99-4341-B017-E328B32E4DD0",
+            "rank": "normal"
+          }
+        ],
+        "P179": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P179",
+              "hash": "3358bef8ea902728be9e5cf8c518603ab9e4c802",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 212156,
+                  "id": "Q212156"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "2a1ced1dca90648ea7e306acbadd74fc81a10722",
+                  "datavalue": {
+                    "value": "1",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q2902020$bc0844cf-4807-ef11-2781-01e30e2ac3b9",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "novalue",
+              "property": "P155",
+              "hash": "2c0614dca66b9f846a3cb129bd6ca15adeba8a7a",
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2902020$40632d93-4e85-5689-ca0e-75ee6c58e0ab",
+            "rank": "normal"
+          }
+        ],
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "1fec7ff931cb59abb2e67a5e88906c7b89a7cbc1",
+              "datavalue": {
+                "value": "tt0512834",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2902020$27DE309D-78C6-4287-A081-9E461F191D69",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e17507043402fe54ae6c4d65cc51f46cec987de9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8449,
+                          "id": "Q8449"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2638": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2638",
+              "hash": "5d4abaf70b5e2e6d12f7f699775eeeeef6189bfd",
+              "datavalue": {
+                "value": "shows/angel/city-of-74",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2902020$DB5A29C5-6624-4B21-8B57-1F8E80F46708",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2364",
+              "hash": "e27ff2f695af68dcfde3ddbcf73ea3991f758cf3",
+              "datavalue": {
+                "value": "1ADH01",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2902020$D4D031A8-925D-412B-98DD-B6E7CC74D695",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4908": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4908",
+              "hash": "41680c14fe2a46e6921e5cf421c75717d3264632",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 430356,
+                  "id": "Q430356"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "2a1ced1dca90648ea7e306acbadd74fc81a10722",
+                  "datavalue": {
+                    "value": "1",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q2902020$8D0ED608-1FF6-4887-8BDD-01DA3D57A57B",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "0024451b64713ac359862a27882c7825ea13831d",
+              "datavalue": {
+                "value": {
+                  "time": "+1999-10-05T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q2902020$B904FA86-F6D8-49EC-9B8B-DA39645CE98F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "1aacc32297ed83480c5c86349be23d0d378cd5ba",
+              "datavalue": {
+                "value": {
+                  "text": "City Of",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2902020$2681BA12-1587-4FB5-9D38-A9B256295042",
+            "rank": "normal"
+          }
+        ],
+        "P364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P364",
+              "hash": "cc2c15fb58feeae8fe7a641c0e2ddaf3f48e59f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2902020$7B06BAC6-BBCC-4CB4-A56D-CCCCA34BB5D3",
+            "rank": "normal"
+          }
+        ],
+        "P5905": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5905",
+              "hash": "2aa2b7956e3c5b2d7e48f11c860b3d82ae907126",
+              "datavalue": {
+                "value": "4070-5922",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2902020$3ac4b48d-49a4-2215-a133-eba288a8adfe",
+            "rank": "normal"
+          }
+        ],
+        "P8013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8013",
+              "hash": "59ed79a46808d32cfe795baadb2e0e60a82841a6",
+              "datavalue": {
+                "value": "shows/angel/seasons/1/episodes/1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2902020$27a9a1ed-0b79-406f-bde4-a0131c9acf30",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e0ab8930b7daa15719d45d33fdead4459ed7950b",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "971eac918596b7ed218eac83a24eafc18fac8ede",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 212156,
+                          "id": "Q212156"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P518": [
+                    {
+                      "snaktype": "value",
+                      "property": "P518",
+                      "hash": "c7d9e261c72700982d9bd83c8b5dd8a46fdec7f5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 120493751,
+                          "id": "Q120493751"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "51fdf56b7e0fc7fa09a6d0f553960d0b1e3f3c3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P518",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "2fc88f47d898e8956dc4f4f10128b6162e1fd1d4",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "fcc69088e6134a1e916e47e9ade1d0df0241a232",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 84591894,
+                          "id": "Q84591894"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "4aeaa402c886367c429b3eab0ed62f3387731a79",
+                      "datavalue": {
+                        "value": "https://trakt.tv/shows/angel/seasons/1/episodes/1",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "51fdf56b7e0fc7fa09a6d0f553960d0b1e3f3c3d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1712": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1712",
+              "hash": "be5fea95c1b3574b22f5d0272b457a40cbde2289",
+              "datavalue": {
+                "value": "tv/angel/season-1/episode-1-city-of",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2902020$51d9ac45-d8d9-4cea-bca1-d91dd6e6d84f",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "aa0d1f74173008d4dad4a9b9d5991a4dd1c86baf",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "971eac918596b7ed218eac83a24eafc18fac8ede",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 212156,
+                          "id": "Q212156"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "04bf32ec0f329d5f11b735fe5f20fa4a56d3cd11",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "5308c85990a15fdc83ec2086edd0b08764eacfd4",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "c021e77da9cbd25343b4762361ca2e9ef889597a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 150248,
+                          "id": "Q150248"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1712": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1712",
+                      "hash": "61e6db0b18ee22f1aae3319519f509a9eb06c357",
+                      "datavalue": {
+                        "value": "tv/angel/season-1",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "04bf32ec0f329d5f11b735fe5f20fa4a56d3cd11",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "44efec1db68cbbe9d1fb8179b581fcda6ec77ed2",
+                      "datavalue": {
+                        "value": "City of...",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P1712",
+                  "P813",
+                  "P1810"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "City Of",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "City of",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Bienvenue à Los Angeles (Angel)",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "City Of",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

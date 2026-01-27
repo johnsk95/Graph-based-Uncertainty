@@ -1,0 +1,2040 @@
+{
+  "entities": {
+    "Q512036": {
+      "pageid": 481574,
+      "ns": 0,
+      "title": "Q512036",
+      "lastrevid": 2378339443,
+      "modified": "2025-07-11T21:42:14Z",
+      "type": "item",
+      "id": "Q512036",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Bury"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "metropolitan borough in Greater Manchester, England"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Metropolitan Borough of Bury"
+          },
+          {
+            "language": "en",
+            "value": "Bury (unparished area)"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "dbb419eb3a7e1872f7fdf79d5d56d0ce7d893545",
+              "datavalue": {
+                "value": "Metropolitan Borough of Bury",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q512036$AC49A679-4918-4833-9129-03F3C0B9B137",
+            "rank": "normal"
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "a44880420787fb348836dc51d3babc5227c4ef7e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q512036$13EF5918-B203-45CA-8A13-3E4624C8F93E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e17507043402fe54ae6c4d65cc51f46cec987de9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8449,
+                          "id": "Q8449"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P300": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P300",
+              "hash": "7622a6be3c5b99389a463d8205c312f49e1a6390",
+              "datavalue": {
+                "value": "GB-BUR",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "q512036$7FE01016-1330-401D-8160-3C29CC100DBB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "706208b3024200fd0a39ad499808dd0d98d74065",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "7a59ed99eea7386c9cbcb6a0bb77eb050eb6a3aa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 23099,
+                  "id": "Q23099"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q512036$F098366E-8A34-41D2-800F-DC8F425D228B",
+            "rank": "normal"
+          }
+        ],
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "a76e13293f95a7d8e819083e81b35677bb4e7e55",
+              "datavalue": {
+                "value": {
+                  "latitude": 53.592777777778,
+                  "longitude": -2.2980555555556,
+                  "altitude": null,
+                  "precision": null,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q512036$CD021969-5436-4B84-B64B-57E9E39F1C7B",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "a7e307b774d2a72dc5a5c5a4378eb78116613cd9",
+              "datavalue": {
+                "value": "/m/02z2t9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$9DBA1B0D-FA6A-4261-871E-6FE1D5907316",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P901": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P901",
+              "hash": "fd4afcd209c2e28ead0fcb6ea4a9930792c77358",
+              "datavalue": {
+                "value": "UKC1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$B6DA68C7-83F7-4703-ADC9-F6B77E54ED49",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d533d3073dabe227fb05dc9624ea469675f25b12",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "1884b8f3964f9bf0517fd6449d4cf67b16258d58",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=List_of_FIPS_region_codes_(S%E2%80%93U)&oldid=555833119",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1860,
+                          "id": "Q1860"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "14b9dff5c416dff33edad44dec13b87306ffc1cd",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-12-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "0c19c605bbf55593967d0d6a759f8c63e9a43696",
+                      "datavalue": {
+                        "value": {
+                          "text": "List of FIPS region codes (S-U)",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656",
+                  "P407",
+                  "P813",
+                  "P1476"
+                ]
+              }
+            ]
+          }
+        ],
+        "P982": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P982",
+              "hash": "c782769a74f787271a06691682d89347b077fd94",
+              "datavalue": {
+                "value": "94e56796-e5dc-40cd-8efa-527df12d54a1",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$FF776A18-08E7-407C-A0FA-55C81377960C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "706208b3024200fd0a39ad499808dd0d98d74065",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "ff21fe04494803d1dc2ed3b8bd644adf8b4a3f5f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1002812,
+                  "id": "Q1002812"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$3436B4C5-821C-447C-B0C4-35633225A1BA",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "99189605d5fcd428eee5d5fa666f5e5609d9a42d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7897276,
+                  "id": "Q7897276"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$527FF22A-B284-455D-B5A4-BAF9B26EF986",
+            "rank": "normal"
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "fa1bda7e14bae1735250944094ac395c45a7621f",
+              "datavalue": {
+                "value": "3333136",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$3C4CC5CD-C045-48E7-B062-6E3FCA87E8EE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P402": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P402",
+              "hash": "e30ce568c8af64bdb812aee90c9f6d828e222fb3",
+              "datavalue": {
+                "value": "146927",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$7E1356FF-6DD8-4575-9513-630AC1749876",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8ece5ca44e176c0cd32cb8dc238d7eedd6286bbc",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "7911dfeca3f1a99901992061dab24f71bc3fee0f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 936,
+                          "id": "Q936"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "110e6a23e65984cfe3043ee59402f193f0f6df33",
+              "datavalue": {
+                "value": "Bury Town Hall (2).jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q512036$41D250AB-FEB6-4F3D-9BD2-7B9D3B66B70F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "5bf7d1ce50e35e6529352614d4c75a335a9889d4",
+              "datavalue": {
+                "value": "http://www.bury.gov.uk",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q512036$D5126577-1563-451A-A6C0-FBDDA448662B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P571": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P571",
+              "hash": "9612a441b5916eeb726dace6d4cc8d4a01e6aa4d",
+              "datavalue": {
+                "value": {
+                  "time": "+1974-04-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q512036$E24A544C-78C2-4575-BF71-E6AB3FB56256",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P36": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P36",
+              "hash": "a08db99a174a9e73f42f99bba69a070f542c6af0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 47822,
+                  "id": "Q47822"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$34629B3C-EB8A-4309-B302-388A4387F3C9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P910": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P910",
+              "hash": "ba9cc8e059daeb2fffa03ef60c95d9f8b2439cd1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8329571,
+                  "id": "Q8329571"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$b2388014-47fe-b6ce-783d-1c445f5d9a40",
+            "rank": "normal"
+          }
+        ],
+        "P242": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P242",
+              "hash": "7f23187656ddd9ee8b6b660d65d86288c0637a62",
+              "datavalue": {
+                "value": "Bury UK locator map.svg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q512036$180B4AE4-0904-4433-881C-85B860BB726B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P836": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P836",
+              "hash": "cb9edf6072ab00c41e5ceea1af6bfa8589a84f5b",
+              "datavalue": {
+                "value": "E08000002",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$B4A12BA2-F277-4A4A-B82D-BEF36F7DA6D1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4881a6edaba7b0f179d612969aefc94ed4768626",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "310c4d7f7d53b6a5c57ec198e61d481cbfccb045",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2017-03-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P836",
+              "hash": "dd52f0e6d3b298226d924ed7759fa8e849b90098",
+              "datavalue": {
+                "value": "E43000156",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2868": [
+                {
+                  "snaktype": "value",
+                  "property": "P2868",
+                  "hash": "fe63c694afa84ac9f22d3bd5d8f065d43c532de9",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 7897276,
+                      "id": "Q7897276"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2868"
+            ],
+            "id": "Q512036$D13FE406-6476-468F-8BB1-29150655016C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "9cdc2daf58024d0083925b9aed5629eabdfa4501",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "d8ba94dcc23b862a11d264cd3191c3510859418f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 105908483,
+                          "id": "Q105908483"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c9cbd4552294e19489761e68bfed473d163ed3ed",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-03-11T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P3120": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3120",
+              "hash": "c2f966f3cb590c64ed37c00404110544165d74d2",
+              "datavalue": {
+                "value": "7000000000018846",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$32B1E435-17E8-4A67-B8C7-A0703B917F7E",
+            "rank": "normal"
+          }
+        ],
+        "P1082": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1082",
+              "hash": "f50f2ec8370a03180317ba34a878a6ce8c01c7de",
+              "datavalue": {
+                "value": {
+                  "amount": "+187900",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "c053ccd28023856810742b1d45761ec0400a6467",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2015-07-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "59e16663852542d613c363dbd575ca58fff3b6e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 791801,
+                      "id": "Q791801"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585",
+              "P459"
+            ],
+            "id": "Q512036$B264AFBD-3258-4B8B-BAA8-5A175FBD5BC8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "44f76f1b8936a18aa6376449c75df04ff1a71009",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "35016986ffdb45032cf695cb2d11f3056088dbc7",
+                      "datavalue": {
+                        "value": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1082",
+              "hash": "7a4e25001b162b2ef74e673f04f23bdf7ffcfd32",
+              "datavalue": {
+                "value": {
+                  "amount": "+190108",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "60634bc4e9846fc33bc656ddcba7ec09b07bc1b4",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2018-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "59e16663852542d613c363dbd575ca58fff3b6e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 791801,
+                      "id": "Q791801"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585",
+              "P459"
+            ],
+            "id": "Q512036$A8CF01DC-6F6A-42D7-B61A-60A8DDB3F855",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b285cd98d3664f0f8c167e00c3e3682e0c2744fe",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "4e514c1e44db543d15aeb91b9069e811bf66dcd9",
+                      "datavalue": {
+                        "value": "http://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1082",
+              "hash": "62a73dd56507b50f085f5caf4f0c7ed602228b48",
+              "datavalue": {
+                "value": {
+                  "amount": "+190708",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "09f85c089438e099c1cd33998f5c59a57729afd2",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2020-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "59e16663852542d613c363dbd575ca58fff3b6e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 791801,
+                      "id": "Q791801"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585",
+              "P459"
+            ],
+            "id": "Q512036$77636b41-41bd-535e-a35b-54db44e8958d",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "54fd7a445ac42a38d6581290807d98ccc8e4face",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "35016986ffdb45032cf695cb2d11f3056088dbc7",
+                      "datavalue": {
+                        "value": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9a7cf3f0a653f2058481747342b162872664045b",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2022-02-06T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1082",
+              "hash": "b17b7eed053af298315c27e50754e5f025101f32",
+              "datavalue": {
+                "value": {
+                  "amount": "+186200",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "8f3565657428592dc1dd7f92da0f734724d987d7",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2012-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "59e16663852542d613c363dbd575ca58fff3b6e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 791801,
+                      "id": "Q791801"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585",
+              "P459"
+            ],
+            "id": "Q512036$4D3ECFD2-17DD-4996-8FA3-4C014096F4BB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "89d6a033f017e6e5d3a060de8d676b222072a2d6",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "9fd46e198d5dfe2f526f022f746eaab35e3a4d7b",
+                      "datavalue": {
+                        "value": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/datasets/localauthoritiesinenglandtable2",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1082",
+              "hash": "7ba312c23becaa4d84ae5381870165561564aff7",
+              "datavalue": {
+                "value": {
+                  "amount": "+194606",
+                  "unit": "1"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "2158d4b68f82b8f36f47c98bd3609a99913faa59",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2022-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ],
+              "P459": [
+                {
+                  "snaktype": "value",
+                  "property": "P459",
+                  "hash": "59e16663852542d613c363dbd575ca58fff3b6e7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 791801,
+                      "id": "Q791801"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585",
+              "P459"
+            ],
+            "id": "Q512036$646313A1-D960-453E-91CF-99AD234957EB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "393bb41d66fe3a2045effd23d1fd32e0ec1dbfbe",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "da6c164d138ee07e04f293243769389f5300d25b",
+                      "datavalue": {
+                        "value": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1667": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1667",
+              "hash": "c58d8bf3504fa25d5125d7787333027b86b9f6fb",
+              "datavalue": {
+                "value": "1003572",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$E77216E9-386B-43A2-A857-6821F2A8887A",
+            "rank": "normal"
+          }
+        ],
+        "P3896": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3896",
+              "hash": "db6fc9953671dc8c8b10c8bcfba3cc9b4632a7c2",
+              "datavalue": {
+                "value": "Data:Bury.map",
+                "type": "string"
+              },
+              "datatype": "geo-shape"
+            },
+            "type": "statement",
+            "id": "Q512036$60de2dc9-4687-310d-64b8-05ddd508ec58",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "1074f9cc30fb90b0ae30dfb9dc261333b286c440",
+              "datavalue": {
+                "value": "place/Bury-metropolitan-borough-England",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "6f3c8e9a30acaaced4557db72d6a33c0a7d420dd",
+                  "datavalue": {
+                    "value": "Bury",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q512036$D330BDFA-C27B-4905-A6AD-D62AE14989E8",
+            "rank": "normal"
+          }
+        ],
+        "P6766": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6766",
+              "hash": "07df76098954fc709b4dbc7b5c3c919083547d05",
+              "datavalue": {
+                "value": "85683615",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$BA2F498F-1237-4B01-89AD-F34C59FA5291",
+            "rank": "normal"
+          }
+        ],
+        "P2046": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2046",
+              "hash": "5c512ff1ab25c491eb7a46ee4f3cfbe58ebdef6c",
+              "datavalue": {
+                "value": {
+                  "amount": "+99.4601",
+                  "unit": "http://www.wikidata.org/entity/Q712226"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "3517d81837773a2a728b6be0a23fe9de5d60e598",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2016-01-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q512036$F8E2DF00-A49A-41AE-A694-5AD5500861D4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "5277e8982afb73e6ac526e208d6b3f1fe558ef8c",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f0bb2a18d7132ce7b5647bdd9a450401c6aec44d",
+                      "datavalue": {
+                        "value": "https://ons.maps.arcgis.com/home/item.html?id=a79de233ad254a6d9f76298e666abb2b",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8119": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8119",
+              "hash": "b394413c31eeea2644f78b5b9eb35177e02876fe",
+              "datavalue": {
+                "value": "GB.BR",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$87CC5FC8-1C6E-4515-9B5F-F8000CB2E525",
+            "rank": "normal"
+          }
+        ],
+        "P797": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P797",
+              "hash": "67303a183b74b0a0c5f4d6befb458e021c8de1d6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16954633,
+                  "id": "Q16954633"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$51d178a8-4e36-f64a-1666-83b947e425e6",
+            "rank": "normal"
+          }
+        ],
+        "P208": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P208",
+              "hash": "5ab2777553b2deda47160e87bda14bbdcbe20552",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 101695942,
+                  "id": "Q101695942"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$55666cb3-4cf5-4678-df1e-e45c06cd9a32",
+            "rank": "normal"
+          }
+        ],
+        "P194": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P194",
+              "hash": "24c02eaefd36f81a3837d37fe48e10be48f2ad45",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 101695379,
+                  "id": "Q101695379"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$04c9f227-4295-386c-0c8b-32926fc611e4",
+            "rank": "normal"
+          }
+        ],
+        "P4527": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4527",
+              "hash": "4b1af4ed2ae5c4dd95b8615e4db574f9aba95bd1",
+              "datavalue": {
+                "value": "296884",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "6f3c8e9a30acaaced4557db72d6a33c0a7d420dd",
+                  "datavalue": {
+                    "value": "Bury",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q512036$2ea579ec-4bb0-64ab-37d5-bff028ef76ea",
+            "rank": "normal"
+          }
+        ],
+        "P94": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P94",
+              "hash": "b65b4d4ed0ff6654cc9963a5fedfd9ff987c72e3",
+              "datavalue": {
+                "value": "Coat of arms of Bury Metropolitan Borough Council.png",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q512036$f2429b71-5975-41a5-a990-960f315b92ee",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P47": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P47",
+              "hash": "c34cce7d1fd8b90e81b77a120f528cd57e866fd4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1364541,
+                  "id": "Q1364541"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$3f30e66f-41a0-52ab-319d-417248734354",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P47",
+              "hash": "dd23f66db8497a0185e37d61cead92b6ccdc5a8c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21525592,
+                  "id": "Q21525592"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$4905cb54-42c1-1395-bc69-f76c5d6f85b7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P47",
+              "hash": "7cb863e72c3aa7cab20fb4a4711d9d1b34f3a09e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1892596,
+                  "id": "Q1892596"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$247a4475-4b49-5499-2ebf-0dfdcd2874e3",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P47",
+              "hash": "f36de2b125a9fb7877c55c07739d3834f69d1435",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1142118,
+                  "id": "Q1142118"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$d7f62f89-49a5-661d-1c00-ca03c47e503c",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P47",
+              "hash": "652b365e6c3355d7238e24272e60056b05c1b428",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 527423,
+                  "id": "Q527423"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$4490f351-49b6-3246-d3f2-bc177e9d6c83",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P47",
+              "hash": "49889e3c529a179f3a4d8529bd0611ec1e6c5c77",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 880782,
+                  "id": "Q880782"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$09bfa40b-42de-7478-f455-853a4df20fce",
+            "rank": "normal"
+          }
+        ],
+        "P1313": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1313",
+              "hash": "f927b65dbb573969902cb89955783fc0fca88497",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 109381047,
+                  "id": "Q109381047"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q512036$c05f06e3-4357-645d-4423-50c09e367306",
+            "rank": "normal"
+          }
+        ],
+        "P2326": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2326",
+              "hash": "ceca6de4c5a09c7083ed825ee113032dbb60ec8a",
+              "datavalue": {
+                "value": "6077578",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$E771AB06-36E6-44A1-ABFB-472BDA26E753",
+            "rank": "normal"
+          }
+        ],
+        "P3615": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3615",
+              "hash": "c2877fdc4c272ef6d149f2a958e753f44f5a78b4",
+              "datavalue": {
+                "value": "10080630",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$10552bcd-4ee2-1ff3-ecdc-1f5a28ff170d",
+            "rank": "normal"
+          }
+        ],
+        "P5573": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5573",
+              "hash": "1499eb0b3fa4ab74bc4d8e1d316123df47345443",
+              "datavalue": {
+                "value": "50709",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$FFEC1B90-E250-4FDD-AA7D-EAD262EEB6D7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a5b4d00146d4f917a2c72a685a9063e7ac154f11",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "d845f4eb775982fb2055473e0463f4a17a2cfa54",
+                      "datavalue": {
+                        "value": "https://www.archinform.net/service/wd_aiort.php",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "c619cc6e0e5fe3733a8c4a47939343e5970e0e9d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 265049,
+                          "id": "Q265049"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "e789c1f6d2bef148acfbb36fcc0db223a7d8d1e1",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-05-09T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P13591": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P13591",
+              "hash": "7a85b80578eb087dd9b840dbb8d0d02f280f6c0c",
+              "datavalue": {
+                "value": "place/b87083e6-0d15-4624-af2c-5c5dbbcacb0e",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q512036$C5C5B73D-AA72-407D-849F-03EB260B892D",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Бери (община)",
+          "badges": []
+        },
+        "brwiki": {
+          "site": "brwiki",
+          "title": "Kumun vetropolitan Bury",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Borough of Bury",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Bwrdeistref Fetropolitan Bury",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Metropolitan Borough of Bury",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Metropolitan Borough of Bury",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Municipio metropolitano de Bury",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "کلان‌شهر مستقل بری",
+          "badges": []
+        },
+        "frrwiki": {
+          "site": "frrwiki",
+          "title": "Metropolitan Borough of Bury",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "District métropolitain de Bury",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Borgo metropolitano di Bury",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "베리 도시 자치구",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Beri (boro)",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Bury (district)",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Bury (distrikt)",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Metropolitan Borough of Bury",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Бери (район)",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Bury (borough)",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Metropolitan Borough of Bury",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Metropolitan Borough of Bury",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "میٹروپولیٹن بورو بری",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Bury (koān)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "貝里都市自治市",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

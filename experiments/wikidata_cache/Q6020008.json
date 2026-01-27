@@ -1,0 +1,300 @@
+{
+  "entities": {
+    "Q6020008": {
+      "pageid": 5801791,
+      "ns": 0,
+      "title": "Q6020008",
+      "lastrevid": 2352991907,
+      "modified": "2025-05-26T16:29:30Z",
+      "type": "item",
+      "id": "Q6020008",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Indian Child Welfare Act"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "1978 U.S. federal law regulating tribal jurisdiction over court cases involving children"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P3825": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3825",
+              "hash": "8ac65c9d6106f09d1aa1ae7c4e1336a38da6f842",
+              "datavalue": {
+                "value": "92-3069",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6020008$84B7D162-D214-4EDD-BFC9-AB71C698D2E3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "773a302c2d8912527108ffe3b168b547a4278bf8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 476068,
+                  "id": "Q476068"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q6020008$7E9B3983-97CE-4733-9C6E-C994657520AC",
+            "rank": "normal"
+          }
+        ],
+        "P3837": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3837",
+              "hash": "47dc1f14baff1fc5c73f1f54eecf7c9e9ea3d38a",
+              "datavalue": {
+                "value": "95-608",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6020008$25E4330C-9998-41D6-8616-996A243650A3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q6020008$A07C8400-7B98-4AE3-B323-E887F25A2507",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "aae37039265588fb96dc768f3cfb5b1a870b2229",
+              "datavalue": {
+                "value": "topic/Indian-Child-Welfare-Act",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4a09a1b1642b35f9fe9b3cea5c3c32b8a88163ee",
+                  "datavalue": {
+                    "value": "Indian Child Welfare Act",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q6020008$EA8C117D-7731-45CF-90DA-187BC2190EB1",
+            "rank": "normal"
+          }
+        ],
+        "P467": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P467",
+              "hash": "7add0c084e4a89fb971c1f4f739f8b972b4c038b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 4646042,
+                  "id": "Q4646042"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q6020008$FC41ECCA-ABA0-4BD5-9617-ED925458AD6C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "527eb24dd54c52c5c99e0e067ffbed5148891162",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "c09cffaa6b7cc704f6eeb1b0cb62468c881a535f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 16089878,
+                          "id": "Q16089878"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6366": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6366",
+              "hash": "da7689faa27528aff8a793a12587edc0d2cdc007",
+              "datavalue": {
+                "value": "2776117512",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6020008$2B45724B-2B72-4EE4-87A7-F3351D28A254",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "33f2ef0ecda6882a62f6f6929a05112c96840ed1",
+              "datavalue": {
+                "value": "/m/027z5tz",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q6020008$0FF78002-0A8B-4A5F-87CF-8E8580157E1A",
+            "rank": "normal"
+          }
+        ],
+        "P279": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P279",
+              "hash": "4f1c7b762150c945bca2f98743f2c6215d4c6db8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 134563555,
+                  "id": "Q134563555"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q6020008$e03d60dd-445d-7ed8-16b1-11eb007b501c",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Indian Child Welfare Act",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

@@ -1,41 +1,0 @@
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.29it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.54it/s]
-Traceback (most recent call last):
-  File "/home/bitlab/john/Graph-based-Uncertainty/main.py", line 82, in <module>
-    main()
-  File "/home/bitlab/john/Graph-based-Uncertainty/main.py", line 66, in main
-    generation_result = g.generate()
-                        ^^^^^^^^^^^^
-  File "/home/bitlab/john/Graph-based-Uncertainty/src/model_generate.py", line 68, in generate
-    most_likely_generation = self._generate_single_most_likely(data['prompt'], gen_id)
-                                                               ~~~~^^^^^^^^^^
-KeyError: 'prompt'
-
-ERROR conda.cli.main_run:execute(47): `conda run python main.py --model llama-3-8b-instruct --dataset truthfulqa_fiction --data_size 10 --breakdown True --sc_samples 4 --num_generations_per_prompt 10 --temperature 0.7` failed. (See above for error)
-Folder Path: experiments/truthfulqa_fiction/llama-3-8b-instruct
-CUDA is available. Listing memory usage:
-Device 0:
-  Total Memory: 47.38 GB
-  Allocated Memory: 0.00 GB
-  Cached Memory: 0.00 GB
-Device 1:
-  Total Memory: 47.38 GB
-  Allocated Memory: 0.00 GB
-  Cached Memory: 0.00 GB
-Device 2:
-  Total Memory: 47.38 GB
-  Allocated Memory: 0.00 GB
-  Cached Memory: 0.00 GB
-CUDA is available. Listing memory usage:
-Device 0:
-  Total Memory: 47.38 GB
-  Allocated Memory: 4.23 GB
-  Cached Memory: 4.26 GB
-Device 1:
-  Total Memory: 47.38 GB
-  Allocated Memory: 5.28 GB
-  Cached Memory: 5.33 GB
-Device 2:
-  Total Memory: 47.38 GB
-  Allocated Memory: 5.45 GB
-  Cached Memory: 5.49 GB
-

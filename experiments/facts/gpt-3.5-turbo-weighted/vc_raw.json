@@ -1,0 +1,1606 @@
+[
+  [
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Being middle-aged puts you at a higher risk for developing dementia as you get older."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Little chance (20%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Having your ears blown out in the war may have caused damage to your auditory system, which could potentially increase your risk for cognitive decline."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Little chance (20%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Experiencing regular bouts of sadness or depression can also be a risk factor for dementia."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Eating mostly garbage or unhealthy foods can contribute to overall poor health, including cognitive decline."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Engaging in mentally stimulating activities, such as reading, puzzles, learning new skills, or socializing, has been shown to help maintain cognitive function and potentially reduce the risk of dementia."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Keeping your brain active and challenged can help build cognitive reserves, which may help protect against cognitive decline in the future."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Maintaining cognitive engagement through mentally stimulating activities can help mitigate risks of dementia and potentially improve overall brain health."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: It's important to prioritize activities that challenge your brain and keep it sharp as you age."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: None. All claims in the \"New Claim List\" are already covered or implied by the statements in the \"Original Claim List.\""
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Taking care of overall health and well-being can lower risk factors for dementia"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Consuming mostly junk food can have negative effects on brain health"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Not smoking is a positive factor for brain health"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Staying physically active can contribute to overall brain health"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Maintaining a healthy diet can potentially reduce the risk of dementia"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: I'm middle-aged, never smoked, had my ears blown o...\nThe possible information is: Maintaining a healthy lifestyle through regular exercise, a balanced diet, and managing underlying health conditions can help lower the risk of dementia (Partially covered by claims in the Original Claim List, but not fully entailed)"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Shun Cutlery has a minimum sharpening angle of 14 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Global Knives have a minimum sharpening angle of 15 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Wusthof Knives have a minimum sharpening angle of 15 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Miyabi Knives have a minimum sharpening angle of 15 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Dalstrong Knives have a minimum sharpening angle of 16 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Wusthof has a minimum angle of 16 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Zwilling J.A. Henckels has a minimum angle of 16 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Victorinox has a minimum angle of 20 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Shun has a minimum angle of 16 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Miyabi has a minimum angle of 19 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Mercer Culinary minimum angle is 15 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Dalstrong knives have a blade angle of 12-15 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Shun knives have a blade angle of 13-16 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Global knives have a blade angle of 15-17 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Miyabi knives have a blade angle of 15-18 degrees"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Can you list all the knife brands that sell knives...\nThe possible information is: Zwilling J.A. Henckels knives have a blade angle of 15-20 degrees"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Creating a budget involves tracking income and expenses"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Cutting unnecessary expenses can help save money"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Setting savings goals is important for motivation"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Automating savings through transfers can help save money"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Shopping smart by looking for sales and using coupons can save money"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Cooking at home can save money compared to eating out"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Avoiding impulse purchases is a way to save money"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Using cash instead of credit can help stay within budget"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Finding ways to increase income can boost savings"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Staying motivated and celebrating progress is important for saving money"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Finding ways to increase income can help save more money"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Saving on utilities by being mindful of energy use can lower bills"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Being mindful of spending can help align purchases with financial goals"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Using cashback and rewards programs can earn money back on purchases"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Monitoring progress by reviewing budget and savings goals is important"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Setting savings goals involves determining how much to save each month"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Shopping around for the best prices can help save money on purchases"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Setting specific financial goals can help motivate saving money for things like vacations or emergency funds."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Cutting back on unnecessary expenses can include reducing dining out, canceling subscriptions, and avoiding impulse purchases."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Avoiding high-interest debt like credit card debt is important to save money and improve financial stability."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Increasing income through part-time work, freelancing, or selling unused items can boost savings."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are some tips on saving money?...\nThe possible information is: Staying motivated to save money can involve tracking progress, rewarding milestones, and visualizing financial goals."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs showing symptoms of leptospirosis include fever, muscle pain, vomiting, diarrhea, and jaundice."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs can get leptospirosis from potentially contaminated water sources like ponds, lakes, or rivers."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs can get leptospirosis from contact with wildlife such as rodents or livestock."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs can get leptospirosis from traveling to areas where the disease is prevalent."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs at increased risk for leptospirosis include hunting or working dogs that spend a lot of time outdoors."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs with a history of recurrent urinary tract infections or kidney disease may be at risk for leptospirosis."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Testing for leptospirosis in dogs is recommended if a dog has recently been in contact with other dogs diagnosed with leptospirosis."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Testing for leptospirosis in dogs is recommended if a dog has a history of liver or kidney disease as leptospirosis can exacerbate these conditions."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Testing for leptospirosis in dogs is recommended if a dog has a weakened immune system due to age, illness, or medication as they may be more susceptible to severe complications from leptospirosis."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: It is important to consult with a veterinarian to determine the appropriate testing and treatment plan for each individual dog."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs showing symptoms of leptospirosis may also exhibit lethargy."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Little chance (20%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Leptospirosis can cause kidney damage in dogs with a history of urinary tract infections."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs with weakened immune systems are more susceptible to leptospirosis infection."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs in contact with other animals diagnosed with leptospirosis are at risk for the disease."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Working dogs, hunting dogs, and dogs in rural areas are at higher risk for exposure to leptospirosis."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Clinical signs for leptospirosis in dogs include lethargy and loss of appetite."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Testing for leptospirosis should be considered during outbreaks to prevent further spread."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What are all  the contexts when it is right for te...\nThe possible information is: Dogs undergoing surgery should be tested for leptospirosis to prevent potential complications."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 nationals and refugees are individuals who have been granted protection under the 1951 Geneva Convention on the Status of Refugees."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: This protection includes the right to seek asylum and be recognized as refugees, as well as access to certain rights and services such as healthcare, education, and employment."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 nationals are individuals who are nationals of a country that is a signatory to the Geneva Convention."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Refugees are individuals who have been forced to flee their country due to persecution, war, or violence."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: It is important for Annex 1 nationals and refugees to understand their rights and responsibilities under the Geneva Convention."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: They may also be eligible for resettlement programs or other forms of assistance to help them integrate into their new host country."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 nationals and refugees should be aware of their legal status, rights, and available resources to ensure their safety and well-being in their host country."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Challenges and obstacles during the asylum process may include long waiting periods, lack of access to legal representation, and discrimination or hostility from host communities."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 includes countries in Europe, North America, and Australia"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 nationals and refugees have different legal statuses and rights under international law"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 nationals are individuals from countries that are part of Annex 1 of the European Economic Area (EEA) Agreement"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 includes the European Union (EU) member states and certain other countries"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Annex 1 nationals have the right to reside and work in other EEA countries without needing a visa or work permit"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: The specific policies and procedures for applying for asylum"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Both Annex 1 nationals and refugees have certain rights and protections under international and European law"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: Both Annex 1 nationals and refugees have the right to work, access healthcare, and education"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: can you summarise all the important information re...\nThe possible information is: It is important for host countries to ensure that Annex 1 nationals and refugees have access to services and support for successful integration into society"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Efficiency: Taxes should be levied in a way that minimizes distortions in the economy and encourages economic growth."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Equity: Taxes should be distributed fairly among individuals and businesses based on their ability to pay."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Simplicity: Tax laws should be easy to understand and comply with, reducing compliance costs for taxpayers."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Certainty: Tax laws should be stable and predictable, providing taxpayers with confidence in planning their financial affairs."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Adequacy: Tax revenues should be sufficient to fund government programs and services effectively without excessive burden on taxpayers."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax policies should be fair and equitable"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax policies should be designed to minimize distortions in the economy"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax policies should be straightforward and easy to understand"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax policies should provide predictability and stability to taxpayers"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax policies should generate sufficient revenue to fund government operations"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Equity is a principle of tax policy that focuses on fairness and just distribution of the tax burden."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Progressive taxation involves higher income individuals paying a higher percentage of their income in taxes."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Minimizing deadweight loss and avoiding unnecessary barriers to economic activity are part of efficient tax policy design."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Complex tax systems can lead to confusion, errors, and increased compliance costs for individuals and businesses."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Taxes should be set at a level that is sufficient to cover public expenditures without creating excessive deficits or relying too heavily on borrowing."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Transparency in tax policy means it should be easily understood by the public."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Taxpayers should be able to clearly see how their tax dollars are being used and understand the rationale behind tax policy decisions."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: \"Taxes should incentivize productive activities\""
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Little chance (20%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: \"Reducing administrative costs for the government is important\""
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: \"Accountability in tax policies is important\""
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: \"Informed debate on tax policies is important\""
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: \"Balancing the need to minimize the burden on taxpayers is important\""
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Little chance (20%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax policies should ensure resources are allocated efficiently"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Little chance (20%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax policies should help the economy grow and prosper"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax systems should minimize opportunities for tax evasion and avoidance"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax laws should provide taxpayers with a clear understanding of their obligations"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax laws should allow for effective planning and decision-making"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: Summarize the five overarching principles of tax p...\nThe possible information is: Tax revenues should ensure the government can meet its obligations without running persistent budget deficits"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: According to the provided text, what is the typica...\nThe possible information is: The typical maximum range for Infrared (IR) is around 30 meters."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: According to the provided text, what is the typica...\nThe possible information is: The typical maximum range for Infrared (IR) is around 5 meters."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: According to the provided text, what is the typica...\nThe possible information is: The typical maximum range for Infrared (IR) is around 5-10 meters."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: According to the provided text, what is the typica...\nThe possible information is: The typical maximum range for Infrared (IR) is around 20 meters."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: No chance (0%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: According to the provided text, what is the typica...\nThe possible information is: None"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Antibiotics are the primary treatment for Scarlet Fever"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Antibiotics like penicillin or amoxicillin help kill the bacteria causing Scarlet Fever"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Over-the-counter medications like acetaminophen or ibuprofen can reduce fever and pain in Scarlet Fever"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Rest and staying hydrated support the body's immune system in fighting Scarlet Fever"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Good hygiene practices can prevent the spread of Scarlet Fever"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Follow-up care with a healthcare provider is important after treating Scarlet Fever"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Scarlet Fever can lead to complications like rheumatic fever or kidney problems"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Completing the full course of antibiotics is important for Scarlet Fever treatment"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Scarlet Fever is highly contagious, especially in the early stages"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Scarlet Fever is typically treated with antibiotics to kill the bacteria and reduce the risk of complications."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: If you or your child has Scarlet Fever, it is important to stay home from school or work until at least 24 hours after starting antibiotics to prevent spreading the infection to others."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Scarlet Fever is a treatable infection with antibiotics, and most people recover fully with prompt and appropriate treatment."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Seeking medical attention for a proper diagnosis and treatment is important if you suspect you or your child has Scarlet Fever."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Scarlet fever is a bacterial infection caused by group A Streptococcus bacteria."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain (100%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Prompt treatment with antibiotics, along with supportive care, can help alleviate symptoms and speed up recovery from scarlet fever."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: It is important to follow healthcare provider's recommendations for treatment and prevent the spread of the infection to others."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: Most cases of scarlet fever can be successfully treated without complications with prompt diagnosis and appropriate treatment."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What should I know about treatments for Scarlet Fe...\nThe possible information is: If you or your child develop symptoms of scarlet fever, seek medical attention promptly for evaluation and treatment."
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The best co-sleeper for you and your new baby will depend on your personal preferences and needs."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: Some popular options for co-sleepers include bedside bassinets, in-bed co-sleepers, and standalone co-sleepers that can be attached to the side of the bed."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: Factors to consider when choosing a co-sleeper include safety, comfort, ease of use, and compatibility with your bed."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: It's important to make sure that the co-sleeper meets all safety standards and guidelines for infant sleep."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: Highly rated co-sleepers to consider include the Arm's Reach Concepts Clear-Vue Co-Sleeper, the HALO BassiNest Swivel Sleeper, and the Baby Delight Beside Me Dreamer Bassinet & Bedside Sleeper."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: Before making a decision, be sure to read reviews, compare features, and consider what will work best for you and your baby."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The Arm's Reach Concepts Clear-Vue Co-Sleeper features a clear side panel for easy visibility of your baby."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The Arm's Reach Concepts Clear-Vue Co-Sleeper has wheels for easy mobility."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The HALO Bassinest Swivel Sleeper has a swiveling design."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The HALO Bassinest Swivel Sleeper has a retractable side wall for easy access to your baby."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The HALO Bassinest Swivel Sleeper has a soothing nightlight and gentle vibration settings."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The Snuggle Me Organic Co-Sleeper is made from organic materials."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The Snuggle Me Organic Co-Sleeper features a unique design that hugs your baby to create a womb-like environment."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: Be sure to follow safe sleep guidelines and consult with your pediatrician if you have any concerns."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: The Arm's Reach Concepts Co-Sleeper Bassinet is another popular option for co-sleepers."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: Budget is an additional factor to consider when choosing a co-sleeper."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Almost certain",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: Following safe sleep guidelines is crucial to reduce the risk of SIDS."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: It may be helpful to read reviews and seek recommendations from other parents."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: **Size is an important factor to consider when choosing a co-sleeper.**"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Little chance (20%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: What is the best co sleeper for me and my new baby...\nThe possible information is: **Consult with your pediatrician or a baby sleep expert for personalized recommendations.**"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Enhancing national security: Ensuring the security and resilience of subsea cables to protect critical infrastructure and communication networks."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Promoting economic growth: Facilitating the efficient and reliable transfer of data through subsea cables to support businesses, innovation, and global trade."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Strengthening international partnerships: Collaborating with allies and partners to maintain a secure and open internet infrastructure and protect against threats to subsea cables."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Advancing technological innovation: Investing in research and development to improve the performance and capacity of subsea cables for faster and more reliable communication."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Ensuring the security and resilience of subsea cables to protect national security interests"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Promoting and maintaining open and reliable communication pathways for international trade and diplomacy"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Strengthening partnerships with allies and like-minded countries to collectively address challenges in the subsea cable network"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Advancing technological innovation and research to enhance the efficiency and capacity of subsea cable infrastructure"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Security and reliability of subsea cable networks are crucial for ensuring uninterrupted communication"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Cyber threats pose a significant risk to critical infrastructure such as subsea cables"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: International cooperation plays a key role in safeguarding communication networks from threats"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Promoting partnerships on a global scale enhances connectivity and communication efficiency"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Efficient operation of subsea cable systems is a key driver of economic growth and development"
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Promoting a free and open Indo-Pacific region involves supporting the development and maintenance of subsea cable networks."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Addressing challenges such as data privacy, cybersecurity, and environmental impact is necessary to ensure the sustainable use of subsea cables."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Very good chance (80%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Ensuring the security and reliability of subsea cables is important for global communication and data transmission."
+        }
+      ]
+    },
+    {
+      "generation": "Confidence: Fairly possible (60%)",
+      "prompt": [
+        {
+          "role": "user",
+          "content": "You are provided with some possible information about a person. Describe how likely it is that the possible answer is correct as one of the following expressions:\nNo chance (0%)\nLittle chance  (20%)\nLess than even (40%)\nFairly possible (60%)\nVery good chance (80%)\nAlmost certain (100%)\n\nGive ONLY your confidence phrase, no other words or explanation. For example:\n\nConfidence: <description of confidence, without any extra commentary whatsoever; just a short phrase!>\n\nThe person is: In simple terms, what are key components of US str...\nThe possible information is: Promoting an open and competitive market for subsea cable infrastructure can encourage innovation and investment in critical infrastructure."
+        }
+      ]
+    }
+  ]
+]

@@ -1,0 +1,247 @@
+{
+  "entities": {
+    "Q7710764": {
+      "pageid": 7637261,
+      "ns": 0,
+      "title": "Q7710764",
+      "lastrevid": 2085355568,
+      "modified": "2024-02-24T02:22:48Z",
+      "type": "item",
+      "id": "Q7710764",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Tharg the Mighty"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "comics character"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "6af4871f82990a0f901a6c4a5050c4bacc0a99cb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 95074,
+                  "id": "Q95074"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7710764$9190FBB4-EF9F-435C-81D5-960E88955BC4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "02f415fc6aa6c04f8b7160eba856955e502659e2",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "90fa9110fe0a7a5677f9d9b9db5391ac7f6a9796",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 211174,
+                          "id": "Q211174"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P21": [
+          {
+            "mainsnak": {
+              "snaktype": "somevalue",
+              "property": "P21",
+              "hash": "c5a4cea85b1400a3c8412b03efec5d7c79f15c92",
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7710764$3b0a4c44-46d7-61af-f14f-64d1ba3182ca",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P21",
+              "hash": "0576a008261e5b2544d1ff3328c94bd529379536",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44148,
+                  "id": "Q44148"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7710764$1357e1c3-4a3f-412b-f6e0-3438ecd9c2a7",
+            "rank": "normal"
+          }
+        ],
+        "P106": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P106",
+              "hash": "948a5ee823b2028b5e0fcbb0f462be223920eaf8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1607826,
+                  "id": "Q1607826"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7710764$079806ac-4e7f-6b67-9015-c4928a5fa4e6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "02f415fc6aa6c04f8b7160eba856955e502659e2",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "90fa9110fe0a7a5677f9d9b9db5391ac7f6a9796",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 211174,
+                          "id": "Q211174"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "202d8227cb86026ec9956eea1628a52cd8d3cdfb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24925,
+                  "id": "Q24925"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7710764$be2b972d-477a-3d59-d329-027ec03c0277",
+            "rank": "normal"
+          }
+        ],
+        "P108": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P108",
+              "hash": "abeefd2738a9b1334fba051110d07d88794a35a0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 211174,
+                  "id": "Q211174"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7710764$c2c331f8-47e2-5fa5-599a-b67c69eeca78",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "02f415fc6aa6c04f8b7160eba856955e502659e2",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "90fa9110fe0a7a5677f9d9b9db5391ac7f6a9796",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 211174,
+                          "id": "Q211174"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "3301bd62c5750d97464c565145b725844cb8c05d",
+              "datavalue": {
+                "value": "/m/02tbk9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7710764$195AD791-64D6-4E78-91F9-9931C1BF3FC6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Tharg the Mighty",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

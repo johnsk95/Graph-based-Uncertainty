@@ -1,0 +1,425 @@
+{
+  "entities": {
+    "Q10268789": {
+      "pageid": 11573393,
+      "ns": 0,
+      "title": "Q10268789",
+      "lastrevid": 1783041982,
+      "modified": "2022-12-02T23:04:40Z",
+      "type": "item",
+      "id": "Q10268789",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Drink the Water"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "2001 song composed by Jack Johnson with lyrics by Jack Johnson performed by Jack Johnson"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5be109d8a3cbbd062357a9d210d4ef00ef25244e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 105543609,
+                  "id": "Q105543609"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10268789$FD1B6319-C4CE-4632-86F9-7CA55EA5009C",
+            "rank": "normal"
+          }
+        ],
+        "P264": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P264",
+              "hash": "3f7fc8a039fa20fbccca062156c9ff6161e8da56",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2482872,
+                  "id": "Q2482872"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q10268789$9B4BD7A3-48AA-4677-AE8C-8A6556289865",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P175": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P175",
+              "hash": "e78d2c59a690c26899359cc7559b416b99689c5c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 297097,
+                  "id": "Q297097"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q10268789$72BC64CA-C349-475B-A297-0D461F3BCB9C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P86": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P86",
+              "hash": "2ce83455d0d1650065695b4facaf0fa81d555bad",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 297097,
+                  "id": "Q297097"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10268789$608BAA61-6548-448C-97F6-92E2DBFEE046",
+            "rank": "normal"
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "bb1c33144e4a3c4df471dbe4ded119d16087f1e3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11399,
+                  "id": "Q11399"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10268789$011717D1-F8DC-4A52-9F6C-0CB30347CC0F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P676": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P676",
+              "hash": "fa2e467f64514badf505836d64fba7e82774f59d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 297097,
+                  "id": "Q297097"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10268789$EB70B94B-DC10-4909-B752-3EE2FE5583B0",
+            "rank": "normal"
+          }
+        ],
+        "P435": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P435",
+              "hash": "694df279c799f7a7d03fc5d09ec86b66cd7cbb9c",
+              "datavalue": {
+                "value": "ba4d71ac-684b-340b-905d-fd6e26cda676",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10268789$5A83FF92-9A10-4650-AC56-C0D73E72A60F",
+            "rank": "normal"
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "452203bc57d5ed2c2f25fd469f98f46796c4c40b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 549958,
+                  "id": "Q549958"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10268789$23A68E2A-100C-449F-BC3A-DF2C35956D0E",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b57c7fe4889b9160d67a95e3fb3796699d3ce3af",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "444b741466217519a77f1a469a4cf4e5f76d317c",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Drink_the_Water&oldid=855842529",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "b75563df7aee8fff65b7ed8e3ba228bedd668aa4",
+              "datavalue": {
+                "value": {
+                  "time": "+2001-02-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q10268789$7D10D278-60F1-440B-89F3-0737EE881386",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b57c7fe4889b9160d67a95e3fb3796699d3ce3af",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "444b741466217519a77f1a469a4cf4e5f76d317c",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Drink_the_Water&oldid=855842529",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "388cc7e16afc3a181d038e5e0e0a071bf9c944b4",
+              "datavalue": {
+                "value": "/m/0h0f76",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q10268789$87C34AA3-6D69-4614-9CAB-22AFF7F4F129",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "95c182f3c475d9df12743fde55dc93e0a76efa11",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7366,
+                  "id": "Q7366"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q10268789$6678B8B2-9E84-4720-ACF4-5D6B93004CF6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Drink the Water",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Drink the Water",
+          "badges": [
+            "Q70893996"
+          ]
+        }
+      }
+    }
+  },
+  "success": 1
+}

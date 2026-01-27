@@ -1,0 +1,660 @@
+{
+  "entities": {
+    "Q17151066": {
+      "pageid": 18744436,
+      "ns": 0,
+      "title": "Q17151066",
+      "lastrevid": 2235802758,
+      "modified": "2024-08-25T16:21:08Z",
+      "type": "item",
+      "id": "Q17151066",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Rise"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "2014 studio album by Taeyang"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "dc16d32b615bf1c6edf1919941065eedccacb8e4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 482994,
+                  "id": "Q482994"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$49CE9895-3E8F-4BD6-8431-B6A13CD8AD88",
+            "rank": "normal"
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "a075aab9a3a7ef93f29badccccb1b5938d508520",
+              "datavalue": {
+                "value": "Taeyang - Rise.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q17151066$197AAFE6-D95F-453A-B609-63B4534C0A62",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "dbc378ca38aa06d2ac2a1b790ffe3a5ee9d0bd17",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5230a42ffbab53c12928ede0c985a74a1d5be294",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 53464,
+                          "id": "Q53464"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P175": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P175",
+              "hash": "d2435c275ca6a00720e8c837d160d4be4ab7d149",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 482991,
+                  "id": "Q482991"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$9e3b54e7-4e8a-5aa1-830f-58559889cafb",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "93227532428d76e1514790d55db1414258dbe070",
+              "datavalue": {
+                "value": {
+                  "time": "+2014-06-03T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q17151066$fd3742af-43ea-9551-5c6a-c88acf1e950e",
+            "rank": "normal"
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "7b1e48a10d7680fbf3317540795e108d6954d720",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 213665,
+                  "id": "Q213665"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$CE680D9A-338F-4B02-9C80-48A0EC4A9561",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "cb49f6fa327b245e4a5aaf48c44b3f503bcd4265",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 30239,
+                          "id": "Q30239"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P264": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P264",
+              "hash": "a77d6ae6bafe54cf758c6edc62eee0554ed1b180",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 50595,
+                  "id": "Q50595"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$277C242F-C023-486D-AA8E-052752BEF9E7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "cb49f6fa327b245e4a5aaf48c44b3f503bcd4265",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 30239,
+                          "id": "Q30239"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P162": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P162",
+              "hash": "5a65b575e35b18c3d1b3d433ecdfcefbd1db3165",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 482991,
+                  "id": "Q482991"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$621D8F84-6E3E-439E-971B-28102F095FD4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "0ee3b3ba1c958f4c3dcba7ed8091fe4b57311348",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "cb49f6fa327b245e4a5aaf48c44b3f503bcd4265",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 30239,
+                          "id": "Q30239"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "1dccb59c4cc6d194940fb35c3230c4564f1668d1",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3883238,
+                  "id": "Q3883238"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$7A4CDC0F-3ABD-4EFD-A2E9-DD8ABFB37350",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "1f796cbbc60a5662397c853a27cb889be8f0b9b9",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "1d75dd5319c035460c47c270428e355745936485",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Rise_(Taeyang_album)&oldid=851183927",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "296507b21ae4c12738f59e37a6c9e2de153602b4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 36448547,
+                  "id": "Q36448547"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$B8ADB2DD-B4A7-463C-8EE7-52E080065058",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "1f796cbbc60a5662397c853a27cb889be8f0b9b9",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "1d75dd5319c035460c47c270428e355745936485",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Rise_(Taeyang_album)&oldid=851183927",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P436": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P436",
+              "hash": "9c754636c5b8acd97ae534587b3890423a23deb8",
+              "datavalue": {
+                "value": "dabe8a9f-4e33-4671-9ad4-13765505f3d9",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q17151066$2E658C77-D240-4A11-AE4F-9F11F65E1685",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "920c72e347e6c9e9eee4282297d7ad5ae84cde73",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "152d90d4f72203e55409725e7497e52f967abdff",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2018-12-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "a10335a425d19169dd856e0a5f71735853eab0ab",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 9176,
+                  "id": "Q9176"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$db75c8b7-2f0d-4b75-b49d-9be35e147779",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "59d584a59a70c609769dba0059bb8406f90c5316",
+              "datavalue": {
+                "value": "/m/010qs4hf",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q17151066$4E9BD625-521B-458C-8B72-15D58B6DB747",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "b736d0ddd58350a6f636c0daf4befdb4b6346897",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 208569,
+                  "id": "Q208569"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$70198869-4301-0fa6-e203-22f3c2229c40",
+            "rank": "normal"
+          }
+        ],
+        "P291": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P291",
+              "hash": "1ae55bbc83c43d07f1fe2be8e6dad17b0cd4f01d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 884,
+                  "id": "Q884"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q17151066$bab3e687-49d6-fd0a-9f83-0d6f279dde77",
+            "rank": "normal"
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "508851ce5b811921ec0288d6a48e48c6bed12843",
+              "datavalue": {
+                "value": {
+                  "text": "Rise",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q17151066$c181a51c-45a3-2ccb-0708-c8fa662a6a79",
+            "rank": "normal"
+          }
+        ],
+        "P2635": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2635",
+              "hash": "fba2dcaa5b3237854b7e714a04cf876776cf2272",
+              "datavalue": {
+                "value": {
+                  "amount": "+9",
+                  "unit": "http://www.wikidata.org/entity/Q7302866"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q17151066$c403c3c7-4db1-39a4-2011-879eb3ac793d",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Rise (Taeyang album)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Rise (album)",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Rise (Taeyang-album)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Rise (album Taeyang)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "Rise (태양의 음반)",
+          "badges": []
+        },
+        "mswiki": {
+          "site": "mswiki",
+          "title": "Rise (album Taeyang)",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Rise (álbum de Taeyang)",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ไรส์ (อัลบั้มแทยัง)",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Rise (album của Taeyang)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "RISE (太陽專輯)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

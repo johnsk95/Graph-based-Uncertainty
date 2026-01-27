@@ -1,0 +1,400 @@
+{
+  "entities": {
+    "Q14711403": {
+      "pageid": 16378373,
+      "ns": 0,
+      "title": "Q14711403",
+      "lastrevid": 2412700897,
+      "modified": "2025-10-04T22:19:19Z",
+      "type": "item",
+      "id": "Q14711403",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Welcome"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "unincorporated community in Austin County, Texas"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Welcome, TX"
+          }
+        ]
+      },
+      "claims": {
+        "P625": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P625",
+              "hash": "167301e0963a53f5402823b717f5892ef6d66d43",
+              "datavalue": {
+                "value": {
+                  "latitude": 30.0278,
+                  "longitude": -96.4892,
+                  "altitude": null,
+                  "precision": 0.0001,
+                  "globe": "http://www.wikidata.org/entity/Q2"
+                },
+                "type": "globecoordinate"
+              },
+              "datatype": "globe-coordinate"
+            },
+            "type": "statement",
+            "id": "q14711403$3EDEE181-9AC0-49C2-B5D0-EB85739D2069",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P17": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P17",
+              "hash": "be4c6eafa2984964f04be85667263f5642ba1a72",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q14711403$B455C624-D200-4E6F-8060-89C9507224C9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P131": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P131",
+              "hash": "64afaa213bbf199749ab45c1e3ea6b80007690a9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 108386,
+                  "id": "Q108386"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q14711403$A05A19A2-3916-48DE-8545-0140A5514A67",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1566": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1566",
+              "hash": "3cb41bccb2d6a3d807061b728cb9ddc8651eea37",
+              "datavalue": {
+                "value": "4740527",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q14711403$984DDDB5-CEA0-4A9F-B0E6-D102DB54D238",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "88694a0f4d1486770c269f7db16a1982f74da69d",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "1b3ef912a2bd61e18dd43abd184337eb010b2e96",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 830106,
+                          "id": "Q830106"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "cb24a0d6682b444f5c315e47ecc165a46cd65fde",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 17343829,
+                  "id": "Q17343829"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q14711403$88977879-C32B-4264-8D8F-022A00DB2EB6",
+            "rank": "normal"
+          }
+        ],
+        "P421": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P421",
+              "hash": "186bebccb6ae522b6005786cb6fe88e5a0c75234",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2086913,
+                  "id": "Q2086913"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q14711403$7F32F712-0998-4504-88D8-90E00EA7795C",
+            "rank": "normal"
+          }
+        ],
+        "P2044": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2044",
+              "hash": "16b17e13dff33be376ae6850d8a0211b61150982",
+              "datavalue": {
+                "value": {
+                  "amount": "+101",
+                  "unit": "http://www.wikidata.org/entity/Q11573"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q14711403$3BE84242-E6E4-40E8-A21E-B9270ACD2816",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P6766": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6766",
+              "hash": "3489127a8c25dd2b58563d28d2c2413229e7abb0",
+              "datavalue": {
+                "value": "1260005471",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q14711403$19B92C2C-75F0-4F09-9BAA-87FC3BE2EFA5",
+            "rank": "normal"
+          }
+        ],
+        "P214": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P214",
+              "hash": "342afc53be1c3174524772d34117d473e5a50352",
+              "datavalue": {
+                "value": "123106637",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q14711403$DE141FFB-A8C6-4DA1-8172-05B35BD72376",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "ceb2273d5261eb7dbb2cbe2228a9b20266ca889f",
+              "datavalue": {
+                "value": "/m/04bzfss",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q14711403$74E69A80-6DAB-4290-A445-94D8C840F6FE",
+            "rank": "normal"
+          }
+        ],
+        "P590": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P590",
+              "hash": "0931c7fb95fea85e7ea6cd1ed01cc62f111ca806",
+              "datavalue": {
+                "value": "2034852",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q14711403$fe6baced-4a13-034b-4cb5-e8b96b42da24",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "azbwiki": {
+          "site": "azbwiki",
+          "title": "ولکوم، تکزاس",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Welcome, Texas",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "ولکام (تگزاس)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Welcome (Texas)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

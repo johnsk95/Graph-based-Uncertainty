@@ -1,0 +1,279 @@
+{
+  "entities": {
+    "Q7984206": {
+      "pageid": 7927225,
+      "ns": 0,
+      "title": "Q7984206",
+      "lastrevid": 2355151006,
+      "modified": "2025-05-31T14:43:29Z",
+      "type": "item",
+      "id": "Q7984206",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "West"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "short story by Orson Scott Card"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "5b39d0945232bd1ab4387ef53dca51db4cbe24c6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 217110,
+                  "id": "Q217110"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7984206$28FF0454-47FE-4E4F-BE94-55EEE228300C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7725634,
+                  "id": "Q7725634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7984206$411725DF-4671-4510-912B-418F454DE6BC",
+            "rank": "normal"
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "7f985e15819b74ed189d022e004890e66d2ae42e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7984206$E4FC17DA-D861-4C33-8061-BF11D779FB8A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d54bf9b4d690ec247b34121f3f4e9eb6c4452fa1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "d9dd21929e47eb11e12becb195c2f166d34b11e4",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=West_(short_story)&oldid=875610982",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "eb605b73ead95f3aa34f5c840105862812a1d2c3",
+              "datavalue": {
+                "value": "/m/03crj60",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7984206$CFF8BDF0-D56F-4707-A3B9-263408DFD348",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "344234eea01922b15b8a31c77de8bfa2caa8a8aa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 49084,
+                  "id": "Q49084"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7984206$0B6924E1-0E94-49A7-9C9A-B021FF9688BF",
+            "rank": "normal"
+          }
+        ],
+        "P7439": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7439",
+              "hash": "ca1184516e588fb66d002b2aeaed2e5101489a5b",
+              "datavalue": {
+                "value": "9440",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7984206$05D69F2B-C66E-4BB8-95DF-1F144829DB42",
+            "rank": "normal"
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7984206$B35591B9-D89E-4E6F-891E-6AA201F9D1E2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "08e3e7e781746ca9854130fd0684986cd5a79f69",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "9aea67a8a12832590eb3651d6dc1e1a74402f568",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=West_(short_story)&oldid=1283225488",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "West (short story)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

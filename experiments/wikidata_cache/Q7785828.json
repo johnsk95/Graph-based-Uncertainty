@@ -1,0 +1,215 @@
+{
+  "entities": {
+    "Q7785828": {
+      "pageid": 7716135,
+      "ns": 0,
+      "title": "Q7785828",
+      "lastrevid": 1972413388,
+      "modified": "2023-09-11T15:11:56Z",
+      "type": "item",
+      "id": "Q7785828",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "This Is It"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "1996 novel by Joseph Connolly"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7725634,
+                  "id": "Q7725634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7785828$8C5B4DB0-04AC-4AC4-8765-6B7A7CE6C517",
+            "rank": "normal"
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "61ab43a3146565344895c746d35e7d3cf1917cc3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 40831,
+                  "id": "Q40831"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7785828$C0C1D8AC-9E3E-4B0A-B00A-7841D7A2EA3F",
+            "rank": "normal"
+          }
+        ],
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "0c7c70246a72a7c8766a498cc3457aa6c4b77e59",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3184779,
+                  "id": "Q3184779"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7785828$3CFA2686-5522-467D-A2CD-10AB2EF68672",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "80128af06808f1cf7c4b66163f1fb8cff111f833",
+              "datavalue": {
+                "value": {
+                  "time": "+1996-01-01T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q7785828$4F87D795-9F7D-44F4-9D65-C2F25A1390A2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7785828$EE26F4E3-B587-4A07-A3DF-C9ED9E10383A",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "010852f95d805a4d30f3b80d56725215586d2d08",
+              "datavalue": {
+                "value": "/m/02q6wsb",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7785828$0E4EE8BF-EF79-4D20-AA4E-D3E4CE5D4ECD",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "1f3796a438db67e51d8cac2bad920878e37e51c9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8261,
+                  "id": "Q8261"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7785828$312E9136-BBB0-40CC-BCD0-1B253D5B7CF9",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "This Is It (novel)",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "این است که (رمان)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

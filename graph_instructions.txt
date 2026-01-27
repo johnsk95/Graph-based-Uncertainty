@@ -1,0 +1,65 @@
+Technical Specification: Weighted Knowledge Graph for Boundary Modeling and Expansion
+Project Goal
+To implement the "Certainty Collapsing Boundary Expansion" framework, extending the base unweighted bipartite graph structure from the reference paper (Jiang et al., 2024) into a weighted, grounded knowledge graph using Priors (\mathcal{P}) for factual verification and iterative knowledge expansion.
+Dependencies
+ * Base Implementation: Assume access to the Python/Graph library (e.g., NetworkX, PyTorch Geometric) implementation of the unweighted bipartite graph G=((\mathcal{R},\mathcal{C}), \mathcal{E}) as described in the reference paper.
+ * Input Data: Assume initial, pre-processed sets for Responses (\mathcal{R}), Claims (\mathcal{C}), and Priors (\mathcal{P}).
+ * Helper Functions: Assume a helper function check_entailment(source, claim) that determines if a source (Response or Prior) entails a specific claim, and check_contradiction(claim, prior) that checks if a claim contradicts a prior.
+Phase 1: Core Graph Modification (Grounding)
+The primary goal of this phase is to introduce the Priors (\mathcal{P}) node set and assign weighted edges based on the grounding strategy outlined in Section 4.2 of the proposal.
+Step 1.1: Define and Initialize Edge Weights
+Define the constant weight values (floating-point numbers) for the four link types, following the constraint w_{anchor} > w_{agree} > w_{neutral} > w_{contra}.
+| Link Type | Description | Weight (w_{uv}) | Example Value |
+|---|---|---|---|
+| Anchor Link | Prior \mathcal{P} to Claim \mathcal{C}_{P} (Ground Truth) | w_{anchor} | 3.0 |
+| Agreement Link | Response \mathcal{R} to Prior-Entailed Claim \mathcal{C}_{P} | w_{agree} | 2.0 |
+| Neutral Link | Response \mathcal{R} to Novel/Ungrounded Claim \mathcal{C} | w_{neutral} | 1.0 |
+| Contradictory Link | Response \mathcal{R} to Contradictory Claim | w_{contra} | 0.5 |
+Step 1.2: Integrate Priors into the Graph
+Modify the graph construction to include Priors (\mathcal{P}) as a new set of source nodes.
+ * Node Addition: Add all P_i \in \mathcal{P} to the source node set (\mathcal{R} \cup \mathcal{P}).
+ * Claim Decomposition: Decompose all P_i into their constituent claims \mathcal{C}_{P}. Add \mathcal{C}_{P} to the claim node set \mathcal{C}.
+ * Anchor Edge Creation: For every prior P_i and every claim c \in \mathcal{C}_{P} entailed by P_i, create an edge (P_i, c) and assign it w_{anchor}.
+Step 1.3: Apply Weighted Edges to Responses
+Iterate through existing response-to-claim edges and apply the new weighting logic.
+ * Agreement Links: If an edge (R_i, c) exists where c \in \mathcal{C}_{P} (the claim is entailed by a prior), assign the edge w_{agree}.
+ * Contradictory Links: If an edge (R_i, c) exists and check_contradiction(c, P_j) returns true for any prior P_j, assign the edge w_{contra}. This check overrides w_{agree} if a contradiction is found.
+ * Neutral Links: For all remaining edges (R_i, c), assign the edge w_{neutral}. This applies to claims not found in priors (novel) and not contradictory.
+Phase 2: Centrality and Boundary Identification
+This phase implements the modified centrality metric and uses it to categorize claims for "collapsing" and "delegation."
+Step 2.1: Implement Weighted Closeness Centrality
+Implement the modified Closeness Centrality (C_C) as the primary uncertainty metric, adapted for the weighted graph as specified in the proposal's Appendix.
+ * Define Edge Cost: The cost of traversing an edge (u,v) must be cost(u,v) = 1/w_{uv}.
+ * Shortest Path Calculation: Use an algorithm like Dijkstra's Algorithm (or a graph library equivalent) to compute the shortest path distance d_W(v, u) between every pair of nodes v, u \in V using the defined edge costs.
+ * Centrality Formula: Calculate the weighted Closeness Centrality for every claim node v \in \mathcal{C}:
+   
+   * N: Total number of nodes (Responses + Priors + Claims).
+   * |V_v|: Size of the connected component containing v.
+Step 2.2: Identify Claim Categories (Collapsing)
+Define centrality thresholds (\delta) to categorize claims into the three groups necessary for the Claim Collapsing and Boundary Identification steps (Sections 2 and 4.3).
+ * Grounded Claims (True): Define a high threshold \delta_{true}. Claims c where C_C(c) \geq \delta_{true} are labeled as \text{true} (high consensus, grounded to priors).
+ * Contradictory Claims (False): Define a low threshold \delta_{false}. Claims c where C_C(c) \leq \delta_{false} are labeled as \text{false} (consistent hallucinations/contradictory). These are immediately collapsed and discarded.
+ * Boundary Claims (Contested/Novel): Claims c where \delta_{false} < C_C(c) < \delta_{true} are labeled as \text{contested} or \text{novel}. These form the candidate set \mathcal{C}_{contested} for human verification (knowledge boundary).
+Phase 3: Active Learning and Knowledge Update Loop
+This phase implements the final steps of the framework: selecting the most informative boundary claims for human verification and updating the graph.
+Step 3.1: Implement Informative Claim Selection
+Implement the PriorityScore algorithm to prioritize claims in \mathcal{C}_{contested} for human experts (Section 4.4, Appendix).
+ * Sub-Graph Construction: Create a subgraph G_{contested} containing only \mathcal{R} and \mathcal{C}_{contested} nodes, and their connecting edges.
+ * Centrality Score (S_{Centrality}): Calculate the Betweenness Centrality C_B(c, G_{contested}) for all c \in \mathcal{C}_{contested} within G_{contested}. Normalize this score. This prioritizes claims that resolve large clusters.
+ * Novelty Score (S_{Novelty}): For each c \in \mathcal{C}_{contested}, find the shortest weighted path distance d_{W}(c, c^{*}) to the nearest \text{true} claim c^{*} \in \mathcal{C}_{P}. Normalize the distance. This prioritizes claims most distant from known knowledge.
+ * Priority Score: Calculate the final score for each contested claim c:
+   
+ * Selection: Select the top-K claims with the highest PriorityScore and route them to the simulated human expert module.
+Step 3.2: Implement Knowledge Update (Active Learning Loop)
+Create a function to process the results of human verification and update the graph iteratively (Section 4.4).
+ * Input: A list of verified claims from the human expert, along with a final label (e.g., verified_true, verified_false).
+ * If verified_true:
+   * The claim c is promoted to a new Prior P_{new}.
+   * P_{new} is added to the graph node set \mathcal{P}.
+   * New Anchor Links are created from P_{new} to c, and potentially to related claims.
+ * If verified_false:
+   * The claim c is permanently removed from \mathcal{C}.
+   * All corresponding Neutral/Contradictory links are removed.
+ * Re-calculate: After the update, all d_W(v, u) distances and C_C(v) centrality scores must be re-calculated for all remaining nodes to reflect the expanded knowledge base.
+Next Steps for the Coding Agent
+The coding agent should focus on completing Phase 1 and 2 first, as they are essential for establishing the weighted graph structure and the core uncertainty metric. Phase 3 (Active Learning) can be implemented after the core centrality calculation is robust.

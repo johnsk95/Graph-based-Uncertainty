@@ -1,0 +1,3254 @@
+{
+  "entities": {
+    "Q2402314": {
+      "pageid": 2320691,
+      "ns": 0,
+      "title": "Q2402314",
+      "lastrevid": 2427739509,
+      "modified": "2025-11-10T03:28:26Z",
+      "type": "item",
+      "id": "Q2402314",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "A Night in Sickbay"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "episode of Star Trek: Enterprise (S2 E5)"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "d6d3037949160f48974bb3792d06979285651cde",
+              "datavalue": {
+                "value": "tt0572172",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "q2402314$4357438A-A722-4F4C-9C5F-4A0E46CD6305",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P179": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P179",
+              "hash": "cfc73678174e4f6aa1cd222937516ce713349e27",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 380519,
+                  "id": "Q380519"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "01695eb28e0d7caabee4b1deb26ba303c8fd5c39",
+                  "datavalue": {
+                    "value": "31",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P156": [
+                {
+                  "snaktype": "value",
+                  "property": "P156",
+                  "hash": "43c62a99bb3fe15a3a6aa94eeb258c02e462ba3c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 644743,
+                      "id": "Q644743"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P155": [
+                {
+                  "snaktype": "value",
+                  "property": "P155",
+                  "hash": "933e349e95e7fd13ac723f2ec1293dae355a377b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3494387,
+                      "id": "Q3494387"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545",
+              "P156",
+              "P155"
+            ],
+            "id": "Q2402314$0202CD36-4EEB-4D46-BA50-FDB5613BCA1B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P57": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P57",
+              "hash": "9b19f85ea101c61a0bc226c9bad8032c5d25b938",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2508560,
+                  "id": "Q2508560"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$96305149-4665-43E3-B2A7-253C5E2EBFD4",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "3fbf0f081374201d53a88c2c21fb0b60b31d24f8",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "c6eec9ee84963d380b8a249b595b3cdcbcc16f4a",
+                      "datavalue": {
+                        "value": "https://memory-alpha.fandom.com/wiki/David_Straiton?oldid=2383589#Star_Trek_credits",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "5183e125562841b30f050dca75b73fde759f1c21",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-11-16T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                      "datavalue": {
+                        "value": "A Night in Sickbay",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ],
+                  "P958": [
+                    {
+                      "snaktype": "value",
+                      "property": "P958",
+                      "hash": "ee62ba2f9ce398573f1419d34460e1acd49e7780",
+                      "datavalue": {
+                        "value": "Star Trek credits",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813",
+                  "P1810",
+                  "P958"
+                ]
+              }
+            ]
+          }
+        ],
+        "P58": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "4f4329c74d4a0f08c323d790664ff0b20ccab8d2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 502314,
+                  "id": "Q502314"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$C2D5EB88-8C05-4248-8B72-82EBF282F0EC",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "1ef686144d66445df91321f7441a72e199c3a178",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 540510,
+                  "id": "Q540510"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$8D1C8835-EEB5-49B3-AA76-5A3E1F497953",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "e98cf511d2d70767bca2b0d52df1a6211eeca580",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 61220733,
+                  "id": "Q61220733"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$9DCC3A21-A547-423B-BD7B-848DED5B41EF",
+            "rank": "normal"
+          }
+        ],
+        "P364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P364",
+              "hash": "cc2c15fb58feeae8fe7a641c0e2ddaf3f48e59f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$961D7701-874A-4EA0-BFC9-1C13F9CF3B42",
+            "rank": "normal"
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "7f985e15819b74ed189d022e004890e66d2ae42e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$E85AECC5-E89E-444E-9BF7-521624AC6FCB",
+            "rank": "normal"
+          }
+        ],
+        "P1434": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1434",
+              "hash": "542ba764f9ac83dfb6169078dbf1b6aec3337841",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 18043309,
+                  "id": "Q18043309"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$496ADAE4-703C-4B2E-89CC-AA5FBB095CA0",
+            "rank": "normal"
+          }
+        ],
+        "P2638": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2638",
+              "hash": "dacdaa114e92f30a4380200c1e37e2292665bb5d",
+              "datavalue": {
+                "value": "shows/star-trek-enterprise/a-night-in-sickbay-183018",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$05E6FF8F-F6AF-4D52-80D3-9088D10EC22C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2364",
+              "hash": "85031f9ef25d9a31d152799c9d5bc5ed98698857",
+              "datavalue": {
+                "value": "205",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2402314$4D42FB80-4E0C-4FFC-A3AD-5ACE0837F5FD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P973": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P973",
+              "hash": "1c4478594e964f46c1c513ee2690b356d3205c2e",
+              "datavalue": {
+                "value": "http://ja.memory-alpha.wikia.com/wiki/ENT:%E5%B0%8F%E3%81%95%E3%81%AA%E7%94%9F%E5%91%BD%E3%81%AE%E7%81%AF",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q2402314$2C41E42C-1C4A-4D36-BE20-8E04057CBC50",
+            "rank": "normal"
+          }
+        ],
+        "P4908": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4908",
+              "hash": "581525a8fe23a4289bb0de020c40556b5aa20ac4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 664160,
+                  "id": "Q664160"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "ea4583c18f699186700d21642b477a2dc1d345c8",
+                  "datavalue": {
+                    "value": "5",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P156": [
+                {
+                  "snaktype": "value",
+                  "property": "P156",
+                  "hash": "43c62a99bb3fe15a3a6aa94eeb258c02e462ba3c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 644743,
+                      "id": "Q644743"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P155": [
+                {
+                  "snaktype": "value",
+                  "property": "P155",
+                  "hash": "933e349e95e7fd13ac723f2ec1293dae355a377b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 3494387,
+                      "id": "Q3494387"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545",
+              "P156",
+              "P155"
+            ],
+            "id": "Q2402314$B656735B-9DFC-446D-AFE0-F3EBE9461A2F",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "bbc66be07c2b91499087e29e451e6b31b5500aed",
+              "datavalue": {
+                "value": {
+                  "time": "+2002-10-16T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P291": [
+                {
+                  "snaktype": "value",
+                  "property": "P291",
+                  "hash": "d030038c836f9ed0d37c69cb8c389d689ebeb05a",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 30,
+                      "id": "Q30"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P291"
+            ],
+            "id": "Q2402314$BFA35046-815E-41E2-97CE-10E697135298",
+            "rank": "preferred",
+            "references": [
+              {
+                "hash": "745598abe66b921730af0451b1f092f6b366e86c",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "10ed7e9ea08adae3c58e0c576a23880165bd80e5",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2017-04-15T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f645c3f616cee4c5ebe721924ed5ec0795cdbaec",
+                      "datavalue": {
+                        "value": "http://www.omdbapi.com/?i=tt0572172",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P854"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "aeba3ef3648295216e5d7d0baee74d0b4bbf9a5f",
+              "datavalue": {
+                "value": {
+                  "time": "+2003-09-20T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P291": [
+                {
+                  "snaktype": "value",
+                  "property": "P291",
+                  "hash": "a15ed95482d52eea03d59e098dae9e31dafef9bd",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 183,
+                      "id": "Q183"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P291"
+            ],
+            "id": "Q2402314$66023499-790C-44A5-98B9-BF9DE73FFC55",
+            "rank": "normal"
+          }
+        ],
+        "P1191": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1191",
+              "hash": "643fc8c07bda861ce2830ddf62885839cecad6d8",
+              "datavalue": {
+                "value": {
+                  "time": "+2002-10-16T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q2402314$CFE6A325-B002-4B32-883F-A9A3AF194965",
+            "rank": "normal"
+          }
+        ],
+        "P462": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P462",
+              "hash": "5ac56e40bdfa19d2450075f92f476554fac1a8aa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 22006653,
+                  "id": "Q22006653"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$D4A3D2CB-1DDA-41B3-BA44-DF36AEF94801",
+            "rank": "normal"
+          }
+        ],
+        "P674": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P674",
+              "hash": "6e8d5246a82f9411691b6820656f62d560ea232a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1101459,
+                  "id": "Q1101459"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$D94F197F-E5BA-4F12-824B-06580E232DA6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P674",
+              "hash": "c3cc2772967f256d90e539d2848cb3e1a0fd238e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 860266,
+                  "id": "Q860266"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$29014F58-9A5D-4BB7-9344-DE648B711E40",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P674",
+              "hash": "53ba0a1ad942f7afaf0fa51ac2c138565da329de",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1055776,
+                  "id": "Q1055776"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$62D397D3-D543-4E4A-A4B1-531D4DBEB7B9",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P674",
+              "hash": "e78f06494ef517eb96e6ba4b0e7096eed9d58797",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2631797,
+                  "id": "Q2631797"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$0994E229-406E-46E1-9A6E-D733C5402291",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P674",
+              "hash": "c69f1c54ced3145dde80a65cf48d9751e7c177a9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2600949,
+                  "id": "Q2600949"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$FD9E359A-B67B-4F30-97CE-5A71D0772882",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P674",
+              "hash": "c3c202cf07a28a25424d3307df1c87bffe8341f4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1315662,
+                  "id": "Q1315662"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$5A037200-6F26-47B5-B5A1-4F57F5A5E59B",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P674",
+              "hash": "0821d061359320476991673cdd009403cb3fe765",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 738817,
+                  "id": "Q738817"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$DFA4C8D1-52CB-4F1F-9DB4-DD4A297BFA39",
+            "rank": "normal"
+          }
+        ],
+        "P161": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "cb00eb73964b142264829c13abd050de23e46f6b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 311699,
+                  "id": "Q311699"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "b2a3bcc195b57aa7bf9216d6c3c29f1721ebb7fb",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1101459,
+                      "id": "Q1101459"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453"
+            ],
+            "id": "Q2402314$F192E6E8-FF0C-4264-A844-F0360E45B818",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "8a473e95fc568e316e21c68f6be386522f4c59b5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 713738,
+                  "id": "Q713738"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "fcd2d3210a58d09c09ab2e3b82ed1d3fd91617c4",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 2631797,
+                      "id": "Q2631797"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453"
+            ],
+            "id": "Q2402314$81AB5F5E-4A0A-47CE-BD20-9A78A74A3471",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "c111f726797d2a0fac69b5d27d628642d9134be5",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 453724,
+                  "id": "Q453724"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "8ea51fc43d3e119010ab856887a8d2b3b865b4a0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 2600949,
+                      "id": "Q2600949"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453"
+            ],
+            "id": "Q2402314$E1CB45A5-80CD-431A-9CA7-9C015C7158AF",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "506b2627180c4a3aae17692429f30e004b365d8f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 234466,
+                  "id": "Q234466"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "2b11be7ef56c135d7ceb832cb97d87c9de4dca2f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1315662,
+                      "id": "Q1315662"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453"
+            ],
+            "id": "Q2402314$7FAE685B-6B6B-4D88-863D-2DFD5DCC7E7F",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "a12166806d7fbde9f28b6fd2dc189ebd5a01486b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 552103,
+                  "id": "Q552103"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "2b118a8aa1de07b8a36150caa212f19c0726ef5e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 860266,
+                      "id": "Q860266"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453"
+            ],
+            "id": "Q2402314$D8D50E9A-2A3E-46FE-8D11-3476E84FF3EA",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "b0b72482d96ae96e54483a6a8b1c6f9664ba1fc6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 241873,
+                  "id": "Q241873"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "9828ac91116dabda480d88bfa8e9e1939f0e879c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1055776,
+                      "id": "Q1055776"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453"
+            ],
+            "id": "Q2402314$F3063B07-8B09-4945-AE3F-BD70507CE869",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P161",
+              "hash": "9fdffdad6fc2018544ee8e9c941f549ddbf89dfa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 550115,
+                  "id": "Q550115"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "8f1b87a3dc6fce73d34d6eb0d80ff08da0316b1b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 738817,
+                      "id": "Q738817"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453"
+            ],
+            "id": "Q2402314$12D65021-DABF-4B5D-8F85-568861B77515",
+            "rank": "normal"
+          }
+        ],
+        "P725": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P725",
+              "hash": "c0835a44938cb921c5d82fbfbae3335cf1daa1ad",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2369592,
+                  "id": "Q2369592"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "2b11be7ef56c135d7ceb832cb97d87c9de4dca2f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1315662,
+                      "id": "Q1315662"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453",
+              "P407"
+            ],
+            "id": "Q2402314$3179FFD1-4BE8-4DBF-BD93-73EC3F36AE16",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P725",
+              "hash": "a0566feaa6a5025f0ea1c8b444f2216202ad5441",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1429700,
+                  "id": "Q1429700"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "8f1b87a3dc6fce73d34d6eb0d80ff08da0316b1b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 738817,
+                      "id": "Q738817"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453",
+              "P407"
+            ],
+            "id": "Q2402314$CD76FAE5-4A23-40EB-BA07-637F82E651C8",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P725",
+              "hash": "9a919573489cb0be99edc727601bec5cf96ffa8b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1417949,
+                  "id": "Q1417949"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "8ea51fc43d3e119010ab856887a8d2b3b865b4a0",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 2600949,
+                      "id": "Q2600949"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453",
+              "P407"
+            ],
+            "id": "Q2402314$D20CCBFC-0984-426D-A311-BAFBA8B93568",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P725",
+              "hash": "c882bfc79e61c93d5cc041736fe27a26c888f27d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1554943,
+                  "id": "Q1554943"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "9828ac91116dabda480d88bfa8e9e1939f0e879c",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1055776,
+                      "id": "Q1055776"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453",
+              "P407"
+            ],
+            "id": "Q2402314$A80C5111-84A8-43A7-A5EB-88F8BFB982F8",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P725",
+              "hash": "1b4405fc308abbf4d9027efa7a1d2dbfa3db820d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 120561,
+                  "id": "Q120561"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "b2a3bcc195b57aa7bf9216d6c3c29f1721ebb7fb",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1101459,
+                      "id": "Q1101459"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453",
+              "P407"
+            ],
+            "id": "Q2402314$E088E0EC-BB3A-4065-B863-F8290916A8F7",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P725",
+              "hash": "dae43c8b7ec44691e3e0676252f1407223e28692",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1140716,
+                  "id": "Q1140716"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "2b118a8aa1de07b8a36150caa212f19c0726ef5e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 860266,
+                      "id": "Q860266"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453",
+              "P407"
+            ],
+            "id": "Q2402314$997042A3-8EB7-4587-B97A-E751D6CC87BD",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P725",
+              "hash": "a27031e3b5ee7663887142b47b747fa68928a332",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1376013,
+                  "id": "Q1376013"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P453": [
+                {
+                  "snaktype": "value",
+                  "property": "P453",
+                  "hash": "fcd2d3210a58d09c09ab2e3b82ed1d3fd91617c4",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 2631797,
+                      "id": "Q2631797"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P453",
+              "P407"
+            ],
+            "id": "Q2402314$632E5383-C5F8-4436-BC51-CCE5C6932BEE",
+            "rank": "normal"
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "0046ed4c83c3d5cbd421d8f1ac5a2406aa6f52e1",
+              "datavalue": {
+                "value": {
+                  "text": "A Night in Sickbay",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2402314$1E9C0C3E-BC84-4FF1-914F-BE733C899D29",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "849c582e2107a14db2075a14ad17501432961270",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "1d03dfa7759ee8145a412ef4d3de67f5eb842685",
+                      "datavalue": {
+                        "value": "https://memory-beta.fandom.com/wiki/A_Night_in_Sickbay",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "d6ea1ff6993ed578c757b89dc4cd34e264f7ce4c",
+                      "datavalue": {
+                        "value": {
+                          "text": "A Night in Sickbay | Memory Beta, non-canon Star Trek Wiki | Fandom",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c2f193fa5d1151a0e01e079491fb9ae354bb0790",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-07-05T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1258": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1258",
+              "hash": "f3cfce139e88a14c56b9212f4f8df93a05d37f46",
+              "datavalue": {
+                "value": "tv/star_trek_enterprise/s02/e05",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2241": [
+                {
+                  "snaktype": "value",
+                  "property": "P2241",
+                  "hash": "74bd46d0bbe97d05804856f1f73b6a7480c68cec",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 45403344,
+                      "id": "Q45403344"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2241"
+            ],
+            "id": "Q2402314$261A51DA-C080-40DD-B334-EF8B156A264B",
+            "rank": "deprecated"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1258",
+              "hash": "50b49dca586582b4712aa0c688bd68b1c72895bb",
+              "datavalue": {
+                "value": "tv/star-trek-enterprise/s02/e05",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$69432AAF-11C0-44A0-A63C-FCE1F9AF91D7",
+            "rank": "normal"
+          }
+        ],
+        "P1562": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1562",
+              "hash": "3f7d03c24cb8a63aef858fef35be435f6c4bfabc",
+              "datavalue": {
+                "value": "v391515",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$8F26295C-7247-4AEE-8B1C-92EF92D11F09",
+            "rank": "normal"
+          }
+        ],
+        "P2529": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2529",
+              "hash": "fe4de2c3468dfb59677b854bea8350e6d37c8f55",
+              "datavalue": {
+                "value": "506945",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$D4603FCA-8087-4A9B-A215-4E491C1B736F",
+            "rank": "normal"
+          }
+        ],
+        "P4665": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4665",
+              "hash": "c8baeb8a3e3b30ede890d8f5169a9a136cb5d64a",
+              "datavalue": {
+                "value": "505323",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$CFD9E84F-01F3-441C-BBF0-7F877133A8A8",
+            "rank": "normal"
+          }
+        ],
+        "P3302": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3302",
+              "hash": "43149dd48755b3492026e5ca4291b205c8d06e6c",
+              "datavalue": {
+                "value": "17836",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$79EBE26D-7C57-4095-82DB-2853CA3EC67D",
+            "rank": "normal"
+          }
+        ],
+        "P2704": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2704",
+              "hash": "454a2a43af24a8d6cd47a32f85160dfa7c6387ef",
+              "datavalue": {
+                "value": "10.5240/3B8B-0F65-2A32-CF18-A79D-L",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$F5FB6ED6-8B88-4792-8FE3-A87EA2ACF6A1",
+            "rank": "normal"
+          }
+        ],
+        "P3212": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3212",
+              "hash": "4934b1b3a8ab7201cdd1d42e6a62360b855636cb",
+              "datavalue": {
+                "value": "0000-0000-D0DC-0002-M-0000-0000-8",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$196CE3A7-E608-426D-8DBF-1ABD2344320D",
+            "rank": "normal"
+          }
+        ],
+        "P2061": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2061",
+              "hash": "e9632dd4da5d656c38bee41b8590bbfb05f2a39e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1383069,
+                  "id": "Q1383069"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$32C6E885-DF0A-4EEC-B04C-3B3B80790C3F",
+            "rank": "normal"
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "202d8227cb86026ec9956eea1628a52cd8d3cdfb",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 24925,
+                  "id": "Q24925"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$AF2E26BC-A49F-4E2B-B0B9-F07E9CD10C31",
+            "rank": "normal"
+          }
+        ],
+        "P2047": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2047",
+              "hash": "e4280c56c403465d64b64cd16fd275587babb0c8",
+              "datavalue": {
+                "value": {
+                  "amount": "+42",
+                  "unit": "http://www.wikidata.org/entity/Q7727"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q2402314$283F15D6-9C8D-4BB7-974E-9812E8099606",
+            "rank": "normal"
+          }
+        ],
+        "P1874": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1874",
+              "hash": "655c9a9badde9e7219dc5c566ec7f1301ba265d2",
+              "datavalue": {
+                "value": "70177794",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$14C92D0D-B849-4B9C-A477-49B9D53B40CB",
+            "rank": "normal"
+          }
+        ],
+        "P2408": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2408",
+              "hash": "e7b6bab4d7e354b7a89c2d61556309313a8b177a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 11177,
+                  "id": "Q11177"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1080": [
+                {
+                  "snaktype": "value",
+                  "property": "P1080",
+                  "hash": "d5fc35810b5a07cfd1609bc908d2455ba6a1a667",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 47163964,
+                      "id": "Q47163964"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1080"
+            ],
+            "id": "Q2402314$340B1C70-A325-47DD-9356-729151710DF1",
+            "rank": "normal"
+          }
+        ],
+        "P6262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "9a7ead182906f1ca0116bfb8d760b5511b725bc9",
+              "datavalue": {
+                "value": "nl.memory-alpha:A_Night_in_Sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "700aeaff381db1a1b58c6d58777ab5ec7daefe17",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 7411,
+                      "id": "Q7411"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                  "datavalue": {
+                    "value": "A Night in Sickbay",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "60997bb6e037c5f28d040d08c134be20e02821c9",
+                  "datavalue": {
+                    "value": "2266",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q2402314$9A3775CC-FD4D-4CAA-82FA-7140E02D6121",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "e355bef7553f03b5cacb9a0e96e6ea1d1d0e1f61",
+              "datavalue": {
+                "value": "es.memory-alpha:A_Night_in_Sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "ffe70325d10cfc55f0dca807ed80ca0b5b97c472",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1321,
+                      "id": "Q1321"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                  "datavalue": {
+                    "value": "A Night in Sickbay",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "dee87496ef4a5ded719ea8ff07932caacb4f11dc",
+                  "datavalue": {
+                    "value": "11381",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q2402314$514C77B9-3B84-456D-99FC-F2D240C195E8",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "a6c0881ab979a8b374397b05092a54d575218947",
+              "datavalue": {
+                "value": "memory-alpha:A_Night_in_Sickbay_(episode)",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "629c2d2147c018c2e67d2a0de491b283f69b55e6",
+                  "datavalue": {
+                    "value": "A Night in Sickbay (episode)",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "ffb1a562f1474d32c80abd9275e990bb3a7ef560",
+                  "datavalue": {
+                    "value": "3399",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q2402314$95496686-99BF-4581-835E-8BCB0B9D8204",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "961ba8ac87bd092e46b0f268a3bf2f95ff80c71e",
+              "datavalue": {
+                "value": "cs.memory-alpha:A_Night_in_Sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "a2ffd1c88a23721a8fd7eeb8d02b7c7f4e60c0c9",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 9056,
+                      "id": "Q9056"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                  "datavalue": {
+                    "value": "A Night in Sickbay",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "dfb9b8fd48bfa761587549cdf64c6e889010e2bf",
+                  "datavalue": {
+                    "value": "4042",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q2402314$25271FC3-B5D2-440A-8172-86F42729690A",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "492a623aecbae19448b0da27bac9f77394f9c991",
+              "datavalue": {
+                "value": "de.memory-alpha:Eine_Nacht_Krankenstation",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 188,
+                      "id": "Q188"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "dd37ecf41b9c8162da7f1ff4d1d226629ca2d8eb",
+                  "datavalue": {
+                    "value": "Eine Nacht Krankenstation",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "c851ca3107368d60f584fc058f8dda6a5a9131d7",
+                  "datavalue": {
+                    "value": "3224",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q2402314$5EE72877-5F6C-4343-B213-539FDB80878A",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "1b1bf67fa8984bd20dd950878b446bfc19586ce8",
+              "datavalue": {
+                "value": "fr.memory-alpha:A_Night_in_Sickbay_(épisode)",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 150,
+                      "id": "Q150"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "acbc24c31e737816b03068584dab23ea6267b13e",
+                  "datavalue": {
+                    "value": "A Night in Sickbay (épisode)",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "169f3ad50186d473f34e094b5fcd250b3f295c0d",
+                  "datavalue": {
+                    "value": "7559",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P407",
+              "P1810",
+              "P9675"
+            ],
+            "id": "Q2402314$D8DE95C6-7BA3-4008-8AED-3FF73F263E95",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "d7e542b349cded2924e2d9559f920dafdb3b4db1",
+              "datavalue": {
+                "value": "memory-beta:A_Night_in_Sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                  "datavalue": {
+                    "value": "A Night in Sickbay",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "2520bc5e642c47e8a935ffa0a5c985a7f71c5089",
+                  "datavalue": {
+                    "value": "14477",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P407",
+              "P9675"
+            ],
+            "id": "Q2402314$02EB4536-46F7-427F-86DB-9C31CBFF1E94",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "849c582e2107a14db2075a14ad17501432961270",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "1d03dfa7759ee8145a412ef4d3de67f5eb842685",
+                      "datavalue": {
+                        "value": "https://memory-beta.fandom.com/wiki/A_Night_in_Sickbay",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "d6ea1ff6993ed578c757b89dc4cd34e264f7ce4c",
+                      "datavalue": {
+                        "value": {
+                          "text": "A Night in Sickbay | Memory Beta, non-canon Star Trek Wiki | Fandom",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "c2f193fa5d1151a0e01e079491fb9ae354bb0790",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2023-07-05T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P813"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "95493de1709be18c4bb521095d3e0c4489f51282",
+              "datavalue": {
+                "value": "ja.memory-alpha:ENT:小さな生命の灯",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "e9031ae3c991a7a50c7cda68ba7eadf3a4bc55a0",
+                  "datavalue": {
+                    "value": "ENT:小さな生命の灯",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "d858d1b9f6e6e383f38dfbe706d102f056c07312",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 5287,
+                      "id": "Q5287"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "f5fbcc7a35bc27e3813173e670a7086838597f94",
+                  "datavalue": {
+                    "value": "8060",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P407",
+              "P9675"
+            ],
+            "id": "Q2402314$073080D8-0F0A-4C67-8F34-3958F730B8A2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "c08a1df9eb37f046aa4a64887d8c40f4981cdc2d",
+              "datavalue": {
+                "value": "ja.memory-alpha:小さな生命の灯（エピソード）",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "ecdfaf023daf011592f19751d7ed74895ee84a90",
+                  "datavalue": {
+                    "value": "小さな生命の灯（エピソード）",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "d858d1b9f6e6e383f38dfbe706d102f056c07312",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 5287,
+                      "id": "Q5287"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "93d9a10aadb105ce07a7169cf6a0b89d61a8d345",
+                  "datavalue": {
+                    "value": "6536",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P407",
+              "P9675"
+            ],
+            "id": "Q2402314$314D76B4-8338-49EE-B14B-67AB59113FDB",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "4a786f1822f1be0552ba7682011c3ca4cffb870c",
+              "datavalue": {
+                "value": "pl.memory-alpha:A_Night_in_Sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                  "datavalue": {
+                    "value": "A Night in Sickbay",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "b9b821e8a9140ec208fb522e0aa113d5742f6fba",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 809,
+                      "id": "Q809"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "280bb221fbd883cfbbd76777c276920b789cd5a3",
+                  "datavalue": {
+                    "value": "6583",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P407",
+              "P9675"
+            ],
+            "id": "Q2402314$C11D57E1-9463-430D-8B4C-DD63B3DAF735",
+            "rank": "normal"
+          }
+        ],
+        "P1040": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1040",
+              "hash": "2334f40741fa14b6d651de4d4fd724ded8f46f13",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 75161522,
+                  "id": "Q75161522"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$3BDD4C54-C7A4-4456-A235-778674BF1824",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "e28c43184e8f5fb5b2d086c8f1f5e1d3be742f2b",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "be577b831deb9b2580bc962d894dbe12166b1147",
+                      "datavalue": {
+                        "value": "https://memory-alpha.fandom.com/wiki/Robert_Lederman?oldid=2391885#Star_Trek_credits",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "5183e125562841b30f050dca75b73fde759f1c21",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-11-16T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                      "datavalue": {
+                        "value": "A Night in Sickbay",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ],
+                  "P958": [
+                    {
+                      "snaktype": "value",
+                      "property": "P958",
+                      "hash": "ee62ba2f9ce398573f1419d34460e1acd49e7780",
+                      "datavalue": {
+                        "value": "Star Trek credits",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813",
+                  "P1810",
+                  "P958"
+                ]
+              }
+            ]
+          }
+        ],
+        "P8013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8013",
+              "hash": "f61ffcb7138ac6381c949b2e8e6489b7d746c4d0",
+              "datavalue": {
+                "value": "shows/star-trek-enterprise/seasons/2/episodes/5",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$6B1567BD-4140-4E9F-843D-55B421BE51B2",
+            "rank": "normal"
+          }
+        ],
+        "P8344": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8344",
+              "hash": "f26de34760dade04723b553dd2f4c95e203ad91f",
+              "datavalue": {
+                "value": "A_Night_in_Sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$2477B53E-B735-4841-A346-A2AA2469B511",
+            "rank": "normal"
+          }
+        ],
+        "P8345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8345",
+              "hash": "8fd9675dd0b3a71dd4b70a6b3b45b87cf345410d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1092,
+                  "id": "Q1092"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$D6E9812E-5D8A-4253-A140-07F946A643AA",
+            "rank": "normal"
+          }
+        ],
+        "P437": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P437",
+              "hash": "d0803093a490840d34bba84b010375fadffad1fd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 723685,
+                  "id": "Q723685"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$24A2ACE4-0C17-4E69-A415-4A0E96118D10",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a3953290dc1042c4f09ecbe5847078f5d7d81bf9",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "09be367d72e8f991a265ff45833aa9ce7b88921d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 907311,
+                          "id": "Q907311"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a88dffd04924b41b4d1f297d6a56a52d71685f89",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Q2402314#P1874",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    },
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "b4d09c8c3298d90b7ba3dd638283311d73b7f6ab",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Property:P1874#P2302",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P750": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P750",
+              "hash": "fa6caa4ecf52be8a10328adef1360ac99b60685d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 907311,
+                  "id": "Q907311"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$A8B378B8-8706-4C59-BEFC-3A289CB12D83",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "a3953290dc1042c4f09ecbe5847078f5d7d81bf9",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "09be367d72e8f991a265ff45833aa9ce7b88921d",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 907311,
+                          "id": "Q907311"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "a88dffd04924b41b4d1f297d6a56a52d71685f89",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Q2402314#P1874",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    },
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "b4d09c8c3298d90b7ba3dd638283311d73b7f6ab",
+                      "datavalue": {
+                        "value": "https://www.wikidata.org/wiki/Property:P1874#P2302",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "f71c197ef0e3028f884604ba16c5cfaa379877b9",
+              "datavalue": {
+                "value": "/m/04v2nv",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$7ECE2D97-7035-4FC8-A8C2-CC9AE5504736",
+            "rank": "normal"
+          }
+        ],
+        "P7512": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7512",
+              "hash": "ab3788fc79eb55df66f85fc81ef82cd645a8f53c",
+              "datavalue": {
+                "value": "database_article/night-in-sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$A39E6EFD-D77A-490C-952B-50B2DE766B99",
+            "rank": "normal"
+          }
+        ],
+        "P8411": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8411",
+              "hash": "7ecdf4d47935799b5cc5b04334639a7ad8b54214",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2775969,
+                  "id": "Q2775969"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$860A9557-A1C9-4C25-B5EB-0C4B7780C7A7",
+            "rank": "normal"
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "43c62a99bb3fe15a3a6aa94eeb258c02e462ba3c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 644743,
+                  "id": "Q644743"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$67A42861-1260-4FA7-8AB3-1C2C15C21317",
+            "rank": "normal"
+          }
+        ],
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "933e349e95e7fd13ac723f2ec1293dae355a377b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3494387,
+                  "id": "Q3494387"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$4AF5476A-8F19-4908-A639-0585EA07DA87",
+            "rank": "normal"
+          }
+        ],
+        "P6216": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6216",
+              "hash": "5570347fdc76d2a80732f51ea10ee4b144a084e0",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 50423863,
+                  "id": "Q50423863"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2402314$C15CA176-8618-47A1-92E3-3492BDBE114C",
+            "rank": "normal"
+          }
+        ],
+        "P8979": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8979",
+              "hash": "5eedf2fd4e1306e6f9d34b6e3104b51a2458ff49",
+              "datavalue": {
+                "value": "Q116",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$9bf63761-419c-47d1-7fd3-97b78cc2ac2c",
+            "rank": "normal"
+          }
+        ],
+        "P1712": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1712",
+              "hash": "e7b1068b49751a27c4de626b79ebe1ca52a805e6",
+              "datavalue": {
+                "value": "tv/star-trek-enterprise/season-2/episode-5-a-night-in-sickbay",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2402314$e1b874b3-e517-4fd3-acf2-3a944a0d85fa",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "4d3dda631ff402ca8fa3fbb1cd74f2103d50a395",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "bf95259651b51e44c97387377a64b8bcb0bb503a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 664160,
+                          "id": "Q664160"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "04bf32ec0f329d5f11b735fe5f20fa4a56d3cd11",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "6f7d47996d27bb096a3420235bee08e4a9247755",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "c021e77da9cbd25343b4762361ca2e9ef889597a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 150248,
+                          "id": "Q150248"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1712": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1712",
+                      "hash": "0fbc1a025edc28553e425a5c2df4d5ce2909c035",
+                      "datavalue": {
+                        "value": "tv/star-trek-enterprise/season-2",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "04bf32ec0f329d5f11b735fe5f20fa4a56d3cd11",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-01-07T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "a04f8246561c5cc05b3629157bd674763bb7b82b",
+                      "datavalue": {
+                        "value": "A Night in Sickbay",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P1712",
+                  "P813",
+                  "P1810"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sitelinks": {
+        "cawiki": {
+          "site": "cawiki",
+          "title": "A Night in Sickbay",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "A Night in Sickbay",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "A Night in Sickbay",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "A Night in Sickbay",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

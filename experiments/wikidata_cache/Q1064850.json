@@ -1,0 +1,1516 @@
+{
+  "entities": {
+    "Q1064850": {
+      "pageid": 1013489,
+      "ns": 0,
+      "title": "Q1064850",
+      "lastrevid": 2434979992,
+      "modified": "2025-11-28T06:03:44Z",
+      "type": "item",
+      "id": "Q1064850",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "The Book of Mormon"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "religious satire musical"
+        }
+      },
+      "aliases": {
+        "en": [
+          {
+            "language": "en",
+            "value": "Book of Mormon"
+          }
+        ]
+      },
+      "claims": {
+        "P373": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P373",
+              "hash": "a145b98ee944fa5ead5e3151e73f12d4ee335f34",
+              "datavalue": {
+                "value": "The Book of Mormon (musical)",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "q1064850$B2C608B3-0AFC-4E2C-866B-E2A1D8E88FBE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "577c408375dc578b859c7d217635226ae4a2fafe",
+              "datavalue": {
+                "value": "/m/0bry6tj",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$45C63DDC-CB4A-478F-A20E-DC8AF2EE5D1C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "204be1143f80482fb881bcdee1eb4235c106fa24",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 58483083,
+                  "id": "Q58483083"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$A1455D3B-FE4B-4E13-A1F9-433E482E51BA",
+            "rank": "normal"
+          }
+        ],
+        "P57": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P57",
+              "hash": "6cf3b0d13062bb1b9eea2158774a87ab39cbb87f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44414,
+                  "id": "Q44414"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$717D2E58-29F1-4A7D-8099-3026322A0972",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 10000,
+                          "id": "Q10000"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P86": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P86",
+              "hash": "af7d85c3a2de4ab27cf32302373398333499561e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44414,
+                  "id": "Q44414"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$95D59DF8-F028-4412-B071-E1A298036087",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P86",
+              "hash": "ca71efc9d4e743cc68dc2b52b0e4c6368b043ff6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3435778,
+                  "id": "Q3435778"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$F2595B58-352D-4502-B629-231C84BA14B2",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P86",
+              "hash": "667bd0b849c4b5e4b1361dc5ae1b46156459c16a",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44410,
+                  "id": "Q44410"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$28A677C8-AEA2-4159-8BD8-7F5F767E8EE5",
+            "rank": "normal"
+          }
+        ],
+        "P1191": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1191",
+              "hash": "f87c26ea9ae2d6435c634d9a93f777a357f926f8",
+              "datavalue": {
+                "value": {
+                  "time": "+2011-03-24T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P276": [
+                {
+                  "snaktype": "value",
+                  "property": "P276",
+                  "hash": "076088f12ee6fe1199ef622cc73518cd73264563",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 5407593,
+                      "id": "Q5407593"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P276"
+            ],
+            "id": "Q1064850$FC3BE5FD-B79E-44E7-A8A4-015DB883C4BE",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "732ec1c90a6f0694c7db9a71bf09fe7f2b674172",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "9123b0de1cc9c3954366ba797d598e4e1ea4146f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 10000,
+                          "id": "Q10000"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1219": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1219",
+              "hash": "64b9520ca271e67d31f2e3c01d2d2896a5d20873",
+              "datavalue": {
+                "value": "488720",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$ae24d322-4aa6-b4ff-46cc-dcd934321c13",
+            "rank": "normal"
+          }
+        ],
+        "P856": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "c96c6b37a2d60ad82177651f830bb6cc73dba6e0",
+              "datavalue": {
+                "value": "https://thebookofmormonmusical.com/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q1064850$DAA1A17C-275F-4E5F-9E9C-577B68150C19",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P856",
+              "hash": "7707b62612d59868d8cfb5d1e23bfb6899f4b596",
+              "datavalue": {
+                "value": "https://bookofmormonbroadway.com/",
+                "type": "string"
+              },
+              "datatype": "url"
+            },
+            "type": "statement",
+            "id": "Q1064850$214ec7f6-43f8-d931-5d13-a375cf31c9f1",
+            "rank": "normal"
+          }
+        ],
+        "P4013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4013",
+              "hash": "8ba48bf46abf86dbcd8a10ed88fe84231c00fa8d",
+              "datavalue": {
+                "value": "bookofmormonldn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$A16E6907-9B5C-426A-B9A3-33ED9ACB310F",
+            "rank": "normal"
+          }
+        ],
+        "P138": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P138",
+              "hash": "11cb136f431e45d7a7a6b31353b4b0ef7d6266f7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 459842,
+                  "id": "Q459842"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$9af41169-41f7-ad07-dd72-e1d0e1614b6f",
+            "rank": "normal"
+          }
+        ],
+        "P2002": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2002",
+              "hash": "532cf9e4e6ffeb1685e0dd118213406eb9b23f91",
+              "datavalue": {
+                "value": "bookofmormonldn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P6552": [
+                {
+                  "snaktype": "somevalue",
+                  "property": "P6552",
+                  "hash": "45d00a899a31bb1b56b0a255a5521ff443d681b9",
+                  "datatype": "external-id"
+                }
+              ],
+              "P582": [
+                {
+                  "snaktype": "somevalue",
+                  "property": "P582",
+                  "hash": "0f0e43d5ac17613a0369bf0d65a07a326f4b8d98",
+                  "datatype": "time"
+                }
+              ],
+              "P1534": [
+                {
+                  "snaktype": "value",
+                  "property": "P1534",
+                  "hash": "0e8e227bbdb63e4a5f83919b6aea4823ee960a51",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 87406427,
+                      "id": "Q87406427"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P6552",
+              "P582",
+              "P1534"
+            ],
+            "id": "Q1064850$CC0B78E0-F6B4-4D01-8641-2952F1F0B431",
+            "rank": "normal"
+          }
+        ],
+        "P2013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2013",
+              "hash": "8259775072bc17fdad9aa681f359220d31f126a7",
+              "datavalue": {
+                "value": "bookofmormonldn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$71B0CFF4-2192-453F-AE13-0B988C3AE4F7",
+            "rank": "normal"
+          }
+        ],
+        "P2003": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2003",
+              "hash": "826a10b39c7428a5898ed96d2d2b37e5f300ffeb",
+              "datavalue": {
+                "value": "bookofmormonldn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$F54EC948-0F09-4E89-93D7-4C66D3B95FA6",
+            "rank": "normal"
+          }
+        ],
+        "P676": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P676",
+              "hash": "ecc2a48c66fc15a9a7461111e5d35ea3bff6c2fd",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44414,
+                  "id": "Q44414"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$086D9D5A-E5B4-4EC2-B5F4-BC4903629283",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P676",
+              "hash": "bce07a58dbc10fb8c4fbffd2aece12b9b23cc4e3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3435778,
+                  "id": "Q3435778"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$7A75C30A-0D20-42D0-B70C-CD2F27FCCCBF",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P676",
+              "hash": "55c090fbcb49e926061071a601119d2194958aee",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44410,
+                  "id": "Q44410"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$8869A956-4721-48BD-BE8D-28C4D434ED3C",
+            "rank": "normal"
+          }
+        ],
+        "P87": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P87",
+              "hash": "b2e85bda02e08438e8239e71a7ca56e80d3f8260",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44414,
+                  "id": "Q44414"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$8B73A1B3-CC81-46B6-AF04-884B7573A65D",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P87",
+              "hash": "3aab55e37cecc68523ade04228042cc586241a34",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 3435778,
+                  "id": "Q3435778"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$519E5454-81DB-44F4-A1D3-8A3D67BB21C6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P87",
+              "hash": "ade4d3619f5c980a7c7d80333605e07aba5e1cea",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 44410,
+                  "id": "Q44410"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$56FE38FB-58B4-486C-8680-62C623EA23E3",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "4ae62c6ccc1c975374ee69355d9c469dabd81358",
+              "datavalue": {
+                "value": "topic/The-Book-of-Mormon",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4e2356bcedde288d56696a4f3e2e6053f665a047",
+                  "datavalue": {
+                    "value": "The Book of Mormon",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1064850$1F3D99D0-2B4A-49D7-A981-5F9D004F87DF",
+            "rank": "normal"
+          }
+        ],
+        "P3417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3417",
+              "hash": "997c9847d15a4336e85d919f03122791a577d709",
+              "datavalue": {
+                "value": "The-Book-of-Mormon-musical",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$922ADDB7-42E7-4087-A465-43393F9A321F",
+            "rank": "normal"
+          }
+        ],
+        "P5833": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5833",
+              "hash": "3cba7a3db68062a40fa020622e1a7f4e6443b19b",
+              "datavalue": {
+                "value": "the-book-of-mormon-eugene-oneill-theatre-vault-0000013715",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$2BA0967A-E5B4-48CA-B242-2C498CA84068",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5833",
+              "hash": "abdce8fc9bf1ddcf9cddf0ebad2a41e5d40c6284",
+              "datavalue": {
+                "value": "book-of-mormon-the-prince-of-wales-theatre-2012-2013",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$73E139CD-E707-4F07-8EEE-85F9BB02C183",
+            "rank": "normal"
+          }
+        ],
+        "P4647": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4647",
+              "hash": "b6b25ab13513a02c554fd579024f43441a0869d6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5407593,
+                  "id": "Q5407593"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$0075A023-1DA7-450C-92F6-EB6194A64789",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "059058a44470f9710efd54bd55a55b3b5fdd5840",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "1ad7a1ff97fb4cd04a84919a9e6a4487cfde706b",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=The_Book_of_Mormon_(musical)&oldid=962220836",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "d4600d19f985826f8b5d2c4ee6181f657dd2fa25",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2743,
+                  "id": "Q2743"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$566D00E1-4E8D-4AFD-9880-2225DAFAC7EA",
+            "rank": "normal"
+          }
+        ],
+        "P4342": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4342",
+              "hash": "7a03a926e5a8ad9eaac3f2516163f4801d6437d1",
+              "datavalue": {
+                "value": "The_Book_of_Mormon",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$e3bb7825-474e-740d-95f5-b10245985937",
+            "rank": "normal"
+          }
+        ],
+        "P8419": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8419",
+              "hash": "08370da6e545abd418741a6b22d7f8f84a21ecf9",
+              "datavalue": {
+                "value": "The Book of Mormon - Parker*s*Stone*s*Lopez",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1552": [
+                {
+                  "snaktype": "value",
+                  "property": "P1552",
+                  "hash": "2676d76a32e544ce99d8cfe832a8ec77039a8f2e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 105265074,
+                      "id": "Q105265074"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P3831": [
+                {
+                  "snaktype": "value",
+                  "property": "P3831",
+                  "hash": "8d253d0aa2a99569829d70d981b9a9cdc92881ab",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 110914098,
+                      "id": "Q110914098"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1552",
+              "P3831"
+            ],
+            "id": "Q1064850$21C6295C-3860-4F19-8B17-8B2F69E1AFB3",
+            "rank": "normal"
+          }
+        ],
+        "P166": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P166",
+              "hash": "6becff42cbdbb5e8c473f2e54512a863266c8709",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1780176,
+                  "id": "Q1780176"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P585": [
+                {
+                  "snaktype": "value",
+                  "property": "P585",
+                  "hash": "1277780215cd5ca03e85ca9c50830783b4fedfe1",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2011-00-00T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 9,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P585"
+            ],
+            "id": "Q1064850$534bbf50-4f6f-e8da-1e4a-fa0e2dfab3e5",
+            "rank": "normal"
+          }
+        ],
+        "P1617": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1617",
+              "hash": "55a3c8c34ef5f0f801c499726876712500d08319",
+              "datavalue": {
+                "value": "6cf676af-2cd1-49e7-9caa-3a9cdcbe3b35",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$3FF08F87-6DA2-47AA-BAD6-A81200DEA3D3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8582d8416671f1f2567247201bac753552435ca5",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "ea55dc6ac5c3ab77c77d4ae7979e3276d0d4cd20",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 18336371,
+                          "id": "Q18336371"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P18": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P18",
+              "hash": "0cc1c82168a486ab1b70d23116e7f193a1d43f1e",
+              "datavalue": {
+                "value": "The Book of Mormon.jpg",
+                "type": "string"
+              },
+              "datatype": "commonsMedia"
+            },
+            "type": "statement",
+            "id": "Q1064850$93ab8e79-438c-4984-09d2-17b90d97dc3e",
+            "rank": "normal"
+          }
+        ],
+        "P435": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P435",
+              "hash": "0961221db5207099729548d301b2ae53acf58177",
+              "datavalue": {
+                "value": "d8498283-b6ac-4cf8-b998-617749097251",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "4e2356bcedde288d56696a4f3e2e6053f665a047",
+                  "datavalue": {
+                    "value": "The Book of Mormon",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q1064850$daef55dc-f66a-40c6-b6a8-f37c977fcfa8",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "079cac27af3f958bcf13472911c1fa9e8cd94a8c",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "9735bb49e92671c218bc4714ad68ee15859a65f0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P406": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P406",
+              "hash": "a7735ba5a1e8282dfe66b3606ecb3caf1da80406",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7719277,
+                  "id": "Q7719277"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$7e73871f-4548-0716-2180-39c8a2a50ba1",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "fbf44f99e4c54ca5cfd77bd63e42fbea49cb6e5d",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 459842,
+                  "id": "Q459842"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$2a3aa021-42cf-8043-6b41-fc54a52a0fad",
+            "rank": "normal"
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "92569fc163bb841d6f408130e2ad26cd58ec71e3",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7976,
+                  "id": "Q7976"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$5a6f2169-4a5b-da29-4670-319f6f068b9c",
+            "rank": "normal"
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "a4340c8b7db42414a524c7beda767df8b3ea73ec",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1548170,
+                  "id": "Q1548170"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$4aa6350f-4d53-92f2-e7ec-0197a76ec36d",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2fdeb390995efafa8b8d16b3e83f7fe141dc7ea0",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "cfae953badd3ae5a1f5c1b91555837a6664d6ae8",
+                      "datavalue": {
+                        "value": "https://bookofmormonbroadway.com/about",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "7cd3f5eafb405bb97ff89d47a12cb567a126e582",
+                      "datavalue": {
+                        "value": {
+                          "text": "About",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1860,
+                          "id": "Q1860"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "caca8990f4a37ee65a9ae98789ab54376fd2143d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-07-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P407",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "7f985e15819b74ed189d022e004890e66d2ae42e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 30,
+                  "id": "Q30"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q1064850$5ffe2984-4659-6cb9-35b4-8f0a028a0303",
+            "rank": "normal"
+          }
+        ],
+        "P2047": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2047",
+              "hash": "c261e4f36f1dbb648ec270b947f66f690831c91a",
+              "datavalue": {
+                "value": {
+                  "amount": "+150",
+                  "unit": "http://www.wikidata.org/entity/Q7727"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q1064850$3893cd76-4a73-1cae-dc8b-947196557602",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "13838716e30e01d78694faccc7705cf9f7fb0545",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "6485a28659913eade336a91f39c3f16d4a254a4b",
+                      "datavalue": {
+                        "value": "https://bookofmormonbroadway.com/faqs",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P1476": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1476",
+                      "hash": "88009e1be5e2d23e89407842b2fd916a94af84dd",
+                      "datavalue": {
+                        "value": {
+                          "text": "Book of Mormon FAQs",
+                          "language": "en"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1860,
+                          "id": "Q1860"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "caca8990f4a37ee65a9ae98789ab54376fd2143d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-07-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P1476",
+                  "P407",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "3e5555dea0bba9ce640b68a8fc9456dce697d942",
+              "datavalue": {
+                "value": {
+                  "text": "The Book of Mormon",
+                  "language": "en-us"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q1064850$f92959e7-4d52-d81f-47b0-f59e02e6e4ae",
+            "rank": "normal"
+          }
+        ],
+        "P8309": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8309",
+              "hash": "c21a2255609350128b69e954e25d86265c795207",
+              "datavalue": {
+                "value": "18-322077",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q1064850$980CE649-6AB6-4EEC-9142-75A99990911E",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "cawiki": {
+          "site": "cawiki",
+          "title": "The Book of Mormon (musical)",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Category:The Book of Mormon (musical)",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "The Book of Mormon (muzikál)",
+          "badges": []
+        },
+        "cywiki": {
+          "site": "cywiki",
+          "title": "The Book of Mormon (sioe gerdd)",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "The Book of Mormon (Musical)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "The Book of Mormon (musical)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "The Book of Mormon (musical)",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "کتاب مورمون (موزیکال)",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "The Book of Mormon (musikaali)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "The Book of Mormon",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "ספר המורמונים (מחזמר)",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "The Book of Mormon",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "The Book of Mormon (musikal)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "The Book of Mormon",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ブック・オブ・モルモン",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "몰몬의 책",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "The Book of Mormon (musical)",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "The Book of Mormon",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Księga Mormona (musical)",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "The Book of Mormon",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Книга мормона (мюзикл)",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "The Book of Mormon (musical)",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "The Book of Mormon (musikal)",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "摩門經 (音樂劇)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

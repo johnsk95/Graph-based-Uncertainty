@@ -1,0 +1,943 @@
+{
+  "entities": {
+    "Q838304": {
+      "pageid": 790664,
+      "ns": 0,
+      "title": "Q838304",
+      "lastrevid": 2206031289,
+      "modified": "2024-07-16T19:10:18Z",
+      "type": "item",
+      "id": "Q838304",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Tyr"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "1990 studio album by Black Sabbath"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P264": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P264",
+              "hash": "c77a3071eff91a4448aebef6a22ec05c7a7c902e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2265719,
+                  "id": "Q2265719"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q838304$1157081C-0CCE-4676-BF6B-CA59D6477B02",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P175": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P175",
+              "hash": "fa0085bb2400011a8dd677e0176a98c967771e79",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 47670,
+                  "id": "Q47670"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q838304$F920D36D-D944-46E4-8619-781348C25112",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "440baca467943af4b2742f70494386108ad2e982",
+              "datavalue": {
+                "value": "/m/01hxltt",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q838304$6E250E82-2A37-4800-BEA5-B21A4F9F9DA0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P136": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P136",
+              "hash": "bf0495756d3e88441ee73e8549419f5cd10014b9",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 38848,
+                  "id": "Q38848"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q838304$8C5C0CE2-02EF-4BB0-ADB3-7518AC36E5BB",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 191168,
+                          "id": "Q191168"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P162": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P162",
+              "hash": "48fba2fd097fb2268f38a5367cbfa901b2776d7b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 47670,
+                  "id": "Q47670"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q838304$4073403C-EA1A-485F-9CE6-2A2CD533F68D",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 191168,
+                          "id": "Q191168"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P436": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P436",
+              "hash": "03e1ba651810b0e59507b402302fe501ae5fc84b",
+              "datavalue": {
+                "value": "00f64d57-aeaf-3925-ac5e-072fdcb7c3f6",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q838304$EC9C3FA4-671F-485C-A090-60D88AFAA1F6",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "706208b3024200fd0a39ad499808dd0d98d74065",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1729": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1729",
+              "hash": "9cfd5b0542b6a96c611b64c8922acb4c768877b4",
+              "datavalue": {
+                "value": "mw0000690225",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P2093": [
+                {
+                  "snaktype": "value",
+                  "property": "P2093",
+                  "hash": "b0f7cab9abb45f2d4124201918e7d87741a34a2b",
+                  "datavalue": {
+                    "value": "James Chrispell",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P2093"
+            ],
+            "id": "Q838304$5F349395-E54B-44F6-A7C4-B9341DADFE89",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8df0073e122a5d92d4f711179443974799a3bf19",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "add7659bae5b35cd46e8de0c32ac6ce3e0ceded6",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2015-09-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1954": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1954",
+              "hash": "8f535a74713f0db7301cd7f2965e7506b1eaa493",
+              "datavalue": {
+                "value": "37596",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q838304$DD6971D6-E4F7-4430-A78C-4CA2C3603717",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "8df0073e122a5d92d4f711179443974799a3bf19",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "add7659bae5b35cd46e8de0c32ac6ce3e0ceded6",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2015-09-03T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q838304$43C3AB16-B1FA-4C78-8E9F-D10B0751CB4F",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 191168,
+                          "id": "Q191168"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "9be890f6944b8a5418b9684e2d0d3f4c841b2286",
+              "datavalue": {
+                "value": {
+                  "time": "+1990-08-20T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q838304$400E84FA-E68F-4A43-836E-FDDC227E05E1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 191168,
+                          "id": "Q191168"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2047": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2047",
+              "hash": "0b635f9b0ae42403f1e27f2fef9d4d66678161b8",
+              "datavalue": {
+                "value": {
+                  "amount": "+2398",
+                  "unit": "http://www.wikidata.org/entity/Q11574"
+                },
+                "type": "quantity"
+              },
+              "datatype": "quantity"
+            },
+            "type": "statement",
+            "id": "Q838304$1DF6CF5A-0D17-4511-B14E-425EE91ACB4C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 191168,
+                          "id": "Q191168"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "b736d0ddd58350a6f636c0daf4befdb4b6346897",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 208569,
+                  "id": "Q208569"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q838304$99cd69f1-40ed-4a15-906a-ca402db76366",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "3bf39867b037e8e494a8389ae8a03bad6825a7fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5946b91c53409c48f5f1fb0319ed41fc67a764da",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 191168,
+                          "id": "Q191168"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "dc16d32b615bf1c6edf1919941065eedccacb8e4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 482994,
+                  "id": "Q482994"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q838304$F913C41A-5138-4C31-9709-FF1291FF1DE9",
+            "rank": "normal"
+          }
+        ],
+        "P10262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P10262",
+              "hash": "bfebd83342d6a7ae68c5a61feb0713b44d0d3b36",
+              "datavalue": {
+                "value": "1110",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q838304$CB3AE682-E4FF-4B9B-B28A-DA9413670BBD",
+            "rank": "normal"
+          }
+        ],
+        "P2721": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2721",
+              "hash": "7d8c9ca1130d34b60a26743c2313414d4f35b81e",
+              "datavalue": {
+                "value": "527",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q838304$6FA15CF8-DE5B-4C4A-88C6-8E886076DC71",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "248a41f0b78503957885b29d5a81c6a5e2b46f7d",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "889b94c40f0dc1125270051a5044b24e92e7236a",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 175482,
+                          "id": "Q175482"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "4765b42ba8b2c7bcae559c2b27db4b171c4da4ad",
+                      "datavalue": {
+                        "value": "https://fi.wikipedia.org/w/index.php?title=Tyr_(albumi)&oldid=21244573",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P361": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P361",
+              "hash": "5e07f2912acfff5e793f4bd3a91fcafc679916c4",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 106002479,
+                  "id": "Q106002479"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P155": [
+                {
+                  "snaktype": "value",
+                  "property": "P155",
+                  "hash": "a99990f4659515af2e53ede0b60a686a126babd3",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 679742,
+                      "id": "Q679742"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P156": [
+                {
+                  "snaktype": "value",
+                  "property": "P156",
+                  "hash": "045d8c2838ba0cfd6ecca925d6c920d09c1dc65e",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 838552,
+                      "id": "Q838552"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P155",
+              "P156"
+            ],
+            "id": "Q838304$0F88CAA3-93DC-41DD-87A7-43AD265B02D6",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Tyr",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Tyr (Album)",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Tyr (άλμπουμ)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Tyr (álbum)",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Tyr (albumi)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "Tyr (אלבום)",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ティール (アルバム)",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "Tyr (ალბომი)",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "Tyr",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Tyr (Black Sabbath)",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Tyr (álbum)",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Tyr (альбом)",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Tyr (album)",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Tyr (album)",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Tyr (musikalbum)",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ทีวายอาร์",
+          "badges": []
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Tyr (albüm)",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Tyr (альбом)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

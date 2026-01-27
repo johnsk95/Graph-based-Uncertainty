@@ -1,0 +1,1194 @@
+{
+  "entities": {
+    "Q2338691": {
+      "pageid": 2259387,
+      "ns": 0,
+      "title": "Q2338691",
+      "lastrevid": 2292278926,
+      "modified": "2024-12-28T17:58:40Z",
+      "type": "item",
+      "id": "Q2338691",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "3"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "7th episode of the 2nd season of The X-Files"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P155": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P155",
+              "hash": "f94165752bedeba25e9c1e371c4f4a777ca9366b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2480642,
+                  "id": "Q2480642"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$C80DFB52-3690-4DF3-A864-1D82E4D94C2C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P156": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P156",
+              "hash": "a539128ca715fe3f71eb33b5081ad3b9aab91377",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2342991,
+                  "id": "Q2342991"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$22DCCD52-9B97-4AD5-B132-7BAAB7CB4F96",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "2d3761f68cf1248dc8fbf0b5eaa1f7fff03df987",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 21191270,
+                  "id": "Q21191270"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$BC3617CA-C676-4E4B-8055-CF26C89AB99B",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "9f9d6641805e2d264af0b632729211fc1dec8062",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 72607030,
+                  "id": "Q72607030"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$B4092395-B095-4889-9092-DA338CF5C640",
+            "rank": "normal"
+          }
+        ],
+        "P179": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P179",
+              "hash": "20a5e3ca5e1b6958eeb5ae2bf2fdee2d31b7381c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2744,
+                  "id": "Q2744"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "01695eb28e0d7caabee4b1deb26ba303c8fd5c39",
+                  "datavalue": {
+                    "value": "31",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q2338691$C7CB64EB-8F35-40A1-82F1-FADDBA4604D3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P57": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P57",
+              "hash": "0d5ee46712010e6a2e1fa5c4b856a98a4630b6ef",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1279660,
+                  "id": "Q1279660"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$3B2FCB17-8434-4567-AA3D-7B6E64FA314A",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P58": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "28e6468ed6010c6d6bc036c5911b6b642e3dfcab",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 954319,
+                  "id": "Q954319"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$FFBC47EF-AD1B-4C6A-B152-9344A4660150",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P58",
+              "hash": "f202c834db66e1e02ccdbe7908b8a685a2ea1ebe",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 698951,
+                  "id": "Q698951"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$EB8B053D-485E-43E1-A7CA-50877391E5F2",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P345": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P345",
+              "hash": "bfb266912b0eef0c62e78722e92056f030f423b6",
+              "datavalue": {
+                "value": "tt0751066",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$955D551F-EBE8-4B9C-949A-74EDA696FCE3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e17507043402fe54ae6c4d65cc51f46cec987de9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8449,
+                          "id": "Q8449"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2638": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2638",
+              "hash": "997143565a85388c809753625d91b7e27a2bca69",
+              "datavalue": {
+                "value": "shows/the-xfiles/3-521",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$83400006-86F7-42CE-BE09-ACB12A8E5FD9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P2364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2364",
+              "hash": "a61590ae50ae96c7d3a4056bbb553b4f5bee660f",
+              "datavalue": {
+                "value": "2X07",
+                "type": "string"
+              },
+              "datatype": "string"
+            },
+            "type": "statement",
+            "id": "Q2338691$3400AD86-8AAD-47CD-8B01-68345733B9BA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "75f7743fc5c80dd73059b7ceaf508833a32b1bb2",
+              "datavalue": {
+                "value": {
+                  "time": "+1994-11-04T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 11,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q2338691$a2e48c18-4dd8-e902-dc16-7c95f7b798d9",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "288ab581e7d2d02995a26dfa8b091d96e78457fc",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "6a164248fc96bfa583bbb495cb63ae6401ec203c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 206855,
+                          "id": "Q206855"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P4908": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4908",
+              "hash": "3e3059be37cb9ac4ee0dedb3a34b0bb7fdf1e4b2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 2330501,
+                  "id": "Q2330501"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1545": [
+                {
+                  "snaktype": "value",
+                  "property": "P1545",
+                  "hash": "9a4403310d2d27312d0a93830981a1e51b735843",
+                  "datavalue": {
+                    "value": "7",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1545"
+            ],
+            "id": "Q2338691$DE1B188F-C754-4AB5-87F1-14C487EC017C",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1258": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1258",
+              "hash": "a55a8c103cf29a67b855a0e754ee22ef5d8f23e9",
+              "datavalue": {
+                "value": "tv/the_x_files/s02/e07",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$9E3F4A70-5E84-4625-B15A-EDB723595814",
+            "rank": "normal"
+          }
+        ],
+        "P1562": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1562",
+              "hash": "00e787166681071cabb50322cd540f12cfde095e",
+              "datavalue": {
+                "value": "v210588",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$BE4C1548-F584-401B-9835-18591F7DF1BC",
+            "rank": "normal"
+          }
+        ],
+        "P2529": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2529",
+              "hash": "8c71a995acc2a46cf46f5393926a3f95bc1dfc4e",
+              "datavalue": {
+                "value": "464149",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$A546F206-5A8D-4717-B3A7-B94329A55FBB",
+            "rank": "normal"
+          }
+        ],
+        "P4665": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P4665",
+              "hash": "cbb9b06629109b550e50c5756f8e1b3906566ac3",
+              "datavalue": {
+                "value": "507239",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$B9BB0005-74C9-49F5-B435-2C151C5BC2FD",
+            "rank": "normal"
+          }
+        ],
+        "P3302": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3302",
+              "hash": "ef218e21b99902376ed922ae20db059a2c9b0da2",
+              "datavalue": {
+                "value": "14211",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$6B2C1470-8D27-446E-B0CC-3C4D146096FC",
+            "rank": "normal"
+          }
+        ],
+        "P2704": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2704",
+              "hash": "51e59cc52b2fb4ab540cc19f5178e2fda5f1adbe",
+              "datavalue": {
+                "value": "10.5240/0E63-40B9-C6DA-FCF5-FCDC-3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$F02A5A27-76F7-48E6-8E1A-5A10FAFAD59B",
+            "rank": "normal"
+          }
+        ],
+        "P3212": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P3212",
+              "hash": "306e882a70b1c8c7b39ce800b39d0d8997ba0c20",
+              "datavalue": {
+                "value": "0000-0000-EBC2-00BA-O-0000-0000-2",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$011BFE11-0FF7-426C-AD94-1B2ECA1231E3",
+            "rank": "normal"
+          }
+        ],
+        "P2703": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P2703",
+              "hash": "3e9c0e3370efbe1e31a617bb062ed5588447520a",
+              "datavalue": {
+                "value": "150514642",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$960A9319-F3FE-4945-B717-2E33B6B3BFEA",
+            "rank": "normal"
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "d866ca034f2b391890f9ca6c549a03c677d1cb94",
+              "datavalue": {
+                "value": {
+                  "text": "3",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q2338691$C04D739A-DB3F-4EBB-93F3-16785CA555D5",
+            "rank": "normal"
+          }
+        ],
+        "P364": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P364",
+              "hash": "cc2c15fb58feeae8fe7a641c0e2ddaf3f48e59f8",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$3DC180A6-3ADB-4816-8AC6-E6E4A47E299A",
+            "rank": "normal"
+          }
+        ],
+        "P7043": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7043",
+              "hash": "1bf51ca543ba66f88dbea95b7ec60949596ece8a",
+              "datavalue": {
+                "value": "240501",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$C20BD65C-F414-4CA3-A22A-00393A0012FE",
+            "rank": "normal"
+          }
+        ],
+        "P5905": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P5905",
+              "hash": "f92ef6016c28f3e04cd9979887fd770e89e98519",
+              "datavalue": {
+                "value": "4070-52",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$1F65AA1F-E48A-4C15-8657-735652E7E401",
+            "rank": "normal"
+          }
+        ],
+        "P6262": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P6262",
+              "hash": "60beb6e1616391dbfbf9fab08d8257af6c0e035f",
+              "datavalue": {
+                "value": "x-files:3",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "b9dff345698f30ca2e74bbcfea55b6ce9c13351e",
+                  "datavalue": {
+                    "value": "3",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ],
+              "P407": [
+                {
+                  "snaktype": "value",
+                  "property": "P407",
+                  "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 1860,
+                      "id": "Q1860"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ],
+              "P9675": [
+                {
+                  "snaktype": "value",
+                  "property": "P9675",
+                  "hash": "42154ed4a94841b32e2ffc77ef3d80a2e14f3505",
+                  "datavalue": {
+                    "value": "125",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810",
+              "P407",
+              "P9675"
+            ],
+            "id": "Q2338691$4A847C3D-2559-4365-93A4-2326574D9C57",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "ac467f5a27b0a92c29e87cd03822ee959ec26265",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "895f2ed4d1d4bf4bd6e76498644122f48ba0d02b",
+                      "datavalue": {
+                        "value": "https://x-files.fandom.com/wiki/3?oldid=111580",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3d5d1dfe0e141f42beb2d5dafb1dd50e46eeeba8",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-11-15T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P1810": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1810",
+                      "hash": "b9dff345698f30ca2e74bbcfea55b6ce9c13351e",
+                      "datavalue": {
+                        "value": "3",
+                        "type": "string"
+                      },
+                      "datatype": "string"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813",
+                  "P1810"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "a388511deb9babed7bc336d94f17322f18fa1aad",
+              "datavalue": {
+                "value": "/m/026swzn",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$1F63296F-862F-4F5D-B4B7-F24207C18C05",
+            "rank": "normal"
+          }
+        ],
+        "P1889": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1889",
+              "hash": "a4af523a6f1a99a4e228af0b05f8e7b7a6fec724",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1256977,
+                  "id": "Q1256977"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q2338691$22b100c2-40ed-3111-fb7e-4af1fc6831bd",
+            "rank": "normal"
+          }
+        ],
+        "P8013": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8013",
+              "hash": "897f6f3877cd19cf8b21c85c185ada4c6c827a18",
+              "datavalue": {
+                "value": "shows/the-x-files/seasons/2/episodes/7",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$7776b3bf-2ac9-4489-aa03-47e15e1a04ae",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "741551b436bbc248f888011c802b460217f5ad78",
+                "snaks": {
+                  "P3452": [
+                    {
+                      "snaktype": "value",
+                      "property": "P3452",
+                      "hash": "2be7aaa2f3088f58a29c5c50386d43a15d2d78fa",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 2744,
+                          "id": "Q2744"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P518": [
+                    {
+                      "snaktype": "value",
+                      "property": "P518",
+                      "hash": "c7d9e261c72700982d9bd83c8b5dd8a46fdec7f5",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 120493751,
+                          "id": "Q120493751"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "08828771cf2181d037ed36122c8b6effb158d9ea",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P3452",
+                  "P518",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "877438090c3b4fb491afc1d5202193b7f262de1a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "fcc69088e6134a1e916e47e9ade1d0df0241a232",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 84591894,
+                          "id": "Q84591894"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P887": [
+                    {
+                      "snaktype": "value",
+                      "property": "P887",
+                      "hash": "2009eafb2646ea71bee7372b061e8521ee613fc2",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 69652283,
+                          "id": "Q69652283"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "f15f5a96f5288688044dbecaedb9e6182eae463b",
+                      "datavalue": {
+                        "value": "https://trakt.tv/shows/the-x-files/seasons/2/episodes/7",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "08828771cf2181d037ed36122c8b6effb158d9ea",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2024-06-14T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P887",
+                  "P854",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P12559": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P12559",
+              "hash": "b73e4afed6b26290917b9728d38574b9d860a6c9",
+              "datavalue": {
+                "value": "284693",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q2338691$D7CB1D39-E505-44FB-8466-D2CEE259CB47",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "3 (The X-Files)",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "3 (The X-Files)",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Les Vampires (X-Files)",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "3 (eipeasóid The X-Files)",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "3 (The X-Files)",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "トリニティ (X-ファイルのエピソード)",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "3 (Секретные материалы)",
+          "badges": [
+            "Q17559452"
+          ]
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "3 (Цілком таємно)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

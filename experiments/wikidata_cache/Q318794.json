@@ -1,0 +1,645 @@
+{
+  "entities": {
+    "Q318794": {
+      "pageid": 306294,
+      "ns": 0,
+      "title": "Q318794",
+      "lastrevid": 2426812440,
+      "modified": "2025-11-07T06:40:19Z",
+      "type": "item",
+      "id": "Q318794",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "What Remains"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "short story by Christa Wolf"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "62ea6948b382cdb56c042b7b34cc5c13ced83d43",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 57382,
+                  "id": "Q57382"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q318794$806A6640-58CA-4C60-AF04-1CAD0FE8F2D0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "3ef7b81fe4d3d7df0cfc3543f6d2099c7764194e",
+              "datavalue": {
+                "value": "/m/0j27ljm",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q318794$CD3BCEAD-3EBF-44A2-807B-BE73940BDAA3",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 15241312,
+                          "id": "Q15241312"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P577": [
+                    {
+                      "snaktype": "value",
+                      "property": "P577",
+                      "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2013-10-28T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P577"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7725634,
+                  "id": "Q7725634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q318794$19D372BF-C115-40A0-B602-639FD15CB2DF",
+            "rank": "normal"
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "77641620a73eeb65935090578e3c4d9921ea4284",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 8683,
+                  "id": "Q8683"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q318794$A7A69A73-8326-4E95-85E4-6AEDE785F077",
+            "rank": "normal"
+          }
+        ],
+        "P1417": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1417",
+              "hash": "b5929b4e6e5dccb996301901a3c32b9c1a0e7872",
+              "datavalue": {
+                "value": "topic/What-Remains",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P1810": [
+                {
+                  "snaktype": "value",
+                  "property": "P1810",
+                  "hash": "ccf2544d22b8f91ecc812aa51dacef723a0601d4",
+                  "datavalue": {
+                    "value": "What Remains",
+                    "type": "string"
+                  },
+                  "datatype": "string"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P1810"
+            ],
+            "id": "Q318794$29C001E8-8952-4394-8FBA-79BE75402BDD",
+            "rank": "normal"
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "15a86c9a4fb296f4f56768e7dd1fc77743073d84",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 16957,
+                  "id": "Q16957"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q318794$6306730F-BE2D-42BE-B118-6AFD4A607B12",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P435": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P435",
+              "hash": "ce9cc35a876902c60cef8301f49e81a414747774",
+              "datavalue": {
+                "value": "02d66f5b-bdfb-4bd8-853a-1fcbeebd0e99",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q318794$FEF22F00-47E3-475B-B8CA-EC3CD431B11B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "b2d31ed70c8480906e761640e2be55a649d59c15",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "623cc8f0e2f65afe4d66b91962d354a2f3aa9a27",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 14005,
+                          "id": "Q14005"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "4b6295e6db899c08530a79d156c6a15c41b498c5",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2019-04-13T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "4d54ca9766eefaeee67b645044595baf6d906ea0",
+              "datavalue": {
+                "value": {
+                  "text": "Was bleibt",
+                  "language": "de"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$a1383c5c-4add-cb5d-8714-7a8c977ed247",
+            "rank": "preferred"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "41b57e640c7bb6a111a938f60baa3f1dab5e421c",
+              "datavalue": {
+                "value": {
+                  "text": "Ti apomenei",
+                  "language": "el"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$38826c80-4c69-fd4c-fce3-66ba44b5cbc6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "8265592cd481e963dc36c9050e7852d0a1aab417",
+              "datavalue": {
+                "value": {
+                  "text": "Mis jääb",
+                  "language": "et"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$680e9159-4c26-ffd7-3abe-bf22644319cc",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "c118a7cad3d5a27a3e0376341868cd68ac381438",
+              "datavalue": {
+                "value": {
+                  "text": "Nokoru mono wa nanika",
+                  "language": "ja"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$f3dfaf2c-4736-7465-0b32-f785ace98a34",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "062b78a813991cd511e40a1159f0191b54b80c29",
+              "datavalue": {
+                "value": {
+                  "text": "Ce qui reste",
+                  "language": "fr"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$2b6a8972-4934-9b86-b58b-fe74a25703f6",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "6e90271d7fcab427aec6045eac23ae13cfa3e751",
+              "datavalue": {
+                "value": {
+                  "text": "Che cosa resta",
+                  "language": "it"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$cea7e10f-4a11-282c-47bf-37f7c5743acd",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "c2f0751979d049529640dd53ab959ea4df20875f",
+              "datavalue": {
+                "value": {
+                  "text": "Què en queda",
+                  "language": "ca"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$00395471-4dc4-6eda-6e41-dfb15572a618",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "ef48115a1a95ae028d6469f03fbc59b85e2f0f57",
+              "datavalue": {
+                "value": {
+                  "text": "Vad blir kvar",
+                  "language": "sv"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$30b43112-4038-d3fb-daab-75569777f4b9",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "8ab89445ed5f45824418d2e229986e6f9e0abc66",
+              "datavalue": {
+                "value": {
+                  "text": "Wat blijft",
+                  "language": "nl"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q318794$38b953a1-4caa-5b94-2513-214ec1ec9154",
+            "rank": "normal"
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "be4c3006d5860d1f9d372542d3f7fd3a32d4c138",
+              "datavalue": {
+                "value": {
+                  "time": "+1990-00-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 9,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q318794$0b1478cd-449d-11b3-2405-e86be811e487",
+            "rank": "normal"
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 188,
+                  "id": "Q188"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q318794$cdd6ba6d-4b4d-73a1-0407-1e9cbe42892a",
+            "rank": "normal"
+          }
+        ],
+        "P227": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P227",
+              "hash": "3a0075dabaf62c65de787ad703d7adb883932772",
+              "datavalue": {
+                "value": "4414026-5",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q318794$ad01d8c8-4a9f-60c1-65a5-4d9598290e74",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "344234eea01922b15b8a31c77de8bfa2caa8a8aa",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 49084,
+                  "id": "Q49084"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q318794$EA7A2DBD-8611-471E-A954-3B9B4BEC7AD8",
+            "rank": "normal"
+          },
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "93d4a3b536aa0f8a8e2c7fd531a44911278da6cc",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 27036528,
+                  "id": "Q27036528"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q318794$C0006E1C-8DDD-48FF-BCF1-A11D2E838708",
+            "rank": "normal"
+          }
+        ],
+        "P7439": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7439",
+              "hash": "a86a88e0052eaa9fd95913819795679853260d98",
+              "datavalue": {
+                "value": "416185",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q318794$D4615E2B-AB30-4C69-AF4C-3E19B053AE5A",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ما تبقى (رواية)",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Was bleibt",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Τι απομένει",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "What Remains (novella)",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Kio restas",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Ce qui reste",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Co pozostanie",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

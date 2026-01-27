@@ -1,0 +1,170 @@
+{
+  "entities": {
+    "Q7758461": {
+      "pageid": 7687730,
+      "ns": 0,
+      "title": "Q7758461",
+      "lastrevid": 2030212037,
+      "modified": "2023-12-15T12:18:34Z",
+      "type": "item",
+      "id": "Q7758461",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "The Prodigal Son"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "play by Peter Wessel Zapffe"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P170": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P170",
+              "hash": "7040b30d55586cea9b6c02103ff221093a8aee4e",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 958535,
+                  "id": "Q958535"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "q7758461$78403336-49b0-90ab-cb81-98c5afa18460",
+            "rank": "normal"
+          }
+        ],
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "b2c6ac95a0dc8c9f314492806e3ae9b68485fdc7",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 958535,
+                  "id": "Q958535"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7758461$915433DC-0420-45DA-8B7B-CA31EF8CA1F5",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7725634,
+                  "id": "Q7725634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7758461$CEAB0BD6-F31E-4CF4-9C7A-3179C3E334E2",
+            "rank": "normal"
+          }
+        ],
+        "P646": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P646",
+              "hash": "89c8358d8ca470bbcd35412fabb819fd74988a7b",
+              "datavalue": {
+                "value": "/m/01ptnd",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q7758461$A1FC1BB5-9BA6-4BAB-92CF-4E0CD85C4B02",
+            "rank": "normal"
+          }
+        ],
+        "P7937": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P7937",
+              "hash": "82668137c7fda1551f624065930a1e7a5066923b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 25379,
+                  "id": "Q25379"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q7758461$6174C146-9CCB-49D8-ADBF-968089B0D7DB",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "enwiki": {
+          "site": "enwiki",
+          "title": "The Prodigal Son (play)",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Den fortapte sønn",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

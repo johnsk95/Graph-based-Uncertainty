@@ -1,0 +1,23 @@
+{
+  "model": "gpt-3.5-turbo",
+  "temperature": 0.7,
+  "dataset": "pop_qa",
+  "data_size": 10,
+  "num_generations_per_prompt": 5,
+  "w_anchor": 3.0,
+  "w_agree": 2.0,
+  "w_neutral": 1.0,
+  "w_contra": 0.5,
+  "delta_true": 0.6,
+  "delta_false": 0.2,
+  "fetch_priors": true,
+  "generate": true,
+  "breakdown": true,
+  "construct_graph": true,
+  "compute_centrality": true,
+  "vis": true,
+  "vis_max_instances": 10,
+  "vis_max_claims": 20,
+  "seed": 42,
+  "num_samples_for_claims": 4
+}

@@ -1,0 +1,589 @@
+{
+  "entities": {
+    "Q18394192": {
+      "pageid": 19928334,
+      "ns": 0,
+      "title": "Q18394192",
+      "lastrevid": 2391244215,
+      "modified": "2025-08-12T20:39:24Z",
+      "type": "item",
+      "id": "Q18394192",
+      "labels": {
+        "en": {
+          "language": "en",
+          "value": "Revolution"
+        }
+      },
+      "descriptions": {
+        "en": {
+          "language": "en",
+          "value": "book by Russell Brand"
+        }
+      },
+      "aliases": {},
+      "claims": {
+        "P31": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P31",
+              "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7725634,
+                  "id": "Q7725634"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18394192$3099AC9A-25ED-41F5-A442-C4FC30F5D6BC",
+            "rank": "normal"
+          }
+        ],
+        "P50": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P50",
+              "hash": "8ffed8682ec09f5e29868ed6988145c31eac6b63",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 296609,
+                  "id": "Q296609"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18394192$BCFB11F1-F044-4D1B-8AED-DDEEB4D47AB7",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d945dc72c0c8284ded27893259fe7a1e3f52392f",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "ef2c142b8daf331cc6b789ad79957808b6f2b258",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 848525,
+                          "id": "Q848525"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "650e6b2502105d11fc17dff583a2bd97f297136f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2015-12-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P577": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P577",
+              "hash": "8ac63ee0e57434441da6ffe23f0de81177fcebc2",
+              "datavalue": {
+                "value": {
+                  "time": "+2014-10-00T00:00:00Z",
+                  "timezone": 0,
+                  "before": 0,
+                  "after": 0,
+                  "precision": 10,
+                  "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                },
+                "type": "time"
+              },
+              "datatype": "time"
+            },
+            "type": "statement",
+            "id": "Q18394192$2D81B80C-0E0B-4EC1-9F9F-1D77CD4E0A79",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P123": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P123",
+              "hash": "beeb0b2bbb19c347bace345872373d3a64f3507c",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 744182,
+                  "id": "Q744182"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18394192$BC46A9EC-59D5-4A07-885E-35E45A5681DA",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P736": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P736",
+              "hash": "4383910978be5a2673da12ebe1c7b1bd1d3a73ab",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 5246064,
+                  "id": "Q5246064"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18394192$FDD0218E-4DED-4340-958D-CB95763DD5A1",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P921": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P921",
+              "hash": "8dc17fa31ab152c3497ea703bc6a9e9ce6a6dce2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 7163,
+                  "id": "Q7163"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18394192$CBEE138D-EF10-4661-A27D-6340DD465DF0",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ]
+          }
+        ],
+        "P407": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P407",
+              "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 1860,
+                  "id": "Q1860"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18394192$8229414B-BE36-4B3C-BCB9-4C13ECB4636B",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "d945dc72c0c8284ded27893259fe7a1e3f52392f",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "ef2c142b8daf331cc6b789ad79957808b6f2b258",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 848525,
+                          "id": "Q848525"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "650e6b2502105d11fc17dff583a2bd97f297136f",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2015-12-30T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P813"
+                ]
+              }
+            ]
+          }
+        ],
+        "P495": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P495",
+              "hash": "7fff5adac725cc34fb5c6dcfe502e2a7bbd045b2",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 145,
+                  "id": "Q145"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "id": "Q18394192$2A369FA0-DF4D-4F2E-A491-9124BEBE0DDD",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "42cc648984da4bee0b263348b814b7913458c956",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4656": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4656",
+                      "hash": "20acc7f4ad1fbe74c9583aa0599925b815f2144a",
+                      "datavalue": {
+                        "value": "https://en.wikipedia.org/w/index.php?title=Revolution_(book)&oldid=834128900",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143",
+                  "P4656"
+                ]
+              }
+            ]
+          }
+        ],
+        "P1476": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P1476",
+              "hash": "b73e5a75b29c12fefa8103620c18b859fc32748c",
+              "datavalue": {
+                "value": {
+                  "text": "Revolution",
+                  "language": "en"
+                },
+                "type": "monolingualtext"
+              },
+              "datatype": "monolingualtext"
+            },
+            "type": "statement",
+            "id": "Q18394192$1FC386DF-AE11-4C30-827D-281CC1095898",
+            "rank": "normal"
+          }
+        ],
+        "P8383": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P8383",
+              "hash": "7500ac75708c027de1eba3e8d056eaa64bb5746a",
+              "datavalue": {
+                "value": "42317973",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18394192$032a9e73-4d0a-4d05-97ea-4028d5c54aae",
+            "rank": "normal",
+            "references": [
+              {
+                "hash": "36075272ced28058a75c66a6dbeb59a51936a036",
+                "snaks": {
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "84a438a3591c716c0ec6d266437102b07f83ec82",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2020-09-20T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ],
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "a0e84923b8d99fc8a5013954ac16befd8e4f4696",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 2359213,
+                          "id": "Q2359213"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P813",
+                  "P248"
+                ]
+              }
+            ]
+          }
+        ],
+        "P747": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P747",
+              "hash": "3b68e3884bfc467477dedba3057da1f8b69abaad",
+              "datavalue": {
+                "value": {
+                  "entity-type": "item",
+                  "numeric-id": 131929868,
+                  "id": "Q131929868"
+                },
+                "type": "wikibase-entityid"
+              },
+              "datatype": "wikibase-item"
+            },
+            "type": "statement",
+            "qualifiers": {
+              "P437": [
+                {
+                  "snaktype": "value",
+                  "property": "P437",
+                  "hash": "eb73f22cda56fbbf865734ef0b8374fbaa075ca7",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 193955,
+                      "id": "Q193955"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "qualifiers-order": [
+              "P437"
+            ],
+            "id": "Q18394192$82ECF284-013A-43D9-91B5-A72F843DF013",
+            "rank": "normal"
+          }
+        ],
+        "P648": [
+          {
+            "mainsnak": {
+              "snaktype": "value",
+              "property": "P648",
+              "hash": "9da67e26709ebc6ea286bf56bfad6c17c14f6d96",
+              "datavalue": {
+                "value": "OL19987065W",
+                "type": "string"
+              },
+              "datatype": "external-id"
+            },
+            "type": "statement",
+            "id": "Q18394192$9479941E-9830-4A24-89EE-8ED646A429EA",
+            "rank": "normal"
+          }
+        ]
+      },
+      "sitelinks": {
+        "cywiki": {
+          "site": "cywiki",
+          "title": "Revolution (llyfr)",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Revolution (Brand book)",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}
