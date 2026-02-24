@@ -1,0 +1,2280 @@
+[
+  {
+    "entity": "On the Town",
+    "instance_id": 0,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C2",
+          "claim_text": "\"On the Town\" premiered on Broadway in 1944.",
+          "details": {
+            "claim_id": "C2",
+            "priority_score": 2.1213202985596435,
+            "cost": 0.0,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.1213202985596435,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.014886147233660817,
+            "info_gain": 2.0897420122655315,
+            "utility": 2.0897420122655315,
+            "closeness_centrality": 0.37012987012987014
+          }
+        },
+        {
+          "claim_id": "C0",
+          "claim_text": "\"On the Town\" is a musical with music by Leonard Bernstein.",
+          "details": {
+            "claim_id": "C0",
+            "priority_score": 2.1213202985596435,
+            "cost": 1.0930242146271025,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.1213202985596435,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.014886147233660817,
+            "info_gain": 2.0897420122655315,
+            "utility": 0.9967177976384289,
+            "closeness_centrality": 0.37012987012987014
+          }
+        },
+        {
+          "claim_id": "C11",
+          "claim_text": "'On the Town' has been revived several times since its original premiere.",
+          "details": {
+            "claim_id": "C11",
+            "priority_score": 2.1213184290159157,
+            "cost": 0.507436842624736,
+            "centrality_normalized": 2.1213184290159157,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.023504273504273504,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606592145079579,
+            "utility": 0.5532223718832219,
+            "closeness_centrality": 0.57
+          }
+        },
+        {
+          "claim_id": "C12",
+          "claim_text": "The musical features popular songs such as \"New York, New York\" and \"Lonely Town\".",
+          "details": {
+            "claim_id": "C12",
+            "priority_score": 2.1213202985596435,
+            "cost": 1.728089024713791,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.1213202985596435,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.01286019784636027,
+            "info_gain": 2.0940396998246666,
+            "utility": 0.36595067511087565,
+            "closeness_centrality": 0.36305732484076436
+          }
+        },
+        {
+          "claim_id": "C4",
+          "claim_text": "The musical explores the sailors' adventures and romantic encounters in the city.",
+          "details": {
+            "claim_id": "C4",
+            "priority_score": 2.1213184290159157,
+            "cost": 2.085064840346971,
+            "centrality_normalized": 2.1213184290159157,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.023504273504273504,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606592145079579,
+            "utility": -1.0244056258390133,
+            "closeness_centrality": 0.57
+          }
+        },
+        {
+          "claim_id": "C8",
+          "claim_text": "The sailors in the musical explore the city.",
+          "details": {
+            "claim_id": "C8",
+            "priority_score": 2.1213184290159157,
+            "cost": 2.145057463832346,
+            "centrality_normalized": 2.1213184290159157,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.023504273504273504,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606592145079579,
+            "utility": -1.084398249324388,
+            "closeness_centrality": 0.57
+          }
+        },
+        {
+          "claim_id": "C7",
+          "claim_text": "The show features a romantic storyline.",
+          "details": {
+            "claim_id": "C7",
+            "priority_score": 2.1213184290159157,
+            "cost": 2.5670808850631004,
+            "centrality_normalized": 2.1213184290159157,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.023504273504273504,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606592145079579,
+            "utility": -1.5064216705551425,
+            "closeness_centrality": 0.57
+          }
+        },
+        {
+          "claim_id": "C5",
+          "claim_text": "The show features lively music.",
+          "details": {
+            "claim_id": "C5",
+            "priority_score": 2.1213184290159157,
+            "cost": 2.7335712723046632,
+            "centrality_normalized": 2.1213184290159157,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.023504273504273504,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606592145079579,
+            "utility": -1.6729120577967054,
+            "closeness_centrality": 0.57
+          }
+        },
+        {
+          "claim_id": "C9",
+          "claim_text": "The sailors in the musical search for love.",
+          "details": {
+            "claim_id": "C9",
+            "priority_score": 2.1213184290159157,
+            "cost": 3.1880156703744396,
+            "centrality_normalized": 2.1213184290159157,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.023504273504273504,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606592145079579,
+            "utility": -2.1273564558664817,
+            "closeness_centrality": 0.57
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C0": 2.1213202985596435,
+        "C2": 2.1213202985596435,
+        "C4": 2.1213184290159157,
+        "C5": 2.1213184290159157,
+        "C7": 2.1213184290159157,
+        "C8": 2.1213184290159157,
+        "C9": 2.1213184290159157,
+        "C11": 2.1213184290159157,
+        "C12": 2.1213202985596435
+      },
+      "costs": {
+        "C0": 1.0930242146271025,
+        "C2": 0.0,
+        "C4": 2.085064840346971,
+        "C5": 2.7335712723046632,
+        "C7": 2.5670808850631004,
+        "C8": 2.145057463832346,
+        "C9": 3.1880156703744396,
+        "C11": 0.507436842624736,
+        "C12": 1.728089024713791
+      },
+      "S_centrality": {
+        "C0": 0.0,
+        "C2": 0.0,
+        "C4": 2.1213184290159157,
+        "C5": 2.1213184290159157,
+        "C7": 2.1213184290159157,
+        "C8": 2.1213184290159157,
+        "C9": 2.1213184290159157,
+        "C11": 2.1213184290159157,
+        "C12": 0.0
+      },
+      "S_novelty": {
+        "C0": 2.1213202985596435,
+        "C2": 2.1213202985596435,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.0,
+        "C11": 0.0,
+        "C12": 2.1213202985596435
+      },
+      "centrality_raw": {
+        "C0": 0.0,
+        "C2": 0.0,
+        "C4": 0.023504273504273504,
+        "C5": 0.023504273504273504,
+        "C7": 0.023504273504273504,
+        "C8": 0.023504273504273504,
+        "C9": 0.023504273504273504,
+        "C11": 0.023504273504273504,
+        "C12": 0.0
+      },
+      "novelty_raw": {
+        "C0": 2.5,
+        "C2": 2.5,
+        "C4": 1.5,
+        "C5": 1.5,
+        "C7": 1.5,
+        "C8": 1.5,
+        "C9": 1.5,
+        "C11": 1.5,
+        "C12": 2.5
+      },
+      "costs_raw": {
+        "C0": 0.6784271836280823,
+        "C2": 0.5434728860855103,
+        "C4": 0.8009131669998169,
+        "C5": 0.8809834241867065,
+        "C7": 0.8604270696640015,
+        "C8": 0.8083203792572021,
+        "C9": 0.9370930910110474,
+        "C11": 0.6061254620552063,
+        "C12": 0.7568378210067749
+      },
+      "sigma_cc": {
+        "C0": 0.014886147233660817,
+        "C2": 0.014886147233660817,
+        "C4": 0.5,
+        "C5": 0.5,
+        "C7": 0.5,
+        "C8": 0.5,
+        "C9": 0.5,
+        "C11": 0.5,
+        "C12": 0.01286019784636027
+      },
+      "utilities": {
+        "C0": 0.9967177976384289,
+        "C2": 2.0897420122655315,
+        "C4": -1.0244056258390133,
+        "C5": -1.6729120577967054,
+        "C7": -1.5064216705551425,
+        "C8": -1.084398249324388,
+        "C9": -2.1273564558664817,
+        "C11": 0.5532223718832219,
+        "C12": 0.36595067511087565
+      },
+      "info_gains": {
+        "C0": 2.0897420122655315,
+        "C2": 2.0897420122655315,
+        "C4": 1.0606592145079579,
+        "C5": 1.0606592145079579,
+        "C7": 1.0606592145079579,
+        "C8": 1.0606592145079579,
+        "C9": 1.0606592145079579,
+        "C11": 1.0606592145079579,
+        "C12": 2.0940396998246666
+      },
+      "num_contested": 9,
+      "num_selected": 9
+    },
+    "num_claims": 14,
+    "num_grounded": 5,
+    "num_boundary": 9,
+    "num_contradictory": 0,
+    "num_selected": 9,
+    "skipped": false
+  },
+  {
+    "entity": "Juan Soldevilla y Romero",
+    "instance_id": 1,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C6",
+          "claim_text": "Juan Soldevilla y Romero was born in 1863",
+          "details": {
+            "claim_id": "C6",
+            "priority_score": 0.0,
+            "cost": 0.0,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.12947341683397376,
+            "info_gain": 0.0,
+            "utility": 0.0,
+            "closeness_centrality": 0.2647058823529411
+          }
+        },
+        {
+          "claim_id": "C1",
+          "claim_text": "Juan Soldevilla y Romero was active in the late 19th and early 20th centuries",
+          "details": {
+            "claim_id": "C1",
+            "priority_score": 3.1026985713753743,
+            "cost": 0.4734707687146522,
+            "centrality_normalized": 3.1026985713753743,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.23684210526315788,
+            "novelty_raw": null,
+            "sigma_cc": 0.9723700778742678,
+            "info_gain": 0.08572731990672224,
+            "utility": -0.38774344880793,
+            "closeness_centrality": 0.5206611570247934
+          }
+        },
+        {
+          "claim_id": "C5",
+          "claim_text": "Juan Soldevilla y Romero was considered to be a master of his craft",
+          "details": {
+            "claim_id": "C5",
+            "priority_score": 0.01723721428541869,
+            "cost": 0.6237773044116425,
+            "centrality_normalized": 0.01723721428541869,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0013157894736842103,
+            "novelty_raw": null,
+            "sigma_cc": 0.5992998590919792,
+            "info_gain": 0.006906954193029017,
+            "utility": -0.6168703502186135,
+            "closeness_centrality": 0.3727810650887574
+          }
+        },
+        {
+          "claim_id": "C2",
+          "claim_text": "Juan Soldevilla y Romero was known for his religious works and portraits",
+          "details": {
+            "claim_id": "C2",
+            "priority_score": 0.0,
+            "cost": 0.6354972652395261,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.5,
+            "info_gain": 0.0,
+            "utility": -0.6354972652395261,
+            "closeness_centrality": 0.35393258426966295
+          }
+        },
+        {
+          "claim_id": "C4",
+          "claim_text": "Juan Soldevilla y Romero's work was highly regarded during his time",
+          "details": {
+            "claim_id": "C4",
+            "priority_score": 2.258075071389856,
+            "cost": 0.7310287427188543,
+            "centrality_normalized": 2.258075071389856,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.1723684210526316,
+            "novelty_raw": null,
+            "sigma_cc": 0.9641467590113915,
+            "info_gain": 0.08095930970490993,
+            "utility": -0.6500694330139444,
+            "closeness_centrality": 0.5080645161290323
+          }
+        },
+        {
+          "claim_id": "C7",
+          "claim_text": "Juan Soldevilla y Romero was known for his landscapes and portraits",
+          "details": {
+            "claim_id": "C7",
+            "priority_score": 0.0,
+            "cost": 0.7554337361237273,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.17867465775974112,
+            "info_gain": 0.0,
+            "utility": -0.7554337361237273,
+            "closeness_centrality": 0.2825112107623318
+          }
+        },
+        {
+          "claim_id": "C15",
+          "claim_text": "Juan Soldevilla y Romero was known for his detailed portraits.",
+          "details": {
+            "claim_id": "C15",
+            "priority_score": 0.01723721428541869,
+            "cost": 0.7737522455460281,
+            "centrality_normalized": 0.01723721428541869,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0013157894736842103,
+            "novelty_raw": null,
+            "sigma_cc": 0.5992998590919792,
+            "info_gain": 0.006906954193029017,
+            "utility": -0.7668452913529991,
+            "closeness_centrality": 0.3727810650887574
+          }
+        },
+        {
+          "claim_id": "C0",
+          "claim_text": "Juan Soldevilla y Romero was a Spanish painter and sculptor",
+          "details": {
+            "claim_id": "C0",
+            "priority_score": 0.0,
+            "cost": 0.8035104509393813,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.12947341683397376,
+            "info_gain": 0.0,
+            "utility": -0.8035104509393813,
+            "closeness_centrality": 0.2647058823529411
+          }
+        },
+        {
+          "claim_id": "C14",
+          "claim_text": "Juan Soldevilla y Romero was known for his realistic portraits.",
+          "details": {
+            "claim_id": "C14",
+            "priority_score": 0.01723721428541869,
+            "cost": 0.8726261828926726,
+            "centrality_normalized": 0.01723721428541869,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0013157894736842103,
+            "novelty_raw": null,
+            "sigma_cc": 0.5992998590919792,
+            "info_gain": 0.006906954193029017,
+            "utility": -0.8657192286996436,
+            "closeness_centrality": 0.3727810650887574
+          }
+        },
+        {
+          "claim_id": "C9",
+          "claim_text": "Juan Soldevilla y Romero's work is held in various museums and private collections",
+          "details": {
+            "claim_id": "C9",
+            "priority_score": 0.1896093571396062,
+            "cost": 0.9262138294611396,
+            "centrality_normalized": 0.1896093571396062,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.014473684210526314,
+            "novelty_raw": null,
+            "sigma_cc": 0.822331430303957,
+            "info_gain": 0.03368762328398004,
+            "utility": -0.8925262061771596,
+            "closeness_centrality": 0.4256756756756757
+          }
+        },
+        {
+          "claim_id": "C10",
+          "claim_text": "Juan Soldevilla y Romero was a Spanish poet and playwright",
+          "details": {
+            "claim_id": "C10",
+            "priority_score": 0.0,
+            "cost": 0.9112566996160051,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.05988226017188335,
+            "info_gain": 0.0,
+            "utility": -0.9112566996160051,
+            "closeness_centrality": 0.22499999999999998
+          }
+        },
+        {
+          "claim_id": "C8",
+          "claim_text": "Juan Soldevilla y Romero was a member of the Real Academia de Bellas Artes de San Fernando",
+          "details": {
+            "claim_id": "C8",
+            "priority_score": 0.0,
+            "cost": 0.9458772371315298,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.5,
+            "info_gain": 0.0,
+            "utility": -0.9458772371315298,
+            "closeness_centrality": 0.35393258426966295
+          }
+        },
+        {
+          "claim_id": "C3",
+          "claim_text": "Juan Soldevilla y Romero's art was influenced by the Spanish Baroque style",
+          "details": {
+            "claim_id": "C3",
+            "priority_score": 0.0,
+            "cost": 1.248187419822819,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.5,
+            "info_gain": 0.0,
+            "utility": -1.248187419822819,
+            "closeness_centrality": 0.35393258426966295
+          }
+        },
+        {
+          "claim_id": "C11",
+          "claim_text": "Soldevilla y Romero was known for his romantic poetry and plays",
+          "details": {
+            "claim_id": "C11",
+            "priority_score": 0.0,
+            "cost": 1.4104167036603132,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.05988226017188335,
+            "info_gain": 0.0,
+            "utility": -1.4104167036603132,
+            "closeness_centrality": 0.22499999999999998
+          }
+        },
+        {
+          "claim_id": "C13",
+          "claim_text": "He is not as well-known today as some of his contemporaries",
+          "details": {
+            "claim_id": "C13",
+            "priority_score": 2.258075071389856,
+            "cost": 3.3551360396061516,
+            "centrality_normalized": 2.258075071389856,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.1723684210526316,
+            "novelty_raw": null,
+            "sigma_cc": 0.9641467590113915,
+            "info_gain": 0.08095930970490993,
+            "utility": -3.274176729901242,
+            "closeness_centrality": 0.5080645161290323
+          }
+        },
+        {
+          "claim_id": "C12",
+          "claim_text": "His works often explored themes of love, nature, and the human experience",
+          "details": {
+            "claim_id": "C12",
+            "priority_score": 0.0,
+            "cost": 3.9641855490358973,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": null,
+            "sigma_cc": 0.19106944751687113,
+            "info_gain": 0.0,
+            "utility": -3.9641855490358973,
+            "closeness_centrality": 0.2863636363636364
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C0": 0.0,
+        "C1": 3.1026985713753743,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 2.258075071389856,
+        "C5": 0.01723721428541869,
+        "C6": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.1896093571396062,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 2.258075071389856,
+        "C14": 0.01723721428541869,
+        "C15": 0.01723721428541869
+      },
+      "costs": {
+        "C0": 0.8035104509393813,
+        "C1": 0.4734707687146522,
+        "C2": 0.6354972652395261,
+        "C3": 1.248187419822819,
+        "C4": 0.7310287427188543,
+        "C5": 0.6237773044116425,
+        "C6": 0.0,
+        "C7": 0.7554337361237273,
+        "C8": 0.9458772371315298,
+        "C9": 0.9262138294611396,
+        "C10": 0.9112566996160051,
+        "C11": 1.4104167036603132,
+        "C12": 3.9641855490358973,
+        "C13": 3.3551360396061516,
+        "C14": 0.8726261828926726,
+        "C15": 0.7737522455460281
+      },
+      "S_centrality": {
+        "C0": 0.0,
+        "C1": 3.1026985713753743,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 2.258075071389856,
+        "C5": 0.01723721428541869,
+        "C6": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.1896093571396062,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 2.258075071389856,
+        "C14": 0.01723721428541869,
+        "C15": 0.01723721428541869
+      },
+      "S_novelty": {
+        "C0": 0.0,
+        "C1": 0.0,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.0,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 0.0,
+        "C14": 0.0,
+        "C15": 0.0
+      },
+      "centrality_raw": {
+        "C0": 0.0,
+        "C1": 0.23684210526315788,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 0.1723684210526316,
+        "C5": 0.0013157894736842103,
+        "C6": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.014473684210526314,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 0.1723684210526316,
+        "C14": 0.0013157894736842103,
+        "C15": 0.0013157894736842103
+      },
+      "novelty_raw": {
+        "C0": null,
+        "C1": null,
+        "C2": null,
+        "C3": null,
+        "C4": null,
+        "C5": null,
+        "C6": null,
+        "C7": null,
+        "C8": null,
+        "C9": null,
+        "C10": null,
+        "C11": null,
+        "C12": null,
+        "C13": null,
+        "C14": null,
+        "C15": null
+      },
+      "costs_raw": {
+        "C0": 0.31305369138717654,
+        "C1": 0.2539955019950867,
+        "C2": 0.28298895955085757,
+        "C3": 0.39262538552284243,
+        "C4": 0.30008361935615535,
+        "C5": 0.2808917582035065,
+        "C6": 0.1692713677883148,
+        "C7": 0.3044507145881653,
+        "C8": 0.33852918744087224,
+        "C9": 0.33501056432723997,
+        "C10": 0.3323340952396393,
+        "C11": 0.4216551303863525,
+        "C12": 0.8786334037780762,
+        "C13": 0.7696484446525573,
+        "C14": 0.3254214465618134,
+        "C15": 0.30772867798805237
+      },
+      "sigma_cc": {
+        "C0": 0.12947341683397376,
+        "C1": 0.9723700778742678,
+        "C2": 0.5,
+        "C3": 0.5,
+        "C4": 0.9641467590113915,
+        "C5": 0.5992998590919792,
+        "C6": 0.12947341683397376,
+        "C7": 0.17867465775974112,
+        "C8": 0.5,
+        "C9": 0.822331430303957,
+        "C10": 0.05988226017188335,
+        "C11": 0.05988226017188335,
+        "C12": 0.19106944751687113,
+        "C13": 0.9641467590113915,
+        "C14": 0.5992998590919792,
+        "C15": 0.5992998590919792
+      },
+      "utilities": {
+        "C0": -0.8035104509393813,
+        "C1": -0.38774344880793,
+        "C2": -0.6354972652395261,
+        "C3": -1.248187419822819,
+        "C4": -0.6500694330139444,
+        "C5": -0.6168703502186135,
+        "C6": 0.0,
+        "C7": -0.7554337361237273,
+        "C8": -0.9458772371315298,
+        "C9": -0.8925262061771596,
+        "C10": -0.9112566996160051,
+        "C11": -1.4104167036603132,
+        "C12": -3.9641855490358973,
+        "C13": -3.274176729901242,
+        "C14": -0.8657192286996436,
+        "C15": -0.7668452913529991
+      },
+      "info_gains": {
+        "C0": 0.0,
+        "C1": 0.08572731990672224,
+        "C2": 0.0,
+        "C3": 0.0,
+        "C4": 0.08095930970490993,
+        "C5": 0.006906954193029017,
+        "C6": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.03368762328398004,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 0.08095930970490993,
+        "C14": 0.006906954193029017,
+        "C15": 0.006906954193029017
+      },
+      "num_contested": 16,
+      "num_selected": 16
+    },
+    "num_claims": 16,
+    "num_grounded": 0,
+    "num_boundary": 16,
+    "num_contradictory": 0,
+    "num_selected": 16,
+    "skipped": false
+  },
+  {
+    "entity": "Haddaway",
+    "instance_id": 2,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C1",
+          "claim_text": "Haddaway is Trinidadian-German",
+          "details": {
+            "claim_id": "C1",
+            "priority_score": 0.0,
+            "cost": 0.0,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 1.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 0.0,
+            "utility": 0.0,
+            "closeness_centrality": 0.4539722572509458
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C1": 0.0
+      },
+      "costs": {
+        "C1": 0.0
+      },
+      "S_centrality": {
+        "C1": 0.0
+      },
+      "S_novelty": {
+        "C1": 0.0
+      },
+      "centrality_raw": {
+        "C1": 1.0
+      },
+      "novelty_raw": {
+        "C1": 2.5
+      },
+      "costs_raw": {
+        "C1": 0.6919065952301025
+      },
+      "sigma_cc": {
+        "C1": 0.5
+      },
+      "utilities": {
+        "C1": 0.0
+      },
+      "info_gains": {
+        "C1": 0.0
+      },
+      "num_contested": 1,
+      "num_selected": 1
+    },
+    "num_claims": 7,
+    "num_grounded": 3,
+    "num_boundary": 1,
+    "num_contradictory": 3,
+    "num_selected": 1,
+    "skipped": false
+  },
+  {
+    "entity": "Chances Are",
+    "instance_id": 3,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C5",
+          "claim_text": "Chances are not guaranteed.",
+          "details": {
+            "claim_id": "C5",
+            "priority_score": 2.1213195335599515,
+            "cost": 0.0,
+            "centrality_normalized": 2.1213195335599515,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.05555555555555556,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606597667799758,
+            "utility": 1.0606597667799758,
+            "closeness_centrality": 0.5901639344262294
+          }
+        },
+        {
+          "claim_id": "C1",
+          "claim_text": "Chances are used to refer to the probability of something occurring.",
+          "details": {
+            "claim_id": "C1",
+            "priority_score": 2.1213202985596435,
+            "cost": 2.4918394815231513,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.1213202985596435,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.014166041943156512,
+            "info_gain": 2.0912695862353785,
+            "utility": -0.40056989528777276,
+            "closeness_centrality": 0.3829787234042553
+          }
+        },
+        {
+          "claim_id": "C0",
+          "claim_text": "Chances are used to refer to the likelihood of something happening.",
+          "details": {
+            "claim_id": "C0",
+            "priority_score": 2.1213195335599515,
+            "cost": 1.5187055645812253,
+            "centrality_normalized": 2.1213195335599515,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.05555555555555556,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606597667799758,
+            "utility": -0.45804579780124954,
+            "closeness_centrality": 0.5901639344262294
+          }
+        },
+        {
+          "claim_id": "C3",
+          "claim_text": "Chances are a way to quantify the likelihood of a certain event happening.",
+          "details": {
+            "claim_id": "C3",
+            "priority_score": 2.1213202985596435,
+            "cost": 2.778781253870503,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.1213202985596435,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.014166041943156512,
+            "info_gain": 2.0912695862353785,
+            "utility": -0.6875116676351243,
+            "closeness_centrality": 0.3829787234042553
+          }
+        },
+        {
+          "claim_id": "C2",
+          "claim_text": "Chances can be used to indicate the possibility of a particular outcome.",
+          "details": {
+            "claim_id": "C2",
+            "priority_score": 2.1213195335599515,
+            "cost": 1.9322432504442024,
+            "centrality_normalized": 2.1213195335599515,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.05555555555555556,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606597667799758,
+            "utility": -0.8715834836642267,
+            "closeness_centrality": 0.5901639344262294
+          }
+        },
+        {
+          "claim_id": "C6",
+          "claim_text": "Chances can suggest that something is likely to occur based on past experiences or patterns.",
+          "details": {
+            "claim_id": "C6",
+            "priority_score": 2.1213195335599515,
+            "cost": 2.9652470005959444,
+            "centrality_normalized": 2.1213195335599515,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.05555555555555556,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.0606597667799758,
+            "utility": -1.9045872338159686,
+            "closeness_centrality": 0.5901639344262294
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C0": 2.1213195335599515,
+        "C1": 2.1213202985596435,
+        "C2": 2.1213195335599515,
+        "C3": 2.1213202985596435,
+        "C5": 2.1213195335599515,
+        "C6": 2.1213195335599515
+      },
+      "costs": {
+        "C0": 1.5187055645812253,
+        "C1": 2.4918394815231513,
+        "C2": 1.9322432504442024,
+        "C3": 2.778781253870503,
+        "C5": 0.0,
+        "C6": 2.9652470005959444
+      },
+      "S_centrality": {
+        "C0": 2.1213195335599515,
+        "C1": 0.0,
+        "C2": 2.1213195335599515,
+        "C3": 0.0,
+        "C5": 2.1213195335599515,
+        "C6": 2.1213195335599515
+      },
+      "S_novelty": {
+        "C0": 0.0,
+        "C1": 2.1213202985596435,
+        "C2": 0.0,
+        "C3": 2.1213202985596435,
+        "C5": 0.0,
+        "C6": 0.0
+      },
+      "centrality_raw": {
+        "C0": 0.05555555555555556,
+        "C1": 0.0,
+        "C2": 0.05555555555555556,
+        "C3": 0.0,
+        "C5": 0.05555555555555556,
+        "C6": 0.05555555555555556
+      },
+      "novelty_raw": {
+        "C0": 1.5,
+        "C1": 2.5,
+        "C2": 1.5,
+        "C3": 2.5,
+        "C5": 1.5,
+        "C6": 1.5
+      },
+      "costs_raw": {
+        "C0": 0.6348222017288208,
+        "C1": 0.6646704912185669,
+        "C2": 0.6475063681602478,
+        "C3": 0.6734716653823852,
+        "C5": 0.5882399559020997,
+        "C6": 0.6791910052299499
+      },
+      "sigma_cc": {
+        "C0": 0.5,
+        "C1": 0.014166041943156512,
+        "C2": 0.5,
+        "C3": 0.014166041943156512,
+        "C5": 0.5,
+        "C6": 0.5
+      },
+      "utilities": {
+        "C0": -0.45804579780124954,
+        "C1": -0.40056989528777276,
+        "C2": -0.8715834836642267,
+        "C3": -0.6875116676351243,
+        "C5": 1.0606597667799758,
+        "C6": -1.9045872338159686
+      },
+      "info_gains": {
+        "C0": 1.0606597667799758,
+        "C1": 2.0912695862353785,
+        "C2": 1.0606597667799758,
+        "C3": 2.0912695862353785,
+        "C5": 1.0606597667799758,
+        "C6": 1.0606597667799758
+      },
+      "num_contested": 6,
+      "num_selected": 6
+    },
+    "num_claims": 7,
+    "num_grounded": 1,
+    "num_boundary": 6,
+    "num_contradictory": 0,
+    "num_selected": 6,
+    "skipped": false
+  },
+  {
+    "entity": "The Pioneers",
+    "instance_id": 4,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C5",
+          "claim_text": "The Pioneers was first published in 1823",
+          "details": {
+            "claim_id": "C5",
+            "priority_score": 2.771609235804756,
+            "cost": 0.0,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.4537052035558957,
+            "info_gain": 1.5141157032965586,
+            "utility": 1.5141157032965586,
+            "closeness_centrality": 0.3150357995226731
+          }
+        },
+        {
+          "claim_id": "C4",
+          "claim_text": "The Pioneers is a novel written by James Fenimore Cooper",
+          "details": {
+            "claim_id": "C4",
+            "priority_score": 2.771609235804756,
+            "cost": 0.2704157580572215,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": 1.1153888598451565,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C6",
+          "claim_text": "The Pioneers is the first book in Cooper's Leatherstocking Tales series",
+          "details": {
+            "claim_id": "C6",
+            "priority_score": 2.771609235804756,
+            "cost": 0.7048179159059931,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": 0.6809867019963849,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C11",
+          "claim_text": "The Pioneers follows the adventures of frontiersman Natty Bumppo, also known as Hawkeye",
+          "details": {
+            "claim_id": "C11",
+            "priority_score": 2.771609235804756,
+            "cost": 1.0276420521345402,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.4537052035558957,
+            "info_gain": 1.5141157032965586,
+            "utility": 0.48647365116201846,
+            "closeness_centrality": 0.3150357995226731
+          }
+        },
+        {
+          "claim_id": "C3",
+          "claim_text": "The Pioneers paved the way for future generations.",
+          "details": {
+            "claim_id": "C3",
+            "priority_score": 3.565726948469959,
+            "cost": 0.3068022249633102,
+            "centrality_normalized": 3.565726948469959,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.06722689075630253,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.996643954975866,
+            "info_gain": 0.011966740182833127,
+            "utility": -0.2948354847804771,
+            "closeness_centrality": 0.45993031358885017
+          }
+        },
+        {
+          "claim_id": "C7",
+          "claim_text": "The novel follows the life of frontiersman Natty Bumppo",
+          "details": {
+            "claim_id": "C7",
+            "priority_score": 2.771609235804756,
+            "cost": 1.8594450661297186,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": -0.47364044822734064,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C10",
+          "claim_text": "The novel explores themes of colonization, environmentalism, and the clash between European settlers and Native American tribes.",
+          "details": {
+            "claim_id": "C10",
+            "priority_score": 2.771609235804756,
+            "cost": 2.3022435369916776,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": -0.9164389190892996,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C13",
+          "claim_text": "The novel explores themes of the changing landscape of the American frontier",
+          "details": {
+            "claim_id": "C13",
+            "priority_score": 2.771609235804756,
+            "cost": 2.367688082180899,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": -0.9818834642785212,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C8",
+          "claim_text": "Natty Bumppo navigates the wilderness of early America in the novel",
+          "details": {
+            "claim_id": "C8",
+            "priority_score": 2.771609235804756,
+            "cost": 2.4000960006061423,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": -1.0142913827037643,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C12",
+          "claim_text": "The novel explores themes of conflict between Native Americans and settlers",
+          "details": {
+            "claim_id": "C12",
+            "priority_score": 2.771609235804756,
+            "cost": 2.4577578268551443,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": -1.0719532089527664,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C9",
+          "claim_text": "The novel explores themes of nature, civilization, and the clash between Native American and European cultures",
+          "details": {
+            "claim_id": "C9",
+            "priority_score": 2.771609235804756,
+            "cost": 2.8340235253925896,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": -1.4482189074902116,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C14",
+          "claim_text": "The novel follows the life of Natty Bumppo, also known as Leatherstocking or Hawkeye.",
+          "details": {
+            "claim_id": "C14",
+            "priority_score": 2.771609235804756,
+            "cost": 2.9491954712677737,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 2.771609235804756,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 1.385804617902378,
+            "utility": -1.5633908533653957,
+            "closeness_centrality": 0.3196125907990315
+          }
+        },
+        {
+          "claim_id": "C1",
+          "claim_text": "The Pioneers played a crucial role in shaping the development of regions and countries.",
+          "details": {
+            "claim_id": "C1",
+            "priority_score": 1.5042910563857639,
+            "cost": 1.719811809039368,
+            "centrality_normalized": 1.5042910563857639,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.028361344537815126,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.9950895349616519,
+            "info_gain": 0.007386768639882074,
+            "utility": -1.7124250403994858,
+            "closeness_centrality": 0.45051194539249145
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C1": 1.5042910563857639,
+        "C3": 3.565726948469959,
+        "C4": 2.771609235804756,
+        "C5": 2.771609235804756,
+        "C6": 2.771609235804756,
+        "C7": 2.771609235804756,
+        "C8": 2.771609235804756,
+        "C9": 2.771609235804756,
+        "C10": 2.771609235804756,
+        "C11": 2.771609235804756,
+        "C12": 2.771609235804756,
+        "C13": 2.771609235804756,
+        "C14": 2.771609235804756
+      },
+      "costs": {
+        "C1": 1.719811809039368,
+        "C3": 0.3068022249633102,
+        "C4": 0.2704157580572215,
+        "C5": 0.0,
+        "C6": 0.7048179159059931,
+        "C7": 1.8594450661297186,
+        "C8": 2.4000960006061423,
+        "C9": 2.8340235253925896,
+        "C10": 2.3022435369916776,
+        "C11": 1.0276420521345402,
+        "C12": 2.4577578268551443,
+        "C13": 2.367688082180899,
+        "C14": 2.9491954712677737
+      },
+      "S_centrality": {
+        "C1": 1.5042910563857639,
+        "C3": 3.565726948469959,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.0,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 0.0,
+        "C14": 0.0
+      },
+      "S_novelty": {
+        "C1": 0.0,
+        "C3": 0.0,
+        "C4": 2.771609235804756,
+        "C5": 2.771609235804756,
+        "C6": 2.771609235804756,
+        "C7": 2.771609235804756,
+        "C8": 2.771609235804756,
+        "C9": 2.771609235804756,
+        "C10": 2.771609235804756,
+        "C11": 2.771609235804756,
+        "C12": 2.771609235804756,
+        "C13": 2.771609235804756,
+        "C14": 2.771609235804756
+      },
+      "centrality_raw": {
+        "C1": 0.028361344537815126,
+        "C3": 0.06722689075630253,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.0,
+        "C8": 0.0,
+        "C9": 0.0,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 0.0,
+        "C14": 0.0
+      },
+      "novelty_raw": {
+        "C1": 1.5,
+        "C3": 1.5,
+        "C4": 2.5,
+        "C5": 2.5,
+        "C6": 2.5,
+        "C7": 2.5,
+        "C8": 2.5,
+        "C9": 2.5,
+        "C10": 2.5,
+        "C11": 2.5,
+        "C12": 2.5,
+        "C13": 2.5,
+        "C14": 2.5
+      },
+      "costs_raw": {
+        "C1": 0.6618438839912415,
+        "C3": 0.5125049829483033,
+        "C4": 0.5086593508720398,
+        "C5": 0.4800795078277588,
+        "C6": 0.5545706748962402,
+        "C7": 0.67660151720047,
+        "C8": 0.7337421178817749,
+        "C9": 0.7796032786369325,
+        "C10": 0.7234002351760864,
+        "C11": 0.5886894822120666,
+        "C12": 0.739836311340332,
+        "C13": 0.7303169727325439,
+        "C14": 0.7917756319046021
+      },
+      "sigma_cc": {
+        "C1": 0.9950895349616519,
+        "C3": 0.996643954975866,
+        "C4": 0.5,
+        "C5": 0.4537052035558957,
+        "C6": 0.5,
+        "C7": 0.5,
+        "C8": 0.5,
+        "C9": 0.5,
+        "C10": 0.5,
+        "C11": 0.4537052035558957,
+        "C12": 0.5,
+        "C13": 0.5,
+        "C14": 0.5
+      },
+      "utilities": {
+        "C1": -1.7124250403994858,
+        "C3": -0.2948354847804771,
+        "C4": 1.1153888598451565,
+        "C5": 1.5141157032965586,
+        "C6": 0.6809867019963849,
+        "C7": -0.47364044822734064,
+        "C8": -1.0142913827037643,
+        "C9": -1.4482189074902116,
+        "C10": -0.9164389190892996,
+        "C11": 0.48647365116201846,
+        "C12": -1.0719532089527664,
+        "C13": -0.9818834642785212,
+        "C14": -1.5633908533653957
+      },
+      "info_gains": {
+        "C1": 0.007386768639882074,
+        "C3": 0.011966740182833127,
+        "C4": 1.385804617902378,
+        "C5": 1.5141157032965586,
+        "C6": 1.385804617902378,
+        "C7": 1.385804617902378,
+        "C8": 1.385804617902378,
+        "C9": 1.385804617902378,
+        "C10": 1.385804617902378,
+        "C11": 1.5141157032965586,
+        "C12": 1.385804617902378,
+        "C13": 1.385804617902378,
+        "C14": 1.385804617902378
+      },
+      "num_contested": 13,
+      "num_selected": 13
+    },
+    "num_claims": 17,
+    "num_grounded": 4,
+    "num_boundary": 13,
+    "num_contradictory": 0,
+    "num_selected": 13,
+    "skipped": false
+  },
+  {
+    "entity": "Jerrold Katz",
+    "instance_id": 5,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C10",
+          "claim_text": "Jerrold Katz wrote the influential book 'The Philosophy of Language'",
+          "details": {
+            "claim_id": "C10",
+            "priority_score": 0.0,
+            "cost": 0.0,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.9858333371676506,
+            "info_gain": 0.0,
+            "utility": 0.0,
+            "closeness_centrality": 0.34782608695652173
+          }
+        },
+        {
+          "claim_id": "C11",
+          "claim_text": "Jerrold Katz developed a theory of direct perception",
+          "details": {
+            "claim_id": "C11",
+            "priority_score": 0.0,
+            "cost": 0.6046231530839012,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 0.0,
+            "utility": -0.6046231530839012,
+            "closeness_centrality": 0.34582132564841506
+          }
+        },
+        {
+          "claim_id": "C12",
+          "claim_text": "Jerrold Katz's theory of direct perception posits that perception involves direct contact with the world",
+          "details": {
+            "claim_id": "C12",
+            "priority_score": 0.0,
+            "cost": 2.3579919932316766,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.5,
+            "info_gain": 0.0,
+            "utility": -2.3579919932316766,
+            "closeness_centrality": 0.34582132564841506
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0
+      },
+      "costs": {
+        "C10": 0.0,
+        "C11": 0.6046231530839012,
+        "C12": 2.3579919932316766
+      },
+      "S_centrality": {
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0
+      },
+      "S_novelty": {
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0
+      },
+      "centrality_raw": {
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0
+      },
+      "novelty_raw": {
+        "C10": 2.5,
+        "C11": 2.5,
+        "C12": 2.5
+      },
+      "costs_raw": {
+        "C10": 0.41926550269126894,
+        "C11": 0.4663177013397217,
+        "C12": 0.6027660965919495
+      },
+      "sigma_cc": {
+        "C10": 0.9858333371676506,
+        "C11": 0.5,
+        "C12": 0.5
+      },
+      "utilities": {
+        "C10": 0.0,
+        "C11": -0.6046231530839012,
+        "C12": -2.3579919932316766
+      },
+      "info_gains": {
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0
+      },
+      "num_contested": 3,
+      "num_selected": 3
+    },
+    "num_claims": 15,
+    "num_grounded": 12,
+    "num_boundary": 3,
+    "num_contradictory": 0,
+    "num_selected": 3,
+    "skipped": false
+  },
+  {
+    "entity": "Sixteen Candles",
+    "instance_id": 6,
+    "selection": {
+      "verify": [],
+      "discard": []
+    },
+    "diagnostics": {},
+    "num_boundary": 0,
+    "skipped": true
+  },
+  {
+    "entity": "Revolution",
+    "instance_id": 7,
+    "selection": {
+      "verify": [],
+      "discard": []
+    },
+    "diagnostics": {},
+    "num_boundary": 0,
+    "skipped": true
+  },
+  {
+    "entity": "The Great Fire",
+    "instance_id": 8,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C17",
+          "claim_text": "The Great Fire is believed to have started in or near a barn owned by Patrick and Catherine O'Leary.",
+          "details": {
+            "claim_id": "C17",
+            "priority_score": 3.119567169212479,
+            "cost": 0.1793510227732571,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.29262583288776517,
+            "info_gain": 2.2067012280723497,
+            "utility": 2.0273502052990926,
+            "closeness_centrality": 0.28444444444444444
+          }
+        },
+        {
+          "claim_id": "C14",
+          "claim_text": "The Great Fire occurred in Chicago in 1871.",
+          "details": {
+            "claim_id": "C14",
+            "priority_score": 3.119567169212479,
+            "cost": 1.4445311440453714,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.29262583288776517,
+            "info_gain": 2.2067012280723497,
+            "utility": 0.7621700840269783,
+            "closeness_centrality": 0.28444444444444444
+          }
+        },
+        {
+          "claim_id": "C2",
+          "claim_text": "The fire occurred in 1666",
+          "details": {
+            "claim_id": "C2",
+            "priority_score": 3.119567169212479,
+            "cost": 1.2765859358106733,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.3810445398357002,
+            "info_gain": 1.9308731327333521,
+            "utility": 0.6542871969226789,
+            "closeness_centrality": 0.3018340611353712
+          }
+        },
+        {
+          "claim_id": "C12",
+          "claim_text": "The Great Fire occurred in Chicago in October 1871.",
+          "details": {
+            "claim_id": "C12",
+            "priority_score": 3.119567169212479,
+            "cost": 1.6663067385141797,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.29262583288776517,
+            "info_gain": 2.2067012280723497,
+            "utility": 0.54039448955817,
+            "closeness_centrality": 0.28444444444444444
+          }
+        },
+        {
+          "claim_id": "C15",
+          "claim_text": "The Great Fire started on October 8 and lasted for three days.",
+          "details": {
+            "claim_id": "C15",
+            "priority_score": 3.119567169212479,
+            "cost": 1.3776219204438678,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.4741396378340837,
+            "info_gain": 1.6404567214029768,
+            "utility": 0.26283480095910905,
+            "closeness_centrality": 0.3185253456221198
+          }
+        },
+        {
+          "claim_id": "C9",
+          "claim_text": "The Great Fire of London raged for four days",
+          "details": {
+            "claim_id": "C9",
+            "priority_score": 3.119567169212479,
+            "cost": 1.8651888770429763,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.3602348408736414,
+            "info_gain": 1.995790386416586,
+            "utility": 0.1306015093736097,
+            "closeness_centrality": 0.29793103448275854
+          }
+        },
+        {
+          "claim_id": "C11",
+          "claim_text": "The Great Fire of London led to improvements in building regulations and fire safety measures in London",
+          "details": {
+            "claim_id": "C11",
+            "priority_score": 1.4179850769147633,
+            "cost": 0.0,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 1.4179850769147633,
+            "centrality_raw": 0.0,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.9096088249717915,
+            "info_gain": 0.12817333727479002,
+            "utility": 0.12817333727479002,
+            "closeness_centrality": 0.4240490797546012
+          }
+        },
+        {
+          "claim_id": "C18",
+          "claim_text": "The Great Fire led to significant changes in building codes and fire safety measures in Chicago and other cities.",
+          "details": {
+            "claim_id": "C18",
+            "priority_score": 1.4483423786301444,
+            "cost": 0.5611731421625487,
+            "centrality_normalized": 0.030357301715381202,
+            "novelty_normalized": 1.4179850769147633,
+            "centrality_raw": 0.0017543859649122805,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.8237681525825532,
+            "info_gain": 0.2552440530789696,
+            "utility": -0.3059290890835791,
+            "closeness_centrality": 0.3905084745762712
+          }
+        },
+        {
+          "claim_id": "C13",
+          "claim_text": "The Great Fire left thousands homeless.",
+          "details": {
+            "claim_id": "C13",
+            "priority_score": 4.453715248452886,
+            "cost": 0.7605583742066198,
+            "centrality_normalized": 3.035730171538123,
+            "novelty_normalized": 1.4179850769147633,
+            "centrality_raw": 0.1754385964912281,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.971035611379791,
+            "info_gain": 0.12899913925994008,
+            "utility": -0.6315592349466796,
+            "closeness_centrality": 0.4766896551724138
+          }
+        },
+        {
+          "claim_id": "C8",
+          "claim_text": "The fire led to improvements in fire safety regulations in London",
+          "details": {
+            "claim_id": "C8",
+            "priority_score": 1.4179850769147633,
+            "cost": 0.851609001964524,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 1.4179850769147633,
+            "centrality_raw": 0.0,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.9096088249717915,
+            "info_gain": 0.12817333727479002,
+            "utility": -0.723435664689734,
+            "closeness_centrality": 0.4240490797546012
+          }
+        },
+        {
+          "claim_id": "C7",
+          "claim_text": "The fire led to significant rebuilding efforts",
+          "details": {
+            "claim_id": "C7",
+            "priority_score": 4.453715248452886,
+            "cost": 0.8694113924055548,
+            "centrality_normalized": 3.035730171538123,
+            "novelty_normalized": 1.4179850769147633,
+            "centrality_raw": 0.1754385964912281,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.971035611379791,
+            "info_gain": 0.12899913925994008,
+            "utility": -0.7404122531456147,
+            "closeness_centrality": 0.4766896551724138
+          }
+        },
+        {
+          "claim_id": "C4",
+          "claim_text": "The fire started on September 2nd and raged for three days",
+          "details": {
+            "claim_id": "C4",
+            "priority_score": 3.119567169212479,
+            "cost": 2.9382325282142405,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.3602348408736414,
+            "info_gain": 1.995790386416586,
+            "utility": -0.9424421417976545,
+            "closeness_centrality": 0.29793103448275854
+          }
+        },
+        {
+          "claim_id": "C10",
+          "claim_text": "The Great Fire of London caused widespread devastation",
+          "details": {
+            "claim_id": "C10",
+            "priority_score": 1.4179850769147633,
+            "cost": 1.4116955471489987,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 1.4179850769147633,
+            "centrality_raw": 0.0,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.9096088249717915,
+            "info_gain": 0.12817333727479002,
+            "utility": -1.2835222098742087,
+            "closeness_centrality": 0.4240490797546012
+          }
+        },
+        {
+          "claim_id": "C5",
+          "claim_text": "The fire is believed to have been accidentally started in a bakery on Pudding Lane",
+          "details": {
+            "claim_id": "C5",
+            "priority_score": 3.119567169212479,
+            "cost": 3.442601444442538,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.3810445398357002,
+            "info_gain": 1.9308731327333521,
+            "utility": -1.511728311709186,
+            "closeness_centrality": 0.3018340611353712
+          }
+        },
+        {
+          "claim_id": "C6",
+          "claim_text": "The fire quickly spread due to strong winds and the city's tightly packed wooden buildings",
+          "details": {
+            "claim_id": "C6",
+            "priority_score": 3.119567169212479,
+            "cost": 3.2033058684783455,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 3.119567169212479,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.525860362165916,
+            "info_gain": 1.4791104478095034,
+            "utility": -1.7241954206688421,
+            "closeness_centrality": 0.3275829383886256
+          }
+        },
+        {
+          "claim_id": "C1",
+          "claim_text": "The fire swept through the city of London",
+          "details": {
+            "claim_id": "C1",
+            "priority_score": 0.6375033360230057,
+            "cost": 2.384760055442274,
+            "centrality_normalized": 0.6375033360230057,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.03684210526315789,
+            "novelty_raw": 0.6666666666666666,
+            "sigma_cc": 0.9972497466576175,
+            "info_gain": 0.0017532956806772953,
+            "utility": -2.3830067597615967,
+            "closeness_centrality": 0.580840336134454
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C1": 0.6375033360230057,
+        "C2": 3.119567169212479,
+        "C4": 3.119567169212479,
+        "C5": 3.119567169212479,
+        "C6": 3.119567169212479,
+        "C7": 4.453715248452886,
+        "C8": 1.4179850769147633,
+        "C9": 3.119567169212479,
+        "C10": 1.4179850769147633,
+        "C11": 1.4179850769147633,
+        "C12": 3.119567169212479,
+        "C13": 4.453715248452886,
+        "C14": 3.119567169212479,
+        "C15": 3.119567169212479,
+        "C17": 3.119567169212479,
+        "C18": 1.4483423786301444
+      },
+      "costs": {
+        "C1": 2.384760055442274,
+        "C2": 1.2765859358106733,
+        "C4": 2.9382325282142405,
+        "C5": 3.442601444442538,
+        "C6": 3.2033058684783455,
+        "C7": 0.8694113924055548,
+        "C8": 0.851609001964524,
+        "C9": 1.8651888770429763,
+        "C10": 1.4116955471489987,
+        "C11": 0.0,
+        "C12": 1.6663067385141797,
+        "C13": 0.7605583742066198,
+        "C14": 1.4445311440453714,
+        "C15": 1.3776219204438678,
+        "C17": 0.1793510227732571,
+        "C18": 0.5611731421625487
+      },
+      "S_centrality": {
+        "C1": 0.6375033360230057,
+        "C2": 0.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 3.035730171538123,
+        "C8": 0.0,
+        "C9": 0.0,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 3.035730171538123,
+        "C14": 0.0,
+        "C15": 0.0,
+        "C17": 0.0,
+        "C18": 0.030357301715381202
+      },
+      "S_novelty": {
+        "C1": 0.0,
+        "C2": 3.119567169212479,
+        "C4": 3.119567169212479,
+        "C5": 3.119567169212479,
+        "C6": 3.119567169212479,
+        "C7": 1.4179850769147633,
+        "C8": 1.4179850769147633,
+        "C9": 3.119567169212479,
+        "C10": 1.4179850769147633,
+        "C11": 1.4179850769147633,
+        "C12": 3.119567169212479,
+        "C13": 1.4179850769147633,
+        "C14": 3.119567169212479,
+        "C15": 3.119567169212479,
+        "C17": 3.119567169212479,
+        "C18": 1.4179850769147633
+      },
+      "centrality_raw": {
+        "C1": 0.03684210526315789,
+        "C2": 0.0,
+        "C4": 0.0,
+        "C5": 0.0,
+        "C6": 0.0,
+        "C7": 0.1754385964912281,
+        "C8": 0.0,
+        "C9": 0.0,
+        "C10": 0.0,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 0.1754385964912281,
+        "C14": 0.0,
+        "C15": 0.0,
+        "C17": 0.0,
+        "C18": 0.0017543859649122805
+      },
+      "novelty_raw": {
+        "C1": 0.6666666666666666,
+        "C2": 2.5,
+        "C4": 2.5,
+        "C5": 2.5,
+        "C6": 2.5,
+        "C7": 1.5,
+        "C8": 1.5,
+        "C9": 2.5,
+        "C10": 1.5,
+        "C11": 1.5,
+        "C12": 2.5,
+        "C13": 1.5,
+        "C14": 2.5,
+        "C15": 2.5,
+        "C17": 2.5,
+        "C18": 1.5
+      },
+      "costs_raw": {
+        "C1": 0.5911858439445495,
+        "C2": 0.5165986657142639,
+        "C4": 0.6284380674362182,
+        "C5": 0.6623853087425232,
+        "C6": 0.6462791919708253,
+        "C7": 0.4891932249069214,
+        "C8": 0.48799501061439515,
+        "C9": 0.5562153935432435,
+        "C10": 0.5256924033164978,
+        "C11": 0.43067629933357243,
+        "C12": 0.5428293585777282,
+        "C13": 0.48186672329902647,
+        "C14": 0.5279024481773377,
+        "C15": 0.523399031162262,
+        "C17": 0.44274776577949526,
+        "C18": 0.46844682693481443
+      },
+      "sigma_cc": {
+        "C1": 0.9972497466576175,
+        "C2": 0.3810445398357002,
+        "C4": 0.3602348408736414,
+        "C5": 0.3810445398357002,
+        "C6": 0.525860362165916,
+        "C7": 0.971035611379791,
+        "C8": 0.9096088249717915,
+        "C9": 0.3602348408736414,
+        "C10": 0.9096088249717915,
+        "C11": 0.9096088249717915,
+        "C12": 0.29262583288776517,
+        "C13": 0.971035611379791,
+        "C14": 0.29262583288776517,
+        "C15": 0.4741396378340837,
+        "C17": 0.29262583288776517,
+        "C18": 0.8237681525825532
+      },
+      "utilities": {
+        "C1": -2.3830067597615967,
+        "C2": 0.6542871969226789,
+        "C4": -0.9424421417976545,
+        "C5": -1.511728311709186,
+        "C6": -1.7241954206688421,
+        "C7": -0.7404122531456147,
+        "C8": -0.723435664689734,
+        "C9": 0.1306015093736097,
+        "C10": -1.2835222098742087,
+        "C11": 0.12817333727479002,
+        "C12": 0.54039448955817,
+        "C13": -0.6315592349466796,
+        "C14": 0.7621700840269783,
+        "C15": 0.26283480095910905,
+        "C17": 2.0273502052990926,
+        "C18": -0.3059290890835791
+      },
+      "info_gains": {
+        "C1": 0.0017532956806772953,
+        "C2": 1.9308731327333521,
+        "C4": 1.995790386416586,
+        "C5": 1.9308731327333521,
+        "C6": 1.4791104478095034,
+        "C7": 0.12899913925994008,
+        "C8": 0.12817333727479002,
+        "C9": 1.995790386416586,
+        "C10": 0.12817333727479002,
+        "C11": 0.12817333727479002,
+        "C12": 2.2067012280723497,
+        "C13": 0.12899913925994008,
+        "C14": 2.2067012280723497,
+        "C15": 1.6404567214029768,
+        "C17": 2.2067012280723497,
+        "C18": 0.2552440530789696
+      },
+      "num_contested": 16,
+      "num_selected": 16
+    },
+    "num_claims": 19,
+    "num_grounded": 2,
+    "num_boundary": 16,
+    "num_contradictory": 1,
+    "num_selected": 16,
+    "skipped": false
+  },
+  {
+    "entity": "As You Like It",
+    "instance_id": 9,
+    "selection": {
+      "verify": [
+        {
+          "claim_id": "C0",
+          "claim_text": "As You Like It is a comedy play written by William Shakespeare.",
+          "details": {
+            "claim_id": "C0",
+            "priority_score": 1.9999999600000007,
+            "cost": 0.0,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 1.9999999600000007,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.11920294323941721,
+            "info_gain": 1.7615940782892838,
+            "utility": 1.7615940782892838,
+            "closeness_centrality": 0.3680981595092025
+          }
+        },
+        {
+          "claim_id": "C8",
+          "claim_text": "As You Like It is a pastoral comedy play written by William Shakespeare.",
+          "details": {
+            "claim_id": "C8",
+            "priority_score": 1.9999999600000007,
+            "cost": 0.26290516176491563,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 1.9999999600000007,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.11920294323941721,
+            "info_gain": 1.7615940782892838,
+            "utility": 1.4986889165243682,
+            "closeness_centrality": 0.3680981595092025
+          }
+        },
+        {
+          "claim_id": "C4",
+          "claim_text": "As You Like It is believed to have been written between 1599 and 1600",
+          "details": {
+            "claim_id": "C4",
+            "priority_score": 1.9999999600000007,
+            "cost": 1.1870244430978203,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 1.9999999600000007,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.11920294323941721,
+            "info_gain": 1.7615940782892838,
+            "utility": 0.5745696351914635,
+            "closeness_centrality": 0.3680981595092025
+          }
+        },
+        {
+          "claim_id": "C2",
+          "claim_text": "Rosalind falls in love with a man named Orlando in the play.",
+          "details": {
+            "claim_id": "C2",
+            "priority_score": 1.9999999600000007,
+            "cost": 2.8207890741087738,
+            "centrality_normalized": 0.0,
+            "novelty_normalized": 1.9999999600000007,
+            "centrality_raw": 0.0,
+            "novelty_raw": 2.5,
+            "sigma_cc": 0.11920294323941721,
+            "info_gain": 1.7615940782892838,
+            "utility": -1.05919499581949,
+            "closeness_centrality": 0.3680981595092025
+          }
+        },
+        {
+          "claim_id": "C3",
+          "claim_text": "As You Like It explores themes of love, gender roles, and the complexities of human relationships.",
+          "details": {
+            "claim_id": "C3",
+            "priority_score": 1.9999989440005574,
+            "cost": 1.9559480076754607,
+            "centrality_normalized": 1.9999989440005574,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.03787878787878788,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.8807970567605827,
+            "info_gain": 0.23840576060059293,
+            "utility": -1.7175422470748678,
+            "closeness_centrality": 0.5660377358490567
+          }
+        },
+        {
+          "claim_id": "C13",
+          "claim_text": "The play explores mistaken identities and reconciliation.",
+          "details": {
+            "claim_id": "C13",
+            "priority_score": 1.9999989440005574,
+            "cost": 2.165535140640269,
+            "centrality_normalized": 1.9999989440005574,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.03787878787878788,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.8807970567605827,
+            "info_gain": 0.23840576060059293,
+            "utility": -1.927129380039676,
+            "closeness_centrality": 0.5660377358490567
+          }
+        },
+        {
+          "claim_id": "C11",
+          "claim_text": "The play explores themes of love, gender roles, and human relationships.",
+          "details": {
+            "claim_id": "C11",
+            "priority_score": 1.9999989440005574,
+            "cost": 2.179860248669285,
+            "centrality_normalized": 1.9999989440005574,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.03787878787878788,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.8807970567605827,
+            "info_gain": 0.23840576060059293,
+            "utility": -1.941454488068692,
+            "closeness_centrality": 0.5660377358490567
+          }
+        },
+        {
+          "claim_id": "C12",
+          "claim_text": "Rosalind orchestrates a series of romantic entanglements and misunderstandings in the play.",
+          "details": {
+            "claim_id": "C12",
+            "priority_score": 1.9999989440005574,
+            "cost": 2.712608314111488,
+            "centrality_normalized": 1.9999989440005574,
+            "novelty_normalized": 0.0,
+            "centrality_raw": 0.03787878787878788,
+            "novelty_raw": 1.5,
+            "sigma_cc": 0.8807970567605827,
+            "info_gain": 0.23840576060059293,
+            "utility": -2.474202553510895,
+            "closeness_centrality": 0.5660377358490567
+          }
+        }
+      ],
+      "discard": []
+    },
+    "diagnostics": {
+      "priority_scores": {
+        "C0": 1.9999999600000007,
+        "C2": 1.9999999600000007,
+        "C3": 1.9999989440005574,
+        "C4": 1.9999999600000007,
+        "C8": 1.9999999600000007,
+        "C11": 1.9999989440005574,
+        "C12": 1.9999989440005574,
+        "C13": 1.9999989440005574
+      },
+      "costs": {
+        "C0": 0.0,
+        "C2": 2.8207890741087738,
+        "C3": 1.9559480076754607,
+        "C4": 1.1870244430978203,
+        "C8": 0.26290516176491563,
+        "C11": 2.179860248669285,
+        "C12": 2.712608314111488,
+        "C13": 2.165535140640269
+      },
+      "S_centrality": {
+        "C0": 0.0,
+        "C2": 0.0,
+        "C3": 1.9999989440005574,
+        "C4": 0.0,
+        "C8": 0.0,
+        "C11": 1.9999989440005574,
+        "C12": 1.9999989440005574,
+        "C13": 1.9999989440005574
+      },
+      "S_novelty": {
+        "C0": 1.9999999600000007,
+        "C2": 1.9999999600000007,
+        "C3": 0.0,
+        "C4": 1.9999999600000007,
+        "C8": 1.9999999600000007,
+        "C11": 0.0,
+        "C12": 0.0,
+        "C13": 0.0
+      },
+      "centrality_raw": {
+        "C0": 0.0,
+        "C2": 0.0,
+        "C3": 0.03787878787878788,
+        "C4": 0.0,
+        "C8": 0.0,
+        "C11": 0.03787878787878788,
+        "C12": 0.03787878787878788,
+        "C13": 0.03787878787878788
+      },
+      "novelty_raw": {
+        "C0": 2.5,
+        "C2": 2.5,
+        "C3": 1.5,
+        "C4": 2.5,
+        "C8": 2.5,
+        "C11": 1.5,
+        "C12": 1.5,
+        "C13": 1.5
+      },
+      "costs_raw": {
+        "C0": 0.6500509738922119,
+        "C2": 0.9244475841522217,
+        "C3": 0.8403188347816468,
+        "C4": 0.7655206084251404,
+        "C8": 0.675625479221344,
+        "C11": 0.8621002435684204,
+        "C12": 0.9139241337776184,
+        "C13": 0.8607067465782166
+      },
+      "sigma_cc": {
+        "C0": 0.11920294323941721,
+        "C2": 0.11920294323941721,
+        "C3": 0.8807970567605827,
+        "C4": 0.11920294323941721,
+        "C8": 0.11920294323941721,
+        "C11": 0.8807970567605827,
+        "C12": 0.8807970567605827,
+        "C13": 0.8807970567605827
+      },
+      "utilities": {
+        "C0": 1.7615940782892838,
+        "C2": -1.05919499581949,
+        "C3": -1.7175422470748678,
+        "C4": 0.5745696351914635,
+        "C8": 1.4986889165243682,
+        "C11": -1.941454488068692,
+        "C12": -2.474202553510895,
+        "C13": -1.927129380039676
+      },
+      "info_gains": {
+        "C0": 1.7615940782892838,
+        "C2": 1.7615940782892838,
+        "C3": 0.23840576060059293,
+        "C4": 1.7615940782892838,
+        "C8": 1.7615940782892838,
+        "C11": 0.23840576060059293,
+        "C12": 0.23840576060059293,
+        "C13": 0.23840576060059293
+      },
+      "num_contested": 8,
+      "num_selected": 8
+    },
+    "num_claims": 15,
+    "num_grounded": 7,
+    "num_boundary": 8,
+    "num_contradictory": 0,
+    "num_selected": 8,
+    "skipped": false
+  }
+]

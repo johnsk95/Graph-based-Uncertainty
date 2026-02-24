@@ -1,0 +1,11 @@
+{
+  "model": "gpt-3.5-turbo",
+  "dataset": "pop_qa",
+  "phase1_file": null,
+  "k": 20,
+  "lambda1": 1.0,
+  "lambda2": 1.0,
+  "k_neighbors": 5,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "output_suffix": ""
+}

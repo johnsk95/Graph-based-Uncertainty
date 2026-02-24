@@ -1,0 +1,397 @@
+{
+  "experiment_config": {
+    "num_papers": 2,
+    "num_iterations": 3,
+    "claims_per_iteration": 10,
+    "response_samples_per_question": 3
+  },
+  "individual_results": [
+    {
+      "paper_id": "1904.10503",
+      "paper_title": "Fine-Grained Named Entity Recognition using ELMo and Wikidata",
+      "iterations": [
+        {
+          "iteration": 0,
+          "prior_sections": [
+            "title",
+            "abstract"
+          ],
+          "prior_token_count": 245,
+          "num_total_claims": 89,
+          "num_contested_claims": 79,
+          "num_verified": 10,
+          "num_accepted": 8,
+          "num_rejected": 2,
+          "metrics": {
+            "prior_coverage_ratio": 0.20224719101123595,
+            "knowledge_frontier_size": 71,
+            "question_answerability_rate": 0.3333333333333333,
+            "verification_utility_ratio": 0.8,
+            "total_claims": 89,
+            "grounded_claims": 18,
+            "contested_claims": 71
+          },
+          "question_classifications": [
+            {
+              "question_id": "5a65ad10ff954d0f27bb3ccd9027e3d8f7f6bb76",
+              "question": "Which other approaches do they compare their model with?",
+              "is_unanswerable": false,
+              "evidence_sections": [],
+              "answerable_from_prior": true,
+              "answer_type": "free_form",
+              "ground_truth_answer": "Akbik et al. (2018), Link et al. (2012)"
+            },
+            {
+              "question_id": "729694a9fe1e05d329b7a4078a596fe606bc5a95",
+              "question": "What results do they achieve using their proposed approach?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "free_form",
+              "ground_truth_answer": "F-1 score on the OntoNotes is 88%, and it is 53% on Wiki (gold)."
+            },
+            {
+              "question_id": "1c997c268c68149ae6fb43d83ffcd53f0e7fe57e",
+              "question": "How do they combine a deep learning model with a knowledge base?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Entity Linking using Wikidata"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "free_form",
+              "ground_truth_answer": "Entities from a deep learning model are linked to the related entities from a knowledge base by a lookup."
+            }
+          ]
+        },
+        {
+          "iteration": 1,
+          "prior_sections": [
+            "title",
+            "abstract",
+            "Introduction"
+          ],
+          "prior_token_count": 1159,
+          "num_total_claims": 89,
+          "num_contested_claims": 48,
+          "num_verified": 10,
+          "num_accepted": 2,
+          "num_rejected": 8,
+          "metrics": {
+            "prior_coverage_ratio": 0.48314606741573035,
+            "knowledge_frontier_size": 46,
+            "question_answerability_rate": 0.3333333333333333,
+            "verification_utility_ratio": 0.2,
+            "total_claims": 89,
+            "grounded_claims": 43,
+            "contested_claims": 46
+          },
+          "question_classifications": [
+            {
+              "question_id": "5a65ad10ff954d0f27bb3ccd9027e3d8f7f6bb76",
+              "question": "Which other approaches do they compare their model with?",
+              "is_unanswerable": false,
+              "evidence_sections": [],
+              "answerable_from_prior": true,
+              "answer_type": "free_form",
+              "ground_truth_answer": "Akbik et al. (2018), Link et al. (2012)"
+            },
+            {
+              "question_id": "729694a9fe1e05d329b7a4078a596fe606bc5a95",
+              "question": "What results do they achieve using their proposed approach?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "free_form",
+              "ground_truth_answer": "F-1 score on the OntoNotes is 88%, and it is 53% on Wiki (gold)."
+            },
+            {
+              "question_id": "1c997c268c68149ae6fb43d83ffcd53f0e7fe57e",
+              "question": "How do they combine a deep learning model with a knowledge base?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Entity Linking using Wikidata"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "free_form",
+              "ground_truth_answer": "Entities from a deep learning model are linked to the related entities from a knowledge base by a lookup."
+            }
+          ]
+        },
+        {
+          "iteration": 2,
+          "prior_sections": [
+            "title",
+            "abstract",
+            "Introduction",
+            "Method"
+          ],
+          "prior_token_count": 1401,
+          "num_total_claims": 89,
+          "num_contested_claims": 46,
+          "num_verified": 10,
+          "num_accepted": 1,
+          "num_rejected": 9,
+          "metrics": {
+            "prior_coverage_ratio": 0.4943820224719101,
+            "knowledge_frontier_size": 45,
+            "question_answerability_rate": 0.3333333333333333,
+            "verification_utility_ratio": 0.1,
+            "total_claims": 89,
+            "grounded_claims": 44,
+            "contested_claims": 45
+          },
+          "question_classifications": [
+            {
+              "question_id": "5a65ad10ff954d0f27bb3ccd9027e3d8f7f6bb76",
+              "question": "Which other approaches do they compare their model with?",
+              "is_unanswerable": false,
+              "evidence_sections": [],
+              "answerable_from_prior": true,
+              "answer_type": "free_form",
+              "ground_truth_answer": "Akbik et al. (2018), Link et al. (2012)"
+            },
+            {
+              "question_id": "729694a9fe1e05d329b7a4078a596fe606bc5a95",
+              "question": "What results do they achieve using their proposed approach?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "free_form",
+              "ground_truth_answer": "F-1 score on the OntoNotes is 88%, and it is 53% on Wiki (gold)."
+            },
+            {
+              "question_id": "1c997c268c68149ae6fb43d83ffcd53f0e7fe57e",
+              "question": "How do they combine a deep learning model with a knowledge base?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Entity Linking using Wikidata"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "free_form",
+              "ground_truth_answer": "Entities from a deep learning model are linked to the related entities from a knowledge base by a lookup."
+            }
+          ]
+        }
+      ],
+      "num_responses": 9,
+      "num_claims": 89,
+      "final_metrics": {
+        "final_pcr": 0.4943820224719101,
+        "final_grounded_claims": 44,
+        "final_contested_claims": 45,
+        "total_claims": 89,
+        "total_questions": 3,
+        "graph_nodes": 104,
+        "graph_edges": 123
+      },
+      "error": null
+    },
+    {
+      "paper_id": "1804.05918",
+      "paper_title": "Improving Implicit Discourse Relation Classification by Modeling Inter-dependencies of Discourse Units in a Paragraph",
+      "iterations": [
+        {
+          "iteration": 0,
+          "prior_sections": [
+            "title",
+            "abstract"
+          ],
+          "prior_token_count": 192,
+          "num_total_claims": 43,
+          "num_contested_claims": 32,
+          "num_verified": 10,
+          "num_accepted": 6,
+          "num_rejected": 4,
+          "metrics": {
+            "prior_coverage_ratio": 0.3953488372093023,
+            "knowledge_frontier_size": 26,
+            "question_answerability_rate": 0.0,
+            "verification_utility_ratio": 0.6,
+            "total_claims": 43,
+            "grounded_claims": 17,
+            "contested_claims": 26
+          },
+          "question_classifications": [
+            {
+              "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+              "question": "What discourse relations does it work best/worst for?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Ensemble Model",
+                "Experimental Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "extractive",
+              "ground_truth_answer": "explicit discourse relations"
+            },
+            {
+              "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+              "question": "How much does this model improve state-of-the-art?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Ensemble Model",
+                "Experimental Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "extractive",
+              "ground_truth_answer": "the basic model yields good performance for recognizing explicit discourse relations as well, which is comparable with previous best result (92.05% macro F1-score and 93.09% accuracy as reported in BIBREF11 ). full paragraph-level neural network model achieves the best macro-average F1-score of 48.82% in predicting implicit discourse relations, which outperforms previous neural tensor network models (e.g., BIBREF18 ) by more than 2 percents and outperforms the best previous system BIBREF19 by 1 percent. Then we also created ensemble models by applying majority voting to combine results of ten runs. From table 5 , each ensemble model obtains performance improvements compared with single model. The full model achieves performance boosting of (51.84 - 48.82 = 3.02) and (94.17 - 93.21 = 0.96) in macro F1-scores for predicting implicit and explicit discourse relations respectively. "
+            }
+          ]
+        },
+        {
+          "iteration": 1,
+          "prior_sections": [
+            "title",
+            "abstract",
+            "Introduction"
+          ],
+          "prior_token_count": 1496,
+          "num_total_claims": 43,
+          "num_contested_claims": 16,
+          "num_verified": 10,
+          "num_accepted": 1,
+          "num_rejected": 9,
+          "metrics": {
+            "prior_coverage_ratio": 0.6511627906976745,
+            "knowledge_frontier_size": 15,
+            "question_answerability_rate": 0.0,
+            "verification_utility_ratio": 0.1,
+            "total_claims": 43,
+            "grounded_claims": 28,
+            "contested_claims": 15
+          },
+          "question_classifications": [
+            {
+              "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+              "question": "What discourse relations does it work best/worst for?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Ensemble Model",
+                "Experimental Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "extractive",
+              "ground_truth_answer": "explicit discourse relations"
+            },
+            {
+              "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+              "question": "How much does this model improve state-of-the-art?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Ensemble Model",
+                "Experimental Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "extractive",
+              "ground_truth_answer": "the basic model yields good performance for recognizing explicit discourse relations as well, which is comparable with previous best result (92.05% macro F1-score and 93.09% accuracy as reported in BIBREF11 ). full paragraph-level neural network model achieves the best macro-average F1-score of 48.82% in predicting implicit discourse relations, which outperforms previous neural tensor network models (e.g., BIBREF18 ) by more than 2 percents and outperforms the best previous system BIBREF19 by 1 percent. Then we also created ensemble models by applying majority voting to combine results of ten runs. From table 5 , each ensemble model obtains performance improvements compared with single model. The full model achieves performance boosting of (51.84 - 48.82 = 3.02) and (94.17 - 93.21 = 0.96) in macro F1-scores for predicting implicit and explicit discourse relations respectively. "
+            }
+          ]
+        },
+        {
+          "iteration": 2,
+          "prior_sections": [
+            "title",
+            "abstract",
+            "Introduction",
+            "The Basic Model Architecture"
+          ],
+          "prior_token_count": 2496,
+          "num_total_claims": 43,
+          "num_contested_claims": 15,
+          "num_verified": 10,
+          "num_accepted": 0,
+          "num_rejected": 10,
+          "metrics": {
+            "prior_coverage_ratio": 0.6511627906976745,
+            "knowledge_frontier_size": 15,
+            "question_answerability_rate": 0.0,
+            "verification_utility_ratio": 0.0,
+            "total_claims": 43,
+            "grounded_claims": 28,
+            "contested_claims": 15
+          },
+          "question_classifications": [
+            {
+              "question_id": "f17ca24b135f9fe6bb25dc5084b13e1637ec7744",
+              "question": "What discourse relations does it work best/worst for?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Ensemble Model",
+                "Experimental Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "extractive",
+              "ground_truth_answer": "explicit discourse relations"
+            },
+            {
+              "question_id": "bd5bd1765362c2d972a762ca12675108754aa437",
+              "question": "How much does this model improve state-of-the-art?",
+              "is_unanswerable": false,
+              "evidence_sections": [
+                "Ensemble Model",
+                "Experimental Results"
+              ],
+              "answerable_from_prior": false,
+              "answer_type": "extractive",
+              "ground_truth_answer": "the basic model yields good performance for recognizing explicit discourse relations as well, which is comparable with previous best result (92.05% macro F1-score and 93.09% accuracy as reported in BIBREF11 ). full paragraph-level neural network model achieves the best macro-average F1-score of 48.82% in predicting implicit discourse relations, which outperforms previous neural tensor network models (e.g., BIBREF18 ) by more than 2 percents and outperforms the best previous system BIBREF19 by 1 percent. Then we also created ensemble models by applying majority voting to combine results of ten runs. From table 5 , each ensemble model obtains performance improvements compared with single model. The full model achieves performance boosting of (51.84 - 48.82 = 3.02) and (94.17 - 93.21 = 0.96) in macro F1-scores for predicting implicit and explicit discourse relations respectively. "
+            }
+          ]
+        }
+      ],
+      "num_responses": 6,
+      "num_claims": 43,
+      "final_metrics": {
+        "final_pcr": 0.6511627906976745,
+        "final_grounded_claims": 28,
+        "final_contested_claims": 15,
+        "total_claims": 43,
+        "total_questions": 2,
+        "graph_nodes": 55,
+        "graph_edges": 60
+      },
+      "error": null
+    }
+  ],
+  "aggregated_metrics": {
+    "iteration_0": {
+      "mean_pcr": 0.29879801411026913,
+      "std_pcr": 0.09655082309903318,
+      "mean_kf_size": 48.5,
+      "std_kf_size": 22.5,
+      "mean_answerability": 0.16666666666666666,
+      "mean_vur": 0.7,
+      "mean_total_claims": 66.0,
+      "mean_grounded_claims": 17.5,
+      "num_papers": 2
+    },
+    "iteration_1": {
+      "mean_pcr": 0.5671544290567024,
+      "std_pcr": 0.08400836164097206,
+      "mean_kf_size": 30.5,
+      "std_kf_size": 15.5,
+      "mean_answerability": 0.16666666666666666,
+      "mean_vur": 0.15000000000000002,
+      "mean_total_claims": 66.0,
+      "mean_grounded_claims": 35.5,
+      "num_papers": 2
+    },
+    "iteration_2": {
+      "mean_pcr": 0.5727724065847923,
+      "std_pcr": 0.07839038411288218,
+      "mean_kf_size": 30.0,
+      "std_kf_size": 15.0,
+      "mean_answerability": 0.16666666666666666,
+      "mean_vur": 0.05,
+      "mean_total_claims": 66.0,
+      "mean_grounded_claims": 36.0,
+      "num_papers": 2
+    }
+  },
+  "timestamp": "2026-01-28T15:22:09.914231"
+}

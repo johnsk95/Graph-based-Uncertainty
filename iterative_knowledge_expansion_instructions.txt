@@ -1,0 +1,673 @@
+================================================================================
+TECHNICAL SPECIFICATION: Iterative Knowledge Expansion Module (Section 4.4)
+================================================================================
+
+OVERVIEW
+--------
+Implement the Iterative Knowledge Expansion stage of the human-LLM knowledge 
+graph framework. This module selects the most informative contested claims for 
+human/LLM verification using a utility-based ranking approach.
+
+This stage receives only contested claims (claims not grounded to priors).
+Grounded claims have already been collapsed in the previous stage (Section 4.3).
+
+The system selects claims into two categories:
+1. VERIFY: Top-k high-value claims routed to human/LLM verification
+2. DISCARD: Remaining claims not selected for this verification round
+
+================================================================================
+PREREQUISITES / ASSUMED INPUTS
+================================================================================
+
+The following should already be implemented and available:
+
+1. Weighted bipartite graph G = ((R ∪ P, C), E) where:
+   - R: Set of LLM response nodes
+   - P: Set of prior nodes (trusted knowledge)
+   - C: Set of claim nodes
+   - E: Weighted edges with weights {w_anchor, w_agree, w_neutral, w_contra}
+
+2. Claim embeddings: Pre-computed embeddings for all claims (May need to be implemented!)
+3. Prior embeddings: Pre-computed embeddings for all prior claims (May need to be implemented!)
+4. Closeness centrality scores: CC(c) for all claims (grounded closeness centrality)
+5. Prior-entailed claims set: C_P (claims supported by priors)
+
+================================================================================
+MODULE 1: PRIORITY SCORE COMPUTATION
+================================================================================
+
+PriorityScore(c) = λ1 * S_centrality(c) + λ2 * S_novelty(c)
+
+Default hyperparameters: λ1 = 1.0, λ2 = 1.0
+
+------------------------------------------------------------------------------
+1.1 CONTESTED CLAIMS IDENTIFICATION
+------------------------------------------------------------------------------
+
+This is already implemented in the codebase. Based on the thresholds to divide claims into Grounded, Boundary, and Contradictory claims, get the Boundary claims for further processing.
+
+------------------------------------------------------------------------------
+1.2 CENTRALITY SCORE (S_centrality)
+------------------------------------------------------------------------------
+
+Compute betweenness centrality on the contested subgraph G_contested.
+G_contested contains only:
+- Response nodes R
+- Contested claim nodes C_contested (These are the set of Boundary claims)
+- Edges between them (excluding priors and prior-entailed claims)
+
+```python
+def compute_centrality_scores(graph, contested_claim_ids, response_node_ids):
+    """
+    Compute betweenness centrality for contested claims on the contested subgraph.
+    
+    Args:
+        graph: NetworkX graph (full bipartite graph)
+        contested_claim_ids: List of contested claim node IDs
+        response_node_ids: List of response node IDs
+    
+    Returns:
+        centrality_scores: Dict mapping claim_id -> raw betweenness centrality
+    """
+    # Build contested subgraph
+    subgraph_nodes = set(contested_claim_ids) | set(response_node_ids)
+    G_contested = graph.subgraph(subgraph_nodes).copy()
+    
+    # Compute betweenness centrality
+    # Use weighted version if edges have weights
+    betweenness = nx.betweenness_centrality(G_contested, weight='weight', normalized=True)
+    
+    # Extract only claim nodes
+    centrality_scores = {cid: betweenness.get(cid, 0.0) for cid in contested_claim_ids}
+    
+    return centrality_scores
+```
+
+------------------------------------------------------------------------------
+1.3 NOVELTY SCORE (S_novelty)
+------------------------------------------------------------------------------
+
+Compute shortest path distance from each contested claim to nearest prior-entailed claim.
+Use weighted distance where edge cost = 1 / edge_weight.
+
+```python
+def compute_novelty_scores(graph, contested_claim_ids, prior_entailed_claim_ids):
+    """
+    Compute graph-based novelty as shortest path distance to nearest prior.
+    
+    Args:
+        graph: NetworkX graph with edge weights
+        contested_claim_ids: List of contested claim node IDs
+        prior_entailed_claim_ids: List of prior-entailed claim node IDs (C_P)
+    
+    Returns:
+        novelty_scores: Dict mapping claim_id -> raw distance score
+    """
+    novelty_scores = {}
+    
+    for cid in contested_claim_ids:
+        min_distance = float('inf')
+        
+        for pid in prior_entailed_claim_ids:
+            try:
+                # Use 1/weight as distance (higher weight = shorter distance)
+                distance = nx.shortest_path_length(
+                    graph, source=cid, target=pid, weight='cost'
+                )
+                min_distance = min(min_distance, distance)
+            except nx.NetworkXNoPath:
+                continue
+        
+        # Handle disconnected claims
+        if min_distance == float('inf'):
+            min_distance = None  # Will handle in normalization
+        
+        novelty_scores[cid] = min_distance
+    
+    return novelty_scores
+
+# NOTE: Ensure graph has 'cost' attribute on edges where cost = 1 / weight
+# Add this when constructing the graph:
+# for u, v, data in graph.edges(data=True):
+#     data['cost'] = 1.0 / data['weight']
+```
+
+------------------------------------------------------------------------------
+1.4 Z-SCORE NORMALIZATION WITH POSITIVE SHIFT
+------------------------------------------------------------------------------
+
+Apply to both centrality and novelty scores.
+
+```python
+def z_normalize_positive(scores_dict):
+    """
+    Z-score normalize and shift to ensure all values are positive.
+    
+    Args:
+        scores_dict: Dict mapping claim_id -> raw score
+    
+    Returns:
+        normalized_dict: Dict mapping claim_id -> normalized positive score
+    """
+    # Handle None values (disconnected claims)
+    valid_scores = {k: v for k, v in scores_dict.items() if v is not None}
+    invalid_ids = [k for k, v in scores_dict.items() if v is None]
+    
+    if len(valid_scores) == 0:
+        return {k: 0.0 for k in scores_dict}
+    
+    values = np.array(list(valid_scores.values()))
+    mean_val = np.mean(values)
+    std_val = np.std(values) + 1e-8  # Avoid division by zero
+    
+    # Z-score normalization
+    z_scores = {k: (v - mean_val) / std_val for k, v in valid_scores.items()}
+    
+    # Shift to positive
+    min_z = min(z_scores.values())
+    normalized = {k: v - min_z for k, v in z_scores.items()}
+    
+    # Assign max value to disconnected claims (most novel)
+    if invalid_ids:
+        max_normalized = max(normalized.values()) if normalized else 0.0
+        for k in invalid_ids:
+            normalized[k] = max_normalized + 1.0  # Slightly higher than max
+    
+    return normalized
+```
+
+------------------------------------------------------------------------------
+1.5 COMBINED PRIORITY SCORE
+------------------------------------------------------------------------------
+
+```python
+def compute_priority_scores(centrality_scores, novelty_scores, lambda1=1.0, lambda2=1.0):
+    """
+    Compute combined priority score for each contested claim.
+    
+    Args:
+        centrality_scores: Dict of raw centrality scores
+        novelty_scores: Dict of raw novelty scores
+        lambda1: Weight for centrality component
+        lambda2: Weight for novelty component
+    
+    Returns:
+        priority_scores: Dict mapping claim_id -> priority score
+    """
+    # Normalize both scores
+    S_centrality = z_normalize_positive(centrality_scores)
+    S_novelty = z_normalize_positive(novelty_scores)
+    
+    # Combine
+    priority_scores = {}
+    for cid in centrality_scores.keys():
+        priority_scores[cid] = lambda1 * S_centrality[cid] + lambda2 * S_novelty[cid]
+    
+    return priority_scores, S_centrality, S_novelty
+```
+
+================================================================================
+MODULE 2: COST COMPUTATION
+================================================================================
+
+Cost is based on embedding distance from claim to priors.
+Uses combination of minimum distance and average k-nearest distance.
+
+------------------------------------------------------------------------------
+2.1 EMBEDDING DISTANCE COMPUTATION
+------------------------------------------------------------------------------
+
+```python
+def compute_embedding_costs(claim_embeddings, prior_embeddings, contested_claim_ids, k=5):
+    """
+    Compute embedding-based verification cost for contested claims.
+    
+    Args:
+        claim_embeddings: Dict mapping claim_id -> embedding vector (np.array)
+        prior_embeddings: np.array of shape (num_priors, embedding_dim)
+        contested_claim_ids: List of contested claim IDs
+        k: Number of nearest priors for averaging
+    
+    Returns:
+        raw_costs: Dict mapping claim_id -> raw embedding distance
+    """
+    from sklearn.metrics.pairwise import cosine_distances
+    
+    raw_costs = {}
+    k = min(k, len(prior_embeddings))
+    
+    for cid in contested_claim_ids:
+        claim_emb = claim_embeddings[cid].reshape(1, -1)
+        
+        # Compute distances to all priors
+        distances = cosine_distances(claim_emb, prior_embeddings)[0]
+        
+        # Minimum distance (nearest prior)
+        min_dist = np.min(distances)
+        
+        # Average of k-nearest
+        k_nearest_dists = np.partition(distances, k)[:k]
+        avg_k_dist = np.mean(k_nearest_dists)
+        
+        # Weighted combination
+        raw_costs[cid] = 0.4 * min_dist + 0.6 * avg_k_dist
+    
+    return raw_costs
+
+
+def compute_normalized_costs(claim_embeddings, prior_embeddings, contested_claim_ids, k=5):
+    """
+    Compute z-normalized positive costs.
+    """
+    raw_costs = compute_embedding_costs(
+        claim_embeddings, prior_embeddings, contested_claim_ids, k
+    )
+    normalized_costs = z_normalize_positive(raw_costs)
+    
+    return normalized_costs, raw_costs
+```
+
+================================================================================
+MODULE 3: CLAIM SELECTION AND ROUTING
+================================================================================
+
+Route claims to verify based on utility.
+
+------------------------------------------------------------------------------
+3.1 SIGMOID NORMALIZATION FOR CLOSENESS CENTRALITY
+------------------------------------------------------------------------------
+
+```python
+def sigmoid(x, scale=1.0, shift=0.0):
+    """Sigmoid function to map CC scores to [0, 1] probability."""
+    return 1 / (1 + np.exp(-scale * (x - shift)))
+
+
+def normalize_closeness_centrality(cc_scores, method='sigmoid'):
+    """
+    Normalize closeness centrality to [0, 1] confidence scores.
+    
+    Args:
+        cc_scores: Dict mapping claim_id -> raw closeness centrality
+        method: 'sigmoid' or 'minmax'
+    
+    Returns:
+        sigma_cc: Dict mapping claim_id -> normalized confidence [0, 1]
+    """
+    values = np.array(list(cc_scores.values()))
+    
+    if method == 'minmax':
+        min_v, max_v = np.min(values), np.max(values)
+        sigma_cc = {k: (v - min_v) / (max_v - min_v + 1e-8) for k, v in cc_scores.items()}
+    
+    elif method == 'sigmoid':
+        # Center sigmoid at median CC
+        median_cc = np.median(values)
+        std_cc = np.std(values) + 1e-8
+        scale = 2.0 / std_cc  # Adjust steepness
+        sigma_cc = {k: sigmoid(v, scale=scale, shift=median_cc) for k, v in cc_scores.items()}
+    
+    return sigma_cc
+```
+
+------------------------------------------------------------------------------
+3.2 UTILITY COMPUTATION
+------------------------------------------------------------------------------
+
+Utility = Information Gain - Cost
+Information Gain = PriorityScore × (1 - σ(CC))
+
+The term (1 - σ(CC)) represents the marginal value of human verification.
+Claims with high closeness centrality are already well-supported by the graph,
+so verifying them provides less new information.
+
+```python
+def compute_utilities(priority_scores, costs, sigma_cc):
+    """
+    Compute net utility for each contested claim.
+    
+    Utility(c) = PriorityScore(c) × (1 - σ(CC(c))) - Cost(c)
+    
+    Args:
+        priority_scores: Dict mapping claim_id -> priority score (normalized)
+        costs: Dict mapping claim_id -> normalized cost
+        sigma_cc: Dict mapping claim_id -> confidence from CC [0, 1]
+    
+    Returns:
+        utilities: Dict mapping claim_id -> net utility
+        info_gains: Dict mapping claim_id -> information gain (before cost)
+    """
+    utilities = {}
+    info_gains = {}
+    
+    for cid in priority_scores.keys():
+        # Information gain: high priority + low confidence = high gain
+        info_gain = priority_scores[cid] * (1 - sigma_cc[cid])
+        
+        # Net utility: information gain minus cost
+        net_utility = info_gain - costs[cid]
+        
+        info_gains[cid] = info_gain
+        utilities[cid] = net_utility
+    
+    return utilities, info_gains
+```
+
+------------------------------------------------------------------------------
+3.3 CLAIM ROUTING (FIXED-K SELECTION)
+------------------------------------------------------------------------------
+
+Select top-k contested claims by utility for verification. All other claims
+are discarded (not verified in this iteration).
+
+Note: Grounded claims have already been collapsed in the previous stage 
+(Section 4.3 Claim Collapsing). This stage only receives contested claims,
+so there is no need for a collapse decision here—we only rank and select.
+
+```python
+def select_claims_for_verification(
+    contested_claim_ids,
+    closeness_centrality,
+    priority_scores,
+    costs,
+    k
+):
+    """
+    Select top-k contested claims for verification.
+    
+    Args:
+        contested_claim_ids: List of contested claim IDs
+        closeness_centrality: Dict mapping claim_id -> raw CC score
+        priority_scores: Dict mapping claim_id -> priority score (normalized)
+        costs: Dict mapping claim_id -> cost (normalized)
+        k: Number of claims to select for verification
+    
+    Returns:
+        selection: Dict with keys 'verify' and 'discard', each containing list of claim_ids
+        diagnostics: Dict with intermediate computations for analysis
+    """
+    # Normalize closeness centrality to confidence scores
+    cc_subset = {cid: closeness_centrality[cid] for cid in contested_claim_ids}
+    sigma_cc = normalize_closeness_centrality(cc_subset)
+    
+    # Compute utilities
+    utilities, info_gains = compute_utilities(priority_scores, costs, sigma_cc)
+    
+    # Sort by utility (descending)
+    sorted_claims = sorted(contested_claim_ids, key=lambda x: utilities[x], reverse=True)
+    
+    # Select top-k for verification, discard the rest
+    verify_ids = sorted_claims[:k]
+    discard_ids = sorted_claims[k:]
+    
+    selection = {
+        'verify': verify_ids,
+        'discard': discard_ids
+    }
+    
+    diagnostics = {
+        'sigma_cc': sigma_cc,
+        'utilities': utilities,
+        'info_gains': info_gains,
+        'priority_scores': {cid: priority_scores[cid] for cid in contested_claim_ids},
+        'costs': {cid: costs[cid] for cid in contested_claim_ids}
+    }
+    
+    return selection, diagnostics
+```
+
+================================================================================
+MODULE 4: MAIN ORCHESTRATION
+================================================================================
+
+```python
+class IterativeKnowledgeExpansion:
+    """
+    Main class for iterative knowledge expansion via informative claim selection.
+    
+    This module operates on contested claims only. Grounded claims have already
+    been collapsed in the previous stage (Claim Collapsing, Section 4.3).
+    """
+    
+    def __init__(
+        self,
+        graph,
+        claim_embeddings,
+        prior_embeddings,
+        prior_entailed_claim_ids,
+        response_node_ids,
+        closeness_centrality,
+        lambda1=1.0,
+        lambda2=1.0,
+        k_neighbors=5
+    ):
+        """
+        Args:
+            graph: NetworkX bipartite graph with weighted edges
+            claim_embeddings: Dict mapping claim_id -> embedding vector
+            prior_embeddings: np.array of prior embeddings
+            prior_entailed_claim_ids: Set of claim IDs entailed by priors (C_P)
+            response_node_ids: List of response node IDs
+            closeness_centrality: Dict mapping claim_id -> CC score (for utility weighting)
+            lambda1: Weight for centrality in priority score
+            lambda2: Weight for novelty in priority score
+            k_neighbors: Number of nearest priors for cost computation
+        """
+        self.graph = graph
+        self.claim_embeddings = claim_embeddings
+        self.prior_embeddings = prior_embeddings
+        self.prior_entailed_claim_ids = set(prior_entailed_claim_ids)
+        self.response_node_ids = response_node_ids
+        self.closeness_centrality = closeness_centrality
+        self.lambda1 = lambda1
+        self.lambda2 = lambda2
+        self.k_neighbors = k_neighbors
+        
+        # Ensure graph has cost attribute
+        self._add_edge_costs()
+    
+    def _add_edge_costs(self):
+        """Add cost attribute to edges (cost = 1/weight)."""
+        for u, v, data in self.graph.edges(data=True):
+            if 'weight' in data:
+                data['cost'] = 1.0 / data['weight']
+            else:
+                data['cost'] = 1.0
+    
+    def get_contested_claims(self):
+        """Identify contested claims (not entailed by priors)."""
+        all_claim_ids = [n for n in self.graph.nodes() if self.graph.nodes[n].get('type') == 'claim']
+        contested = [cid for cid in all_claim_ids if cid not in self.prior_entailed_claim_ids]
+        return contested
+    
+    def compute_scores(self, contested_claim_ids):
+        """Compute all scores for contested claims."""
+        
+        # Centrality scores (betweenness on contested subgraph)
+        centrality_raw = compute_centrality_scores(
+            self.graph, contested_claim_ids, self.response_node_ids
+        )
+        
+        # Novelty scores (graph distance to priors)
+        novelty_raw = compute_novelty_scores(
+            self.graph, contested_claim_ids, list(self.prior_entailed_claim_ids)
+        )
+        
+        # Priority scores (combined, normalized)
+        priority_scores, S_centrality, S_novelty = compute_priority_scores(
+            centrality_raw, novelty_raw, self.lambda1, self.lambda2
+        )
+        
+        # Costs (embedding distance, normalized)
+        costs, costs_raw = compute_normalized_costs(
+            self.claim_embeddings, self.prior_embeddings, contested_claim_ids, self.k_neighbors
+        )
+        
+        return {
+            'priority_scores': priority_scores,
+            'costs': costs,
+            'S_centrality': S_centrality,
+            'S_novelty': S_novelty,
+            'centrality_raw': centrality_raw,
+            'novelty_raw': novelty_raw,
+            'costs_raw': costs_raw
+        }
+    
+    def select_claims(self, k):
+        """
+        Main method: select top-k claims for verification.
+        
+        Args:
+            k: Number of claims to select for verification
+        
+        Returns:
+            selection: Dict with 'verify' and 'discard' claim lists
+            diagnostics: Dict with all intermediate scores
+        """
+        # Get contested claims
+        contested_claim_ids = self.get_contested_claims()
+        
+        if len(contested_claim_ids) == 0:
+            return {'verify': [], 'discard': []}, {}
+        
+        # Compute all scores
+        scores = self.compute_scores(contested_claim_ids)
+        
+        # Select claims for verification
+        selection, select_diagnostics = select_claims_for_verification(
+            contested_claim_ids=contested_claim_ids,
+            closeness_centrality=self.closeness_centrality,
+            priority_scores=scores['priority_scores'],
+            costs=scores['costs'],
+            k=k
+        )
+        
+        # Merge diagnostics
+        diagnostics = {**scores, **select_diagnostics}
+        
+        return selection, diagnostics
+    
+    def update_after_verification(self, verified_claims, new_prior_ids):
+        """
+        Update internal state after verification round.
+        
+        Args:
+            verified_claims: List of (claim_id, verdict) tuples
+            new_prior_ids: List of claim_ids that are now confirmed as priors
+        """
+        # Add new priors to the set
+        self.prior_entailed_claim_ids.update(new_prior_ids)
+        
+        # Note: Graph edge weights and closeness_centrality should be 
+        # recomputed externally after adding new priors to the graph
+```
+
+================================================================================
+MODULE 5: USAGE EXAMPLE
+================================================================================
+
+```python
+# Example usage
+
+# Assume these are already computed/available:
+# - graph: NetworkX bipartite graph
+# - claim_embeddings: dict of embeddings
+# - prior_embeddings: numpy array
+# - prior_entailed_ids: set of claim IDs
+# - response_ids: list of response node IDs
+# - closeness_centrality: dict mapping claim_id -> CC score
+
+# Initialize
+expander = IterativeKnowledgeExpansion(
+    graph=graph,
+    claim_embeddings=claim_embeddings,
+    prior_embeddings=prior_embeddings,
+    prior_entailed_claim_ids=prior_entailed_ids,
+    response_node_ids=response_ids,
+    closeness_centrality=closeness_centrality,
+    lambda1=1.0,
+    lambda2=1.0,
+    k_neighbors=5
+)
+
+# Select claims for verification
+k = 20  # Budget: verify 20 claims per iteration
+selection, diagnostics = expander.select_claims(k=k)
+
+print(f"Claims to verify: {len(selection['verify'])}")
+print(f"Claims discarded: {len(selection['discard'])}")
+
+# Access selected claims for verification
+claims_to_verify = selection['verify']
+
+# Inspect top selected claims
+for cid in claims_to_verify[:5]:
+    print(f"Claim {cid}:")
+    print(f"  Priority: {diagnostics['priority_scores'][cid]:.3f}")
+    print(f"  Cost: {diagnostics['costs'][cid]:.3f}")
+    print(f"  sigma(CC): {diagnostics['sigma_cc'][cid]:.3f}")
+    print(f"  Info Gain: {diagnostics['info_gains'][cid]:.3f}")
+    print(f"  Utility: {diagnostics['utilities'][cid]:.3f}")
+
+# After verification, update the system
+# verified_results = verify_claims(claims_to_verify)  # Your verification function
+# new_priors = [cid for cid, verdict in verified_results if verdict == True]
+# expander.update_after_verification(verified_results, new_priors)
+```
+
+================================================================================
+TESTING CHECKLIST
+================================================================================
+
+1. [ ] Unit test z_normalize_positive with edge cases:
+       - All same values
+       - Single value
+       - Contains None values
+       - Negative values
+
+2. [ ] Unit test compute_centrality_scores:
+       - Disconnected subgraph
+       - Single node
+       - Verify betweenness values are in [0, 1]
+
+3. [ ] Unit test compute_novelty_scores:
+       - Disconnected claims (no path to priors)
+       - Direct connection to prior
+
+4. [ ] Unit test compute_embedding_costs:
+       - k > number of priors
+       - Identical embeddings
+
+5. [ ] Unit test normalize_closeness_centrality:
+       - All same CC values
+       - Verify output is in [0, 1]
+       - Check sigmoid centering at median
+
+6. [ ] Unit test select_claims_for_verification:
+       - k > number of contested claims
+       - k = 0
+       - All claims have same utility (tie-breaking)
+
+7. [ ] Integration test:
+       - Run full pipeline on sample graph
+       - Verify selection counts: len(verify) + len(discard) = len(contested)
+       - Check that verify list has length min(k, num_contested)
+
+8. [ ] Correlation check:
+       - Compute correlation between S_novelty and costs
+       - Log warning if correlation > 0.8
+
+================================================================================
+HYPERPARAMETERS SUMMARY
+================================================================================
+
+| Parameter          | Default | Range      | Description                          |
+|--------------------|---------|------------|--------------------------------------|
+| lambda1            | 1.0     | 0.5 - 2.0  | Weight for centrality in priority    |
+| lambda2            | 1.0     | 0.5 - 2.0  | Weight for novelty in priority       |
+| k_neighbors        | 5       | 3 - 10     | Nearest priors for cost computation  |
+| k (selection)      | 20      | 10 - 50    | Number of claims to verify per round |
+
+================================================================================
+END OF SPECIFICATION
+================================================================================

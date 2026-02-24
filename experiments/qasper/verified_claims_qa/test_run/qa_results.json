@@ -1,0 +1,45 @@
+{
+  "experiment_timestamp": "2026-01-29T07:08:37.190957Z",
+  "qa_model": "gpt-4o-mini",
+  "judge_model": "gpt-4.1",
+  "conditions": [
+    "verified_claims",
+    "baseline_abstract",
+    "baseline_full"
+  ],
+  "results_source": "experiments/qasper/experiment_gpt4o/results.json",
+  "questions_source": "experiments/qasper/verified_claims_qa/test_run/generated_questions.json",
+  "papers": [],
+  "aggregate_metrics": {
+    "verified_claims": {
+      "num_papers": 0,
+      "total_questions": 0,
+      "total_correct": 0,
+      "accuracy": 0,
+      "total_answerable": 0,
+      "answerability_rate": 0,
+      "accuracy_when_answerable": 0,
+      "total_tokens": 0
+    },
+    "baseline_abstract": {
+      "num_papers": 0,
+      "total_questions": 0,
+      "total_correct": 0,
+      "accuracy": 0,
+      "total_answerable": 0,
+      "answerability_rate": 0,
+      "accuracy_when_answerable": 0,
+      "total_tokens": 0
+    },
+    "baseline_full": {
+      "num_papers": 0,
+      "total_questions": 0,
+      "total_correct": 0,
+      "accuracy": 0,
+      "total_answerable": 0,
+      "answerability_rate": 0,
+      "accuracy_when_answerable": 0,
+      "total_tokens": 0
+    }
+  }
+}

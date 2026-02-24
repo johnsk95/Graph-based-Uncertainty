@@ -1,0 +1,1837 @@
+{
+  "experiment_timestamp": "2026-01-29T07:10:29.658403Z",
+  "qa_model": "gpt-4o-mini",
+  "judge_model": "gpt-4.1",
+  "conditions": [
+    "verified_claims",
+    "baseline_abstract",
+    "baseline_full"
+  ],
+  "results_source": "experiments/qasper/experiment_gpt4o/results.json",
+  "questions_source": "experiments/qasper/verified_claims_qa/test_run_v2/generated_questions.json",
+  "papers": [
+    {
+      "paper_id": "1910.12203",
+      "num_verified_claims": 45,
+      "num_questions": 20,
+      "context_lengths": {
+        "verified_claims": 3894,
+        "baseline_abstract": 1065,
+        "baseline_full": 13685
+      },
+      "conditions": {
+        "verified_claims": [
+          {
+            "question_id": "gen_1910.12203_001",
+            "question": "How are documents represented as graphs in the proposed model?",
+            "ground_truth": "Each document is represented as a graph where nodes correspond to sentences and edges represent the semantic similarity between pairs of sentences.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 845,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_002",
+            "question": "What method is used to initialize the edge scores in the document graph?",
+            "ground_truth": "Edge scores are initialized using BERT fine-tuned on the semantic textual similarity (SS) task.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 848,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_003",
+            "question": "What is the dimensionality of the randomly initialized word embeddings used in the model?",
+            "ground_truth": "100 dimensions.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 850,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_004",
+            "question": "Which pooling method is used after the graph neural network layers?",
+            "ground_truth": "Max-pooling is used for pooling node representations.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 846,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_005",
+            "question": "What kind of activation function and its specific parameter is used in GCN and GAT models?",
+            "ground_truth": "LeakyReLU activation function with a slope of 0.2.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 853,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_006",
+            "question": "How are sentence embeddings obtained before being passed to the graph neural network?",
+            "ground_truth": "Sentence embeddings are obtained using the last hidden state of a single-layer LSTM applied to the words of the sentence.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 848,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_007",
+            "question": "What is the node embedding dimension used in the graph neural network?",
+            "ground_truth": "32.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 847,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_008",
+            "question": "How many attention heads are used in the best performing GAT model?",
+            "ground_truth": "Two attention heads.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 848,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_009",
+            "question": "What optimizer and learning rate are used during training?",
+            "ground_truth": "Adam optimizer with a learning rate of 0.001.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 844,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_010",
+            "question": "For how many epochs are the models trained?",
+            "ground_truth": "A maximum of 10 epochs.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 843,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_011",
+            "question": "How is the adjacency matrix defined for the GCN model by default?",
+            "ground_truth": "The adjacency matrix is fully connected (all elements are 1 except the diagonal, which is 0).",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 848,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_012",
+            "question": "What is the specific filter size used in the CNN baseline model?",
+            "ground_truth": "Filter size of 3.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 847,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_013",
+            "question": "Does the GAT model use edge weights initialized from the semantic similarity model?",
+            "ground_truth": "No, for GAT the edge weights are learned and initializing with the SS model is not used.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 849,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_014",
+            "question": "Which datasets are used for the four-way classification experiment?",
+            "ground_truth": "LUN-train (split 80:20 for training and dev) and LUN-test (as out of domain test set).",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 845,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_015",
+            "question": "How is the SLN dataset used in the experiments?",
+            "ground_truth": "SLN is used as an out-of-domain test set for two-way classification between satire and trusted articles and is not used for training.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 845,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_016",
+            "question": "What strategy is used for the pooling of node representations before the final classification layer?",
+            "ground_truth": "Max-pool is used for pooling node embeddings before the fully connected projection layer.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 850,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_017",
+            "question": "How does the attention map differ between satirical and trusted news articles according to the qualitative analysis?",
+            "ground_truth": "Trusted news articles' attention maps focus on two specific sentences, while satirical articles have more distributed attention across sentences.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 853,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_018",
+            "question": "What is the main reason for not experimenting with the semantic similarity (SS) model for GCN in the four-way classification scenario?",
+            "ground_truth": "The semantic similarity model does not have much impact on GCN performance and is computationally expensive.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 860,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_019",
+            "question": "What type of macro-averaging is used for reporting scores?",
+            "ground_truth": "Macro-averaged scores are reported for all experimental settings.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 847,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_020",
+            "question": "What future research direction is suggested based on the attention map findings?",
+            "ground_truth": "Understanding the differences in sentence interaction patterns in different types of articles for deeper text analysis.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 847,
+            "is_correct": false,
+            "judge_response": "False"
+          }
+        ],
+        "baseline_abstract": [
+          {
+            "question_id": "gen_1910.12203_001",
+            "question": "How are documents represented as graphs in the proposed model?",
+            "ground_truth": "Each document is represented as a graph where nodes correspond to sentences and edges represent the semantic similarity between pairs of sentences.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 301,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_002",
+            "question": "What method is used to initialize the edge scores in the document graph?",
+            "ground_truth": "Edge scores are initialized using BERT fine-tuned on the semantic textual similarity (SS) task.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 304,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_003",
+            "question": "What is the dimensionality of the randomly initialized word embeddings used in the model?",
+            "ground_truth": "100 dimensions.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 306,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_004",
+            "question": "Which pooling method is used after the graph neural network layers?",
+            "ground_truth": "Max-pooling is used for pooling node representations.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 302,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_005",
+            "question": "What kind of activation function and its specific parameter is used in GCN and GAT models?",
+            "ground_truth": "LeakyReLU activation function with a slope of 0.2.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 309,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_006",
+            "question": "How are sentence embeddings obtained before being passed to the graph neural network?",
+            "ground_truth": "Sentence embeddings are obtained using the last hidden state of a single-layer LSTM applied to the words of the sentence.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 304,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_007",
+            "question": "What is the node embedding dimension used in the graph neural network?",
+            "ground_truth": "32.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 303,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_008",
+            "question": "How many attention heads are used in the best performing GAT model?",
+            "ground_truth": "Two attention heads.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 304,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_009",
+            "question": "What optimizer and learning rate are used during training?",
+            "ground_truth": "Adam optimizer with a learning rate of 0.001.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 300,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_010",
+            "question": "For how many epochs are the models trained?",
+            "ground_truth": "A maximum of 10 epochs.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 299,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_011",
+            "question": "How is the adjacency matrix defined for the GCN model by default?",
+            "ground_truth": "The adjacency matrix is fully connected (all elements are 1 except the diagonal, which is 0).",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 304,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_012",
+            "question": "What is the specific filter size used in the CNN baseline model?",
+            "ground_truth": "Filter size of 3.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 303,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_013",
+            "question": "Does the GAT model use edge weights initialized from the semantic similarity model?",
+            "ground_truth": "No, for GAT the edge weights are learned and initializing with the SS model is not used.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 305,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_014",
+            "question": "Which datasets are used for the four-way classification experiment?",
+            "ground_truth": "LUN-train (split 80:20 for training and dev) and LUN-test (as out of domain test set).",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 301,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_015",
+            "question": "How is the SLN dataset used in the experiments?",
+            "ground_truth": "SLN is used as an out-of-domain test set for two-way classification between satire and trusted articles and is not used for training.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 301,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_016",
+            "question": "What strategy is used for the pooling of node representations before the final classification layer?",
+            "ground_truth": "Max-pool is used for pooling node embeddings before the fully connected projection layer.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 306,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_017",
+            "question": "How does the attention map differ between satirical and trusted news articles according to the qualitative analysis?",
+            "ground_truth": "Trusted news articles' attention maps focus on two specific sentences, while satirical articles have more distributed attention across sentences.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 309,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_018",
+            "question": "What is the main reason for not experimenting with the semantic similarity (SS) model for GCN in the four-way classification scenario?",
+            "ground_truth": "The semantic similarity model does not have much impact on GCN performance and is computationally expensive.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 316,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_019",
+            "question": "What type of macro-averaging is used for reporting scores?",
+            "ground_truth": "Macro-averaged scores are reported for all experimental settings.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 303,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_020",
+            "question": "What future research direction is suggested based on the attention map findings?",
+            "ground_truth": "Understanding the differences in sentence interaction patterns in different types of articles for deeper text analysis.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 303,
+            "is_correct": false,
+            "judge_response": "False"
+          }
+        ],
+        "baseline_full": [
+          {
+            "question_id": "gen_1910.12203_001",
+            "question": "How are documents represented as graphs in the proposed model?",
+            "ground_truth": "Each document is represented as a graph where nodes correspond to sentences and edges represent the semantic similarity between pairs of sentences.",
+            "predicted_answer": "In the proposed model, documents are represented as graphs where the nodes represent the sentences of a document, and the edges represent the semantic similarity between pairs of sentences. This representation allows the model to capture the interaction of each sentence with every other sentence in the document.",
+            "tokens_used": 2855,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_002",
+            "question": "What method is used to initialize the edge scores in the document graph?",
+            "ground_truth": "Edge scores are initialized using BERT fine-tuned on the semantic textual similarity (SS) task.",
+            "predicted_answer": "The edge scores in the document graph are initialized using BERT finetuned on the semantic textual similarity task for computing the semantic similarity between two sentences.",
+            "tokens_used": 2836,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_003",
+            "question": "What is the dimensionality of the randomly initialized word embeddings used in the model?",
+            "ground_truth": "100 dimensions.",
+            "predicted_answer": "The dimensionality of the randomly initialized word embeddings used in the model is 100 dimensions.",
+            "tokens_used": 2826,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_004",
+            "question": "Which pooling method is used after the graph neural network layers?",
+            "ground_truth": "Max-pooling is used for pooling node representations.",
+            "predicted_answer": "Max-pool is used for pooling after the graph neural network layers.",
+            "tokens_used": 2818,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_005",
+            "question": "What kind of activation function and its specific parameter is used in GCN and GAT models?",
+            "ground_truth": "LeakyReLU activation function with a slope of 0.2.",
+            "predicted_answer": "The activation function used in GCN and GAT models is LeakyReLU with a slope of 0.2.",
+            "tokens_used": 2836,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_006",
+            "question": "How are sentence embeddings obtained before being passed to the graph neural network?",
+            "ground_truth": "Sentence embeddings are obtained using the last hidden state of a single-layer LSTM applied to the words of the sentence.",
+            "predicted_answer": "Sentence embeddings are obtained using a single layer LSTM, which encodes the sentences prior to being passed to the graph neural networks.",
+            "tokens_used": 2832,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_007",
+            "question": "What is the node embedding dimension used in the graph neural network?",
+            "ground_truth": "32.",
+            "predicted_answer": "The node embedding dimension used in the graph neural network is 32.",
+            "tokens_used": 2819,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_008",
+            "question": "How many attention heads are used in the best performing GAT model?",
+            "ground_truth": "Two attention heads.",
+            "predicted_answer": "The best performing GAT model uses 2 attention heads.",
+            "tokens_used": 2818,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_009",
+            "question": "What optimizer and learning rate are used during training?",
+            "ground_truth": "Adam optimizer with a learning rate of 0.001.",
+            "predicted_answer": "The optimizer used during training is Adam, with a learning rate of 0.001.",
+            "tokens_used": 2820,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_010",
+            "question": "For how many epochs are the models trained?",
+            "ground_truth": "A maximum of 10 epochs.",
+            "predicted_answer": "The models are trained for a maximum of 10 epochs.",
+            "tokens_used": 2813,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_011",
+            "question": "How is the adjacency matrix defined for the GCN model by default?",
+            "ground_truth": "The adjacency matrix is fully connected (all elements are 1 except the diagonal, which is 0).",
+            "predicted_answer": "By default, the adjacency matrix for the GCN model is fully connected, meaning all the elements are 1 except the diagonal elements, which are all set to 0.",
+            "tokens_used": 2841,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_012",
+            "question": "What is the specific filter size used in the CNN baseline model?",
+            "ground_truth": "Filter size of 3.",
+            "predicted_answer": "The specific filter size used in the CNN baseline model is 3.",
+            "tokens_used": 2819,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_013",
+            "question": "Does the GAT model use edge weights initialized from the semantic similarity model?",
+            "ground_truth": "No, for GAT the edge weights are learned and initializing with the SS model is not used.",
+            "predicted_answer": "No, the GAT model does not use edge weights initialized from the semantic similarity model, as it allows every node to attend on every other node and learn the edge weights.",
+            "tokens_used": 2842,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_014",
+            "question": "Which datasets are used for the four-way classification experiment?",
+            "ground_truth": "LUN-train (split 80:20 for training and dev) and LUN-test (as out of domain test set).",
+            "predicted_answer": "The datasets used for the four-way classification experiment are the LUN-train (split into training and development sets) and LUN-test (used as the out of domain test set).",
+            "tokens_used": 2840,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_015",
+            "question": "How is the SLN dataset used in the experiments?",
+            "ground_truth": "SLN is used as an out-of-domain test set for two-way classification between satire and trusted articles and is not used for training.",
+            "predicted_answer": "The SLN dataset is used as an out-of-domain test set for evaluating the performance of the proposed model. It is not used for training purposes because it contains only 360 examples, which is considered too little for training the model. The best performing model on SLN is then used to evaluate performance on the RPN dataset.",
+            "tokens_used": 2869,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_016",
+            "question": "What strategy is used for the pooling of node representations before the final classification layer?",
+            "ground_truth": "Max-pool is used for pooling node embeddings before the fully connected projection layer.",
+            "predicted_answer": "The pooling of node representations before the final classification layer is done using max-pooling.",
+            "tokens_used": 2825,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_017",
+            "question": "How does the attention map differ between satirical and trusted news articles according to the qualitative analysis?",
+            "ground_truth": "Trusted news articles' attention maps focus on two specific sentences, while satirical articles have more distributed attention across sentences.",
+            "predicted_answer": "The attention map for trusted news articles focuses on only two specific sentences, while the attention weights for satirical articles are much more distributed. This indicates that trusted articles exhibit similar sentence clusters, whereas satirical articles show a broader interaction among sentences.",
+            "tokens_used": 2859,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_018",
+            "question": "What is the main reason for not experimenting with the semantic similarity (SS) model for GCN in the four-way classification scenario?",
+            "ground_truth": "The semantic similarity model does not have much impact on GCN performance and is computationally expensive.",
+            "predicted_answer": "The main reason for not experimenting with the semantic similarity (SS) model for GCN in the four-way classification scenario is that the SS model does not seem to have much impact on the GCN model, and considering the computing cost, it was deemed unnecessary.",
+            "tokens_used": 2870,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1910.12203_019",
+            "question": "What type of macro-averaging is used for reporting scores?",
+            "ground_truth": "Macro-averaged scores are reported for all experimental settings.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 2813,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1910.12203_020",
+            "question": "What future research direction is suggested based on the attention map findings?",
+            "ground_truth": "Understanding the differences in sentence interaction patterns in different types of articles for deeper text analysis.",
+            "predicted_answer": "The findings from the attention maps suggest a new avenue for understanding the differences between different kinds of text articles, indicating that future research could explore the implications of sentence interaction patterns across various article types.",
+            "tokens_used": 2843,
+            "is_correct": true,
+            "judge_response": "True"
+          }
+        ]
+      },
+      "verified_claims_metrics": {
+        "num_questions": 20,
+        "num_correct": 0,
+        "accuracy": 0.0,
+        "num_answerable": 0,
+        "answerability_rate": 0.0,
+        "accuracy_when_answerable": 0.0,
+        "total_tokens": 16963,
+        "avg_tokens_per_question": 848.15
+      },
+      "baseline_abstract_metrics": {
+        "num_questions": 20,
+        "num_correct": 0,
+        "accuracy": 0.0,
+        "num_answerable": 0,
+        "answerability_rate": 0.0,
+        "accuracy_when_answerable": 0.0,
+        "total_tokens": 6083,
+        "avg_tokens_per_question": 304.15
+      },
+      "baseline_full_metrics": {
+        "num_questions": 20,
+        "num_correct": 19,
+        "accuracy": 0.95,
+        "num_answerable": 19,
+        "answerability_rate": 0.95,
+        "accuracy_when_answerable": 1.0,
+        "total_tokens": 56694,
+        "avg_tokens_per_question": 2834.7
+      }
+    },
+    {
+      "paper_id": "2003.07459",
+      "num_verified_claims": 57,
+      "num_questions": 21,
+      "context_lengths": {
+        "verified_claims": 5118,
+        "baseline_abstract": 894,
+        "baseline_full": 23664
+      },
+      "conditions": {
+        "verified_claims": [
+          {
+            "question_id": "gen_2003.07459_001",
+            "question": "What was the size of the annotated OGTD v1.0 dataset after filtering and annotation?",
+            "ground_truth": "The OGTD v1.0 dataset contains 4,779 tweets after filtering and annotation.",
+            "predicted_answer": "The size of the annotated OGTD v1.0 dataset is 4,779 posts.",
+            "tokens_used": 1125,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_002",
+            "question": "What percentage of the OGTD v1.0 dataset was labeled as offensive?",
+            "ground_truth": "Over 29% of the OGTD v1.0 dataset was labeled as offensive content.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1111,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_003",
+            "question": "What methodology was used to resolve annotation disagreements in the dataset?",
+            "ground_truth": "Labels with 100% agreement were accepted; for majority agreement above 66%, those were selected; for complete disagreement, one of the authors and two extra human judges reviewed the tweets to achieve majority agreement above 66%.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1107,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_004",
+            "question": "What preprocessing steps were applied to the tweets before annotation?",
+            "ground_truth": "URLs, emojis, emoticons were removed, usernames and user mentions were replaced by '@USER', duplicate punctuation was normalized, and duplicate tweets were removed.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1106,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_005",
+            "question": "Which features were tested for classical machine learning models?",
+            "ground_truth": "TF/IDF unigrams, bigrams, POS tags, and dependency relation tags were tested as features.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1105,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_006",
+            "question": "What threshold was used for ignoring terms appearing too frequently in the documents during feature selection?",
+            "ground_truth": "Terms appearing in more than 80% of the documents were ignored.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1112,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_007",
+            "question": "What embedding dimensions were used for Greek word embeddings in the deep learning models?",
+            "ground_truth": "Greek word embeddings with 300 dimensions were used.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1110,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_008",
+            "question": "Which BERT model was used for the deep learning experiments, and why?",
+            "ground_truth": "The multilingual BERT cased model trained on 108 languages was used, as there was no monolingual Greek BERT model available.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1110,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_009",
+            "question": "What were the settings for the penalty parameter C and gamma in the SVM classifiers?",
+            "ground_truth": "The value of C was set to 1 for both SVMs; gamma for the RBF SVM was set to 2.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1112,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_010",
+            "question": "How was accentuation in Greek text handled during preprocessing?",
+            "ground_truth": "All words were lower-cased and normalized to their non-accented equivalent to address inconsistencies in accent usage.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1106,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_011",
+            "question": "Which machine learning model achieved the best recall score for the Offensive class among classical models?",
+            "ground_truth": "Stochastic Gradient Descent (SGD) classifier yielded the best recall score for the Offensive class, at 0.61.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1112,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_012",
+            "question": "How did the addition of POS and dependency relation tags affect classical model performance?",
+            "ground_truth": "Adding POS and dependency relation tags marginally improved the Linear SVM's recall for the Offensive class, but generally decreased performance for other classifiers.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1110,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_013",
+            "question": "Which classical machine learning model performed best overall on OGTD?",
+            "ground_truth": "Linear SVM performed best overall among classical machine learning models, with a macro-F1 of 0.80.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1107,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_014",
+            "question": "What was the effect of using TF/IDF bigram features compared to unigram features?",
+            "ground_truth": "Models trained with TF/IDF bigram features performed worse on all evaluation metrics compared to unigrams, except for Multinomial Na\u00efve Bayes which improved in F1-score for the Not Offensive class.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1114,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_015",
+            "question": "How was the spaCy pipeline used in feature extraction?",
+            "ground_truth": "The spaCy pipeline for Greek was used to extract POS-tags and dependency relations for every token in a tweet, which were then transformed to count matrices.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1106,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_016",
+            "question": "What limitation regarding sentiment lexicons for Greek is mentioned?",
+            "ground_truth": "A suitable sentiment lexicon for Greek was not available and thus could not be used in the experiments.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1106,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_017",
+            "question": "What was the macro F1-score achieved by the best deep learning model?",
+            "ground_truth": "The best deep learning model (LSTM and GRU with Attention) achieved a macro F1-score of 0.89.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1110,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_018",
+            "question": "What was the observed performance of the multilingual BERT model compared to monolingual Greek embeddings?",
+            "ground_truth": "The fine-tuned BERT-Base Multilingual Cased model did not achieve good results; monolingual Greek word embeddings performed significantly better.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1114,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_019",
+            "question": "What future work or limitations did the authors mention regarding linguistic features?",
+            "ground_truth": "It is not clear whether the limited improvement from linguistic features is due to the accuracy of the Greek spaCy model or the features themselves; improving spaCy or other Greek NLP tools could be future work.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1108,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_020",
+            "question": "How was the OGTD dataset expanded for OffensEval 2020?",
+            "ground_truth": "OGTD v2.0 was created by collecting and annotating an additional 5,508 tweets in November 2019; the new dataset totals 10,287 instances.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1110,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_021",
+            "question": "How can OGTD be used in cross-lingual research according to the authors?",
+            "ground_truth": "OGTD can be used in conjunction with English OLID and other datasets annotated with the same guidelines to test cross-lingual learning methods.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1112,
+            "is_correct": false,
+            "judge_response": "False"
+          }
+        ],
+        "baseline_abstract": [
+          {
+            "question_id": "gen_2003.07459_001",
+            "question": "What was the size of the annotated OGTD v1.0 dataset after filtering and annotation?",
+            "ground_truth": "The OGTD v1.0 dataset contains 4,779 tweets after filtering and annotation.",
+            "predicted_answer": "The size of the annotated OGTD dataset is 4,779 posts.",
+            "tokens_used": 286,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_002",
+            "question": "What percentage of the OGTD v1.0 dataset was labeled as offensive?",
+            "ground_truth": "Over 29% of the OGTD v1.0 dataset was labeled as offensive content.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 276,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_003",
+            "question": "What methodology was used to resolve annotation disagreements in the dataset?",
+            "ground_truth": "Labels with 100% agreement were accepted; for majority agreement above 66%, those were selected; for complete disagreement, one of the authors and two extra human judges reviewed the tweets to achieve majority agreement above 66%.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 272,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_004",
+            "question": "What preprocessing steps were applied to the tweets before annotation?",
+            "ground_truth": "URLs, emojis, emoticons were removed, usernames and user mentions were replaced by '@USER', duplicate punctuation was normalized, and duplicate tweets were removed.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 271,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_005",
+            "question": "Which features were tested for classical machine learning models?",
+            "ground_truth": "TF/IDF unigrams, bigrams, POS tags, and dependency relation tags were tested as features.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 270,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_006",
+            "question": "What threshold was used for ignoring terms appearing too frequently in the documents during feature selection?",
+            "ground_truth": "Terms appearing in more than 80% of the documents were ignored.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 277,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_007",
+            "question": "What embedding dimensions were used for Greek word embeddings in the deep learning models?",
+            "ground_truth": "Greek word embeddings with 300 dimensions were used.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 275,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_008",
+            "question": "Which BERT model was used for the deep learning experiments, and why?",
+            "ground_truth": "The multilingual BERT cased model trained on 108 languages was used, as there was no monolingual Greek BERT model available.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 275,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_009",
+            "question": "What were the settings for the penalty parameter C and gamma in the SVM classifiers?",
+            "ground_truth": "The value of C was set to 1 for both SVMs; gamma for the RBF SVM was set to 2.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 277,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_010",
+            "question": "How was accentuation in Greek text handled during preprocessing?",
+            "ground_truth": "All words were lower-cased and normalized to their non-accented equivalent to address inconsistencies in accent usage.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 271,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_011",
+            "question": "Which machine learning model achieved the best recall score for the Offensive class among classical models?",
+            "ground_truth": "Stochastic Gradient Descent (SGD) classifier yielded the best recall score for the Offensive class, at 0.61.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 277,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_012",
+            "question": "How did the addition of POS and dependency relation tags affect classical model performance?",
+            "ground_truth": "Adding POS and dependency relation tags marginally improved the Linear SVM's recall for the Offensive class, but generally decreased performance for other classifiers.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 275,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_013",
+            "question": "Which classical machine learning model performed best overall on OGTD?",
+            "ground_truth": "Linear SVM performed best overall among classical machine learning models, with a macro-F1 of 0.80.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 272,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_014",
+            "question": "What was the effect of using TF/IDF bigram features compared to unigram features?",
+            "ground_truth": "Models trained with TF/IDF bigram features performed worse on all evaluation metrics compared to unigrams, except for Multinomial Na\u00efve Bayes which improved in F1-score for the Not Offensive class.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 279,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_015",
+            "question": "How was the spaCy pipeline used in feature extraction?",
+            "ground_truth": "The spaCy pipeline for Greek was used to extract POS-tags and dependency relations for every token in a tweet, which were then transformed to count matrices.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 271,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_016",
+            "question": "What limitation regarding sentiment lexicons for Greek is mentioned?",
+            "ground_truth": "A suitable sentiment lexicon for Greek was not available and thus could not be used in the experiments.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 271,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_017",
+            "question": "What was the macro F1-score achieved by the best deep learning model?",
+            "ground_truth": "The best deep learning model (LSTM and GRU with Attention) achieved a macro F1-score of 0.89.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 275,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_018",
+            "question": "What was the observed performance of the multilingual BERT model compared to monolingual Greek embeddings?",
+            "ground_truth": "The fine-tuned BERT-Base Multilingual Cased model did not achieve good results; monolingual Greek word embeddings performed significantly better.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 279,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_019",
+            "question": "What future work or limitations did the authors mention regarding linguistic features?",
+            "ground_truth": "It is not clear whether the limited improvement from linguistic features is due to the accuracy of the Greek spaCy model or the features themselves; improving spaCy or other Greek NLP tools could be future work.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 273,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_020",
+            "question": "How was the OGTD dataset expanded for OffensEval 2020?",
+            "ground_truth": "OGTD v2.0 was created by collecting and annotating an additional 5,508 tweets in November 2019; the new dataset totals 10,287 instances.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 275,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_021",
+            "question": "How can OGTD be used in cross-lingual research according to the authors?",
+            "ground_truth": "OGTD can be used in conjunction with English OLID and other datasets annotated with the same guidelines to test cross-lingual learning methods.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 277,
+            "is_correct": false,
+            "judge_response": "False"
+          }
+        ],
+        "baseline_full": [
+          {
+            "question_id": "gen_2003.07459_001",
+            "question": "What was the size of the annotated OGTD v1.0 dataset after filtering and annotation?",
+            "ground_truth": "The OGTD v1.0 dataset contains 4,779 tweets after filtering and annotation.",
+            "predicted_answer": "The size of the annotated OGTD v1.0 dataset after filtering and annotation was 4,779 tweets.",
+            "tokens_used": 4879,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_002",
+            "question": "What percentage of the OGTD v1.0 dataset was labeled as offensive?",
+            "ground_truth": "Over 29% of the OGTD v1.0 dataset was labeled as offensive content.",
+            "predicted_answer": "Over 29% of the OGTD v1.0 dataset was labeled as offensive.",
+            "tokens_used": 4871,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_003",
+            "question": "What methodology was used to resolve annotation disagreements in the dataset?",
+            "ground_truth": "Labels with 100% agreement were accepted; for majority agreement above 66%, those were selected; for complete disagreement, one of the authors and two extra human judges reviewed the tweets to achieve majority agreement above 66%.",
+            "predicted_answer": "In cases of disagreement among annotators, labels with majority agreement above 66% were selected as the actual annotations. For labels with complete disagreement, one of the authors of the paper reviewed the tweets with two extra human judges to achieve the desired majority agreement above 66%.",
+            "tokens_used": 4903,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_2003.07459_004",
+            "question": "What preprocessing steps were applied to the tweets before annotation?",
+            "ground_truth": "URLs, emojis, emoticons were removed, usernames and user mentions were replaced by '@USER', duplicate punctuation was normalized, and duplicate tweets were removed.",
+            "predicted_answer": "Before annotation, the following preprocessing steps were applied to the tweets: URLs, emojis, and emoticons were removed; usernames and user mentions were filtered as @USER; duplicate punctuation was normalized; and duplicate tweets were removed. The final dataset for annotation consisted of 46,218 tweets.",
+            "tokens_used": 4905,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_005",
+            "question": "Which features were tested for classical machine learning models?",
+            "ground_truth": "TF/IDF unigrams, bigrams, POS tags, and dependency relation tags were tested as features.",
+            "predicted_answer": "The features tested for classical machine learning models included TF/IDF unigrams, TF/IDF bigrams, part-of-speech (POS) tags, and dependency relation tags.",
+            "tokens_used": 4885,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_006",
+            "question": "What threshold was used for ignoring terms appearing too frequently in the documents during feature selection?",
+            "ground_truth": "Terms appearing in more than 80% of the documents were ignored.",
+            "predicted_answer": "The threshold for ignoring terms appearing in more than 80% of the documents was set to 80%.",
+            "tokens_used": 4875,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_007",
+            "question": "What embedding dimensions were used for Greek word embeddings in the deep learning models?",
+            "ground_truth": "Greek word embeddings with 300 dimensions were used.",
+            "predicted_answer": "The Greek word embeddings used in the deep learning models were represented with a 300-dimensional vector.",
+            "tokens_used": 4871,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_008",
+            "question": "Which BERT model was used for the deep learning experiments, and why?",
+            "ground_truth": "The multilingual BERT cased model trained on 108 languages was used, as there was no monolingual Greek BERT model available.",
+            "predicted_answer": "The multilingual BERT model was used for the deep learning experiments because there was no BERT model specifically trained on the Greek language available. The multilingual BERT model was the closest option, as it was trained on 108 languages, including Greek.",
+            "tokens_used": 4901,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_009",
+            "question": "What were the settings for the penalty parameter C and gamma in the SVM classifiers?",
+            "ground_truth": "The value of C was set to 1 for both SVMs; gamma for the RBF SVM was set to 2.",
+            "predicted_answer": "The penalty parameter C for the SVM classifiers was set to 1, and the gamma value for the RBF SVM was set to 2.",
+            "tokens_used": 4885,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_010",
+            "question": "How was accentuation in Greek text handled during preprocessing?",
+            "ground_truth": "All words were lower-cased and normalized to their non-accented equivalent to address inconsistencies in accent usage.",
+            "predicted_answer": "During preprocessing, accentuation in Greek text was normalized to achieve data uniformity. Every word was lower-cased and then transformed to its non-accented equivalent to avoid ambiguity, as many users omit accents when posting tweets.",
+            "tokens_used": 4893,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_011",
+            "question": "Which machine learning model achieved the best recall score for the Offensive class among classical models?",
+            "ground_truth": "Stochastic Gradient Descent (SGD) classifier yielded the best recall score for the Offensive class, at 0.61.",
+            "predicted_answer": "The Stochastic Gradient Descent (SGDC) classifier achieved the best recall score for the Offensive class among classical models, with a score of 0.61.",
+            "tokens_used": 4887,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_012",
+            "question": "How did the addition of POS and dependency relation tags affect classical model performance?",
+            "ground_truth": "Adding POS and dependency relation tags marginally improved the Linear SVM's recall for the Offensive class, but generally decreased performance for other classifiers.",
+            "predicted_answer": "The addition of POS and dependency relation tags to classical models generally resulted in a decrease in performance, with the Linear SVM showing only a marginal improvement in recall for the Offensive class, while other classifiers deteriorated in their performance. Specifically, the SGDC's performance significantly decreased with the inclusion of POS tags, yielding the worst recall score for the Offensive class among classifiers.",
+            "tokens_used": 4925,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_013",
+            "question": "Which classical machine learning model performed best overall on OGTD?",
+            "ground_truth": "Linear SVM performed best overall among classical machine learning models, with a macro-F1 of 0.80.",
+            "predicted_answer": "The Linear SVM can be considered the marginally best model trained with OGTD.",
+            "tokens_used": 4866,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_014",
+            "question": "What was the effect of using TF/IDF bigram features compared to unigram features?",
+            "ground_truth": "Models trained with TF/IDF bigram features performed worse on all evaluation metrics compared to unigrams, except for Multinomial Na\u00efve Bayes which improved in F1-score for the Not Offensive class.",
+            "predicted_answer": "Models trained with TF/IDF bigram features performed worse than those trained with unigram features, with scores of all evaluation metrics dropping, except for Multinomial Na\u00efve Bayes, which improved in F1-score for the Not Offensive class.",
+            "tokens_used": 4907,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_015",
+            "question": "How was the spaCy pipeline used in feature extraction?",
+            "ground_truth": "The spaCy pipeline for Greek was used to extract POS-tags and dependency relations for every token in a tweet, which were then transformed to count matrices.",
+            "predicted_answer": "The spaCy pipeline was used to extract part-of-speech (POS) tags and dependency relations for every token in a tweet, which were then transformed into count matrices for feature extraction in the offensive language detection task.",
+            "tokens_used": 4891,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_016",
+            "question": "What limitation regarding sentiment lexicons for Greek is mentioned?",
+            "ground_truth": "A suitable sentiment lexicon for Greek was not available and thus could not be used in the experiments.",
+            "predicted_answer": "The context mentions that a suitable sentiment lexicon for Greek is as of yet unavailable for the project.",
+            "tokens_used": 4868,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_017",
+            "question": "What was the macro F1-score achieved by the best deep learning model?",
+            "ground_truth": "The best deep learning model (LSTM and GRU with Attention) achieved a macro F1-score of 0.89.",
+            "predicted_answer": "The best deep learning model achieved a macro F1-score of 0.89.",
+            "tokens_used": 4869,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_018",
+            "question": "What was the observed performance of the multilingual BERT model compared to monolingual Greek embeddings?",
+            "ground_truth": "The fine-tuned BERT-Base Multilingual Cased model did not achieve good results; monolingual Greek word embeddings performed significantly better.",
+            "predicted_answer": "The multilingual BERT model did not achieve good results for the task, while monolingual Greek word embeddings performed significantly better.",
+            "tokens_used": 4881,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_019",
+            "question": "What future work or limitations did the authors mention regarding linguistic features?",
+            "ground_truth": "It is not clear whether the limited improvement from linguistic features is due to the accuracy of the Greek spaCy model or the features themselves; improving spaCy or other Greek NLP tools could be future work.",
+            "predicted_answer": "The authors mentioned that it is not yet clear whether the marginal improvement in performance of the Linear SVM due to POS tags is due to the accuracy of the Greek model available for spaCy in producing such tags or the tags themselves as features. This is a subject that can be explored with further improvements of spaCy or other NLP tools developed for Greek. Additionally, they noted that the dataset contains many instances with neologisms, creative uses of language, or rare slang words, suggesting that training the existing model with such instances could improve both spaCy's accuracy for POS and dependency relation tags and the Linear SVM's performance in text classification for Greek.",
+            "tokens_used": 4980,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_020",
+            "question": "How was the OGTD dataset expanded for OffensEval 2020?",
+            "ground_truth": "OGTD v2.0 was created by collecting and annotating an additional 5,508 tweets in November 2019; the new dataset totals 10,287 instances.",
+            "predicted_answer": "The OGTD dataset was expanded for OffensEval 2020 by collecting new posts in November 2019 using the same approach as in v1.0. This included tweets with trending hashtags, shows, and topics from Greece at the time, as well as using keywords that had previously retrieved interesting tweets, along with new keywords like pejorative terms. A total of 5,508 tweets were randomly sampled and annotated by a team of volunteers, resulting in a larger dataset of 10,287 instances when combined with the existing tweets from v1.0.",
+            "tokens_used": 4966,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_2003.07459_021",
+            "question": "How can OGTD be used in cross-lingual research according to the authors?",
+            "ground_truth": "OGTD can be used in conjunction with English OLID and other datasets annotated with the same guidelines to test cross-lingual learning methods.",
+            "predicted_answer": "OGTD can be used in cross-lingual research as it can be tested in conjunction with the English OLID and other datasets annotated using the same guidelines, such as those for Danish and Turkish. This facilitates the development of language resources for NLP in Greek.",
+            "tokens_used": 4906,
+            "is_correct": true,
+            "judge_response": "True"
+          }
+        ]
+      },
+      "verified_claims_metrics": {
+        "num_questions": 21,
+        "num_correct": 1,
+        "accuracy": 0.047619047619047616,
+        "num_answerable": 1,
+        "answerability_rate": 0.047619047619047616,
+        "accuracy_when_answerable": 1.0,
+        "total_tokens": 23313,
+        "avg_tokens_per_question": 1110.142857142857
+      },
+      "baseline_abstract_metrics": {
+        "num_questions": 21,
+        "num_correct": 1,
+        "accuracy": 0.047619047619047616,
+        "num_answerable": 1,
+        "answerability_rate": 0.047619047619047616,
+        "accuracy_when_answerable": 1.0,
+        "total_tokens": 5774,
+        "avg_tokens_per_question": 274.95238095238096
+      },
+      "baseline_full_metrics": {
+        "num_questions": 21,
+        "num_correct": 20,
+        "accuracy": 0.9523809523809523,
+        "num_answerable": 21,
+        "answerability_rate": 1.0,
+        "accuracy_when_answerable": 0.9523809523809523,
+        "total_tokens": 102814,
+        "avg_tokens_per_question": 4895.9047619047615
+      }
+    },
+    {
+      "paper_id": "1908.11049",
+      "num_verified_claims": 89,
+      "num_questions": 20,
+      "context_lengths": {
+        "verified_claims": 7426,
+        "baseline_abstract": 541,
+        "baseline_full": 28406
+      },
+      "conditions": {
+        "verified_claims": [
+          {
+            "question_id": "gen_1908.11049_001",
+            "question": "How many tweets were collected for each language in the final dataset?",
+            "ground_truth": "5,647 English tweets, 4,014 French tweets, and 3,353 Arabic tweets.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1537,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_002",
+            "question": "How many annotators labeled each tweet in the final dataset?",
+            "ground_truth": "Each tweet was assigned to five annotators.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1536,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_003",
+            "question": "What is the average Krippendorff inter-annotator agreement (IAA) score for each language?",
+            "ground_truth": "0.153 for English, 0.244 for French, and 0.202 for Arabic.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1545,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_004",
+            "question": "Which word embeddings were found to perform better on their data: Babylon or MUSE?",
+            "ground_truth": "Babylon embeddings outperformed MUSE on their data.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1541,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_005",
+            "question": "What optimizer was used in the deep learning experiments?",
+            "ground_truth": "Simple stochastic gradient descent (SGD) was used as the optimizer.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1534,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_006",
+            "question": "What was the size of the hidden layer in the BiLSTM models?",
+            "ground_truth": "The hidden layer had a dimension of 200.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1539,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_007",
+            "question": "How was multilabel annotation handled in the most subjective classification tasks?",
+            "ground_truth": "If two annotators agreed on two different labels, both labels were added to the annotation for multilabel tasks such as hostility type and annotator's sentiment.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1537,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_008",
+            "question": "What was the train:dev:test split ratio used in experiments?",
+            "ground_truth": "8:1:1 (train:dev:test)",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1537,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_009",
+            "question": "Which classification task benefited the most from multilingual training?",
+            "ground_truth": "The target group classification task improved in all languages with multilingual training.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1534,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_010",
+            "question": "What regularization was used in the Sluice network architecture?",
+            "ground_truth": "A regularization penalty term in the loss function was used to force the shared and private subspaces to be orthogonal.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1537,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_011",
+            "question": "What was the initial learning rate set to in the deep learning models?",
+            "ground_truth": "The initial learning rate was set to 0.1 with a learning rate decay.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1538,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_012",
+            "question": "What strategy was used to prevent annotation scams on Mechanical Turk?",
+            "ground_truth": "They selected native speakers with reputation scores over 0.90, divided tasks into batches, monitored annotation patterns, and rejected and reassigned suspicious work.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1536,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_013",
+            "question": "How many common target groups were identified for annotation?",
+            "ground_truth": "16 common target groups.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1534,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_014",
+            "question": "Which task was not allowed to be multilabel?",
+            "ground_truth": "The directness classification task was not allowed to be multilabel.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1534,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_015",
+            "question": "What is the main reason deeper BiLSTM models performed poorly?",
+            "ground_truth": "The small size of the tweets caused deeper BiLSTM models to perform poorly.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1537,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_016",
+            "question": "What evaluation metrics were used to report classification performance?",
+            "ground_truth": "Both micro and macro-F1 scores were reported.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1534,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_017",
+            "question": "Which pairwise multitask model resulted in a macro F-score improvement of 0.25 for target group classification in Arabic?",
+            "ground_truth": "Joint training of target groups and target attributes improved the macro F-score of the target group classification in Arabic by 0.25.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1549,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_018",
+            "question": "What was the outcome when jointly training hostility type and annotator's sentiment tasks in Arabic?",
+            "ground_truth": "The macro F-score of the hostility type classification in Arabic improved by 0.02 when trained within the annotator's sentiment task.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1542,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_019",
+            "question": "How was code-switching addressed during data collection and annotation?",
+            "ground_truth": "Most code-switched tweets were eliminated, though some remained, adding noise; code-switching was observed between English/Hindi/Spanish/French and French/Romanized Arabic.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1536,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_020",
+            "question": "What future work directions are mentioned for improving classification performance?",
+            "ground_truth": "Future work includes transfer learning, investigating multimodal information, using additional unlabeled data, label transformation, and label information sharing.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 1535,
+            "is_correct": false,
+            "judge_response": "False"
+          }
+        ],
+        "baseline_abstract": [
+          {
+            "question_id": "gen_1908.11049_001",
+            "question": "How many tweets were collected for each language in the final dataset?",
+            "ground_truth": "5,647 English tweets, 4,014 French tweets, and 3,353 Arabic tweets.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 209,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_002",
+            "question": "How many annotators labeled each tweet in the final dataset?",
+            "ground_truth": "Each tweet was assigned to five annotators.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 208,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_003",
+            "question": "What is the average Krippendorff inter-annotator agreement (IAA) score for each language?",
+            "ground_truth": "0.153 for English, 0.244 for French, and 0.202 for Arabic.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 217,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_004",
+            "question": "Which word embeddings were found to perform better on their data: Babylon or MUSE?",
+            "ground_truth": "Babylon embeddings outperformed MUSE on their data.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 213,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_005",
+            "question": "What optimizer was used in the deep learning experiments?",
+            "ground_truth": "Simple stochastic gradient descent (SGD) was used as the optimizer.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 206,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_006",
+            "question": "What was the size of the hidden layer in the BiLSTM models?",
+            "ground_truth": "The hidden layer had a dimension of 200.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 211,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_007",
+            "question": "How was multilabel annotation handled in the most subjective classification tasks?",
+            "ground_truth": "If two annotators agreed on two different labels, both labels were added to the annotation for multilabel tasks such as hostility type and annotator's sentiment.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 209,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_008",
+            "question": "What was the train:dev:test split ratio used in experiments?",
+            "ground_truth": "8:1:1 (train:dev:test)",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 209,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_009",
+            "question": "Which classification task benefited the most from multilingual training?",
+            "ground_truth": "The target group classification task improved in all languages with multilingual training.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 206,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_010",
+            "question": "What regularization was used in the Sluice network architecture?",
+            "ground_truth": "A regularization penalty term in the loss function was used to force the shared and private subspaces to be orthogonal.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 209,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_011",
+            "question": "What was the initial learning rate set to in the deep learning models?",
+            "ground_truth": "The initial learning rate was set to 0.1 with a learning rate decay.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 210,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_012",
+            "question": "What strategy was used to prevent annotation scams on Mechanical Turk?",
+            "ground_truth": "They selected native speakers with reputation scores over 0.90, divided tasks into batches, monitored annotation patterns, and rejected and reassigned suspicious work.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 208,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_013",
+            "question": "How many common target groups were identified for annotation?",
+            "ground_truth": "16 common target groups.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 206,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_014",
+            "question": "Which task was not allowed to be multilabel?",
+            "ground_truth": "The directness classification task was not allowed to be multilabel.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 206,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_015",
+            "question": "What is the main reason deeper BiLSTM models performed poorly?",
+            "ground_truth": "The small size of the tweets caused deeper BiLSTM models to perform poorly.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 209,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_016",
+            "question": "What evaluation metrics were used to report classification performance?",
+            "ground_truth": "Both micro and macro-F1 scores were reported.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 206,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_017",
+            "question": "Which pairwise multitask model resulted in a macro F-score improvement of 0.25 for target group classification in Arabic?",
+            "ground_truth": "Joint training of target groups and target attributes improved the macro F-score of the target group classification in Arabic by 0.25.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 221,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_018",
+            "question": "What was the outcome when jointly training hostility type and annotator's sentiment tasks in Arabic?",
+            "ground_truth": "The macro F-score of the hostility type classification in Arabic improved by 0.02 when trained within the annotator's sentiment task.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 214,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_019",
+            "question": "How was code-switching addressed during data collection and annotation?",
+            "ground_truth": "Most code-switched tweets were eliminated, though some remained, adding noise; code-switching was observed between English/Hindi/Spanish/French and French/Romanized Arabic.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 208,
+            "is_correct": false,
+            "judge_response": "False"
+          },
+          {
+            "question_id": "gen_1908.11049_020",
+            "question": "What future work directions are mentioned for improving classification performance?",
+            "ground_truth": "Future work includes transfer learning, investigating multimodal information, using additional unlabeled data, label transformation, and label information sharing.",
+            "predicted_answer": "Cannot be determined from the given information.",
+            "tokens_used": 207,
+            "is_correct": false,
+            "judge_response": "False"
+          }
+        ],
+        "baseline_full": [
+          {
+            "question_id": "gen_1908.11049_001",
+            "question": "How many tweets were collected for each language in the final dataset?",
+            "ground_truth": "5,647 English tweets, 4,014 French tweets, and 3,353 Arabic tweets.",
+            "predicted_answer": "The final dataset consists of 5,647 English tweets, 4,014 French tweets, and 3,353 Arabic tweets.",
+            "tokens_used": 5682,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_002",
+            "question": "How many annotators labeled each tweet in the final dataset?",
+            "ground_truth": "Each tweet was assigned to five annotators.",
+            "predicted_answer": "Each tweet in the final dataset was labeled by five annotators.",
+            "tokens_used": 5667,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_003",
+            "question": "What is the average Krippendorff inter-annotator agreement (IAA) score for each language?",
+            "ground_truth": "0.153 for English, 0.244 for French, and 0.202 for Arabic.",
+            "predicted_answer": "The average Krippendorff inter-annotator agreement (IAA) scores are as follows: 0.153 for English, 0.244 for French, and 0.202 for Arabic.",
+            "tokens_used": 5704,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_004",
+            "question": "Which word embeddings were found to perform better on their data: Babylon or MUSE?",
+            "ground_truth": "Babylon embeddings outperformed MUSE on their data.",
+            "predicted_answer": "Babylon embeddings were found to perform better on their data than MUSE.",
+            "tokens_used": 5674,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_005",
+            "question": "What optimizer was used in the deep learning experiments?",
+            "ground_truth": "Simple stochastic gradient descent (SGD) was used as the optimizer.",
+            "predicted_answer": "The optimizer used in the deep learning experiments was simple stochastic gradient descent (SGD).",
+            "tokens_used": 5669,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_006",
+            "question": "What was the size of the hidden layer in the BiLSTM models?",
+            "ground_truth": "The hidden layer had a dimension of 200.",
+            "predicted_answer": "The size of the hidden layer in the BiLSTM models was 200.",
+            "tokens_used": 5673,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_007",
+            "question": "How was multilabel annotation handled in the most subjective classification tasks?",
+            "ground_truth": "If two annotators agreed on two different labels, both labels were added to the annotation for multilabel tasks such as hostility type and annotator's sentiment.",
+            "predicted_answer": "In the most subjective classification tasks, namely the hostility type and the annotator's sentiment labels, multilabel annotations were allowed. If two annotators agreed on two labels respectively, both labels were added to the annotation. This approach aimed to maintain human-like approximations in the labeling process.",
+            "tokens_used": 5712,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_008",
+            "question": "What was the train:dev:test split ratio used in experiments?",
+            "ground_truth": "8:1:1 (train:dev:test)",
+            "predicted_answer": "The train:dev:test split ratio used in the experiments was 8:1:1.",
+            "tokens_used": 5674,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_009",
+            "question": "Which classification task benefited the most from multilingual training?",
+            "ground_truth": "The target group classification task improved in all languages with multilingual training.",
+            "predicted_answer": "The target group classification task benefited the most from multilingual training, as it improved in all languages when jointly trained.",
+            "tokens_used": 5674,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_010",
+            "question": "What regularization was used in the Sluice network architecture?",
+            "ground_truth": "A regularization penalty term in the loss function was used to force the shared and private subspaces to be orthogonal.",
+            "predicted_answer": "The Sluice network architecture used a regularization penalty term in the loss function to force the shared and private subspaces to be orthogonal.",
+            "tokens_used": 5684,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_011",
+            "question": "What was the initial learning rate set to in the deep learning models?",
+            "ground_truth": "The initial learning rate was set to 0.1 with a learning rate decay.",
+            "predicted_answer": "The initial learning rate set for the deep learning models was 0.1.",
+            "tokens_used": 5672,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_012",
+            "question": "What strategy was used to prevent annotation scams on Mechanical Turk?",
+            "ground_truth": "They selected native speakers with reputation scores over 0.90, divided tasks into batches, monitored annotation patterns, and rejected and reassigned suspicious work.",
+            "predicted_answer": "To prevent annotation scams on Mechanical Turk, the authors prepared three annotation guideline forms and aligned labelsets in English, French, and Modern Standard Arabic. They requested native speakers with good reputation scores (over 0.90) to annotate the data and informed annotators that noticeable patterns of random labeling would lead to rejection of their work and potential blocking. The dataset was divided into smaller batches to facilitate analysis and identify incoherence patterns, and rejected work was reassigned to other annotators.",
+            "tokens_used": 5750,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_013",
+            "question": "How many common target groups were identified for annotation?",
+            "ground_truth": "16 common target groups.",
+            "predicted_answer": "Sixteen common target groups were identified for annotation.",
+            "tokens_used": 5662,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_014",
+            "question": "Which task was not allowed to be multilabel?",
+            "ground_truth": "The directness classification task was not allowed to be multilabel.",
+            "predicted_answer": "The task that was not allowed to be multilabel is the directness classification.",
+            "tokens_used": 5668,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_015",
+            "question": "What is the main reason deeper BiLSTM models performed poorly?",
+            "ground_truth": "The small size of the tweets caused deeper BiLSTM models to perform poorly.",
+            "predicted_answer": "Deeper BiLSTM models performed poorly due to the size of the tweets.",
+            "tokens_used": 5671,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_016",
+            "question": "What evaluation metrics were used to report classification performance?",
+            "ground_truth": "Both micro and macro-F1 scores were reported.",
+            "predicted_answer": "The evaluation metrics used to report classification performance are micro and macro-F1 scores.",
+            "tokens_used": 5668,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_017",
+            "question": "Which pairwise multitask model resulted in a macro F-score improvement of 0.25 for target group classification in Arabic?",
+            "ground_truth": "Joint training of target groups and target attributes improved the macro F-score of the target group classification in Arabic by 0.25.",
+            "predicted_answer": "The pairwise multitask model that resulted in a macro F-score improvement of 0.25 for target group classification in Arabic was when target groups and attributes were trained jointly.",
+            "tokens_used": 5702,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_018",
+            "question": "What was the outcome when jointly training hostility type and annotator's sentiment tasks in Arabic?",
+            "ground_truth": "The macro F-score of the hostility type classification in Arabic improved by 0.02 when trained within the annotator's sentiment task.",
+            "predicted_answer": "When jointly training the tweet's hostility type and annotator's sentiment tasks in Arabic, the macro F-score improved by 0.02.",
+            "tokens_used": 5688,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_019",
+            "question": "How was code-switching addressed during data collection and annotation?",
+            "ground_truth": "Most code-switched tweets were eliminated, though some remained, adding noise; code-switching was observed between English/Hindi/Spanish/French and French/Romanized Arabic.",
+            "predicted_answer": "Code-switching was addressed during data collection and annotation by eliminating most tweets that contained mixed languages to avoid misleading the annotators. However, some remaining instances of code-switching were acknowledged as adding noise to the data. Additionally, the dataset accounted for Arabic diglossia by searching for derogatory terms adapted to different circumstances, resulting in a corpus that combines tweets written in Modern Standard Arabic and various Arabic dialects.",
+            "tokens_used": 5736,
+            "is_correct": true,
+            "judge_response": "True"
+          },
+          {
+            "question_id": "gen_1908.11049_020",
+            "question": "What future work directions are mentioned for improving classification performance?",
+            "ground_truth": "Future work includes transfer learning, investigating multimodal information, using additional unlabeled data, label transformation, and label information sharing.",
+            "predicted_answer": "Future work directions mentioned for improving classification performance include performing transfer learning, investigating how multimodal information on the tweets may boost performance, utilizing additional unlabeled data, exploring label transformation, and sharing label information.",
+            "tokens_used": 5693,
+            "is_correct": true,
+            "judge_response": "True"
+          }
+        ]
+      },
+      "verified_claims_metrics": {
+        "num_questions": 20,
+        "num_correct": 0,
+        "accuracy": 0.0,
+        "num_answerable": 0,
+        "answerability_rate": 0.0,
+        "accuracy_when_answerable": 0.0,
+        "total_tokens": 30752,
+        "avg_tokens_per_question": 1537.6
+      },
+      "baseline_abstract_metrics": {
+        "num_questions": 20,
+        "num_correct": 0,
+        "accuracy": 0.0,
+        "num_answerable": 0,
+        "answerability_rate": 0.0,
+        "accuracy_when_answerable": 0.0,
+        "total_tokens": 4192,
+        "avg_tokens_per_question": 209.6
+      },
+      "baseline_full_metrics": {
+        "num_questions": 20,
+        "num_correct": 20,
+        "accuracy": 1.0,
+        "num_answerable": 20,
+        "answerability_rate": 1.0,
+        "accuracy_when_answerable": 1.0,
+        "total_tokens": 113723,
+        "avg_tokens_per_question": 5686.15
+      }
+    }
+  ],
+  "aggregate_metrics": {
+    "verified_claims": {
+      "num_papers": 3,
+      "total_questions": 61,
+      "total_correct": 1,
+      "accuracy": 0.01639344262295082,
+      "total_answerable": 1,
+      "answerability_rate": 0.01639344262295082,
+      "accuracy_when_answerable": 1.0,
+      "total_tokens": 71028
+    },
+    "baseline_abstract": {
+      "num_papers": 3,
+      "total_questions": 61,
+      "total_correct": 1,
+      "accuracy": 0.01639344262295082,
+      "total_answerable": 1,
+      "answerability_rate": 0.01639344262295082,
+      "accuracy_when_answerable": 1.0,
+      "total_tokens": 16049
+    },
+    "baseline_full": {
+      "num_papers": 3,
+      "total_questions": 61,
+      "total_correct": 59,
+      "accuracy": 0.9672131147540983,
+      "total_answerable": 60,
+      "answerability_rate": 0.9836065573770492,
+      "accuracy_when_answerable": 0.9833333333333333,
+      "total_tokens": 273231
+    }
+  }
+}

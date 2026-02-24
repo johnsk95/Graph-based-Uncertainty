@@ -1,0 +1,1206 @@
+================================================================================
+QASPER EXPERIMENT SPECIFICATION
+Knowledge Expansion Framework - Progressive Section Priors
+================================================================================
+
+OVERVIEW
+--------
+This specification defines the experimental setup for evaluating the iterative
+knowledge expansion framework using the QASPER dataset. The experiment 
+demonstrates knowledge expansion through progressive section addition, where
+each iteration adds a new paper section as a verified prior.
+
+Dataset: QASPER (Allen AI)
+- 5,049 questions over 1,585 NLP papers
+- Hugging Face: allenai/qasper
+- License: CC-BY-4.0
+
+KEY DESIGN PRINCIPLES
+---------------------
+1. RESPONSE GENERATION HAPPENS ONLY ONCE (Iteration 0)
+   - All responses are generated using P_0 (title + abstract only)
+   - Each response answers a SINGLE question
+   - Responses remain FIXED in all subsequent iterations
+
+2. CLAIMS ARE FIXED ACROSS ITERATIONS
+   - Claims are extracted once from responses in Iteration 0
+   - The same claim nodes exist throughout the experiment
+   - Only the GROUNDING STATUS of claims changes (contested → grounded)
+
+3. ITERATIONS ADD SECTIONS AS VERIFIED PRIORS
+   - Iteration 0: Build graph from P_0 and responses
+   - Iteration 1: Add Introduction section as new prior node
+   - Iteration 2: Add Methods section as new prior node
+   - No new responses or claims generated
+
+4. THIS ISOLATES THE KEY VARIABLE
+   - We measure: "How does adding verified prior information affect
+     claim grounding and knowledge graph structure?"
+   - NOT: "How do answers improve with more context?"
+
+================================================================================
+SECTION 1: DATASET STRUCTURE
+================================================================================
+
+1.1 QASPER Data Schema
+----------------------
+Each paper in QASPER has the following structure:
+
+{
+    "id": str,                    # Paper ID
+    "title": str,                 # Paper title
+    "abstract": str,              # Paper abstract
+    "full_text": {
+        "section_name": List[str],      # ["Introduction", "Methods", ...]
+        "paragraphs": List[List[str]]   # Paragraphs per section
+    },
+    "qas": List[{
+        "question": str,
+        "question_id": str,
+        "answers": List[{
+            "unanswerable": bool,
+            "extractive_spans": List[str],
+            "yes_no": bool | None,
+            "free_form_answer": str,
+            "evidence": List[str],              # Paragraph-level evidence
+            "highlighted_evidence": List[str]   # Sentence-level evidence
+        }]
+    }]
+}
+
+1.2 Section Name Variations
+---------------------------
+QASPER papers have inconsistent section naming. Handle these variations:
+
+INTRODUCTION_VARIANTS = [
+    "introduction",
+    "intro",
+    "1 introduction",
+    "i. introduction",
+    "background",
+    "1. introduction",
+    "overview"
+]
+
+METHODS_VARIANTS = [
+    "methods",
+    "method",
+    "methodology",
+    "approach",
+    "model",
+    "proposed method",
+    "proposed approach",
+    "our approach",
+    "our method",
+    "system",
+    "framework",
+    "architecture",
+    "technical approach",
+    "2 method",
+    "3 method",
+    "2. method",
+    "3. methodology"
+]
+
+EXPERIMENT_VARIANTS = [
+    "experiments",
+    "experiment",
+    "experimental setup",
+    "experimental results",
+    "evaluation",
+    "results",
+    "empirical evaluation",
+    "empirical results",
+    "4 experiments",
+    "5 experiments",
+    "4. experiments",
+    "5. evaluation"
+]
+
+================================================================================
+SECTION 2: EXPERIMENTAL DESIGN - PROGRESSIVE SECTION EXPANSION
+================================================================================
+
+2.1 Iteration Structure
+-----------------------
+The experiment runs in 3 main iterations. Response generation happens ONLY in
+Iteration 0. Subsequent iterations add new sections as verified priors without
+generating new responses.
+
+Iteration 0 (Baseline - Response Generation):
+    Prior P_0 = Title + Abstract
+    Expert Context = Full Paper
+    Actions:
+        1. Generate responses for ALL questions using P_0
+        2. Extract claims from P_0 and all responses
+        3. Build initial weighted graph
+        4. Select and verify contested claims with expert
+        5. Compute baseline metrics
+    
+Iteration 1 (Knowledge Expansion - No New Generation):
+    Prior P_1 = P_0 + Introduction section
+    Expert Context = Full Paper
+    Actions:
+        1. Add Introduction section as new verified prior node
+        2. Recompute claim grounding status (some contested → grounded)
+        3. Select and verify remaining contested claims with expert
+        4. Update graph
+        5. Compute metrics
+    
+Iteration 2 (Knowledge Expansion - No New Generation):
+    Prior P_2 = P_1 + Methods section
+    Expert Context = Full Paper
+    Actions:
+        1. Add Methods section as new verified prior node
+        2. Recompute claim grounding status
+        3. Select and verify remaining contested claims with expert
+        4. Update graph
+        5. Compute metrics
+    
+    NOTE: If "Methods" section not found, include all sections BEFORE
+    the first experiment/results section.
+
+2.2 Response Generation Design (Iteration 0 Only)
+-------------------------------------------------
+Responses are generated ONCE at Iteration 0 and remain fixed throughout.
+
+For each question Q_j (j = 1, 2, ..., M questions per paper):
+    Generate N response samples: R_j1, R_j2, ..., R_jN
+    Each response R_ji answers ONLY question Q_j
+    
+Total responses per paper: M × N (e.g., 10 questions × 3 samples = 30 responses)
+
+IMPORTANT:
+- Each response answers a SINGLE question (not all questions)
+- Responses are generated using ONLY P_0 (title + abstract)
+- Responses remain FIXED in subsequent iterations
+- No new response generation in Iterations 1 and 2
+
+2.3 What Changes Across Iterations
+----------------------------------
+| Component        | Iteration 0 | Iteration 1+ | Notes                          |
+|------------------|-------------|--------------|--------------------------------|
+| Questions        | Fixed       | Fixed        | Same questions throughout      |
+| Responses        | Generated   | Fixed        | No new generation              |
+| Claims           | Extracted   | Fixed        | Same claim nodes               |
+| Priors           | P_0         | P_1, P_2     | New sections added             |
+| Edge weights     | Initial     | Updated      | New prior connections          |
+| Claim status     | Initial     | Updated      | Contested → Grounded           |
+| Graph structure  | Built       | Modified     | New prior nodes + edges        |
+
+2.4 Rationale for Fixed Responses
+---------------------------------
+This design isolates the key experimental variable:
+
+    "How does adding verified prior information affect claim grounding
+     and knowledge graph structure?"
+
+By keeping claims fixed:
+- We measure KNOWLEDGE EXPANSION, not answer quality improvement
+- We can track individual claims across iterations
+- Metrics (PCR, KF size) reflect structural changes only
+- Cleaner causal attribution to prior addition
+
+2.2 Prior Construction Logic
+----------------------------
+
+def identify_section_index(section_names: List[str], variants: List[str]) -> int | None:
+    """
+    Find the index of a section matching any of the variant names.
+    
+    Args:
+        section_names: List of section names from paper
+        variants: List of acceptable variant names (lowercase)
+    
+    Returns:
+        Index of matching section, or None if not found
+    """
+    for idx, name in enumerate(section_names):
+        normalized = name.lower().strip()
+        for variant in variants:
+            if variant in normalized:
+                return idx
+    return None
+
+
+def get_sections_before_experiments(section_names: List[str]) -> List[int]:
+    """
+    Get indices of all sections that appear before experiments/results.
+    Used as fallback when Methods section is not explicitly named.
+    
+    Args:
+        section_names: List of section names from paper
+    
+    Returns:
+        List of section indices to include as P_2
+    """
+    experiment_idx = identify_section_index(section_names, EXPERIMENT_VARIANTS)
+    
+    if experiment_idx is None:
+        # No experiment section found - include first half of sections
+        return list(range(len(section_names) // 2))
+    
+    # Return all sections before experiment section
+    return list(range(experiment_idx))
+
+
+def construct_prior(
+    paper: dict,
+    iteration: int
+) -> dict:
+    """
+    Construct the prior text for a given iteration.
+    
+    Args:
+        paper: QASPER paper dict
+        iteration: 0, 1, or 2
+    
+    Returns:
+        {
+            "text": str,              # Combined prior text
+            "sections_included": List[str],  # Names of included sections
+            "token_count": int        # Approximate token count
+        }
+    """
+    title = paper["title"]
+    abstract = paper["abstract"]
+    section_names = paper["full_text"]["section_name"]
+    paragraphs = paper["full_text"]["paragraphs"]
+    
+    # P_0: Title + Abstract (always included)
+    prior_text = f"Title: {title}\n\nAbstract: {abstract}"
+    sections_included = ["title", "abstract"]
+    
+    if iteration >= 1:
+        # P_1: Add Introduction
+        intro_idx = identify_section_index(section_names, INTRODUCTION_VARIANTS)
+        if intro_idx is not None:
+            intro_text = "\n\n".join(paragraphs[intro_idx])
+            section_name = section_names[intro_idx]
+            prior_text += f"\n\n{section_name}:\n{intro_text}"
+            sections_included.append(section_name)
+    
+    if iteration >= 2:
+        # P_2: Add Methods (or pre-experiment sections)
+        methods_idx = identify_section_index(section_names, METHODS_VARIANTS)
+        
+        if methods_idx is not None:
+            # Explicit Methods section found
+            methods_text = "\n\n".join(paragraphs[methods_idx])
+            section_name = section_names[methods_idx]
+            prior_text += f"\n\n{section_name}:\n{methods_text}"
+            sections_included.append(section_name)
+        else:
+            # Fallback: include all sections before experiments
+            pre_exp_indices = get_sections_before_experiments(section_names)
+            
+            # Filter out already-included sections (intro)
+            intro_idx = identify_section_index(section_names, INTRODUCTION_VARIANTS)
+            for idx in pre_exp_indices:
+                if idx != intro_idx and idx < len(paragraphs):
+                    section_text = "\n\n".join(paragraphs[idx])
+                    section_name = section_names[idx]
+                    prior_text += f"\n\n{section_name}:\n{section_text}"
+                    sections_included.append(section_name)
+    
+    # Estimate token count (rough: 1 token ≈ 4 chars)
+    token_count = len(prior_text) // 4
+    
+    return {
+        "text": prior_text,
+        "sections_included": sections_included,
+        "token_count": token_count
+    }
+
+
+def construct_expert_context(paper: dict) -> str:
+    """
+    Construct full paper text for expert verification.
+    
+    Args:
+        paper: QASPER paper dict
+    
+    Returns:
+        Full paper text as string
+    """
+    title = paper["title"]
+    abstract = paper["abstract"]
+    section_names = paper["full_text"]["section_name"]
+    paragraphs = paper["full_text"]["paragraphs"]
+    
+    full_text = f"Title: {title}\n\nAbstract: {abstract}"
+    
+    for idx, section_name in enumerate(section_names):
+        if idx < len(paragraphs):
+            section_text = "\n\n".join(paragraphs[idx])
+            full_text += f"\n\n{section_name}:\n{section_text}"
+    
+    return full_text
+
+================================================================================
+SECTION 3: QUESTION CLASSIFICATION
+================================================================================
+
+3.1 Question Answerability by Prior
+-----------------------------------
+For each question, determine if it can be answered from the current prior.
+
+def classify_question_answerability(
+    question: dict,
+    prior_sections: List[str],
+    paper: dict
+) -> dict:
+    """
+    Classify whether a question is answerable from the current prior.
+    
+    Args:
+        question: QASPER question dict with answers
+        prior_sections: List of section names included in current prior
+        paper: Full paper dict
+    
+    Returns:
+        {
+            "question_id": str,
+            "question": str,
+            "is_unanswerable": bool,        # Marked unanswerable in dataset
+            "evidence_sections": List[str], # Sections containing evidence
+            "answerable_from_prior": bool,  # Can be answered from current prior
+            "answer_type": str              # "extractive", "yes_no", "free_form", "unanswerable"
+        }
+    """
+    answer = question["answers"][0]  # Use first annotator's answer
+    
+    # Check if unanswerable
+    if answer.get("unanswerable", False):
+        return {
+            "question_id": question["question_id"],
+            "question": question["question"],
+            "is_unanswerable": True,
+            "evidence_sections": [],
+            "answerable_from_prior": False,
+            "answer_type": "unanswerable"
+        }
+    
+    # Determine answer type
+    if answer.get("extractive_spans"):
+        answer_type = "extractive"
+    elif answer.get("yes_no") is not None:
+        answer_type = "yes_no"
+    else:
+        answer_type = "free_form"
+    
+    # Find which sections contain the evidence
+    evidence_paragraphs = answer.get("evidence", [])
+    evidence_sections = find_evidence_sections(
+        evidence_paragraphs, 
+        paper["full_text"]
+    )
+    
+    # Check if evidence is in prior
+    prior_sections_lower = [s.lower() for s in prior_sections]
+    answerable = all(
+        any(p.lower() in es.lower() or es.lower() in p.lower() 
+            for p in prior_sections_lower)
+        for es in evidence_sections
+    )
+    
+    # Special case: title/abstract evidence
+    if not evidence_sections:
+        # Evidence might be in abstract
+        answerable = "abstract" in prior_sections_lower
+    
+    return {
+        "question_id": question["question_id"],
+        "question": question["question"],
+        "is_unanswerable": False,
+        "evidence_sections": evidence_sections,
+        "answerable_from_prior": answerable,
+        "answer_type": answer_type
+    }
+
+
+def find_evidence_sections(
+    evidence_paragraphs: List[str],
+    full_text: dict
+) -> List[str]:
+    """
+    Map evidence paragraphs back to their source sections.
+    
+    Args:
+        evidence_paragraphs: List of evidence paragraph texts
+        full_text: Paper full_text dict with section_name and paragraphs
+    
+    Returns:
+        List of section names containing the evidence
+    """
+    evidence_sections = set()
+    section_names = full_text["section_name"]
+    paragraphs = full_text["paragraphs"]
+    
+    for evidence in evidence_paragraphs:
+        evidence_lower = evidence.lower().strip()
+        
+        for idx, section_paras in enumerate(paragraphs):
+            for para in section_paras:
+                # Check if evidence matches or is contained in paragraph
+                para_lower = para.lower().strip()
+                if evidence_lower in para_lower or para_lower in evidence_lower:
+                    if idx < len(section_names):
+                        evidence_sections.add(section_names[idx])
+                    break
+    
+    return list(evidence_sections)
+
+================================================================================
+SECTION 4: INTEGRATION WITH KNOWLEDGE EXPANSION FRAMEWORK
+================================================================================
+
+4.1 Experiment Pipeline
+-----------------------
+
+class QASPERExperiment:
+    """
+    Run knowledge expansion experiment on QASPER dataset.
+    
+    Key Design:
+    - Response generation happens ONLY in Iteration 0
+    - Subsequent iterations add sections as priors (no new generation)
+    - Claims remain fixed; only their grounding status changes
+    """
+    
+    def __init__(
+        self,
+        graph_builder,           # WeightedGraphBuilder instance
+        claim_extractor,         # ClaimExtractor instance
+        expert_verifier,         # LLMExpertVerifier instance
+        graph_updater,           # GraphUpdater instance
+        generator_llm,           # LLM for generating responses
+        embedding_model          # Embedding model for similarity
+    ):
+        self.graph_builder = graph_builder
+        self.claim_extractor = claim_extractor
+        self.expert_verifier = expert_verifier
+        self.graph_updater = graph_updater
+        self.generator_llm = generator_llm
+        self.embedding_model = embedding_model
+    
+    def run_single_paper_experiment(
+        self,
+        paper: dict,
+        num_iterations: int = 3,
+        claims_per_iteration: int = 10,
+        response_samples_per_question: int = 3
+    ) -> dict:
+        """
+        Run full experiment on a single paper.
+        
+        Args:
+            paper: QASPER paper dict
+            num_iterations: Number of expansion iterations (0, 1, 2)
+            claims_per_iteration: Number of claims to verify per iteration
+            response_samples_per_question: Number of response samples per question
+        
+        Returns:
+            {
+                "paper_id": str,
+                "iterations": List[IterationResult],
+                "final_metrics": dict,
+                "responses": List[dict],  # Fixed responses (for reference)
+                "all_claims": List[dict]  # Fixed claims (for reference)
+            }
+        """
+        expert_context = construct_expert_context(paper)
+        questions = paper["qas"]
+        
+        # ============================================================
+        # ITERATION 0: Generate responses and build initial graph
+        # ============================================================
+        
+        # Construct P_0 (title + abstract only)
+        prior_0 = construct_prior(paper, iteration=0)
+        
+        # Generate responses ONCE using P_0 (this is the only generation)
+        responses = self._generate_responses(
+            questions=questions,
+            prior_text=prior_0["text"],
+            num_samples=response_samples_per_question
+        )
+        
+        # Build initial graph (this defines all claims)
+        graph, all_claims = self._build_initial_graph(
+            prior_text=prior_0["text"],
+            responses=responses,
+            questions=questions
+        )
+        
+        # Store fixed responses and claims for reference
+        fixed_responses = responses  # Never changes
+        fixed_claims = all_claims    # Never changes (only status changes)
+        
+        iteration_results = []
+        
+        # ============================================================
+        # ALL ITERATIONS: Add priors, verify claims, measure metrics
+        # ============================================================
+        
+        for iteration in range(num_iterations):
+            # Construct prior for this iteration
+            prior_info = construct_prior(paper, iteration)
+            
+            # Classify questions by answerability with current prior
+            question_classifications = [
+                classify_question_answerability(q, prior_info["sections_included"], paper)
+                for q in questions
+            ]
+            
+            if iteration == 0:
+                # Initial graph already built above
+                pass
+            else:
+                # Add new section as verified prior node (NO new response generation)
+                self._add_section_as_prior(
+                    graph=graph,
+                    prior_info=prior_info,
+                    iteration=iteration
+                )
+                
+                # Recompute claim grounding status
+                self._recompute_claim_grounding(graph)
+            
+            # Select contested claims for verification
+            contested_claims = self._get_contested_claims(graph)
+            selected_claims = self._select_claims_for_verification(
+                contested_claims,
+                k=claims_per_iteration
+            )
+            
+            # Expert verification (using full paper context)
+            verification_results = self.expert_verifier.verify_batch(
+                claims=selected_claims,
+                context=expert_context
+            )
+            
+            # Update graph with verification results
+            update_result = self.graph_updater.update(
+                graph=graph,
+                verification_results=verification_results,
+                iteration_id=f"iteration_{iteration}"
+            )
+            
+            # Compute metrics for this iteration
+            metrics = self._compute_iteration_metrics(
+                graph=graph,
+                question_classifications=question_classifications,
+                verification_results=verification_results
+            )
+            
+            iteration_results.append({
+                "iteration": iteration,
+                "prior_sections": prior_info["sections_included"],
+                "prior_token_count": prior_info["token_count"],
+                "num_total_claims": len(fixed_claims),
+                "num_contested_claims": len(contested_claims),
+                "num_verified": len(verification_results),
+                "num_accepted": sum(1 for v in verification_results if v["decision"] == "ACCEPT"),
+                "metrics": metrics
+            })
+        
+        return {
+            "paper_id": paper["id"],
+            "iterations": iteration_results,
+            "final_metrics": self._compute_final_metrics(graph, questions),
+            "responses": fixed_responses,
+            "all_claims": fixed_claims
+        }
+    
+    def _generate_responses(
+        self,
+        questions: List[dict],
+        prior_text: str,
+        num_samples: int = 3
+    ) -> List[dict]:
+        """
+        Generate LLM responses for each question using only the prior.
+        
+        IMPORTANT: This is called ONLY ONCE in Iteration 0.
+        Each response answers a SINGLE question.
+        
+        Args:
+            questions: List of QASPER question dicts
+            prior_text: Current prior text (P_0 = title + abstract)
+            num_samples: Number of response samples per question
+        
+        Returns:
+            List of response dicts, one per question, each with N samples
+        """
+        responses = []
+        
+        for q in questions:
+            question_text = q["question"]
+            
+            samples = []
+            for sample_idx in range(num_samples):
+                prompt = f"""Based on the following paper content, answer the question.
+If the answer cannot be determined from the given content, say so and provide
+your best reasoning about what the answer might be.
+
+Paper Content:
+{prior_text}
+
+Question: {question_text}
+
+Answer:"""
+                
+                response = self.generator_llm.generate(prompt)
+                samples.append({
+                    "sample_id": f"{q['question_id']}_sample_{sample_idx}",
+                    "text": response
+                })
+            
+            responses.append({
+                "question_id": q["question_id"],
+                "question": question_text,
+                "samples": samples
+            })
+        
+        return responses
+    
+    def _build_initial_graph(
+        self,
+        prior_text: str,
+        responses: List[dict],
+        questions: List[dict]
+    ) -> Tuple[Graph, List[dict]]:
+        """
+        Build initial weighted graph from prior and responses.
+        
+        Called ONLY ONCE in Iteration 0.
+        
+        Returns:
+            Tuple of (graph, all_claims_list)
+        """
+        # Extract claims from prior (P_0 = title + abstract)
+        prior_claims = self.claim_extractor.extract(prior_text)
+        
+        # Extract claims from each response sample
+        all_response_claims = []
+        for resp in responses:
+            for sample in resp["samples"]:
+                claims = self.claim_extractor.extract(sample["text"])
+                all_response_claims.append({
+                    "question_id": resp["question_id"],
+                    "sample_id": sample["sample_id"],
+                    "claims": claims,
+                    "source_text": sample["text"]
+                })
+        
+        # Build graph
+        graph = self.graph_builder.build(
+            prior_claims=prior_claims,
+            response_claims=all_response_claims,
+            embedding_model=self.embedding_model
+        )
+        
+        # Collect all claims for reference
+        all_claims = prior_claims + [
+            claim 
+            for rc in all_response_claims 
+            for claim in rc["claims"]
+        ]
+        
+        return graph, all_claims
+    
+    def _add_section_as_prior(
+        self,
+        graph,
+        prior_info: dict,
+        iteration: int
+    ):
+        """
+        Add newly revealed section as a prior node to existing graph.
+        
+        This simulates "verifying" that section's content is accurate.
+        Does NOT generate new responses or claims.
+        
+        Args:
+            graph: Existing graph from Iteration 0
+            prior_info: Prior info dict with sections_included
+            iteration: Current iteration number (1 or 2)
+        """
+        # Get the newly added section (last in the list)
+        new_section = prior_info["sections_included"][-1]
+        
+        # Extract claims from ONLY the new section text
+        new_section_text = self._get_section_text(prior_info, new_section)
+        section_claims = self.claim_extractor.extract(new_section_text)
+        
+        # Add as verification prior node
+        self.graph_updater.add_verification_prior(
+            graph=graph,
+            prior_id=f"section_{new_section}_{iteration}",
+            verified_claims=section_claims,
+            metadata={
+                "section_name": new_section, 
+                "iteration": iteration,
+                "source": "paper_section"
+            }
+        )
+    
+    def _recompute_claim_grounding(self, graph):
+        """
+        Recompute grounding status for all claims after adding new prior.
+        
+        Claims that were previously contested may become grounded if:
+        - They are entailed by the newly added section
+        - They have high similarity to claims in the new prior
+        
+        This updates claim node attributes but does NOT add/remove claims.
+        """
+        # Implementation depends on your graph structure
+        # Key: update is_grounded attribute based on new prior connections
+        pass
+    
+    def _get_section_text(self, prior_info: dict, section_name: str) -> str:
+        """
+        Extract text of a specific section from prior_info.
+        Helper function for _add_section_as_prior.
+        """
+        # Implementation: parse prior_info["text"] to extract specific section
+        pass
+    
+    def _get_contested_claims(self, graph) -> List:
+        """Get all contested (non-grounded) claims from graph."""
+        # Implementation depends on your graph structure
+        pass
+    
+    def _select_claims_for_verification(self, claims, k: int) -> List:
+        """Select top-k claims using PriorityScore."""
+        # Use your existing claim selection algorithm
+        pass
+    
+    def _compute_iteration_metrics(
+        self,
+        graph,
+        question_classifications: List[dict],
+        verification_results: List[dict]
+    ) -> dict:
+        """
+        Compute metrics for a single iteration.
+        """
+        # Prior Coverage Ratio
+        total_claims = graph.number_of_nodes(node_type="claim")
+        grounded_claims = len([c for c in graph.get_claims() if graph.is_grounded(c)])
+        pcr = grounded_claims / total_claims if total_claims > 0 else 0
+        
+        # Knowledge Frontier Size
+        contested_claims = len(self._get_contested_claims(graph))
+        
+        # Question Answerability
+        answerable_count = sum(
+            1 for q in question_classifications 
+            if q["answerable_from_prior"]
+        )
+        answerability_rate = answerable_count / len(question_classifications)
+        
+        # Verification Utility Ratio
+        verified_count = len(verification_results)
+        accepted_count = sum(1 for v in verification_results if v["decision"] == "ACCEPT")
+        vur = accepted_count / verified_count if verified_count > 0 else 0
+        
+        return {
+            "prior_coverage_ratio": pcr,
+            "knowledge_frontier_size": contested_claims,
+            "question_answerability_rate": answerability_rate,
+            "verification_utility_ratio": vur,
+            "total_claims": total_claims,
+            "grounded_claims": grounded_claims
+        }
+    
+    def _compute_final_metrics(self, graph, questions) -> dict:
+        """Compute final metrics after all iterations."""
+        pass
+
+================================================================================
+SECTION 5: METRICS AND EVALUATION
+================================================================================
+
+5.1 Primary Metrics
+-------------------
+
+1. Prior Coverage Ratio (PCR)
+   - Fraction of claims grounded in priors
+   - Expected: Increases with each iteration as sections are added
+
+2. Knowledge Frontier Size (KF)
+   - Number of contested claims remaining
+   - Expected: Decreases as sections are verified
+
+3. Question Answerability Rate
+   - Fraction of questions answerable from current prior
+   - Ground truth from QASPER evidence annotations
+
+4. Section Coverage
+   - Track which sections' claims are grounded
+   - Shows expansion pattern across paper structure
+
+5. Verification Utility Ratio (VUR)
+   - Claims successfully verified per verification attempt
+   - Measures efficiency of claim selection
+
+5.2 Stratified Analysis
+-----------------------
+
+Analyze metrics stratified by:
+
+1. Answer Type:
+   - Extractive vs. Yes/No vs. Free-form
+   - Expected: Extractive questions resolve faster
+
+2. Evidence Section:
+   - Introduction vs. Methods vs. Results vs. Discussion
+   - Expected: Intro questions resolve in iteration 1
+
+3. Question Complexity:
+   - Single-evidence vs. multi-evidence questions
+   - Expected: Multi-evidence takes longer to resolve
+
+5.3 Baseline Comparisons
+------------------------
+
+Compare against:
+
+1. Random Section Order
+   - Instead of Intro → Methods, randomize section order
+   - Shows that structured expansion matters
+
+2. No Expansion (Static Prior)
+   - Keep only P_0 throughout
+   - Shows value of iterative expansion
+
+3. Full Prior (Oracle)
+   - Give full paper as prior from start
+   - Upper bound on performance
+
+================================================================================
+SECTION 6: DATA LOADING AND PREPROCESSING
+================================================================================
+
+6.1 Loading QASPER Dataset
+--------------------------
+
+from datasets import load_dataset
+
+def load_qasper_dataset(split: str = "validation") -> List[dict]:
+    """
+    Load QASPER dataset from Hugging Face.
+    
+    Args:
+        split: "train", "validation", or "test"
+    
+    Returns:
+        List of paper dicts
+    """
+    dataset = load_dataset("allenai/qasper", split=split)
+    return list(dataset)
+
+
+def filter_papers_with_complete_structure(papers: List[dict]) -> List[dict]:
+    """
+    Filter papers that have identifiable Introduction and Methods sections.
+    
+    Args:
+        papers: List of QASPER paper dicts
+    
+    Returns:
+        Filtered list with papers having clear structure
+    """
+    filtered = []
+    
+    for paper in papers:
+        section_names = paper["full_text"]["section_name"]
+        
+        # Check for Introduction
+        has_intro = identify_section_index(section_names, INTRODUCTION_VARIANTS) is not None
+        
+        # Check for Methods OR can identify pre-experiment sections
+        has_methods = identify_section_index(section_names, METHODS_VARIANTS) is not None
+        has_experiments = identify_section_index(section_names, EXPERIMENT_VARIANTS) is not None
+        
+        if has_intro and (has_methods or has_experiments):
+            filtered.append(paper)
+    
+    return filtered
+
+6.2 Data Validation
+-------------------
+
+def validate_paper_structure(paper: dict) -> dict:
+    """
+    Validate and report paper structure for debugging.
+    
+    Returns:
+        {
+            "paper_id": str,
+            "num_sections": int,
+            "section_names": List[str],
+            "has_intro": bool,
+            "has_methods": bool,
+            "has_experiments": bool,
+            "intro_idx": int | None,
+            "methods_idx": int | None,
+            "experiment_idx": int | None,
+            "num_questions": int,
+            "answerable_questions": int
+        }
+    """
+    section_names = paper["full_text"]["section_name"]
+    
+    intro_idx = identify_section_index(section_names, INTRODUCTION_VARIANTS)
+    methods_idx = identify_section_index(section_names, METHODS_VARIANTS)
+    experiment_idx = identify_section_index(section_names, EXPERIMENT_VARIANTS)
+    
+    answerable = sum(
+        1 for q in paper["qas"]
+        if not q["answers"][0].get("unanswerable", False)
+    )
+    
+    return {
+        "paper_id": paper["id"],
+        "num_sections": len(section_names),
+        "section_names": section_names,
+        "has_intro": intro_idx is not None,
+        "has_methods": methods_idx is not None,
+        "has_experiments": experiment_idx is not None,
+        "intro_idx": intro_idx,
+        "methods_idx": methods_idx,
+        "experiment_idx": experiment_idx,
+        "num_questions": len(paper["qas"]),
+        "answerable_questions": answerable
+    }
+
+================================================================================
+SECTION 7: USAGE EXAMPLES
+================================================================================
+
+7.1 Basic Experiment Run
+------------------------
+
+from datasets import load_dataset
+
+# Load dataset
+dataset = load_dataset("allenai/qasper", split="validation")
+papers = list(dataset)
+
+# Filter for papers with clear structure
+papers = filter_papers_with_complete_structure(papers)
+print(f"Papers with complete structure: {len(papers)}")
+
+# Initialize components (assuming these are implemented)
+experiment = QASPERExperiment(
+    graph_builder=WeightedGraphBuilder(),
+    claim_extractor=ClaimExtractor(),
+    expert_verifier=LLMExpertVerifier(model="gpt-4.1"),
+    graph_updater=GraphUpdater(),
+    generator_llm=GeneratorLLM(),
+    embedding_model=EmbeddingModel()
+)
+
+# Run on single paper
+paper = papers[0]
+result = experiment.run_single_paper_experiment(
+    paper=paper,
+    num_iterations=3,
+    claims_per_iteration=10,
+    response_samples_per_question=3
+)
+
+# Print results
+print(f"Paper: {result['paper_id']}")
+print(f"Total responses generated (Iteration 0 only): {len(result['responses'])}")
+print(f"Total claims (fixed): {len(result['all_claims'])}")
+
+for iteration_result in result["iterations"]:
+    print(f"\nIteration {iteration_result['iteration']}:")
+    print(f"  Sections: {iteration_result['prior_sections']}")
+    print(f"  Total claims (fixed): {iteration_result['num_total_claims']}")
+    print(f"  Contested claims: {iteration_result['num_contested_claims']}")
+    print(f"  PCR: {iteration_result['metrics']['prior_coverage_ratio']:.3f}")
+    print(f"  KF Size: {iteration_result['metrics']['knowledge_frontier_size']}")
+    print(f"  Answerability: {iteration_result['metrics']['question_answerability_rate']:.3f}")
+
+# Expected output pattern:
+# Iteration 0: PCR low, KF high (many contested claims)
+# Iteration 1: PCR increases, KF decreases (Intro added as prior)
+# Iteration 2: PCR higher, KF lower (Methods added as prior)
+
+
+7.2 Verifying Fixed Responses Across Iterations
+-----------------------------------------------
+
+# Verify that responses and claims stay constant
+result = experiment.run_single_paper_experiment(paper, num_iterations=3)
+
+# These should be identical across all iterations
+for i, iteration_result in enumerate(result["iterations"]):
+    print(f"Iteration {i}: {iteration_result['num_total_claims']} total claims")
+    # Should print same number for all iterations
+
+# The responses are stored once and never regenerated
+print(f"Responses generated: {len(result['responses'])} (all from Iteration 0)")
+
+
+7.3 Batch Experiment
+--------------------
+
+def run_batch_experiment(
+    papers: List[dict],
+    experiment: QASPERExperiment,
+    output_path: str,
+    max_papers: int = 100
+) -> dict:
+    """
+    Run experiment on multiple papers and aggregate results.
+    """
+    results = []
+    
+    for i, paper in enumerate(papers[:max_papers]):
+        print(f"Processing paper {i+1}/{min(len(papers), max_papers)}: {paper['id']}")
+        
+        try:
+            result = experiment.run_single_paper_experiment(
+                paper=paper,
+                num_iterations=3,
+                claims_per_iteration=10,
+                response_samples_per_question=3
+            )
+            results.append(result)
+        except Exception as e:
+            print(f"  Error: {e}")
+            continue
+    
+    # Aggregate metrics across papers
+    aggregated = aggregate_results(results)
+    
+    # Save results
+    with open(output_path, "w") as f:
+        json.dump({
+            "individual_results": results,
+            "aggregated_metrics": aggregated
+        }, f, indent=2)
+    
+    return aggregated
+
+
+def aggregate_results(results: List[dict]) -> dict:
+    """
+    Aggregate metrics across multiple papers.
+    
+    Key insight: Total claims should be constant per paper across iterations,
+    but PCR and KF should change.
+    """
+    metrics_by_iteration = {0: [], 1: [], 2: []}
+    
+    for result in results:
+        for iteration_result in result["iterations"]:
+            iteration = iteration_result["iteration"]
+            metrics_by_iteration[iteration].append(iteration_result["metrics"])
+    
+    aggregated = {}
+    for iteration, metrics_list in metrics_by_iteration.items():
+        if not metrics_list:
+            continue
+        
+        aggregated[f"iteration_{iteration}"] = {
+            "mean_pcr": np.mean([m["prior_coverage_ratio"] for m in metrics_list]),
+            "std_pcr": np.std([m["prior_coverage_ratio"] for m in metrics_list]),
+            "mean_kf_size": np.mean([m["knowledge_frontier_size"] for m in metrics_list]),
+            "mean_answerability": np.mean([m["question_answerability_rate"] for m in metrics_list]),
+            "mean_vur": np.mean([m["verification_utility_ratio"] for m in metrics_list]),
+            "mean_total_claims": np.mean([m["total_claims"] for m in metrics_list]),
+            "num_papers": len(metrics_list)
+        }
+    
+    # Verify claims are constant (sanity check)
+    for i in range(1, 3):
+        if f"iteration_{i}" in aggregated and "iteration_0" in aggregated:
+            assert abs(
+                aggregated[f"iteration_{i}"]["mean_total_claims"] - 
+                aggregated["iteration_0"]["mean_total_claims"]
+            ) < 0.01, "Claims should be constant across iterations!"
+    
+    return aggregated
+
+================================================================================
+SECTION 8: TESTING CHECKLIST
+================================================================================
+
+[ ] Section identification works for common variants
+    - Test INTRODUCTION_VARIANTS matching
+    - Test METHODS_VARIANTS matching
+    - Test EXPERIMENT_VARIANTS matching
+    - Test fallback for missing Methods section
+
+[ ] Prior construction produces correct text
+    - P_0 contains only title + abstract
+    - P_1 adds Introduction (not duplicating abstract)
+    - P_2 adds Methods or pre-experiment sections
+
+[ ] Response generation (Iteration 0 only)
+    - Responses generated ONCE using P_0 only
+    - Each response answers a SINGLE question
+    - Correct number of samples per question (N samples)
+    - Total responses = M questions × N samples
+
+[ ] Claims remain fixed across iterations
+    - Same claim nodes in Iteration 0, 1, 2
+    - Only grounding STATUS changes, not claims themselves
+    - No new claims added after Iteration 0
+
+[ ] Question answerability classification is accurate
+    - Compare against QASPER evidence annotations
+    - Handle unanswerable questions correctly
+
+[ ] Evidence section mapping works
+    - Correctly identifies which sections contain evidence
+    - Handles edge cases (evidence spans multiple sections)
+
+[ ] Graph updates correctly in subsequent iterations
+    - New sections add as prior nodes (not regenerating graph)
+    - Claim grounding status recomputed after prior addition
+    - Existing edges preserved, new edges added from new prior
+    - Metrics update correctly after each iteration
+
+[ ] Metrics computed correctly across iterations
+    - PCR increases monotonically (more priors = more grounded claims)
+    - KF size generally decreases
+    - Total claims stays CONSTANT (same claims, different grounding)
+    - Answerability rate matches ground truth
+
+================================================================================
+SECTION 9: KNOWN EDGE CASES
+================================================================================
+
+1. Missing Sections
+   - Some papers may lack clear Introduction or Methods
+   - Fallback: Use section order heuristics (first section = intro, etc.)
+
+2. Unconventional Section Names
+   - "Our Contribution" instead of "Introduction"
+   - "System Overview" instead of "Methods"
+   - Solution: Expand variant lists based on data exploration
+
+3. Very Short Papers
+   - Some papers may have only 2-3 sections
+   - Solution: Combine iterations or skip paper
+
+4. No Answerable Questions
+   - Paper where all questions are marked unanswerable
+   - Solution: Skip paper or use for different analysis
+
+5. Evidence in Figures/Tables
+   - Some QASPER answers reference figures/tables
+   - Solution: Flag these questions separately in analysis
+
+================================================================================
+END OF SPECIFICATION
+================================================================================

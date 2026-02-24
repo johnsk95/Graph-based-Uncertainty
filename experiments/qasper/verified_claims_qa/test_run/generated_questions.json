@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-01-29T07:08:36.373095Z",
+  "model": "gpt-4.1",
+  "num_papers": 0,
+  "total_questions": 0,
+  "papers": [
+    {
+      "paper_id": "1910.12203",
+      "title": "Do Sentence Interactions Matter? Leveraging Sentence Level Representations for Fake News Classification",
+      "error": "'str' object has no attribute 'get'",
+      "generated_questions": []
+    },
+    {
+      "paper_id": "2003.07459",
+      "title": "Offensive Language Identification in Greek",
+      "error": "'str' object has no attribute 'get'",
+      "generated_questions": []
+    },
+    {
+      "paper_id": "1908.11049",
+      "title": "Multilingual and Multi-Aspect Hate Speech Analysis",
+      "error": "'str' object has no attribute 'get'",
+      "generated_questions": []
+    }
+  ]
+}

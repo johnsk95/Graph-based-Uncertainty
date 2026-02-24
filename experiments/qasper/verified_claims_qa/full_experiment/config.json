@@ -1,0 +1,22 @@
+{
+  "generate_questions": false,
+  "run_qa": false,
+  "full_pipeline": true,
+  "results_path": "experiments/qasper/experiment_gpt4o/results.json",
+  "questions_path": null,
+  "num_papers": null,
+  "paper_ids": null,
+  "question_gen_model": "gpt-4.1",
+  "qa_model": "gpt-4o-mini",
+  "judge_model": "gpt-4.1",
+  "output_dir": "experiments/qasper/verified_claims_qa",
+  "experiment_name": "full_experiment",
+  "conditions": [
+    "verified_claims",
+    "baseline_abstract",
+    "baseline_full"
+  ],
+  "skip_judging": false,
+  "verbose": true,
+  "timestamp": "20260129_021555"
+}

@@ -1,0 +1,1197 @@
+================================================================================
+TECHNICAL SPECIFICATION: Expert Verification and Graph Update Module
+================================================================================
+
+OVERVIEW
+--------
+Implement the expert verification stage and subsequent graph update process.
+This module:
+1. Sends selected claims to an LLM expert (GPT-4.1) for verification
+2. Expert verifies claims using ONLY the provided context (not prior knowledge)
+3. Updates the knowledge graph based on verification results:
+   - Accepted claims: Connected to a new verification prior node
+   - Rejected claims: Removed from graph and archived
+
+================================================================================
+PREREQUISITES / ASSUMED INPUTS
+================================================================================
+
+1. Selected claims from Iterative Knowledge Expansion stage:
+   - List of claim IDs to verify
+   - Claim text content
+
+2. Context documents:
+   - Documents containing information for verification
+   - NOT the priors (external knowledge sources)
+
+3. Existing graph structure with:
+   - Prior nodes (P), Response nodes (R), Claim nodes (C)
+   - Edge weights: w_anchor=3.0, w_agree=2.0, w_neutral=1.0, w_contra=0.5
+
+4. OpenAI API access for GPT-4.1
+
+================================================================================
+MODULE 1: LLM EXPERT VERIFIER
+================================================================================
+
+The expert verifier uses GPT-4.1 to judge claims based solely on provided context.
+
+------------------------------------------------------------------------------
+1.1 VERIFICATION PROMPT TEMPLATE
+------------------------------------------------------------------------------
+
+```python
+VERIFICATION_SYSTEM_PROMPT = """You are an expert fact-checker. Your task is to verify whether a claim is supported by the provided context.
+
+CRITICAL RULES:
+1. You must ONLY use information from the provided context to make your decision.
+2. Do NOT use any prior knowledge or information not explicitly stated in the context.
+3. If the context does not contain sufficient information to verify the claim, you must REJECT it.
+4. Be strict: partial support or ambiguous evidence should result in REJECT.
+
+Your response must be in the following JSON format:
+{
+    "decision": "ACCEPT" or "REJECT",
+    "reasoning": "Brief explanation (1-2 sentences)"
+}
+
+Decision criteria:
+- ACCEPT: The claim is directly and clearly supported by the context.
+- REJECT: The claim is contradicted by the context, not mentioned, only partially supported, or ambiguous.
+"""
+
+VERIFICATION_USER_PROMPT_TEMPLATE = """Context:
+{context}
+
+---
+
+Claim to verify:
+"{claim_text}"
+
+---
+
+Based ONLY on the context above, verify whether this claim should be accepted or rejected.
+Respond in JSON format with "decision" and "reasoning" fields."""
+```
+
+------------------------------------------------------------------------------
+1.2 SINGLE CLAIM VERIFICATION
+------------------------------------------------------------------------------
+
+```python
+import openai
+import json
+from typing import Tuple, Optional
+
+def verify_single_claim(
+    claim_text: str,
+    context: str,
+    client: openai.OpenAI,
+    model: str = "gpt-4.1",
+    temperature: float = 0.0,
+    max_retries: int = 3
+) -> Tuple[bool, str, dict]:
+    """
+    Verify a single claim using GPT-4.1.
+    
+    Args:
+        claim_text: The claim to verify
+        context: Context document(s) for verification
+        client: OpenAI client instance
+        model: Model to use (default: gpt-4.1)
+        temperature: Sampling temperature (0.0 for deterministic)
+        max_retries: Number of retries on failure
+    
+    Returns:
+        Tuple of:
+        - verdict: True (accept) or False (reject)
+        - reasoning: Explanation from the model
+        - raw_response: Full response dict for logging
+    """
+    user_prompt = VERIFICATION_USER_PROMPT_TEMPLATE.format(
+        context=context,
+        claim_text=claim_text
+    )
+    
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[
+                    {"role": "system", "content": VERIFICATION_SYSTEM_PROMPT},
+                    {"role": "user", "content": user_prompt}
+                ],
+                temperature=temperature,
+                response_format={"type": "json_object"}
+            )
+            
+            # Parse response
+            response_text = response.choices[0].message.content
+            parsed = json.loads(response_text)
+            
+            decision = parsed.get("decision", "").upper()
+            reasoning = parsed.get("reasoning", "")
+            
+            if decision not in ["ACCEPT", "REJECT"]:
+                raise ValueError(f"Invalid decision: {decision}")
+            
+            verdict = (decision == "ACCEPT")
+            
+            raw_response = {
+                "model": model,
+                "response_text": response_text,
+                "parsed": parsed,
+                "usage": {
+                    "prompt_tokens": response.usage.prompt_tokens,
+                    "completion_tokens": response.usage.completion_tokens
+                }
+            }
+            
+            return verdict, reasoning, raw_response
+            
+        except (json.JSONDecodeError, KeyError, ValueError) as e:
+            if attempt == max_retries - 1:
+                # Default to reject on parsing failure
+                return False, f"Parsing error: {str(e)}", {"error": str(e)}
+            continue
+        
+        except openai.APIError as e:
+            if attempt == max_retries - 1:
+                raise
+            continue
+    
+    return False, "Max retries exceeded", {"error": "Max retries exceeded"}
+```
+
+------------------------------------------------------------------------------
+1.3 BATCH CLAIM VERIFICATION
+------------------------------------------------------------------------------
+
+```python
+from typing import List, Dict
+from dataclasses import dataclass
+from datetime import datetime
+import time
+
+@dataclass
+class VerificationResult:
+    claim_id: str
+    claim_text: str
+    verdict: bool  # True = accept, False = reject
+    reasoning: str
+    raw_response: dict
+    timestamp: str
+
+
+class LLMExpertVerifier:
+    """
+    LLM-based expert verifier using GPT-4.1.
+    """
+    
+    def __init__(
+        self,
+        api_key: str,
+        model: str = "gpt-4.1",
+        temperature: float = 0.0,
+        requests_per_minute: int = 50,
+        max_retries: int = 3
+    ):
+        """
+        Args:
+            api_key: OpenAI API key
+            model: Model identifier
+            temperature: Sampling temperature
+            requests_per_minute: Rate limit
+            max_retries: Retries per request
+        """
+        self.client = openai.OpenAI(api_key=api_key)
+        self.model = model
+        self.temperature = temperature
+        self.request_interval = 60.0 / requests_per_minute
+        self.max_retries = max_retries
+        self.last_request_time = 0
+    
+    def _rate_limit_wait(self):
+        """Enforce rate limiting between requests."""
+        elapsed = time.time() - self.last_request_time
+        if elapsed < self.request_interval:
+            time.sleep(self.request_interval - elapsed)
+        self.last_request_time = time.time()
+    
+    def verify_claim(
+        self,
+        claim_id: str,
+        claim_text: str,
+        context: str
+    ) -> VerificationResult:
+        """
+        Verify a single claim.
+        
+        Args:
+            claim_id: Unique identifier for the claim
+            claim_text: The claim text to verify
+            context: Context document for verification
+        
+        Returns:
+            VerificationResult dataclass
+        """
+        self._rate_limit_wait()
+        
+        verdict, reasoning, raw_response = verify_single_claim(
+            claim_text=claim_text,
+            context=context,
+            client=self.client,
+            model=self.model,
+            temperature=self.temperature,
+            max_retries=self.max_retries
+        )
+        
+        return VerificationResult(
+            claim_id=claim_id,
+            claim_text=claim_text,
+            verdict=verdict,
+            reasoning=reasoning,
+            raw_response=raw_response,
+            timestamp=datetime.now().isoformat()
+        )
+    
+    def verify_batch(
+        self,
+        claims: List[Dict],
+        context: str,
+        progress_callback=None
+    ) -> List[VerificationResult]:
+        """
+        Verify a batch of claims.
+        
+        Args:
+            claims: List of dicts with 'claim_id' and 'claim_text' keys
+            context: Context document for verification (shared across claims)
+            progress_callback: Optional callback(current, total) for progress
+        
+        Returns:
+            List of VerificationResult objects
+        """
+        results = []
+        total = len(claims)
+        
+        for i, claim in enumerate(claims):
+            result = self.verify_claim(
+                claim_id=claim['claim_id'],
+                claim_text=claim['claim_text'],
+                context=context
+            )
+            results.append(result)
+            
+            if progress_callback:
+                progress_callback(i + 1, total)
+        
+        return results
+    
+    def verify_batch_with_individual_context(
+        self,
+        claims_with_context: List[Dict],
+        progress_callback=None
+    ) -> List[VerificationResult]:
+        """
+        Verify claims where each claim has its own context.
+        
+        Args:
+            claims_with_context: List of dicts with 'claim_id', 'claim_text', 
+                                 and 'context' keys
+            progress_callback: Optional callback(current, total) for progress
+        
+        Returns:
+            List of VerificationResult objects
+        """
+        results = []
+        total = len(claims_with_context)
+        
+        for i, item in enumerate(claims_with_context):
+            result = self.verify_claim(
+                claim_id=item['claim_id'],
+                claim_text=item['claim_text'],
+                context=item['context']
+            )
+            results.append(result)
+            
+            if progress_callback:
+                progress_callback(i + 1, total)
+        
+        return results
+```
+
+------------------------------------------------------------------------------
+1.4 CONTEXT PREPARATION
+------------------------------------------------------------------------------
+
+```python
+def prepare_context_for_claim(
+    claim_id: str,
+    context_documents: Dict[str, str],
+    claim_to_context_mapping: Dict[str, List[str]],
+    max_context_length: int = 8000
+) -> str:
+    """
+    Prepare context string for a specific claim.
+    
+    Args:
+        claim_id: ID of the claim
+        context_documents: Dict mapping doc_id -> document text
+        claim_to_context_mapping: Dict mapping claim_id -> list of relevant doc_ids
+        max_context_length: Maximum context length in characters
+    
+    Returns:
+        Concatenated context string
+    """
+    relevant_doc_ids = claim_to_context_mapping.get(claim_id, [])
+    
+    if not relevant_doc_ids:
+        # If no mapping, use all documents
+        relevant_doc_ids = list(context_documents.keys())
+    
+    context_parts = []
+    total_length = 0
+    
+    for doc_id in relevant_doc_ids:
+        doc_text = context_documents.get(doc_id, "")
+        
+        if total_length + len(doc_text) > max_context_length:
+            # Truncate if necessary
+            remaining = max_context_length - total_length
+            if remaining > 100:  # Only add if meaningful length
+                context_parts.append(f"[Document {doc_id}]:\n{doc_text[:remaining]}...")
+            break
+        
+        context_parts.append(f"[Document {doc_id}]:\n{doc_text}")
+        total_length += len(doc_text) + 50  # Account for header
+    
+    return "\n\n---\n\n".join(context_parts)
+```
+
+================================================================================
+MODULE 2: GRAPH UPDATE AFTER VERIFICATION
+================================================================================
+
+Update the knowledge graph based on verification results.
+
+------------------------------------------------------------------------------
+2.1 EDGE WEIGHT CONSTANTS
+------------------------------------------------------------------------------
+
+```python
+# Edge weight constants (should match existing graph construction)
+EDGE_WEIGHTS = {
+    'anchor': 3.0,      # Prior -> Claim (ground truth)
+    'agree': 2.0,       # Response -> Claim (agrees with prior)
+    'neutral': 1.0,     # Response -> Claim (no prior reference)
+    'contra': 0.5       # Response -> Claim (contradicts prior)
+}
+```
+
+------------------------------------------------------------------------------
+2.2 CREATE VERIFICATION PRIOR NODE
+------------------------------------------------------------------------------
+
+```python
+from datetime import datetime
+
+def create_verification_prior(
+    graph,
+    verification_round: int,
+    verifier_model: str = "gpt-4.1",
+    metadata: dict = None
+) -> str:
+    """
+    Create a new prior node representing an expert verification event.
+    
+    Args:
+        graph: NetworkX graph
+        verification_round: Integer identifier for this verification round
+        verifier_model: Model used for verification
+        metadata: Optional additional metadata
+    
+    Returns:
+        prior_node_id: ID of the new prior node
+    """
+    prior_node_id = f"prior_verification_round_{verification_round}"
+    
+    node_attrs = {
+        'type': 'prior',
+        'subtype': 'expert_verification',
+        'verification_round': verification_round,
+        'verifier_model': verifier_model,
+        'created_at': datetime.now().isoformat(),
+    }
+    
+    if metadata:
+        node_attrs.update(metadata)
+    
+    graph.add_node(prior_node_id, **node_attrs)
+    
+    return prior_node_id
+```
+
+------------------------------------------------------------------------------
+2.3 CONNECT ACCEPTED CLAIMS TO VERIFICATION PRIOR
+------------------------------------------------------------------------------
+
+```python
+def connect_accepted_claims(
+    graph,
+    verification_prior_id: str,
+    accepted_claim_ids: List[str],
+    w_anchor: float = EDGE_WEIGHTS['anchor']
+) -> List[tuple]:
+    """
+    Connect accepted claims to the verification prior with anchor links.
+    
+    Args:
+        graph: NetworkX graph
+        verification_prior_id: ID of the verification prior node
+        accepted_claim_ids: List of claim IDs that were accepted
+        w_anchor: Edge weight for anchor links
+    
+    Returns:
+        new_edges: List of (prior, claim) edge tuples added
+    """
+    new_edges = []
+    
+    for claim_id in accepted_claim_ids:
+        if claim_id not in graph.nodes:
+            print(f"Warning: Claim {claim_id} not found in graph, skipping")
+            continue
+        
+        # Add anchor edge from verification prior to claim
+        graph.add_edge(
+            verification_prior_id,
+            claim_id,
+            weight=w_anchor,
+            cost=1.0 / w_anchor,
+            link_type='anchor',
+            source='expert_verification'
+        )
+        new_edges.append((verification_prior_id, claim_id))
+        
+        # Update claim node metadata
+        graph.nodes[claim_id]['verified'] = True
+        graph.nodes[claim_id]['verified_as'] = 'accepted'
+        graph.nodes[claim_id]['verification_prior'] = verification_prior_id
+        graph.nodes[claim_id]['verified_at'] = datetime.now().isoformat()
+    
+    return new_edges
+```
+
+------------------------------------------------------------------------------
+2.4 ARCHIVE AND REMOVE REJECTED CLAIMS
+------------------------------------------------------------------------------
+
+```python
+@dataclass
+class ArchivedClaim:
+    claim_id: str
+    claim_text: str
+    node_data: dict
+    edges: List[tuple]
+    rejection_reason: str
+    archived_at: str
+
+
+def archive_and_remove_rejected_claims(
+    graph,
+    rejected_claim_ids: List[str],
+    rejection_reasons: Dict[str, str] = None
+) -> List[ArchivedClaim]:
+    """
+    Archive rejected claims and remove them from the graph.
+    
+    Args:
+        graph: NetworkX graph
+        rejected_claim_ids: List of claim IDs to reject and remove
+        rejection_reasons: Optional dict mapping claim_id -> rejection reasoning
+    
+    Returns:
+        archived_claims: List of ArchivedClaim objects
+    """
+    archived_claims = []
+    rejection_reasons = rejection_reasons or {}
+    
+    for claim_id in rejected_claim_ids:
+        if claim_id not in graph.nodes:
+            print(f"Warning: Claim {claim_id} not found in graph, skipping")
+            continue
+        
+        # Store claim info before removal
+        node_data = dict(graph.nodes[claim_id])
+        claim_text = node_data.get('text', node_data.get('claim_text', ''))
+        
+        # Store all edges (both directions)
+        edges = []
+        for neighbor in list(graph.neighbors(claim_id)):
+            edge_data = dict(graph.edges[claim_id, neighbor])
+            edges.append((claim_id, neighbor, edge_data))
+        
+        # For directed graphs, also check predecessors
+        if graph.is_directed():
+            for predecessor in list(graph.predecessors(claim_id)):
+                edge_data = dict(graph.edges[predecessor, claim_id])
+                edges.append((predecessor, claim_id, edge_data))
+        
+        archived_claim = ArchivedClaim(
+            claim_id=claim_id,
+            claim_text=claim_text,
+            node_data=node_data,
+            edges=edges,
+            rejection_reason=rejection_reasons.get(claim_id, "Expert rejected"),
+            archived_at=datetime.now().isoformat()
+        )
+        archived_claims.append(archived_claim)
+        
+        # Remove claim from graph
+        graph.remove_node(claim_id)
+    
+    return archived_claims
+```
+
+------------------------------------------------------------------------------
+2.5 UPDATE PRIOR-ENTAILED CLAIMS SET
+------------------------------------------------------------------------------
+
+```python
+def update_prior_entailed_claims(
+    prior_entailed_claim_ids: set,
+    accepted_claim_ids: List[str],
+    rejected_claim_ids: List[str]
+) -> set:
+    """
+    Update the set of prior-entailed claims after verification.
+    
+    Args:
+        prior_entailed_claim_ids: Current set of prior-entailed claim IDs
+        accepted_claim_ids: Newly accepted claim IDs (add to set)
+        rejected_claim_ids: Rejected claim IDs (ensure removed)
+    
+    Returns:
+        Updated set of prior-entailed claim IDs
+    """
+    # Add accepted claims
+    prior_entailed_claim_ids.update(accepted_claim_ids)
+    
+    # Ensure rejected claims are not in the set
+    prior_entailed_claim_ids.difference_update(rejected_claim_ids)
+    
+    return prior_entailed_claim_ids
+```
+
+------------------------------------------------------------------------------
+2.6 RECOMPUTE CLOSENESS CENTRALITY
+------------------------------------------------------------------------------
+
+```python
+import networkx as nx
+
+def recompute_closeness_centrality(
+    graph,
+    claim_node_ids: List[str] = None
+) -> Dict[str, float]:
+    """
+    Recompute grounded closeness centrality after graph update.
+    
+    Args:
+        graph: Updated NetworkX graph
+        claim_node_ids: Optional list of claim IDs. If None, auto-detect.
+    
+    Returns:
+        closeness_centrality: Dict mapping claim_id -> CC score
+    """
+    # Ensure cost attribute is set on all edges
+    for u, v, data in graph.edges(data=True):
+        if 'cost' not in data:
+            weight = data.get('weight', 1.0)
+            data['cost'] = 1.0 / weight
+    
+    # Auto-detect claim nodes if not provided
+    if claim_node_ids is None:
+        claim_node_ids = [
+            n for n in graph.nodes() 
+            if graph.nodes[n].get('type') == 'claim'
+        ]
+    
+    # Compute closeness centrality using cost as distance
+    cc = nx.closeness_centrality(graph, distance='cost')
+    
+    # Filter to only claim nodes
+    closeness_centrality = {
+        cid: cc.get(cid, 0.0) 
+        for cid in claim_node_ids 
+        if cid in graph.nodes  # Ensure node still exists
+    }
+    
+    return closeness_centrality
+```
+
+================================================================================
+MODULE 3: COMPLETE GRAPH UPDATER CLASS
+================================================================================
+
+```python
+from typing import List, Dict, Set, Optional
+from dataclasses import dataclass, field
+import json
+
+
+@dataclass
+class VerificationRoundSummary:
+    round_number: int
+    verification_prior_id: str
+    total_verified: int
+    accepted_count: int
+    rejected_count: int
+    accepted_claim_ids: List[str]
+    rejected_claim_ids: List[str]
+    new_edges_added: int
+    total_prior_entailed: int
+    timestamp: str
+
+
+class GraphUpdater:
+    """
+    Handles graph updates after expert verification.
+    """
+    
+    def __init__(
+        self,
+        graph,
+        prior_entailed_claim_ids: Set[str],
+        w_anchor: float = 3.0
+    ):
+        """
+        Args:
+            graph: NetworkX bipartite graph
+            prior_entailed_claim_ids: Current set of prior-entailed claim IDs
+            w_anchor: Edge weight for anchor links
+        """
+        self.graph = graph
+        self.prior_entailed_claim_ids = set(prior_entailed_claim_ids)
+        self.w_anchor = w_anchor
+        
+        # Archives and history
+        self.false_claims_archive: List[ArchivedClaim] = []
+        self.verification_history: List[VerificationRoundSummary] = []
+        self.verification_round = 0
+    
+    def process_verification_results(
+        self,
+        verification_results: List[VerificationResult],
+        verifier_model: str = "gpt-4.1"
+    ) -> VerificationRoundSummary:
+        """
+        Process verification results and update the graph.
+        
+        Args:
+            verification_results: List of VerificationResult from LLM verifier
+            verifier_model: Model used for verification (for metadata)
+        
+        Returns:
+            VerificationRoundSummary with update statistics
+        """
+        self.verification_round += 1
+        
+        # Separate accepted and rejected claims
+        accepted_results = [r for r in verification_results if r.verdict is True]
+        rejected_results = [r for r in verification_results if r.verdict is False]
+        
+        accepted_claim_ids = [r.claim_id for r in accepted_results]
+        rejected_claim_ids = [r.claim_id for r in rejected_results]
+        
+        # Build rejection reasons dict
+        rejection_reasons = {
+            r.claim_id: r.reasoning for r in rejected_results
+        }
+        
+        # Step 1: Create verification prior node
+        verification_prior_id = create_verification_prior(
+            self.graph,
+            self.verification_round,
+            verifier_model=verifier_model,
+            metadata={
+                'total_verified': len(verification_results),
+                'accepted_count': len(accepted_claim_ids),
+                'rejected_count': len(rejected_claim_ids)
+            }
+        )
+        
+        # Step 2: Connect accepted claims with anchor links
+        new_edges = connect_accepted_claims(
+            self.graph,
+            verification_prior_id,
+            accepted_claim_ids,
+            self.w_anchor
+        )
+        
+        # Step 3: Archive and remove rejected claims
+        archived = archive_and_remove_rejected_claims(
+            self.graph,
+            rejected_claim_ids,
+            rejection_reasons
+        )
+        self.false_claims_archive.extend(archived)
+        
+        # Step 4: Update prior-entailed claims set
+        self.prior_entailed_claim_ids = update_prior_entailed_claims(
+            self.prior_entailed_claim_ids,
+            accepted_claim_ids,
+            rejected_claim_ids
+        )
+        
+        # Step 5: Recompute closeness centrality
+        new_closeness_centrality = recompute_closeness_centrality(self.graph)
+        
+        # Create summary
+        summary = VerificationRoundSummary(
+            round_number=self.verification_round,
+            verification_prior_id=verification_prior_id,
+            total_verified=len(verification_results),
+            accepted_count=len(accepted_claim_ids),
+            rejected_count=len(rejected_claim_ids),
+            accepted_claim_ids=accepted_claim_ids,
+            rejected_claim_ids=rejected_claim_ids,
+            new_edges_added=len(new_edges),
+            total_prior_entailed=len(self.prior_entailed_claim_ids),
+            timestamp=datetime.now().isoformat()
+        )
+        
+        self.verification_history.append(summary)
+        
+        return summary, new_closeness_centrality
+    
+    def get_current_state(self) -> dict:
+        """Get current state of the graph updater."""
+        return {
+            'verification_round': self.verification_round,
+            'total_prior_entailed': len(self.prior_entailed_claim_ids),
+            'total_archived_false_claims': len(self.false_claims_archive),
+            'graph_num_nodes': self.graph.number_of_nodes(),
+            'graph_num_edges': self.graph.number_of_edges()
+        }
+    
+    def export_archive(self, filepath: str):
+        """Export false claims archive to JSON file."""
+        archive_data = [
+            {
+                'claim_id': ac.claim_id,
+                'claim_text': ac.claim_text,
+                'node_data': ac.node_data,
+                'edges': [(e[0], e[1], e[2]) for e in ac.edges],
+                'rejection_reason': ac.rejection_reason,
+                'archived_at': ac.archived_at
+            }
+            for ac in self.false_claims_archive
+        ]
+        
+        with open(filepath, 'w') as f:
+            json.dump(archive_data, f, indent=2, default=str)
+    
+    def export_verification_history(self, filepath: str):
+        """Export verification history to JSON file."""
+        history_data = [
+            {
+                'round_number': s.round_number,
+                'verification_prior_id': s.verification_prior_id,
+                'total_verified': s.total_verified,
+                'accepted_count': s.accepted_count,
+                'rejected_count': s.rejected_count,
+                'accepted_claim_ids': s.accepted_claim_ids,
+                'rejected_claim_ids': s.rejected_claim_ids,
+                'new_edges_added': s.new_edges_added,
+                'total_prior_entailed': s.total_prior_entailed,
+                'timestamp': s.timestamp
+            }
+            for s in self.verification_history
+        ]
+        
+        with open(filepath, 'w') as f:
+            json.dump(history_data, f, indent=2)
+```
+
+================================================================================
+MODULE 4: COMPLETE VERIFICATION PIPELINE
+================================================================================
+
+```python
+class VerificationPipeline:
+    """
+    Complete pipeline combining LLM verification and graph updates.
+    """
+    
+    def __init__(
+        self,
+        graph,
+        prior_entailed_claim_ids: Set[str],
+        openai_api_key: str,
+        verifier_model: str = "gpt-4.1",
+        w_anchor: float = 3.0,
+        requests_per_minute: int = 50
+    ):
+        """
+        Args:
+            graph: NetworkX bipartite graph
+            prior_entailed_claim_ids: Current set of prior-entailed claim IDs
+            openai_api_key: OpenAI API key
+            verifier_model: Model to use for verification
+            w_anchor: Edge weight for anchor links
+            requests_per_minute: Rate limit for API calls
+        """
+        self.verifier = LLMExpertVerifier(
+            api_key=openai_api_key,
+            model=verifier_model,
+            requests_per_minute=requests_per_minute
+        )
+        
+        self.graph_updater = GraphUpdater(
+            graph=graph,
+            prior_entailed_claim_ids=prior_entailed_claim_ids,
+            w_anchor=w_anchor
+        )
+        
+        self.verifier_model = verifier_model
+    
+    def run_verification_round(
+        self,
+        claims_to_verify: List[Dict],
+        context: str,
+        progress_callback=None
+    ) -> Tuple[VerificationRoundSummary, Dict[str, float]]:
+        """
+        Run a complete verification round.
+        
+        Args:
+            claims_to_verify: List of dicts with 'claim_id' and 'claim_text'
+            context: Context document for verification
+            progress_callback: Optional progress callback
+        
+        Returns:
+            Tuple of (VerificationRoundSummary, new_closeness_centrality)
+        """
+        # Step 1: Run LLM verification
+        print(f"Verifying {len(claims_to_verify)} claims...")
+        verification_results = self.verifier.verify_batch(
+            claims=claims_to_verify,
+            context=context,
+            progress_callback=progress_callback
+        )
+        
+        # Step 2: Update graph
+        print("Updating graph...")
+        summary, new_cc = self.graph_updater.process_verification_results(
+            verification_results=verification_results,
+            verifier_model=self.verifier_model
+        )
+        
+        # Print summary
+        print(f"\nVerification Round {summary.round_number} Complete:")
+        print(f"  Accepted: {summary.accepted_count}")
+        print(f"  Rejected: {summary.rejected_count}")
+        print(f"  Total prior-entailed claims: {summary.total_prior_entailed}")
+        
+        return summary, new_cc
+    
+    def run_verification_round_individual_context(
+        self,
+        claims_with_context: List[Dict],
+        progress_callback=None
+    ) -> Tuple[VerificationRoundSummary, Dict[str, float]]:
+        """
+        Run verification where each claim has individual context.
+        
+        Args:
+            claims_with_context: List of dicts with 'claim_id', 'claim_text', 'context'
+            progress_callback: Optional progress callback
+        
+        Returns:
+            Tuple of (VerificationRoundSummary, new_closeness_centrality)
+        """
+        # Step 1: Run LLM verification
+        print(f"Verifying {len(claims_with_context)} claims...")
+        verification_results = self.verifier.verify_batch_with_individual_context(
+            claims_with_context=claims_with_context,
+            progress_callback=progress_callback
+        )
+        
+        # Step 2: Update graph
+        print("Updating graph...")
+        summary, new_cc = self.graph_updater.process_verification_results(
+            verification_results=verification_results,
+            verifier_model=self.verifier_model
+        )
+        
+        return summary, new_cc
+    
+    @property
+    def graph(self):
+        return self.graph_updater.graph
+    
+    @property
+    def prior_entailed_claim_ids(self):
+        return self.graph_updater.prior_entailed_claim_ids
+    
+    @property
+    def closeness_centrality(self):
+        return recompute_closeness_centrality(self.graph_updater.graph)
+```
+
+================================================================================
+MODULE 5: USAGE EXAMPLE
+================================================================================
+
+```python
+# Example usage
+
+import os
+
+# Assume these are already available:
+# - graph: NetworkX bipartite graph
+# - prior_entailed_ids: set of claim IDs
+# - selected_claims: output from IterativeKnowledgeExpansion.select_claims()
+# - context_document: string containing verification context
+
+# Initialize pipeline
+pipeline = VerificationPipeline(
+    graph=graph,
+    prior_entailed_claim_ids=prior_entailed_ids,
+    openai_api_key=os.environ["OPENAI_API_KEY"],
+    verifier_model="gpt-4.1",
+    w_anchor=3.0,
+    requests_per_minute=50
+)
+
+# Prepare claims for verification
+claims_to_verify = [
+    {
+        'claim_id': cid,
+        'claim_text': graph.nodes[cid].get('text', '')
+    }
+    for cid in selected_claims['verify']
+]
+
+# Context document (external knowledge for verification)
+context_document = """
+[Your context document here]
+This should contain information that can be used to verify the claims.
+Do NOT include the priors - use external/new information sources.
+"""
+
+# Run verification round
+def progress(current, total):
+    print(f"Progress: {current}/{total}")
+
+summary, new_closeness_centrality = pipeline.run_verification_round(
+    claims_to_verify=claims_to_verify,
+    context=context_document,
+    progress_callback=progress
+)
+
+# Access results
+print(f"\nAccepted claims: {summary.accepted_claim_ids}")
+print(f"Rejected claims: {summary.rejected_claim_ids}")
+
+# Export archives for analysis
+pipeline.graph_updater.export_archive("false_claims_archive.json")
+pipeline.graph_updater.export_verification_history("verification_history.json")
+
+# Get updated graph state
+updated_graph = pipeline.graph
+updated_prior_entailed = pipeline.prior_entailed_claim_ids
+```
+
+================================================================================
+MODULE 6: INTEGRATION WITH ITERATIVE KNOWLEDGE EXPANSION
+================================================================================
+
+```python
+# Complete iteration loop example
+
+from iterative_knowledge_expansion import IterativeKnowledgeExpansion
+
+def run_expansion_iteration(
+    graph,
+    claim_embeddings,
+    prior_embeddings,
+    prior_entailed_claim_ids,
+    response_node_ids,
+    closeness_centrality,
+    context_document,
+    openai_api_key,
+    k=20,
+    lambda1=1.0,
+    lambda2=1.0
+):
+    """
+    Run one complete iteration of knowledge expansion.
+    
+    Returns:
+        Updated (graph, prior_entailed_claim_ids, closeness_centrality)
+    """
+    # Step 1: Select claims for verification
+    expander = IterativeKnowledgeExpansion(
+        graph=graph,
+        claim_embeddings=claim_embeddings,
+        prior_embeddings=prior_embeddings,
+        prior_entailed_claim_ids=prior_entailed_claim_ids,
+        response_node_ids=response_node_ids,
+        closeness_centrality=closeness_centrality,
+        lambda1=lambda1,
+        lambda2=lambda2
+    )
+    
+    selection, selection_diagnostics = expander.select_claims(k=k)
+    
+    if len(selection['verify']) == 0:
+        print("No claims to verify. Expansion complete.")
+        return graph, prior_entailed_claim_ids, closeness_centrality
+    
+    print(f"Selected {len(selection['verify'])} claims for verification")
+    
+    # Step 2: Prepare claims for verification
+    claims_to_verify = [
+        {
+            'claim_id': cid,
+            'claim_text': graph.nodes[cid].get('text', '')
+        }
+        for cid in selection['verify']
+    ]
+    
+    # Step 3: Run verification and update graph
+    pipeline = VerificationPipeline(
+        graph=graph,
+        prior_entailed_claim_ids=prior_entailed_claim_ids,
+        openai_api_key=openai_api_key,
+        verifier_model="gpt-4.1"
+    )
+    
+    summary, new_closeness_centrality = pipeline.run_verification_round(
+        claims_to_verify=claims_to_verify,
+        context=context_document
+    )
+    
+    return (
+        pipeline.graph,
+        pipeline.prior_entailed_claim_ids,
+        new_closeness_centrality
+    )
+
+
+# Run multiple iterations
+def run_expansion_loop(
+    graph,
+    claim_embeddings,
+    prior_embeddings,
+    prior_entailed_claim_ids,
+    response_node_ids,
+    closeness_centrality,
+    context_document,
+    openai_api_key,
+    max_iterations=10,
+    k=20
+):
+    """
+    Run multiple expansion iterations until convergence or max iterations.
+    """
+    for iteration in range(max_iterations):
+        print(f"\n{'='*50}")
+        print(f"ITERATION {iteration + 1}")
+        print(f"{'='*50}")
+        
+        prev_prior_count = len(prior_entailed_claim_ids)
+        
+        graph, prior_entailed_claim_ids, closeness_centrality = run_expansion_iteration(
+            graph=graph,
+            claim_embeddings=claim_embeddings,
+            prior_embeddings=prior_embeddings,
+            prior_entailed_claim_ids=prior_entailed_claim_ids,
+            response_node_ids=response_node_ids,
+            closeness_centrality=closeness_centrality,
+            context_document=context_document,
+            openai_api_key=openai_api_key,
+            k=k
+        )
+        
+        new_prior_count = len(prior_entailed_claim_ids)
+        
+        # Check convergence
+        if new_prior_count == prev_prior_count:
+            print(f"\nConverged after {iteration + 1} iterations.")
+            break
+    
+    return graph, prior_entailed_claim_ids, closeness_centrality
+```
+
+================================================================================
+TESTING CHECKLIST
+================================================================================
+
+1. [ ] Unit test verify_single_claim:
+       - Valid accept response
+       - Valid reject response
+       - Malformed JSON response (should default to reject)
+       - API error handling
+
+2. [ ] Unit test LLMExpertVerifier:
+       - Rate limiting works correctly
+       - Batch verification processes all claims
+       - Progress callback is called
+
+3. [ ] Unit test create_verification_prior:
+       - Node is created with correct type
+       - Metadata is stored correctly
+
+4. [ ] Unit test connect_accepted_claims:
+       - Anchor edges are created with correct weight
+       - Claim node metadata is updated
+       - Missing claims are handled gracefully
+
+5. [ ] Unit test archive_and_remove_rejected_claims:
+       - Claims are fully archived (node data + edges)
+       - Claims are removed from graph
+       - Missing claims are handled gracefully
+
+6. [ ] Unit test recompute_closeness_centrality:
+       - Returns correct format
+       - Handles removed nodes
+       - Cost attribute is set on edges
+
+7. [ ] Integration test:
+       - Run full verification round
+       - Verify graph structure is updated correctly
+       - Check archives contain expected data
+
+8. [ ] End-to-end test:
+       - Run complete expansion iteration
+       - Verify prior_entailed_claim_ids is updated
+       - Verify closeness_centrality changes appropriately
+
+================================================================================
+CONFIGURATION SUMMARY
+================================================================================
+
+| Parameter             | Default    | Description                              |
+|-----------------------|------------|------------------------------------------|
+| verifier_model        | "gpt-4.1"  | OpenAI model for verification            |
+| temperature           | 0.0        | Sampling temperature (deterministic)     |
+| requests_per_minute   | 50         | API rate limit                           |
+| max_retries           | 3          | Retries per API call                     |
+| w_anchor              | 3.0        | Edge weight for anchor links             |
+| max_context_length    | 8000       | Max context chars per verification       |
+
+================================================================================
+DEPENDENCIES
+================================================================================
+
+```
+openai>=1.0.0
+networkx>=3.0
+```
+
+================================================================================
+END OF SPECIFICATION
+================================================================================
