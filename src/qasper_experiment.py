@@ -223,6 +223,8 @@ class PaperExperimentResult:
                 "text": c.get("text"),
                 "source": c.get("source"),
                 "source_type": c.get("source_type"),
+                "source_section": c.get("source_section", ""),
+                "source_paragraph": c.get("source_paragraph", ""),
                 "question_id": c.get("question_id"),
                 "sample_id": c.get("sample_id"),
                 "confidence": c.get("confidence")
@@ -725,6 +727,8 @@ Answer:"""
         for claim in prior_claims:
             claim["id"] = f"C{claim_id_counter}"
             claim["source_type"] = "prior"
+            claim["source_section"] = "abstract"
+            claim["source_paragraph"] = prior_text
             all_claims.append(claim)
             claim_id_counter += 1
 
@@ -817,7 +821,9 @@ Answer:"""
                 type="claim",
                 bipartite=1,
                 text=claim["text"],
-                source_type=claim["source_type"]
+                source_type=claim["source_type"],
+                source_section=claim.get("source_section", ""),
+                source_paragraph=claim.get("source_paragraph", "")
             )
 
         # Add edges
@@ -891,6 +897,11 @@ Answer:"""
         else:
             section_claims = []
 
+        # Split section into paragraphs for fine-grained provenance
+        section_paragraphs = [p.strip() for p in section_text.split("\n\n") if p.strip()]
+        if not section_paragraphs:
+            section_paragraphs = [section_text]
+
         # Find claims in all_claims that are semantically similar to section claims
         # For now, we use a simple text overlap heuristic
         for claim in all_claims:
@@ -907,7 +918,21 @@ Answer:"""
             overlap = len(words_in_claim & words_in_section) / max(len(words_in_claim), 1)
 
             if overlap > 0.5:  # 50% word overlap threshold
-                # Add anchor edge
+                # Find the paragraph within the section that best matches this claim
+                best_para = section_text
+                best_para_overlap = 0.0
+                for para in section_paragraphs:
+                    words_in_para = set(para.lower().split())
+                    para_overlap = len(words_in_claim & words_in_para) / max(len(words_in_claim), 1)
+                    if para_overlap > best_para_overlap:
+                        best_para_overlap = para_overlap
+                        best_para = para
+
+                # Record provenance on the claim dict
+                claim["source_section"] = section_name
+                claim["source_paragraph"] = best_para
+
+                # Add anchor edge and store provenance on the graph node too
                 graph.add_edge(
                     prior_node_id,
                     claim["id"],
@@ -915,6 +940,8 @@ Answer:"""
                     cost=1 / self.w_anchor,
                     link_type="anchor"
                 )
+                graph.nodes[claim["id"]]["source_section"] = section_name
+                graph.nodes[claim["id"]]["source_paragraph"] = best_para
                 prior_entailed.add(claim["id"])
 
     def _get_contested_claims(

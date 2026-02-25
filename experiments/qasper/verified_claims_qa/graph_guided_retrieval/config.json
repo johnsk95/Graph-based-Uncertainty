@@ -1,0 +1,26 @@
+{
+  "generate_questions": false,
+  "run_qa": true,
+  "full_pipeline": false,
+  "results_path": "experiments/qasper/experiment_gpt4o/results.json",
+  "questions_path": "experiments/qasper/verified_claims_qa/full_experiment/generated_questions.json",
+  "num_papers": 5,
+  "paper_ids": null,
+  "question_gen_model": "gpt-4.1",
+  "qa_model": "gpt-4o-mini",
+  "judge_model": "gpt-4.1",
+  "output_dir": "experiments/qasper/verified_claims_qa",
+  "experiment_name": "graph_guided_retrieval",
+  "conditions": [
+    "verified_claims",
+    "baseline_abstract",
+    "graph_guided_retrieval",
+    "baseline_full"
+  ],
+  "retrieval_top_k": 5,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "no_embeddings": true,
+  "skip_judging": false,
+  "verbose": true,
+  "timestamp": "20260225_085251"
+}

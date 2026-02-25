@@ -29,7 +29,7 @@ import os
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 
 # Add project root to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -123,8 +123,26 @@ def parse_args():
     parser.add_argument(
         "--conditions",
         nargs="+",
-        default=["verified_claims", "baseline_abstract", "baseline_full"],
+        default=["verified_claims", "baseline_abstract", "baseline_full",
+                 "graph_guided_retrieval"],
         help="Conditions to run"
+    )
+    parser.add_argument(
+        "--retrieval_top_k",
+        type=int,
+        default=5,
+        help="Number of passages to retrieve per question for graph_guided_retrieval"
+    )
+    parser.add_argument(
+        "--embedding_model",
+        type=str,
+        default="all-MiniLM-L6-v2",
+        help="Sentence-transformer model for question-passage reranking"
+    )
+    parser.add_argument(
+        "--no_embeddings",
+        action="store_true",
+        help="Disable embedding-based reranking (use centrality only)"
     )
     parser.add_argument(
         "--skip_judging",
@@ -210,6 +228,160 @@ def run_question_generation(
     return output_path
 
 
+def _get_prior_sections_from_results(results_path: str, paper_id: str, paper: Dict) -> List[Tuple[str, str]]:
+    """
+    Extract the paragraphs from sections that were revealed as priors during
+    the knowledge expansion experiment (Abstract + Introduction + Methods).
+
+    These are identified from the graph snapshot's prior nodes (S_section_*)
+    and matched back to the paper's full_text.  The abstract is always included
+    because it is P_0.
+
+    Returns:
+        List of (section_name, paragraph_text) pairs, restricted to prior-revealed
+        sections only.
+    """
+    from src.qasper_data import INTRODUCTION_VARIANTS, METHODS_VARIANTS
+
+    # Step 1: collect section names that were used as priors from the graph
+    prior_section_names: set = set()
+    try:
+        with open(results_path, 'r') as f:
+            results = json.load(f)
+        for paper_result in results.get("individual_results", []):
+            if paper_result["paper_id"] != paper_id:
+                continue
+            for iteration in paper_result.get("iterations", []):
+                snap = iteration.get("graph_snapshot", {})
+                for node in snap.get("nodes", []):
+                    if node.get("type") == "prior" and node.get("section_name"):
+                        prior_section_names.add(node["section_name"].lower().strip())
+            break
+    except Exception:
+        pass
+
+    # Step 2: build paragraphs from paper, restricted to prior-revealed sections
+    paragraphs: List[Tuple[str, str]] = []
+
+    # Abstract is always P_0
+    abstract = paper.get("abstract", "").strip()
+    if abstract:
+        paragraphs.append(("Abstract", abstract))
+
+    full_text = paper.get("full_text", {})
+    section_names = full_text.get("section_name", [])
+    section_paragraphs_list = full_text.get("paragraphs", [])
+
+    for sec_idx, sec_name in enumerate(section_names):
+        if sec_idx >= len(section_paragraphs_list):
+            continue
+        # Only include section if it appeared as a prior node in the graph
+        sec_name_lower = (sec_name or "").lower().strip()
+        is_prior_section = sec_name_lower in prior_section_names
+        # Also include Introduction/Methods by canonical name matching as fallback
+        if not is_prior_section:
+            is_intro = any(v in sec_name_lower for v in INTRODUCTION_VARIANTS)
+            is_methods = any(v in sec_name_lower for v in METHODS_VARIANTS)
+            is_prior_section = is_intro or is_methods
+
+        if not is_prior_section:
+            continue
+
+        for para in section_paragraphs_list[sec_idx]:
+            para = para.strip() if para else ""
+            if para:
+                paragraphs.append((sec_name or f"Section {sec_idx}", para))
+
+    return paragraphs
+
+
+def _enrich_claims_with_paper_sections(
+    verified_claims: List[Dict],
+    paper: Dict,
+    results_path: str,
+    paper_id: str,
+) -> List[Dict]:
+    """
+    For every verified claim that lacks a source_paragraph, find the best-matching
+    paragraph from the **prior-revealed sections only** (Abstract, Introduction,
+    Methods) using word-overlap scoring.
+
+    This is intentionally restricted to prior sections so that the graph-guided
+    retrieval condition only exposes the model to text the graph was actually
+    built from — distinguishing it from the full-paper baseline.
+    """
+    prior_paragraphs = _get_prior_sections_from_results(results_path, paper_id, paper)
+    if not prior_paragraphs:
+        return verified_claims
+
+    # Pre-tokenise paragraphs for overlap scoring
+    para_word_sets = [
+        (sec, para, set(para.lower().split()))
+        for sec, para in prior_paragraphs
+    ]
+
+    enriched = []
+    for claim in verified_claims:
+        if claim.get("source_paragraph"):
+            # Already has fine-grained provenance (from new results), keep it
+            enriched.append(claim)
+            continue
+
+        claim_words = set(claim["text"].lower().split())
+        if not claim_words:
+            enriched.append(claim)
+            continue
+
+        # Score each prior paragraph by word overlap with the claim
+        best_sec, best_para, best_score = "", "", 0.0
+        for sec, para, para_words in para_word_sets:
+            if not para_words:
+                continue
+            overlap = len(claim_words & para_words) / len(claim_words)
+            if overlap > best_score:
+                best_score = overlap
+                best_sec, best_para = sec, para
+
+        if best_para:
+            claim = dict(claim)
+            claim["source_section"] = best_sec
+            claim["source_paragraph"] = best_para
+
+        enriched.append(claim)
+
+    return enriched
+
+
+def _load_centrality_scores(results_path: str, paper_id: str) -> Dict[str, float]:
+    """
+    Extract final-iteration closeness-centrality scores from results.json.
+
+    The scores are stored per-iteration inside graph_snapshot nodes.
+    We use the last iteration's snapshot so scores reflect the fully
+    expanded knowledge graph.
+    """
+    with open(results_path, 'r') as f:
+        results = json.load(f)
+
+    for paper in results.get("individual_results", []):
+        if paper["paper_id"] != paper_id:
+            continue
+        # Walk iterations in reverse to find the last snapshot with node data
+        for iteration in reversed(paper.get("iterations", [])):
+            snapshot = iteration.get("graph_snapshot")
+            if not snapshot:
+                continue
+            scores: Dict[str, float] = {}
+            for node in snapshot.get("nodes", []):
+                node_id = node.get("id") or node.get("node_id", "")
+                cc = node.get("closeness_centrality") or node.get("centrality")
+                if node_id.startswith("C") and cc is not None:
+                    scores[node_id] = float(cc)
+            if scores:
+                return scores
+    return {}
+
+
 def run_qa_experiment(
     results_path: str,
     questions_path: str,
@@ -218,7 +390,10 @@ def run_qa_experiment(
     judge_model: str = "gpt-4.1",
     conditions: List[str] = None,
     skip_judging: bool = False,
-    verbose: bool = False
+    verbose: bool = False,
+    retrieval_top_k: int = 5,
+    embedding_model_name: str = "all-MiniLM-L6-v2",
+    use_embeddings: bool = True,
 ) -> Dict:
     """
     Run the QA experiment with LLM judging.
@@ -231,11 +406,26 @@ def run_qa_experiment(
     from src.claims_qa import (
         ClaimsBasedQA,
         load_verified_claims_from_results,
+        load_verified_claims_with_provenance,
     )
     from src.llm_judge import LLMJudge, evaluate_condition, aggregate_all_metrics
 
     if conditions is None:
-        conditions = ["verified_claims", "baseline_abstract", "baseline_full"]
+        conditions = [
+            "verified_claims", "baseline_abstract", "baseline_full",
+            "graph_guided_retrieval",
+        ]
+
+    # Initialise embedding model once if needed for retrieval
+    embedding_model = None
+    if "graph_guided_retrieval" in conditions and use_embeddings:
+        try:
+            from src.embeddings import EmbeddingModel
+            print(f"Loading embedding model: {embedding_model_name}")
+            embedding_model = EmbeddingModel(model_name=embedding_model_name)
+        except Exception as e:
+            print(f"Warning: could not load embedding model ({e}). "
+                  f"Falling back to centrality-only retrieval.")
 
     print("\n" + "=" * 60)
     print("STEP 2: QUESTION ANSWERING")
@@ -296,9 +486,25 @@ def run_qa_experiment(
             continue
 
         # Load verified claims
-        verified_claims = load_verified_claims_from_results(results_path, paper_id)
+        # Use provenance-enriched loader when graph_guided_retrieval is active
+        if "graph_guided_retrieval" in conditions:
+            verified_claims = load_verified_claims_with_provenance(results_path, paper_id)
+        else:
+            verified_claims = load_verified_claims_from_results(results_path, paper_id)
         print(f"  Verified claims: {len(verified_claims)}")
         print(f"  Questions: {len(questions)}")
+
+        # Load per-claim centrality scores for retrieval ranking
+        centrality_scores = {}
+        if "graph_guided_retrieval" in conditions:
+            centrality_scores = _load_centrality_scores(results_path, paper_id)
+            print(f"  Centrality scores available: {len(centrality_scores)} claims")
+            # Enrich claims with full section text (handles old results.json files)
+            verified_claims = _enrich_claims_with_paper_sections(
+                verified_claims, paper, results_path, paper_id
+            )
+            para_count = sum(1 for c in verified_claims if c.get("source_paragraph"))
+            print(f"  Claims with source_paragraph: {para_count}/{len(verified_claims)}")
 
         # Run QA for all conditions
         print(f"  Running QA across {len(conditions)} conditions...")
@@ -306,7 +512,10 @@ def run_qa_experiment(
             paper=paper,
             questions=questions,
             verified_claims=verified_claims,
-            conditions=conditions
+            conditions=conditions,
+            centrality_scores=centrality_scores or None,
+            embedding_model=embedding_model,
+            retrieval_top_k=retrieval_top_k,
         )
 
         # Judge answers for each condition
@@ -407,7 +616,10 @@ def main():
             judge_model=args.judge_model,
             conditions=args.conditions,
             skip_judging=args.skip_judging,
-            verbose=args.verbose
+            verbose=args.verbose,
+            retrieval_top_k=args.retrieval_top_k,
+            embedding_model_name=args.embedding_model,
+            use_embeddings=not args.no_embeddings,
         )
 
     print("\n" + "=" * 60)
